@@ -1,0 +1,185 @@
+
+============================================
+SCRIPT 05B: BETA-CELL DONOR ROBUSTNESS AUDIT
+============================================
+Saved DGEList: 12200 genes x 18 donors
+Primary result rows: 12200 
+
+============================================
+DONOR STRUCTURE
+============================================
+   donor_id condition
+  Non T2D 1   Healthy
+  Non T2D 2   Healthy
+  Non T2D 3   Healthy
+  Non T2D 5   Healthy
+  Non T2D 6   Healthy
+  Non T2D 7   Healthy
+  Non T2D 8   Healthy
+  Non T2D 9   Healthy
+ Non T2D 10   Healthy
+ Non T2D 11   Healthy
+ Non T2D 12   Healthy
+  Non T2D 4   Healthy
+      T2D 2       T2D
+      T2D 3       T2D
+      T2D 1       T2D
+      T2D 4       T2D
+      T2D 5       T2D
+      T2D 6       T2D
+
+Healthy donors: 12 
+T2D donors: 6 
+
+============================================
+PRIMARY RECEIVER SET
+============================================
+Primary FDR < 0.05 genes: 27 
+
+============================================
+FULL-MODEL REPRODUCIBILITY CHECK
+============================================
+Genes compared: 12200 
+Maximum absolute logFC difference: 5.3290705e-15 
+
+============================================
+LEAVE-ONE-DONOR-OUT ANALYSIS
+============================================
+[01/18] Dropping: Non T2D 1
+[02/18] Dropping: Non T2D 2
+[03/18] Dropping: Non T2D 3
+[04/18] Dropping: Non T2D 5
+[05/18] Dropping: Non T2D 6
+[06/18] Dropping: Non T2D 7
+[07/18] Dropping: Non T2D 8
+[08/18] Dropping: Non T2D 9
+[09/18] Dropping: Non T2D 10
+[10/18] Dropping: Non T2D 11
+[11/18] Dropping: Non T2D 12
+[12/18] Dropping: Non T2D 4
+[13/18] Dropping: T2D 2
+[14/18] Dropping: T2D 3
+[15/18] Dropping: T2D 1
+[16/18] Dropping: T2D 4
+[17/18] Dropping: T2D 5
+[18/18] Dropping: T2D 6
+null device 
+          1 
+null device 
+          1 
+
+============================================
+LODO ROBUSTNESS SUMMARY
+============================================
+Primary FDR<0.05 genes: 27 
+Same direction in all 18 LODO fits: 27 / 27 
+FDR<0.05 in all 18 LODO fits: 6 
+FDR<0.05 in >=15/18 LODO fits: 10 
+Primary robust receiver genes: 27 
+Highest-confidence core: 10 
+Genes with <50% enriched-group donors at CPM>=1: 0 
+Genes with >50% enriched-group CPM from one donor: 19 
+
+============================================
+27-GENE ROBUSTNESS TABLE
+============================================
+         gene     logFC          FDR enriched_group_fraction_CPM_GE1
+ LOC100873065  5.583163 3.224411e-07                       1.0000000
+         DLC1  4.850693 2.717037e-03                       1.0000000
+       CHRNA5  5.003398 3.803209e-03                       0.6666667
+    LINC00925  4.804320 3.803209e-03                       0.6666667
+        CHSY1  4.326559 4.147090e-03                       0.8333333
+        RN7SK  3.548163 5.971217e-03                       1.0000000
+       FAM66D  3.957926 7.963830e-03                       1.0000000
+         NPNT  3.991599 1.044011e-02                       0.8333333
+          EYS  3.611381 1.370445e-02                       0.8333333
+       FAM53B  3.466072 1.942078e-02                       1.0000000
+        CMTM7  4.680973 2.871880e-02                       0.8333333
+        APOL4  4.033321 3.302882e-02                       0.6666667
+ LOC101928386  4.897698 3.302882e-02                       0.5000000
+        XYLT1  5.020461 4.147379e-02                       0.8333333
+          CLU -1.042077 4.392223e-02                       1.0000000
+       ZBTB39  3.544228 4.392223e-02                       0.8333333
+      TMEM133  2.975874 4.446411e-02                       0.8333333
+ LOC101929615  3.971933 4.446411e-02                       0.8333333
+       SPINK1  3.962464 4.563829e-02                       0.6666667
+          TTR -1.232967 4.768852e-02                       1.0000000
+         CTSK  4.263888 4.842096e-02                       0.5000000
+           KL  3.299157 4.842096e-02                       0.8333333
+         LMO3  4.198188 4.842096e-02                       0.6666667
+ LOC101929225  3.946096 4.842096e-02                       0.6666667
+         DOK1  3.259547 4.935893e-02                       1.0000000
+        GNRHR  3.529129 4.935893e-02                       0.6666667
+         RGL2  3.149914 4.996673e-02                       0.8333333
+ enriched_group_max_CPM_share n_LODO_same_direction n_LODO_P_lt_0.05
+                    0.4531834                    18               18
+                    0.6399453                    18               18
+                    0.8223676                    18               18
+                    0.6580131                    18               18
+                    0.3612955                    18               18
+                    0.4826273                    18               18
+                    0.4054014                    18               18
+                    0.5440680                    18               18
+                    0.6082351                    18               18
+                    0.7103076                    18               18
+                    0.6572744                    18               18
+                    0.5231048                    18               18
+                    0.7979265                    18               18
+                    0.5235991                    18               18
+                    0.1586549                    18               18
+                    0.5160554                    18               18
+                    0.5163990                    18               18
+                    0.7925327                    18               18
+                    0.9524771                    18               17
+                    0.1565840                    18               18
+                    0.8572726                    18               18
+                    0.4878652                    18               18
+                    0.6044180                    18               18
+                    0.7587312                    18               18
+                    0.2955388                    18               18
+                    0.5975054                    18               18
+                    0.7934033                    18               17
+ n_LODO_FDR_lt_0.05     sens_FDR          receiver_class
+                 18 7.472102e-06 Highest_confidence_core
+                 18 1.951760e-02 Highest_confidence_core
+                 17 2.496820e-02 Highest_confidence_core
+                 18 2.496820e-02 Highest_confidence_core
+                 18 2.579362e-02 Highest_confidence_core
+                 18 2.826153e-02 Highest_confidence_core
+                 18 2.826153e-02 Highest_confidence_core
+                 17 3.005450e-02 Highest_confidence_core
+                 17 4.839064e-02 Highest_confidence_core
+                 17 6.592962e-02 Robust_primary_receiver
+                 14 2.922123e-02 Highest_confidence_core
+                 10 7.049550e-02 Robust_primary_receiver
+                 13 6.592962e-02 Robust_primary_receiver
+                  7 7.389899e-02 Robust_primary_receiver
+                  8 7.389899e-02 Robust_primary_receiver
+                  5 8.238718e-02 Robust_primary_receiver
+                  6 8.846553e-02 Robust_primary_receiver
+                  6 9.023082e-02 Robust_primary_receiver
+                  7 1.162952e-01 Robust_primary_receiver
+                  6 1.096722e-01 Robust_primary_receiver
+                  5 9.023082e-02 Robust_primary_receiver
+                  6 6.592962e-02 Robust_primary_receiver
+                  4 1.096722e-01 Robust_primary_receiver
+                  5 8.908841e-02 Robust_primary_receiver
+                  4 1.162952e-01 Robust_primary_receiver
+                  5 1.096722e-01 Robust_primary_receiver
+                  5 1.192197e-01 Robust_primary_receiver
+
+============================================
+OUTPUT FILES
+============================================
+results/islet/Table_P3_Beta_T2D_27genes_DonorLevel_CPM.csv
+results/islet/Table_P3_Beta_T2D_27genes_DonorExpressionSupport.csv
+results/islet/Table_P3_Beta_T2D_27genes_LODO_AllFits.csv
+results/islet/Table_P3_Beta_T2D_ReceiverGene_Robustness.csv
+results/islet/Table_P3_Beta_T2D_NicheNet_PrimaryReceiverGenes.csv
+results/islet/Table_P3_Beta_T2D_NicheNet_HighConfidenceCore.csv
+figures/GSE81608_Beta_T2D_27genes_DonorCPM_Heatmap.png
+figures/GSE81608_Beta_T2D_27genes_LODO_LogFC_Heatmap.png
+
+============================================
+SCRIPT 05B COMPLETED SUCCESSFULLY
+============================================

@@ -1,0 +1,52 @@
+
+============================================
+SCRIPT 04f0: ENTREZ -> HGNC SYMBOL MAPPING
+============================================
+Input dimensions: 29510 genes x 1600 cells
+Numeric Entrez identifiers: PASS
+'select()' returned 1:1 mapping between keys and columns
+
+============================================
+MAPPING SUMMARY
+============================================
+Input Entrez IDs: 29510 
+Mapped to HGNC symbol: 28060 
+Unmapped: 1450 
+Mapping fraction: 0.9509 
+Unique mapped symbols: 28060 
+Rows involved in duplicated symbols: 0 
+
+============================================
+SYMBOL MATRIX
+============================================
+Dimensions: 28060 symbols x 1600 cells
+Duplicated row names after collapse: 0 
+
+============================================
+ENDOCRINE MARKER CHECK
+============================================
+ gene present
+  INS    TRUE
+  GCG    TRUE
+  SST    TRUE
+  PPY    TRUE
+
+============================================
+HIGH-CONFIDENCE RECEPTOR SYMBOL CHECK
+============================================
+Candidate HC receptors: 206 
+Present after Entrez->SYMBOL mapping: 178 
+Absent: 28 
+
+Absent receptors:
+ AGTR2; AVPR2; CCR3; CCR4; CCR5; CDH7; CNTFR; CXCR3; FPR1; FPR2; GALR2; GALR3; GPR151; IL2RA; IL2RG; KIR2DL3; KIR3DL1; KIR3DL2; KIR3DS1; LGR6; LILRA4; MAS1; MRGPRX1; MTNR1A; NMBR; SCARA5; SSTR4; TREM2 
+
+Saved symbol matrix:
+data/processed/GSE81608_RPKM_1600cells_SYMBOL.rds 
+
+Saved mapping audit:
+results/islet/GSE81608_1600_Entrez_to_SYMBOL_mapping.csv 
+
+============================================
+SCRIPT 04f0 COMPLETED SUCCESSFULLY
+============================================

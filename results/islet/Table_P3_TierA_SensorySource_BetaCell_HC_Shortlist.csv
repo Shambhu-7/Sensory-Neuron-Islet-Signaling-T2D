@@ -1,0 +1,7 @@
+"ligand","candidate_tier","logFC","FDR","enriched_region","n_HC_LR_edges","n_HC_beta_any_receptors","n_HC_beta_both_receptors","n_HC_beta_strong_both_receptors","HC_beta_any_receptors","HC_beta_both_receptors","HC_beta_strong_both_receptors","n_HC_alpha_both_receptors","HC_alpha_both_receptors","beta_HC_supported","beta_HC_strong","alpha_HC_supported","sensory_source_priority","sensory_source_strict"
+"RPH3A","Tier_A_strict",-1.04384968451811,9.19586912402384e-07,"Nearby_neuron_region",1,1,1,1,"NRXN1","NRXN1","NRXN1",1,"NRXN1",TRUE,TRUE,TRUE,TRUE,TRUE
+"EDIL3","Tier_A_strict",-0.535588456963431,1.42223063434144e-06,"Nearby_neuron_region",2,1,1,1,"ITGAV","ITGAV","ITGAV",1,"ITGAV",TRUE,TRUE,TRUE,TRUE,TRUE
+"SPP1","Tier_A_strict",-0.40740194768024,0.000154260272414274,"Nearby_neuron_region",9,5,4,3,"CD44;ITGA4;ITGAV;ITGB1;ITGB5","CD44;ITGAV;ITGB1;ITGB5","CD44;ITGAV;ITGB1",4,"CD44;ITGAV;ITGB1;ITGB5",TRUE,TRUE,TRUE,TRUE,TRUE
+"SEMA7A","Tier_A_strict",-0.621480510389783,0.00575566610616389,"Nearby_neuron_region",3,3,3,1,"ITGA1;ITGB1;PLXNC1","ITGA1;ITGB1;PLXNC1","ITGB1",3,"ITGA1;ITGB1;PLXNC1",TRUE,TRUE,TRUE,TRUE,TRUE
+"PPIA","Tier_A_strict",-0.263084740334754,0.01048344753811,"Nearby_neuron_region",1,1,1,1,"BSG","BSG","BSG",1,"BSG",TRUE,TRUE,TRUE,TRUE,TRUE
+"LGALS8","Tier_A_strict",-0.600951593971805,0.000218247545085201,"Nearby_neuron_region",1,1,1,0,"ITGA3","ITGA3",NA,1,"ITGA3",TRUE,FALSE,TRUE,TRUE,FALSE

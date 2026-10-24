@@ -1,0 +1,5 @@
+"gene","expected_celltype","observed_top_celltype","top_mean_RPKM","PASS"
+"INS","beta","beta",60236.2508373757,TRUE
+"GCG","alpha","alpha",201969.223344715,TRUE
+"SST","delta","delta",141316.950618966,TRUE
+"PPY","PP","PP",111854.217301075,TRUE

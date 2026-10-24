@@ -1,0 +1,9 @@
+============================================================
+SCRIPT 12 COMPLETE - FIGURE 1 STUDY DESIGN
+============================================================
+No statistical analysis was rerun.
+PNG: figures/workflow/Figure_P3_StudyDesign_Workflow_12.png 
+PDF: figures/workflow/Figure_P3_StudyDesign_Workflow_12.pdf 
+Audit: figures/workflow/Figure_P3_StudyDesign_Workflow_12_Audit.csv 
+Final candidates displayed: SEMA7A, EDIL3, FLRT3, PGF; SPP1 reference.
+============================================================

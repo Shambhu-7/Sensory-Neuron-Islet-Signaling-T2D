@@ -1,0 +1,47 @@
+Analysis time:
+[1] "2026-10-23 09:11:23 IST"
+
+Thresholds:
+                  dataset       assay cells genes min_cells_per_donor_celltype
+1 GSE81608_Xin_MuSiC_1492 read_counts  1492 39849                            5
+  primary_within_donor_detection_fraction
+1                                     0.1
+  strict_within_donor_detection_fraction min_evaluable_donors
+1                                    0.2                    3
+  primary_required_donor_fraction strong_required_donor_fraction
+1                             0.5                           0.75
+                                                                                             interpretation
+1 Receptor compatibility is descriptive and does not demonstrate signaling or disease-dependent regulation.
+
+Evaluable donors:
+     condition cell_type evaluable
+1 non-diabetic     alpha        11
+2          T2D     alpha         6
+3 non-diabetic      beta        12
+4          T2D      beta         6
+
+Input dimensions:
+[1] 39849  1492
+
+R version 4.5.2 (2025-10-31)
+Platform: aarch64-apple-darwin20
+Running under: macOS 27.0.1
+
+Matrix products: default
+BLAS:   /System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libBLAS.dylib 
+LAPACK: /Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/lib/libRlapack.dylib;  LAPACK version 3.12.1
+
+locale:
+[1] en_US.UTF-8/en_US.UTF-8/en_US.UTF-8/C/en_US.UTF-8/en_US.UTF-8
+
+time zone: Asia/Kolkata
+tzcode source: internal
+
+attached base packages:
+[1] stats     graphics  grDevices utils     datasets  methods   base     
+
+other attached packages:
+[1] Biobase_2.70.0      BiocGenerics_0.56.0 generics_0.1.4     
+
+loaded via a namespace (and not attached):
+[1] compiler_4.5.2

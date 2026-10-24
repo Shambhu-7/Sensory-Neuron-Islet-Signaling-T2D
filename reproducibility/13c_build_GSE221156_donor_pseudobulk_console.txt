@@ -1,0 +1,56 @@
+==============================================================================
+GSE221156 — DONOR METADATA AUDIT + RAW-COUNT PSEUDOBULK
+==============================================================================
+Input: data/raw/GSE221156/GSE221156_Beta_processed_CELLxGENE.h5ad
+
+Cells: 99,029
+Donors: 48
+
+DONORS BY DISEASE
+  normal: 17 donors
+  prediabetes syndrome: 14 donors
+  type 2 diabetes mellitus: 17 donors
+
+CELLS BY DISEASE
+  normal: 39,484 cells
+  prediabetes syndrome: 35,679 cells
+  type 2 diabetes mellitus: 23,866 cells
+
+Donor-level disease/sex/age/center/ethnicity consistency: PASS
+Saved: results/validation/GSE221156/GSE221156_Donor_Metadata_Audit.csv
+
+Raw genes: 26,936
+Unique feature_name values: 26,896
+WARNING: duplicate feature_name values exist; Ensembl IDs will also be retained.
+raw/X shape: (np.int64(99029), np.int64(26936))
+Stored nonzero values: 337,547,507
+
+Aggregating raw counts by donor (chunked CSR; no dense cell×gene matrix)...
+  processed 500/99,029 cells
+  processed 10,000/99,029 cells
+  processed 20,000/99,029 cells
+  processed 30,000/99,029 cells
+  processed 40,000/99,029 cells
+  processed 50,000/99,029 cells
+  processed 60,000/99,029 cells
+  processed 70,000/99,029 cells
+  processed 80,000/99,029 cells
+  processed 90,000/99,029 cells
+  processed 99,029/99,029 cells
+
+Pseudobulk nonzero integer-like fraction: 1.00000000
+Total raw counts aggregated: 2081765364
+Writing: data/processed/GSE221156_Beta_DonorPseudobulk_RawCounts.tsv
+Saved: results/validation/GSE221156/GSE221156_CandidateGene_DonorPseudobulk_Audit.csv
+MD5 GSE221156_Donor_Metadata_Audit.csv 7522827f21ef95c349080d18990d2c14
+MD5 GSE221156_Beta_DonorPseudobulk_RawCounts.tsv c22f10011fc84cf9ebb0460096e1d4e9
+MD5 GSE221156_CandidateGene_DonorPseudobulk_Audit.csv 6907b128a6ff94111564f54fb5e4c3a3
+
+PRIMARY COMPARISON PRESPECIFIED:
+  T2D vs normal at DONOR level; prediabetes excluded from primary DE.
+  Prediabetes retained for secondary trajectory/direction analysis.
+  No cell-level pseudoreplication.
+
+==============================================================================
+SCRIPT 13c COMPLETE
+==============================================================================

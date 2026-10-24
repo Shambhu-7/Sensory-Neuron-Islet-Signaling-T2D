@@ -1,0 +1,388 @@
+==============================================================================
+SCRIPT 15b — RECOVER 2026 HUMAN DRG SUPPLEMENTARY TABLES
+==============================================================================
+Article: PMC12871725
+Policy: download only small supplementary tables/archives; no raw sequencing.
+
+FETCH pmc_html: https://pmc.ncbi.nlm.nih.gov/articles/PMC12871725/
+  HTTP: 200; bytes: 256,914
+FETCH ncbi_efetch_xml: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=12871725&retmode=xml
+  HTTP: 200; bytes: 139,754
+FETCH europepmc_xml: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12871725/fullTextXML
+  HTTP: 200; bytes: 144,615
+
+Candidate supplementary links discovered: 39
+
+[1] https://pmc.ncbi.nlm.nih.gov/articles/PMC12871725/pdf/nihpp-2026.01.16.700028v1.pdf
+    HTTP: 200
+    final: https://pmc.ncbi.nlm.nih.gov/articles/PMC12871725/pdf/nihpp-2026.01.16.700028v1.pdf
+    content-type: text/html; charset=utf-8
+    content-length: 0
+    filename: nihpp-2026.01.16.700028v1.pdf
+    tabular/archive candidate: False
+    Not downloaded.
+
+[2] https://www.ncbi.nlm.nih.gov/core/lw/2.0/html/tileshop_pmc/tileshop_pmc_inline.html?title=Click%20on%20image%20to%20zoom&p=PMC3&id=12871725_nihpp-2026.01.16.700028v1-f0001.jpg
+    HTTP: 200
+    final: https://www.ncbi.nlm.nih.gov/core/lw/2.0/html/tileshop_pmc/tileshop_pmc_inline.html?title=Click%20on%20image%20to%20zoom&p=PMC3&id=12871725_nihpp-2026.01.16.700028v1-f0001.jpg
+    content-type: text/html
+    content-length: 1865
+    filename: tileshop_pmc_inline.html
+    tabular/archive candidate: False
+    Not downloaded.
+
+[3] https://www.ncbi.nlm.nih.gov/core/lw/2.0/html/tileshop_pmc/tileshop_pmc_inline.html?title=Click%20on%20image%20to%20zoom&p=PMC3&id=12871725_nihpp-2026.01.16.700028v1-f0002.jpg
+    HTTP: 200
+    final: https://www.ncbi.nlm.nih.gov/core/lw/2.0/html/tileshop_pmc/tileshop_pmc_inline.html?title=Click%20on%20image%20to%20zoom&p=PMC3&id=12871725_nihpp-2026.01.16.700028v1-f0002.jpg
+    content-type: text/html
+    content-length: 1865
+    filename: tileshop_pmc_inline.html
+    tabular/archive candidate: False
+    Not downloaded.
+
+[4] https://www.ncbi.nlm.nih.gov/core/lw/2.0/html/tileshop_pmc/tileshop_pmc_inline.html?title=Click%20on%20image%20to%20zoom&p=PMC3&id=12871725_nihpp-2026.01.16.700028v1-f0003.jpg
+    HTTP: 200
+    final: https://www.ncbi.nlm.nih.gov/core/lw/2.0/html/tileshop_pmc/tileshop_pmc_inline.html?title=Click%20on%20image%20to%20zoom&p=PMC3&id=12871725_nihpp-2026.01.16.700028v1-f0003.jpg
+    content-type: text/html
+    content-length: 1865
+    filename: tileshop_pmc_inline.html
+    tabular/archive candidate: False
+    Not downloaded.
+
+[5] https://www.ncbi.nlm.nih.gov/core/lw/2.0/html/tileshop_pmc/tileshop_pmc_inline.html?title=Click%20on%20image%20to%20zoom&p=PMC3&id=12871725_nihpp-2026.01.16.700028v1-f0004.jpg
+    HTTP: 200
+    final: https://www.ncbi.nlm.nih.gov/core/lw/2.0/html/tileshop_pmc/tileshop_pmc_inline.html?title=Click%20on%20image%20to%20zoom&p=PMC3&id=12871725_nihpp-2026.01.16.700028v1-f0004.jpg
+    content-type: text/html
+    content-length: 1865
+    filename: tileshop_pmc_inline.html
+    tabular/archive candidate: False
+    Not downloaded.
+
+[6] https://www.ncbi.nlm.nih.gov/core/lw/2.0/html/tileshop_pmc/tileshop_pmc_inline.html?title=Click%20on%20image%20to%20zoom&p=PMC3&id=12871725_nihpp-2026.01.16.700028v1-f0005.jpg
+    HTTP: 200
+    final: https://www.ncbi.nlm.nih.gov/core/lw/2.0/html/tileshop_pmc/tileshop_pmc_inline.html?title=Click%20on%20image%20to%20zoom&p=PMC3&id=12871725_nihpp-2026.01.16.700028v1-f0005.jpg
+    content-type: text/html
+    content-length: 1865
+    filename: tileshop_pmc_inline.html
+    tabular/archive candidate: False
+    Not downloaded.
+
+[7] https://www.ncbi.nlm.nih.gov/core/lw/2.0/html/tileshop_pmc/tileshop_pmc_inline.html?title=Click%20on%20image%20to%20zoom&p=PMC3&id=12871725_nihpp-2026.01.16.700028v1-f0006.jpg
+    HTTP: 200
+    final: https://www.ncbi.nlm.nih.gov/core/lw/2.0/html/tileshop_pmc/tileshop_pmc_inline.html?title=Click%20on%20image%20to%20zoom&p=PMC3&id=12871725_nihpp-2026.01.16.700028v1-f0006.jpg
+    content-type: text/html
+    content-length: 1865
+    filename: tileshop_pmc_inline.html
+    tabular/archive candidate: False
+    Not downloaded.
+
+[8] https://www.ncbi.nlm.nih.gov/core/lw/2.0/html/tileshop_pmc/tileshop_pmc_inline.html?title=Click%20on%20image%20to%20zoom&p=PMC3&id=12871725_nihpp-2026.01.16.700028v1-f0007.jpg
+    HTTP: 200
+    final: https://www.ncbi.nlm.nih.gov/core/lw/2.0/html/tileshop_pmc/tileshop_pmc_inline.html?title=Click%20on%20image%20to%20zoom&p=PMC3&id=12871725_nihpp-2026.01.16.700028v1-f0007.jpg
+    content-type: text/html
+    content-length: 1865
+    filename: tileshop_pmc_inline.html
+    tabular/archive candidate: False
+    Not downloaded.
+
+[9] https://scholar.google.com/scholar_lookup?journal=Pain&title=Potassium%20channels%20in%20neuropathic%20pain:%20advances,%20challenges,%20and%20emerging%20ideas&author=J.%20Busserolles&author=C.%20Tsantoulas&author=A.%20Eschalier&author=J.%20A.%20Lopez%20Garcia&volume=157&issue=Suppl%201&publication_year=2016&pages=S7-S14&pmid=26785158&doi=10.1097/j.pain.0000000000000368&
+    HTTP: 200
+    final: https://scholar.google.com/scholar_lookup?journal=Pain&title=Potassium%20channels%20in%20neuropathic%20pain:%20advances,%20challenges,%20and%20emerging%20ideas&author=J.%20Busserolles&author=C.%20Tsantoulas&author=A.%20Eschalier&author=J.%20A.%20Lopez%20Garcia&volume=157&issue=Suppl%201&publication_year=2016&pages=S7-S14&pmid=26785158&doi=10.1097/j.pain.0000000000000368&
+    content-type: text/html; charset=UTF-8
+    content-length: None
+    filename: scholar_lookup
+    tabular/archive candidate: False
+    Not downloaded.
+
+[10] https://scholar.google.com/scholar_lookup?journal=Cancer%20Res&title=LSD1%20and%20Aberrant%20DNA%20Methylation%20Mediate%20Persistence%20of%20Enteroendocrine%20Progenitors%20That%20Support%20BRAF-Mutant%20Colorectal%20Cancer&author=S.%20A.%20Miller&volume=81&publication_year=2021&pages=3791-3805&pmid=34035083&doi=10.1158/0008-5472.CAN-20-3562&
+    HTTP: 200
+    final: https://scholar.google.com/scholar_lookup?journal=Cancer%20Res&title=LSD1%20and%20Aberrant%20DNA%20Methylation%20Mediate%20Persistence%20of%20Enteroendocrine%20Progenitors%20That%20Support%20BRAF-Mutant%20Colorectal%20Cancer&author=S.%20A.%20Miller&volume=81&publication_year=2021&pages=3791-3805&pmid=34035083&doi=10.1158/0008-5472.CAN-20-3562&
+    content-type: text/html; charset=UTF-8
+    content-length: None
+    filename: scholar_lookup
+    tabular/archive candidate: False
+    Not downloaded.
+
+[11] https://scholar.google.com/scholar_lookup?journal=Nat%20Methods&title=Extending%20support%20for%20mouse%20data%20in%20the%20Molecular%20Signatures%20Database%20(MSigDB)&author=A.%20S.%20Castanza&volume=20&publication_year=2023&pages=1619-1620&pmid=37704782&doi=10.1038/s41592-023-02014-7&
+    HTTP: 200
+    final: https://scholar.google.com/scholar_lookup?journal=Nat%20Methods&title=Extending%20support%20for%20mouse%20data%20in%20the%20Molecular%20Signatures%20Database%20(MSigDB)&author=A.%20S.%20Castanza&volume=20&publication_year=2023&pages=1619-1620&pmid=37704782&doi=10.1038/s41592-023-02014-7&
+    content-type: text/html; charset=UTF-8
+    content-length: None
+    filename: scholar_lookup
+    tabular/archive candidate: False
+    Not downloaded.
+
+[12] https://support.nlm.nih.gov/
+    HTTP: 200
+    final: https://support.nlm.nih.gov/
+    content-type: text/html; charset=utf-8
+    content-length: 46171
+    filename: supplement_12
+    tabular/archive candidate: False
+    Not downloaded.
+
+[13] https://eutils.ncbi.nlm.nih.gov/entrez/eutils/nihpp-2026.01.16.700028v1.pdf
+    HTTP: 400
+    final: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/nihpp-2026.01.16.700028v1.pdf
+    content-type: application/json
+    content-length: 116
+    filename: nihpp-2026.01.16.700028v1.pdf
+    tabular/archive candidate: False
+    Not downloaded.
+
+[14] https://eutils.ncbi.nlm.nih.gov/entrez/eutils/nihpp-2026.01.16.700028v1-f0001.jpg
+    HTTP: 400
+    final: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/nihpp-2026.01.16.700028v1-f0001.jpg
+    content-type: application/json
+    content-length: 122
+    filename: nihpp-2026.01.16.700028v1-f0001.jpg
+    tabular/archive candidate: False
+    Not downloaded.
+
+[15] https://eutils.ncbi.nlm.nih.gov/entrez/eutils/nihpp-2026.01.16.700028v1-f0002.jpg
+    HTTP: 400
+    final: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/nihpp-2026.01.16.700028v1-f0002.jpg
+    content-type: application/json
+    content-length: 122
+    filename: nihpp-2026.01.16.700028v1-f0002.jpg
+    tabular/archive candidate: False
+    Not downloaded.
+
+[16] https://eutils.ncbi.nlm.nih.gov/entrez/eutils/nihpp-2026.01.16.700028v1-f0003.jpg
+    HTTP: 400
+    final: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/nihpp-2026.01.16.700028v1-f0003.jpg
+    content-type: application/json
+    content-length: 122
+    filename: nihpp-2026.01.16.700028v1-f0003.jpg
+    tabular/archive candidate: False
+    Not downloaded.
+
+[17] https://eutils.ncbi.nlm.nih.gov/entrez/eutils/nihpp-2026.01.16.700028v1-f0004.jpg
+    HTTP: 400
+    final: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/nihpp-2026.01.16.700028v1-f0004.jpg
+    content-type: application/json
+    content-length: 122
+    filename: nihpp-2026.01.16.700028v1-f0004.jpg
+    tabular/archive candidate: False
+    Not downloaded.
+
+[18] https://eutils.ncbi.nlm.nih.gov/entrez/eutils/nihpp-2026.01.16.700028v1-f0005.jpg
+    HTTP: 400
+    final: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/nihpp-2026.01.16.700028v1-f0005.jpg
+    content-type: application/json
+    content-length: 122
+    filename: nihpp-2026.01.16.700028v1-f0005.jpg
+    tabular/archive candidate: False
+    Not downloaded.
+
+[19] https://eutils.ncbi.nlm.nih.gov/entrez/eutils/nihpp-2026.01.16.700028v1-f0006.jpg
+    HTTP: 400
+    final: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/nihpp-2026.01.16.700028v1-f0006.jpg
+    content-type: application/json
+    content-length: 122
+    filename: nihpp-2026.01.16.700028v1-f0006.jpg
+    tabular/archive candidate: False
+    Not downloaded.
+
+[20] https://eutils.ncbi.nlm.nih.gov/entrez/eutils/nihpp-2026.01.16.700028v1-f0007.jpg
+    HTTP: 400
+    final: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/nihpp-2026.01.16.700028v1-f0007.jpg
+    content-type: application/json
+    content-length: 122
+    filename: nihpp-2026.01.16.700028v1-f0007.jpg
+    tabular/archive candidate: False
+    Not downloaded.
+
+[21] https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12871725/nihpp-2026.01.16.700028v1.pdf
+    HTTP: 404
+    final: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12871725/nihpp-2026.01.16.700028v1.pdf
+    content-type: application/json
+    content-length: None
+    filename: f.txt
+    tabular/archive candidate: True
+    Not downloaded.
+
+[22] https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12871725/nihpp-2026.01.16.700028v1-f0001.jpg
+    HTTP: 404
+    final: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12871725/nihpp-2026.01.16.700028v1-f0001.jpg
+    content-type: application/json
+    content-length: None
+    filename: nihpp-2026.01.16.700028v1-f0001.jpg
+    tabular/archive candidate: False
+    Not downloaded.
+
+[23] https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12871725/nihpp-2026.01.16.700028v1-f0001.gif
+    HTTP: 404
+    final: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12871725/nihpp-2026.01.16.700028v1-f0001.gif
+    content-type: application/json
+    content-length: None
+    filename: nihpp-2026.01.16.700028v1-f0001.gif
+    tabular/archive candidate: False
+    Not downloaded.
+
+[24] https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12871725/nihpp-2026.01.16.700028v1-f0002.jpg
+    HTTP: 404
+    final: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12871725/nihpp-2026.01.16.700028v1-f0002.jpg
+    content-type: application/json
+    content-length: None
+    filename: nihpp-2026.01.16.700028v1-f0002.jpg
+    tabular/archive candidate: False
+    Not downloaded.
+
+[25] https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12871725/nihpp-2026.01.16.700028v1-f0002.gif
+    HTTP: 404
+    final: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12871725/nihpp-2026.01.16.700028v1-f0002.gif
+    content-type: application/json
+    content-length: None
+    filename: nihpp-2026.01.16.700028v1-f0002.gif
+    tabular/archive candidate: False
+    Not downloaded.
+
+[26] https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12871725/nihpp-2026.01.16.700028v1-f0003.jpg
+    HTTP: 404
+    final: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12871725/nihpp-2026.01.16.700028v1-f0003.jpg
+    content-type: application/json
+    content-length: None
+    filename: nihpp-2026.01.16.700028v1-f0003.jpg
+    tabular/archive candidate: False
+    Not downloaded.
+
+[27] https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12871725/nihpp-2026.01.16.700028v1-f0003.gif
+    HTTP: 404
+    final: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12871725/nihpp-2026.01.16.700028v1-f0003.gif
+    content-type: application/json
+    content-length: None
+    filename: nihpp-2026.01.16.700028v1-f0003.gif
+    tabular/archive candidate: False
+    Not downloaded.
+
+[28] https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12871725/nihpp-2026.01.16.700028v1-f0004.jpg
+    HTTP: 404
+    final: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12871725/nihpp-2026.01.16.700028v1-f0004.jpg
+    content-type: application/json
+    content-length: None
+    filename: nihpp-2026.01.16.700028v1-f0004.jpg
+    tabular/archive candidate: False
+    Not downloaded.
+
+[29] https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12871725/nihpp-2026.01.16.700028v1-f0004.gif
+    HTTP: 404
+    final: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12871725/nihpp-2026.01.16.700028v1-f0004.gif
+    content-type: application/json
+    content-length: None
+    filename: nihpp-2026.01.16.700028v1-f0004.gif
+    tabular/archive candidate: False
+    Not downloaded.
+
+[30] https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12871725/nihpp-2026.01.16.700028v1-f0005.jpg
+    HTTP: 404
+    final: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12871725/nihpp-2026.01.16.700028v1-f0005.jpg
+    content-type: application/json
+    content-length: None
+    filename: nihpp-2026.01.16.700028v1-f0005.jpg
+    tabular/archive candidate: False
+    Not downloaded.
+
+[31] https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12871725/nihpp-2026.01.16.700028v1-f0005.gif
+    HTTP: 404
+    final: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12871725/nihpp-2026.01.16.700028v1-f0005.gif
+    content-type: application/json
+    content-length: None
+    filename: nihpp-2026.01.16.700028v1-f0005.gif
+    tabular/archive candidate: False
+    Not downloaded.
+
+[32] https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12871725/nihpp-2026.01.16.700028v1-f0006.jpg
+    HTTP: 404
+    final: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12871725/nihpp-2026.01.16.700028v1-f0006.jpg
+    content-type: application/json
+    content-length: None
+    filename: nihpp-2026.01.16.700028v1-f0006.jpg
+    tabular/archive candidate: False
+    Not downloaded.
+
+[33] https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12871725/nihpp-2026.01.16.700028v1-f0006.gif
+    HTTP: 404
+    final: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12871725/nihpp-2026.01.16.700028v1-f0006.gif
+    content-type: application/json
+    content-length: None
+    filename: nihpp-2026.01.16.700028v1-f0006.gif
+    tabular/archive candidate: False
+    Not downloaded.
+
+[34] https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12871725/nihpp-2026.01.16.700028v1-f0007.jpg
+    HTTP: 404
+    final: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12871725/nihpp-2026.01.16.700028v1-f0007.jpg
+    content-type: application/json
+    content-length: None
+    filename: nihpp-2026.01.16.700028v1-f0007.jpg
+    tabular/archive candidate: False
+    Not downloaded.
+
+[35] https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12871725/nihpp-2026.01.16.700028v1-f0007.gif
+    HTTP: 404
+    final: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12871725/nihpp-2026.01.16.700028v1-f0007.gif
+    content-type: application/json
+    content-length: None
+    filename: nihpp-2026.01.16.700028v1-f0007.gif
+    tabular/archive candidate: False
+    Not downloaded.
+
+[36] https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12871725/journal=Pain&title=Potassium channels in neuropathic pain: advances, challenges, and emerging ideas&author=J. Busserolles&author=C. Tsantoulas&author=A. Eschalier&author=J. A. Lopez Garcia&volume=157&issue=Suppl 1&publication_year=2016&pages=S7-S14&pmid=26785158&doi=10.1097/j.pain.0000000000000368&
+    HTTP: None
+    final: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12871725/journal=Pain&title=Potassium channels in neuropathic pain: advances, challenges, and emerging ideas&author=J. Busserolles&author=C. Tsantoulas&author=A. Eschalier&author=J. A. Lopez Garcia&volume=157&issue=Suppl 1&publication_year=2016&pages=S7-S14&pmid=26785158&doi=10.1097/j.pain.0000000000000368&
+    content-type: 
+    content-length: None
+    filename: j.pain.0000000000000368&
+    tabular/archive candidate: False
+    Not downloaded.
+
+[37] https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12871725/journal=Cancer Res&title=LSD1 and Aberrant DNA Methylation Mediate Persistence of Enteroendocrine Progenitors That Support BRAF-Mutant Colorectal Cancer&author=S. A. Miller&volume=81&publication_year=2021&pages=3791-3805&pmid=34035083&doi=10.1158/0008-5472.CAN-20-3562&
+    HTTP: None
+    final: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12871725/journal=Cancer Res&title=LSD1 and Aberrant DNA Methylation Mediate Persistence of Enteroendocrine Progenitors That Support BRAF-Mutant Colorectal Cancer&author=S. A. Miller&volume=81&publication_year=2021&pages=3791-3805&pmid=34035083&doi=10.1158/0008-5472.CAN-20-3562&
+    content-type: 
+    content-length: None
+    filename: 0008-5472.CAN-20-3562&
+    tabular/archive candidate: False
+    Not downloaded.
+
+[38] https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12871725/journal=Nat Methods&title=Extending support for mouse data in the Molecular Signatures Database (MSigDB)&author=A. S. Castanza&volume=20&publication_year=2023&pages=1619-1620&pmid=37704782&doi=10.1038/s41592-023-02014-7&
+    HTTP: None
+    final: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12871725/journal=Nat Methods&title=Extending support for mouse data in the Molecular Signatures Database (MSigDB)&author=A. S. Castanza&volume=20&publication_year=2023&pages=1619-1620&pmid=37704782&doi=10.1038/s41592-023-02014-7&
+    content-type: 
+    content-length: None
+    filename: s41592-023-02014-7&
+    tabular/archive candidate: False
+    Not downloaded.
+
+[39] https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12871725/7b27/12871725/3d7eadef4dd9/nihpp-2026.01.16.700028v1.pdf
+    HTTP: 404
+    final: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12871725/7b27/12871725/3d7eadef4dd9/nihpp-2026.01.16.700028v1.pdf
+    content-type: application/json
+    content-length: None
+    filename: f.txt
+    tabular/archive candidate: True
+    Not downloaded.
+
+==============================================================================
+DOWNLOADED SUPPLEMENTARY FILE INVENTORY
+==============================================================================
+No downloadable small tabular/archive supplementary files were recovered.
+
+LIKELY HIGH-VALUE TARGETS
+  Supplementary Data 3: Control vs Diabetes pseudobulk DE
+  Supplementary Data 5: neuronal Diabetes vs DPN DE
+  Supplementary Data 6: neuronal Nageotte-burden DE
+  Supplementary Data 8: non-neuronal ligand DE
+  Supplementary Data 9: neuronal receptor DE
+  Supplementary Data 11/12: Xenium subtype/DE validation
+
+DECISION
+  No small supplementary tables were recoverable from the current public article endpoints.
+  Combined with Script 15a, the 2026 snRNA cohort should then be treated as
+  literature-level orthogonal support only until the promised processed data are released.
+
+Saved audit: results/validation/DRG2026_supplementary_audit/supplementary_link_audit.json
+==============================================================================
+SCRIPT 15b COMPLETE
+==============================================================================

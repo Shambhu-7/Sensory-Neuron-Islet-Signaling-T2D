@@ -1,0 +1,50 @@
+Analysis time:
+[1] "2026-10-23 09:33:56 IST"
+
+Method:
+                    dataset                                        role assay
+1 GSE81608_current_GEO_1600 dataset_representation_sensitivity_analysis  RPKM
+  cells genes min_cells_per_donor_celltype
+1  1600 28060                            5
+  primary_within_donor_detection_fraction
+1                                     0.1
+  strict_within_donor_detection_fraction min_evaluable_donors
+1                                    0.2                    3
+  primary_required_donor_fraction strong_required_donor_fraction
+1                             0.5                           0.75
+                                                                                                                                                    interpretation
+1 Sensitivity analysis of receptor detection using the current 1600-cell GEO representation of GSE81608; this is not an independent cohort or external validation.
+
+Evaluable donors:
+     condition cell_type evaluable
+1 non-diabetic     alpha        11
+2          T2D     alpha         6
+3 non-diabetic      beta        12
+4          T2D      beta         6
+
+Expression dimensions:
+[1] 28060  1600
+
+HC receptor overlap:
+candidate   present    absent 
+      206       178        28 
+
+R version 4.5.2 (2025-10-31)
+Platform: aarch64-apple-darwin20
+Running under: macOS 27.0.1
+
+Matrix products: default
+BLAS:   /System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libBLAS.dylib 
+LAPACK: /Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/lib/libRlapack.dylib;  LAPACK version 3.12.1
+
+locale:
+[1] en_US.UTF-8/en_US.UTF-8/en_US.UTF-8/C/en_US.UTF-8/en_US.UTF-8
+
+time zone: Asia/Kolkata
+tzcode source: internal
+
+attached base packages:
+[1] stats     graphics  grDevices utils     datasets  methods   base     
+
+loaded via a namespace (and not attached):
+[1] compiler_4.5.2

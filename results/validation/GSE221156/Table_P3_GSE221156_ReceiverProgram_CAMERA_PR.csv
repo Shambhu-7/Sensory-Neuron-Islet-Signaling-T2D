@@ -1,0 +1,3 @@
+"gene_set","n_prespecified","n_tested","Direction","PValue","FDR"
+"Original_receiver_T2D_up_genes",25,17,"Up",0.0152392490332075,0.0152392490332075
+"High_confidence_10_gene_core",10,7,"Up",0.00373715868028594,0.00747431736057189

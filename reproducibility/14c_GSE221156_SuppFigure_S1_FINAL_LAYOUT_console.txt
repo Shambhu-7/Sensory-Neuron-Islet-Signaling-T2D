@@ -1,0 +1,24 @@
+==============================================================================
+SUPPLEMENTARY FIGURE S1 — INDEPENDENT GSE221156 BETA-CELL VALIDATION
+==============================================================================
+INPUT FILES: PASS
+
+KEY VALUES USED
+  Cohort: 48 donors; 99,029 beta cells
+  Receiver: 14/19 same direction; rho=0.7333; P=0.000353425; binomial P=0.0317841
+  Receptor compatibility reproduced: 13/13 candidate ligand axes
+  CLU validation logFC -0.8000; FDR 0.00346428
+  TTR validation logFC -1.1130; FDR 0.000953901
+
+OUTPUTS
+  figures/supplementary/Figure_S1_GSE221156_Independent_BetaCell_Validation.png
+  figures/supplementary/Figure_S1_GSE221156_Independent_BetaCell_Validation.pdf
+
+INTERPRETATION
+  Independent beta-cell transcriptional and receptor validation only.
+  The normal-to-prediabetes-to-T2D receiver score is descriptive, not a formal trajectory test.
+  No direct sensory-neuron-to-beta-cell signaling or causality is inferred.
+
+==============================================================================
+SUPPLEMENTARY FIGURE S1 COMPLETE
+==============================================================================

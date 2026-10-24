@@ -1,0 +1,34 @@
+==============================================================================
+SUPPLEMENTARY FIGURE S2 — NICHE-NET VALIDATION / EMPIRICAL NULL
+==============================================================================
+Frozen Step 1 file: PASS
+Frozen Step 2 file: PASS
+Frozen Step 3 directory: PASS
+Final permutation table: Table_P3_NicheNet_EmpiricalNull_CrossCohort.csv
+Final permutation audit: PASS (0/42 GSE81608; 41/42 GSE221156; 0/42 both)
+
+AUDIT
+Step 1 sensory candidates: 10
+Step 2 broad ligands: 42
+Broad rank Spearman rho = 0.54817; P = 0.00017124
+Step 3 GSE81608 empirical FDR < 0.05: 0/42
+Step 3 GSE221156 empirical FDR < 0.05: 41/42
+Step 3 BOTH empirical FDR < 0.05: 0/42
+Panel D overlap audit: five principal candidates share one exact coordinate — PASS
+
+OUTPUTS
+ - /Users/shambhuyadav/Desktop/RNA3.0/Paper3_Sensory_Islet/figures/supplementary/Supplementary_Figure_S2_NicheNet_Validation_EmpiricalNull_COLOR_FINAL.pdf
+ - /Users/shambhuyadav/Desktop/RNA3.0/Paper3_Sensory_Islet/figures/supplementary/Supplementary_Figure_S2_NicheNet_Validation_EmpiricalNull_COLOR_FINAL.png
+ - /Users/shambhuyadav/Desktop/RNA3.0/Paper3_Sensory_Islet/figures/supplementary/Supplementary_Figure_S2_NicheNet_Validation_EmpiricalNull_COLOR_FINAL.tiff
+ - source data: /Users/shambhuyadav/Desktop/RNA3.0/Paper3_Sensory_Islet/results/figure_source_data/Supplementary_Figure_S2
+
+INTERPRETATION GUARDRAIL
+ Principal-candidate colors are fixed consistently across panels.
+ Rank replication and empirical significance are distinct evidence layers.
+ The 42-ligand universe and candidate set were fixed before permutation testing.
+ Empirical-null significance assesses receiver-program specificity within the frozen NicheNet prior.
+ It does not demonstrate direct inter-organ signaling or causality.
+
+==============================================================================
+SUPPLEMENTARY FIGURE S2 COMPLETED SUCCESSFULLY
+==============================================================================

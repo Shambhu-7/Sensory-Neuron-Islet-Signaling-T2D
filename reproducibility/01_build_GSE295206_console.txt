@@ -1,0 +1,262 @@
+
+====================================================
+PROCESSING GSM8943583
+Donor   : DN0003
+DRG     : DN0003_DRG
+Section : section_01
+====================================================
+Reading count matrix...
+Genes: 58288 | filtered spots: 1753
+Annotation counts:
+
+     Nageotte Nearby_neuron       Overlap 
+           11            18             3 
+
+====================================================
+PROCESSING GSM8943584
+Donor   : DN0003
+DRG     : DN0003_DRG
+Section : section_02
+====================================================
+Reading count matrix...
+Genes: 58288 | filtered spots: 2087
+Annotation counts:
+
+     Nageotte Nearby_neuron       Overlap 
+           11            15             4 
+
+====================================================
+PROCESSING GSM8943585
+Donor   : 180714DHB
+DRG     : 180714DHB_L4
+Section : section_03
+====================================================
+Reading count matrix...
+Genes: 36601 | filtered spots: 3526
+Annotation counts:
+
+     Nageotte Nearby_neuron       Overlap 
+           31            35             2 
+
+====================================================
+PROCESSING GSM8943586
+Donor   : 180714DHB
+DRG     : 180714DHB_L4
+Section : section_04
+====================================================
+Reading count matrix...
+Genes: 36601 | filtered spots: 3586
+Annotation counts:
+
+     Nageotte Nearby_neuron 
+           32            41 
+
+====================================================
+PROCESSING GSM8943587
+Donor   : 181030DHB
+DRG     : 181030DHB_1L4
+Section : section_05
+====================================================
+Reading count matrix...
+Genes: 36601 | filtered spots: 1967
+Annotation counts:
+
+     Nageotte Nearby_neuron 
+           11             8 
+
+====================================================
+PROCESSING GSM8943588
+Donor   : 181030DHB
+DRG     : 181030DHB_1L4
+Section : section_06
+====================================================
+Reading count matrix...
+Genes: 36601 | filtered spots: 2911
+Annotation counts:
+
+     Nageotte Nearby_neuron       Overlap 
+            9             8             1 
+
+====================================================
+PROCESSING GSM8943589
+Donor   : 181030DHB
+DRG     : 181030DHB_2L4
+Section : section_07
+====================================================
+Reading count matrix...
+Genes: 36601 | filtered spots: 3535
+Annotation counts:
+
+     Nageotte Nearby_neuron 
+           18            23 
+
+====================================================
+PROCESSING GSM8943590
+Donor   : 181030DHB
+DRG     : 181030DHB_2L4
+Section : section_08
+====================================================
+Reading count matrix...
+Genes: 36601 | filtered spots: 3396
+Annotation counts:
+
+     Nageotte Nearby_neuron       Overlap 
+            8            15             1 
+
+====================================================
+PROCESSING GSM8943591
+Donor   : DN0134
+DRG     : DN0134_L3
+Section : section_09
+====================================================
+Reading count matrix...
+Genes: 36601 | filtered spots: 2701
+Annotation counts:
+
+     Nageotte Nearby_neuron       Overlap 
+          102           144            12 
+
+====================================================
+PROCESSING GSM8943592
+Donor   : DN0134
+DRG     : DN0134_L3
+Section : section_10
+====================================================
+Reading count matrix...
+Genes: 36601 | filtered spots: 2412
+Annotation counts:
+
+     Nageotte Nearby_neuron       Overlap 
+           91           111            23 
+
+====================================================
+PROCESSING GSM8943593
+Donor   : DN0134
+DRG     : DN0134_L3
+Section : section_11
+====================================================
+Reading count matrix...
+Genes: 36601 | filtered spots: 2833
+Annotation counts:
+
+     Nageotte Nearby_neuron       Overlap 
+           97           144            18 
+
+====================================================
+PROCESSING GSM8943594
+Donor   : DN0095
+DRG     : DN0095_L3
+Section : section_12
+====================================================
+Reading count matrix...
+Genes: 36601 | filtered spots: 3089
+Annotation counts:
+
+     Nageotte Nearby_neuron       Overlap 
+          176           145            18 
+
+====================================================
+PROCESSING GSM8943595
+Donor   : DN0095
+DRG     : DN0095_L3
+Section : section_13
+====================================================
+Reading count matrix...
+Genes: 36601 | filtered spots: 3273
+Annotation counts:
+
+     Nageotte Nearby_neuron       Overlap 
+          219           149            18 
+
+====================================================
+PROCESSING GSM8943596
+Donor   : DN0095
+DRG     : DN0095_L3
+Section : section_14
+====================================================
+Reading count matrix...
+Genes: 36601 | filtered spots: 3987
+Annotation counts:
+
+     Nageotte Nearby_neuron       Overlap 
+          204           130            12 
+
+====================================================
+PROCESSING GSM8943597
+Donor   : DN0106
+DRG     : DN0106_DRG
+Section : section_15
+====================================================
+Reading count matrix...
+Genes: 36601 | filtered spots: 3315
+Annotation counts:
+
+     Nageotte Nearby_neuron       Overlap 
+           38            59             1 
+
+====================================================
+PROCESSING GSM8943598
+Donor   : DN0106
+DRG     : DN0106_DRG
+Section : section_16
+====================================================
+Reading count matrix...
+Genes: 36601 | filtered spots: 3907
+Annotation counts:
+
+     Nageotte Nearby_neuron       Overlap 
+           36            42             3 
+
+====================================================
+GLOBAL ANNOTATION COUNTS
+====================================================
+
+     Nageotte Nearby_neuron       Overlap 
+         1094          1087           116 
+  annotation_class expected observed difference
+1         Nageotte     1094     1094          0
+2    Nearby_neuron     1087     1087          0
+3          Overlap      116      116          0
+
+====================================================
+PRIMARY SPOTS BY DONOR
+====================================================
+   donor_id Nageotte Nearby_neuron
+1 180714DHB       63            76
+2 181030DHB       46            54
+3    DN0003       22            33
+4    DN0095      599           424
+5    DN0106       74           101
+6    DN0134      290           399
+
+====================================================
+PRIMARY SPOTS BY DRG
+====================================================
+         drg_id Nageotte Nearby_neuron
+1  180714DHB_L4       63            76
+2 181030DHB_1L4       20            16
+3 181030DHB_2L4       26            38
+4    DN0003_DRG       22            33
+5     DN0095_L3      599           424
+6    DN0106_DRG       74           101
+7     DN0134_L3      290           399
+
+====================================================
+SCRIPT 01 COMPLETED SUCCESSFULLY
+====================================================
+
+Total filtered spatial spots: 48278
+Total annotated spots: 2297
+Primary-analysis spots: 2181
+Nageotte spots: 1094
+Nearby-neuron spots: 1087
+Overlap spots retained: 116
+Donors: 6
+DRGs: 7
+Sections: 16
+
+Processed data saved to:
+/Users/shambhuyadav/Desktop/RNA3.0/Paper3_Sensory_Islet/data/processed
+
+QC tables saved to:
+/Users/shambhuyadav/Desktop/RNA3.0/Paper3_Sensory_Islet/results/qc

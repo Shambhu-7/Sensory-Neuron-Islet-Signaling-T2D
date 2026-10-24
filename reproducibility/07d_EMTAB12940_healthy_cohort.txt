@@ -1,0 +1,434 @@
+====================================================
+SCRIPT 07d: RECONSTRUCT HEALTHY PANCREAS COHORT
+====================================================
+
+
+====================================================
+BATCH 1 : QC METADATA
+====================================================
+
+sum
+        0%         1%         5%        25%        50%        75%        95% 
+  17688.00   36323.50   69255.75  170317.00  266143.50  398137.25  857563.00 
+       99%       100% 
+1330536.25 2582502.00 
+
+detected
+      0%       1%       5%      25%      50%      75%      95%      99% 
+ 4043.00  4401.25  5753.00  8768.25 10169.00 11211.00 12992.75 13891.50 
+    100% 
+14779.00 
+
+mito_percent
+          0%           1%           5%          25%          50%          75% 
+2.844141e-05 1.923305e-04 7.444135e-04 6.162284e-03 1.680619e-02 3.637383e-02 
+         95%          99%         100% 
+1.109394e-01 1.678762e-01 1.989698e-01 
+
+====================================================
+BATCH 2 : QC METADATA
+====================================================
+
+sum
+        0%         1%         5%        25%        50%        75%        95% 
+  16644.00   35076.55   62012.25  123678.25  190248.50  295508.75  623149.25 
+       99%       100% 
+1005863.95 2327878.00 
+
+detected
+      0%       1%       5%      25%      50%      75%      95%      99% 
+ 4003.00  4116.85  4585.25  6414.75  8342.00 10336.75 11842.00 12970.35 
+    100% 
+14509.00 
+
+mito_percent
+          0%           1%           5%          25%          50%          75% 
+1.654574e-05 6.580269e-05 1.804542e-04 7.634925e-04 2.208858e-03 8.472435e-03 
+         95%          99%         100% 
+7.979727e-02 1.478284e-01 1.971660e-01 
+
+====================================================
+AUTHOR-QC COUNTS
+====================================================
+
+Batch 1:
+
+FALSE  TRUE 
+    5  1921 
+
+Batch 2:
+
+FALSE  TRUE 
+    7  2039 
+
+Batch 1 QC-pass by ganglion:
+
+  CG  DRG 
+1164  757 
+
+Batch 2 QC-pass by ganglion:
+
+  CG  DRG   NG   ST Test 
+ 688 1003  217  129    2 
+
+====================================================
+AUTHOR-QC vs Is_Cell
+====================================================
+
+Batch 1:
+        Is_Cell
+AuthorQC FALSE TRUE
+   FALSE     2    3
+   TRUE   1225  696
+
+Batch 2:
+        Is_Cell
+AuthorQC FALSE TRUE
+   FALSE     7    0
+   TRUE     14 2025
+
+====================================================
+BATCH 1 : CONDITION AUDIT AFTER AUTHOR QC
+====================================================
+
+Ganglion:
+
+  CG  DRG 
+1164  757 
+
+Tumor field:
+
+           None       Xenograft Electroporation         Healthy PACO10_resected 
+            735             679             194             160              90 
+         PACO10 
+             63 
+
+CellLine:
+
+           None          PACO10          PACO43         Healthy PACO10_resected 
+            929             479             211             160              90 
+      Xenograft 
+             52 
+
+InnervatingTissue:
+
+    Pancreas       Cancer   Peritoneum       Spleen          Gut skin_distant 
+         668          612          367          110          104           33 
+       Colon 
+          27 
+
+Ganglion x Tumor:
+        Tumor
+Ganglion Electroporation Healthy None PACO10 PACO10_resected Xenograft
+     CG              146      65  422     34              48       449
+     DRG              48      95  313     29              42       230
+
+====================================================
+BATCH 2 : CONDITION AUDIT AFTER AUTHOR QC
+====================================================
+
+Ganglion:
+
+  CG  DRG   NG   ST Test 
+ 688 1003  217  129    2 
+
+Tumor field:
+
+                   Pankreas                        Ctrl 
+                        849                         186 
+                    Melanom              Xenograft Ctrl 
+                        151                         144 
+             Xenograft_male Xenograft 6OHDA+Oxaliplatin 
+                        133                         117 
+                   Pancreas                    Melanoma 
+                        106                         105 
+                       None       Xenograft Oxaliplatin 
+                         96                          80 
+                     PACO10                         KPC 
+                         64                           6 
+                  Xenograft 
+                          2 
+
+CellLine:
+
+    None   PACO10  Melanom      KPC Pancreas Pankreas 
+     926      540      256      192      106       19 
+
+InnervatingTissue:
+
+                  Tumor Pankreas + Pankreatitis                Pankreas 
+                    978                     570                     279 
+               subcutan                Pancreas                  PACO10 
+                     96                      71                      39 
+                    KPC 
+                      6 
+
+Ganglion x Tumor:
+        Tumor
+Ganglion Ctrl KPC Melanom Melanoma None PACO10 Pancreas Pankreas Xenograft
+    CG      0   6       0        0    0      0        0      369         0
+    DRG   186   0     151        7   90      0        0      408         0
+    NG      0   0       0        0    0     64      106       47         0
+    ST      0   0       0       98    6      0        0       25         0
+    Test    0   0       0        0    0      0        0        0         2
+        Tumor
+Ganglion Xenograft 6OHDA+Oxaliplatin Xenograft Ctrl Xenograft Oxaliplatin
+    CG                            19            144                    80
+    DRG                           98              0                     0
+    NG                             0              0                     0
+    ST                             0              0                     0
+    Test                           0              0                     0
+        Tumor
+Ganglion Xenograft_male
+    CG               70
+    DRG              63
+    NG                0
+    ST                0
+    Test              0
+
+====================================================
+BATCH 2: Tumor == Pancreas
+====================================================
+All cells: 106 
+
+By ganglion:
+
+ NG 
+106 
+
+Author-QC pass:
+Ganglion
+ NG 
+106 
+
+Author-QC + peripheral neuron:
+Ganglion
+NG 
+66 
+
+Annotated cell type:
+
+  Peripheral sensory peptidergic neurons 
+                                      60 
+                          Satellite glia 
+                                      18 
+                         Enteric neurons 
+                                      15 
+Peripheral sensory neurofilament neurons 
+                                       6 
+   Cholinergic and monoaminergic neurons 
+                                       4 
+                       Hindbrain neurons 
+                                       2 
+         Sympathetic cholinergic neurons 
+                                       1 
+
+====================================================
+BATCH 2: HEALTHY-LIKE LABEL AUDIT
+====================================================
+
+--------------------------------------------
+VALUE: Pancreas 
+--------------------------------------------
+All:
+
+ NG 
+106 
+Author QC:
+
+ NG 
+106 
+Author QC + peripheral:
+
+NG 
+66 
+
+--------------------------------------------
+VALUE: Pankreas 
+--------------------------------------------
+All:
+
+ CG DRG  NG  ST 
+370 409  47  28 
+Author QC:
+
+ CG DRG  NG  ST 
+369 408  47  25 
+Author QC + peripheral:
+
+ CG DRG  NG  ST 
+369 393  38  25 
+
+--------------------------------------------
+VALUE: Ctrl 
+--------------------------------------------
+All:
+
+DRG 
+186 
+Author QC:
+
+DRG 
+186 
+Author QC + peripheral:
+
+DRG 
+186 
+
+--------------------------------------------
+VALUE: Healthy 
+--------------------------------------------
+All:
+< table of extent 0 >
+Author QC:
+< table of extent 0 >
+Author QC + peripheral:
+< table of extent 0 >
+
+--------------------------------------------
+VALUE: None 
+--------------------------------------------
+All:
+
+ CG DRG  NG  ST 
+351 499  47  34 
+Author QC:
+
+ CG DRG  NG  ST 
+350 498  47  31 
+Author QC + peripheral:
+
+ CG DRG  NG  ST 
+350 482  38  31 
+
+====================================================
+BATCH 1: HEALTHY-LIKE LABEL AUDIT
+====================================================
+
+--------------------------------------------
+VALUE: Pancreas 
+--------------------------------------------
+All:
+< table of extent 0 >
+Author QC:
+< table of extent 0 >
+Author QC + peripheral:
+< table of extent 0 >
+
+--------------------------------------------
+VALUE: Pankreas 
+--------------------------------------------
+All:
+< table of extent 0 >
+Author QC:
+< table of extent 0 >
+Author QC + peripheral:
+< table of extent 0 >
+
+--------------------------------------------
+VALUE: Ctrl 
+--------------------------------------------
+All:
+< table of extent 0 >
+Author QC:
+< table of extent 0 >
+Author QC + peripheral:
+< table of extent 0 >
+
+--------------------------------------------
+VALUE: Healthy 
+--------------------------------------------
+All:
+
+ CG DRG 
+ 67  95 
+Author QC:
+
+ CG DRG 
+ 65  95 
+Author QC + peripheral:
+
+ CG DRG 
+ 63  95 
+
+--------------------------------------------
+VALUE: None 
+--------------------------------------------
+All:
+
+ CG DRG 
+568 362 
+Author QC:
+
+ CG DRG 
+568 361 
+Author QC + peripheral:
+
+ CG DRG 
+554 361 
+
+====================================================
+BATCH 1 : CONTROL/PANCREAS CELLSTRING PATTERNS
+====================================================
+integer(0)
+
+====================================================
+BATCH 2 : CONTROL/PANCREAS CELLSTRING PATTERNS
+====================================================
+cs2
+ CG_B6_FB_Pankreas_m1_Pankreatitis DRG_B6_FB_Pankreas_m1_Pankreatitis 
+                               133                                116 
+ CG_B6_FB_Pankreas_m2_Pankreatitis DRG_B6_FB_Pankreas_m2_Pankreatitis 
+                                92                                 83 
+            CG_NSG_FB_healthy_male            DRG_NSG_FB_healthy_male 
+                                70                                 63 
+ CG_B6_FB_Pankreas_m3_Pankreatitis DRG_B6_FB_Pankreas_m3_Pankreatitis 
+                                62                                 59 
+        DRG_B6_FB_Pankreas_m2_Ctrl         NG_NSG_FB_Pancreas_m2_Ctrl 
+                                57                                 55 
+          CG_NSG_FB_PACO10_m2_Ctrl              DRG_B6_FB_KPC_m1_Ctrl 
+                                53                                 53 
+         CG_B6_FB_Pankreas_m1_Ctrl         DRG_B6_FB_Pankreas_m1_Ctrl 
+                                51                                 51 
+          CG_NSG_FB_PACO10_m1_Ctrl              DRG_B6_FB_KPC_m3_Ctrl 
+                                50                                 47 
+             DRG_B6_FB_KPC_m4_Ctrl           CG_NSG_FB_PACO10_m3_Ctrl 
+                                44                                 42 
+             DRG_B6_FB_KPC_m2_Ctrl         DRG_B6_FB_Pankreas_m3_Ctrl 
+                                42                                 42 
+        DRG_B6_FB_subcutan_m1_Ctrl         DRG_B6_FB_subcutan_m2_Ctrl 
+                                37                                 35 
+         CG_B6_FB_Pankreas_m2_Ctrl         NG_NSG_FB_Pancreas_m3_Ctrl 
+                                29                                 29 
+         NG_B6_FB_Pankreas_m3_Ctrl           NG_NSG_FB_PACO10_m2_Ctrl 
+                                26                                 24 
+          NG_NSG_FB_PACO10_m1_Ctrl         NG_NSG_FB_Pancreas_m1_Ctrl 
+                                22                                 22 
+        DRG_B6_FB_subcutan_m3_Ctrl           NG_NSG_FB_PACO10_m3_Ctrl 
+                                18                                 18 
+ ST_B6_FB_Pankreas_m1_Pankreatitis          NG_B6_FB_Pankreas_m1_Ctrl 
+                                13                                 12 
+         NG_B6_FB_Pankreas_m2_Ctrl  ST_B6_FB_Pankreas_m3_Pankreatitis 
+                                 9                                  9 
+              CG_B6_FB_KPC_m1_Ctrl          ST_B6_FB_subcutan_m2_Ctrl 
+                                 5                                  5 
+ ST_B6_FB_Pankreas_m2_Pankreatitis          CG_B6_FB_Pankreas_m3_Ctrl 
+                                 3                                  2 
+              CG_B6_FB_KPC_m2_Ctrl          ST_B6_FB_subcutan_m1_Ctrl 
+                                 1                                  1 
+
+====================================================
+PUBLISHED HEALTHY-PANCREAS TARGET
+====================================================
+DRG  CG JNG 
+589 689 106 
+Total: 1384 
+
+Important deposited label correspondence:
+DRG -> DRG
+CG  -> CG
+JNG -> deposited NG arm requires explicit validation
+
+====================================================
+SCRIPT 07d COMPLETED SUCCESSFULLY
+====================================================

@@ -1,0 +1,13 @@
+"","(Intercept)","donor_id181030DHB","donor_idDN0003","donor_idDN0095","donor_idDN0106","donor_idDN0134","annotation_classNageotte"
+"180714DHB__Nageotte",1,0,0,0,0,0,1
+"180714DHB__Nearby_neuron",1,0,0,0,0,0,0
+"181030DHB__Nageotte",1,1,0,0,0,0,1
+"181030DHB__Nearby_neuron",1,1,0,0,0,0,0
+"DN0003__Nageotte",1,0,1,0,0,0,1
+"DN0003__Nearby_neuron",1,0,1,0,0,0,0
+"DN0095__Nageotte",1,0,0,1,0,0,1
+"DN0095__Nearby_neuron",1,0,0,1,0,0,0
+"DN0106__Nageotte",1,0,0,0,1,0,1
+"DN0106__Nearby_neuron",1,0,0,0,1,0,0
+"DN0134__Nageotte",1,0,0,0,0,1,1
+"DN0134__Nearby_neuron",1,0,0,0,0,1,0

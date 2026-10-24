@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this analysis code, please cite the archived software release and associated manuscript."
+title: "Integrated human transcriptomics prioritizes candidate sensory neuron–islet signaling axes in type 2 diabetes: analysis code and reproducibility archive"
+type: software
+authors:
+  - family-names: Yadav
+    given-names: Shambhu
+    orcid: "https://orcid.org/0000-0002-0622-1854"
+    affiliation: "Department of Biotechnology, Manipal Institute of Technology, Manipal Academy of Higher Education, Manipal, Karnataka, India"
+version: 1.0.0
+date-released: 2026-10-24
+license: MIT
+keywords:
+  - redox biology
+  - sensory neurons
+  - pancreatic beta cells
+  - type 2 diabetes
+  - NicheNet
+  - transcriptomics

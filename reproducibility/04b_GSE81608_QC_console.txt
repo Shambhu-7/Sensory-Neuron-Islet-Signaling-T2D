@@ -1,0 +1,167 @@
+
+============================================
+SCRIPT 04b: GSE81608 SAMPLE MAPPING + QC
+============================================
+
+Raw matrix: 39851 genes x 1600 cells
+Metadata rows: 1600 
+
+Sample_N mapping: PASS
+
+============================================
+GEO ANCHOR VALIDATION
+============================================
+ sample_number expected_GSM matrix_column        GSM  donor_id    condition
+             1   GSM2157899      Sample_1 GSM2157899 Non T2D 1 non-diabetic
+           103   GSM2158001    Sample_103 GSM2158001 Non T2D 9 non-diabetic
+          1600   GSM2159558   Sample_1600 GSM2159558     T2D 6          T2D
+ cell_subtype PASS
+         beta TRUE
+         beta TRUE
+           PP TRUE
+
+Converting RPKM expression to matrix...
+Expression matrix: 39851 x 1600 
+
+Calculating detected genes per cell...
+
+============================================
+CELL QC
+============================================
+Cells before QC: 1600 
+Cells passing >=500 detected genes: 1600 
+Cells removed: 0 
+
+Cell type counts after cell QC:
+
+alpha  beta delta    PP 
+  946   503    58    93 
+
+Condition counts after cell QC:
+
+non-diabetic          T2D 
+         651          949 
+
+Calculating gene detection after cell QC...
+
+============================================
+GENE QC
+============================================
+Genes before QC: 39851 
+Genes detected in >=3 retained cells: 29510 
+Genes removed: 10341 
+
+============================================
+PUBLISHED-DIMENSION VALIDATION
+============================================
+Observed retained cells: 1600 
+Expected retained cells: 1492
+Observed retained genes: 29510 
+Expected retained genes: 28403
+Cell-count validation: CHECK 
+Gene-count validation: CHECK 
+
+Cell-type validation:
+ cell_subtype expected observed  PASS
+        alpha      886      946 FALSE
+         beta      472      503 FALSE
+        delta       49       58 FALSE
+           PP       85       93 FALSE
+
+============================================
+ENDOCRINE MARKER SANITY CHECK
+============================================
+ gene expected_celltype observed_top_celltype top_mean_RPKM PASS
+  INS              beta                  beta      60236.25 TRUE
+  GCG             alpha                 alpha     201969.22 TRUE
+  SST             delta                 delta     141316.95 TRUE
+  PPY                PP                    PP     111854.22 TRUE
+
+============================================
+DONOR BALANCE AFTER QC
+============================================
+   donor_id    condition cell_subtype n_cells
+  Non T2D 1 non-diabetic        alpha      56
+ Non T2D 10 non-diabetic        alpha      20
+ Non T2D 11 non-diabetic        alpha      49
+ Non T2D 12 non-diabetic        alpha      92
+  Non T2D 2 non-diabetic        alpha       4
+  Non T2D 3 non-diabetic        alpha      29
+  Non T2D 4 non-diabetic        alpha      15
+  Non T2D 5 non-diabetic        alpha      26
+  Non T2D 6 non-diabetic        alpha      38
+  Non T2D 7 non-diabetic        alpha       8
+  Non T2D 8 non-diabetic        alpha      14
+  Non T2D 9 non-diabetic        alpha      26
+      T2D 1          T2D        alpha      39
+      T2D 2          T2D        alpha      50
+      T2D 3          T2D        alpha      33
+      T2D 4          T2D        alpha     152
+      T2D 5          T2D        alpha     161
+      T2D 6          T2D        alpha     134
+  Non T2D 1 non-diabetic         beta      13
+ Non T2D 10 non-diabetic         beta      26
+ Non T2D 11 non-diabetic         beta      12
+ Non T2D 12 non-diabetic         beta      50
+  Non T2D 2 non-diabetic         beta      13
+  Non T2D 3 non-diabetic         beta      10
+  Non T2D 4 non-diabetic         beta      11
+  Non T2D 5 non-diabetic         beta      24
+  Non T2D 6 non-diabetic         beta       7
+  Non T2D 7 non-diabetic         beta      17
+  Non T2D 8 non-diabetic         beta      17
+  Non T2D 9 non-diabetic         beta       7
+      T2D 1          T2D         beta      12
+      T2D 2          T2D         beta      18
+      T2D 3          T2D         beta      29
+      T2D 4          T2D         beta     144
+      T2D 5          T2D         beta      12
+      T2D 6          T2D         beta      81
+  Non T2D 1 non-diabetic        delta       5
+ Non T2D 10 non-diabetic        delta       2
+ Non T2D 11 non-diabetic        delta       1
+ Non T2D 12 non-diabetic        delta       2
+  Non T2D 2 non-diabetic        delta       2
+  Non T2D 3 non-diabetic        delta       3
+  Non T2D 5 non-diabetic        delta       5
+  Non T2D 6 non-diabetic        delta       4
+  Non T2D 8 non-diabetic        delta       3
+  Non T2D 9 non-diabetic        delta       1
+      T2D 1          T2D        delta       4
+      T2D 2          T2D        delta       5
+      T2D 3          T2D        delta       4
+      T2D 4          T2D        delta       8
+      T2D 5          T2D        delta       1
+      T2D 6          T2D        delta       8
+  Non T2D 1 non-diabetic           PP       3
+ Non T2D 10 non-diabetic           PP       1
+ Non T2D 11 non-diabetic           PP       1
+  Non T2D 2 non-diabetic           PP       5
+  Non T2D 3 non-diabetic           PP       2
+  Non T2D 4 non-diabetic           PP       5
+  Non T2D 5 non-diabetic           PP       2
+  Non T2D 6 non-diabetic           PP       1
+  Non T2D 7 non-diabetic           PP       4
+  Non T2D 8 non-diabetic           PP      11
+  Non T2D 9 non-diabetic           PP       4
+      T2D 1          T2D           PP      36
+      T2D 2          T2D           PP      10
+      T2D 3          T2D           PP       3
+      T2D 4          T2D           PP       2
+      T2D 5          T2D           PP       2
+      T2D 6          T2D           PP       1
+
+============================================
+FINAL GSE81608 QC VALIDATION
+============================================
+Sample mapping anchors: PASS 
+1492-cell validation: CHECK 
+28403-gene validation: CHECK 
+Cell-type counts: CHECK 
+Endocrine marker identities: PASS 
+
+OVERALL: CHECK 
+
+============================================
+SCRIPT 04b COMPLETED SUCCESSFULLY
+============================================

@@ -1,0 +1,3 @@
+"gene_set","n_prespecified","n_represented","n_tested_edgeR","n_same_direction","fraction_same_direction","exact_binomial_one_sided_P","n_validation_P_lt_0.05","n_validation_FDR_lt_0.05","spearman_rho_original_vs_validation_logFC","spearman_P"
+"Primary_27_gene_receiver_program",27,19,19,14,0.736842105263158,0.0317840576171875,9,5,0.733333333333333,0.000353424638132773
+"High_confidence_10_gene_core",10,7,7,6,0.857142857142857,0.0625,4,2,0.0714285714285714,0.879048193148154

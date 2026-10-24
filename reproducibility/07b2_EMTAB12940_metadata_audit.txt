@@ -1,0 +1,452 @@
+============================================
+SCRIPT 07b2: CORRECT TRACE-N-SEQ METADATA PARSING
+============================================
+
+Batch 1 dimensions: 1926 x 35 
+Batch 2 dimensions: 2046 x 29 
+
+Batch 1 columns:
+ [1] "sum"                          "detected"                    
+ [3] "total"                        "CellName"                    
+ [5] "CellString"                   "CellID"                      
+ [7] "WellID"                       "Lane"                        
+ [9] "Ganglion"                     "MouseModel"                  
+[11] "FastBlue"                     "Tumor"                       
+[13] "CellLine"                     "InnervatingTissue"           
+[15] "Replicate"                    "Is_Cell"                     
+[17] "mito_percent"                 "percent_nofeature"           
+[19] "percent_ambiguous"            "percent_too_low_qual"        
+[21] "percent_not_aligned"          "percent_not_unique"          
+[23] "percent_good"                 "is_cell"                     
+[25] "sizeFactor"                   "ClusterNew"                  
+[27] "AnnotatedCellType"            "AnnotatedCellTypeScore"      
+[29] "AnnotatedSubCellType"         "AnnotatedSubCellTypeScore"   
+[31] "AnnotatedCellType_SingleR"    "AnnotatedSubCellType_SingleR"
+[33] "AnnotatedCellTypeSharma"      "AnnotationError"             
+[35] "CellTypeCGsub"               
+
+Batch 2 columns:
+ [1] "sum"                     "detected"               
+ [3] "total"                   "CellName"               
+ [5] "CellString"              "CellID"                 
+ [7] "WellID"                  "Lane"                   
+ [9] "Ganglion"                "MouseModel"             
+[11] "FastBlue"                "Tumor"                  
+[13] "CellLine"                "InnervatingTissue"      
+[15] "Replicate"               "Is_Cell"                
+[17] "mito_percent"            "percent_nofeature"      
+[19] "percent_ambiguous"       "percent_too_low_qual"   
+[21] "percent_not_aligned"     "percent_not_unique"     
+[23] "percent_good"            "is_cell"                
+[25] "sizeFactor"              "ClusterNew"             
+[27] "AnnotatedCellType"       "AnnotatedSubCellType"   
+[29] "AnnotatedCellTypeSharma"
+
+
+============================================
+SMARTSEQ BATCH 1 
+============================================
+
+--- Ganglion ---
+
+  CG  DRG 
+1168  758 
+
+--- MouseModel ---
+
+ NSG   B6  B6J 
+1490  242  194 
+
+--- FastBlue ---
+
+ FB+  FB- 
+1906   20 
+
+--- Tumor ---
+
+           None       Xenograft Electroporation         Healthy PACO10_resected 
+            736             679             194             162              91 
+         PACO10 
+             64 
+
+--- CellLine ---
+
+           None          PACO10          PACO43         Healthy PACO10_resected 
+            930             480             211             162              91 
+      Xenograft 
+             52 
+
+--- InnervatingTissue ---
+
+    Pancreas       Cancer   Peritoneum       Spleen          Gut skin_distant 
+         673          612          367          110          104           33 
+       Colon 
+          27 
+
+--- Replicate ---
+
+<NA>    ?    1    3    4    5 
+1601  317    4    2    1    1 
+
+--- Is_Cell ---
+
+FALSE  TRUE 
+ 1227   699 
+
+--- is_cell ---
+TRUE 
+1926 
+
+--- ClusterNew ---
+
+  4   7   2   6   1   5   3  10   8  11   9  12  14  16  15  17 
+312 218 183 163 140 139 122 114 104  99  83  65  59  52  47  26 
+
+--- AnnotatedCellType ---
+
+         Sympathetic noradrenergic neurons 
+                                      1130 
+  Peripheral sensory neurofilament neurons 
+                                       467 
+    Peripheral sensory peptidergic neurons 
+                                       172 
+Peripheral sensory non-peptidergic neurons 
+                                       123 
+                           Enteric neurons 
+                                        23 
+                              Enteric glia 
+                                         7 
+           Sympathetic cholinergic neurons 
+                                         2 
+                           Ependymal cells 
+                                         1 
+                            Satellite glia 
+                                         1 
+
+--- AnnotatedSubCellType ---
+
+SYNOR4 SYNOR3 SYNOR1  PSNF2  PSNF3 PSPEP1  PSNF1  PSNP3 PSPEP2  PSNP4  PSNP1 
+   391    385    353    250    144    130     73     59     31     21     20 
+  ENT4  PSNP2  ENTG5 PSPEP3  PSNP5  PSNP6 PSPEP4   ENT3   ENT7 PSPEP5 SYCHO1 
+    19     16      6      5      4      3      3      2      2      2      2 
+ ENTG2   EPEN PSPEP6  SATG2 SYNOR5 
+     1      1      1      1      1 
+
+--- AnnotatedCellTypeSharma ---
+
+                 CGRPBeta            Proprioceptors              AbetaRA.LTMR 
+                     1030                       177                       156 
+                CGRPGamma                AbetaField Nonpeptidergicnociceptors 
+                      155                        89                        76 
+                 CGRPZeta                   CGRPEta                AdeltaLTMR 
+                       66                        62                        48 
+                CGRPTheta                     CLTMR                   Unknown 
+                       22                        19                        13 
+             CGRPEpsilion                 CGRPAlpha                       Sst 
+                        6                         4                         2 
+                    TrpM8 
+                        1 
+
+===== GANGLION x INNERVATING TISSUE =====
+        Tissue
+Ganglion Cancer Colon Gut Pancreas Peritoneum skin_distant Spleen
+     CG     455    26 104      376        100            8     99
+     DRG    157     1   0      297        267           25     11
+
+===== GANGLION x MOUSE MODEL =====
+        Model
+Ganglion  B6 B6J NSG
+     CG  165 146 857
+     DRG  77  48 633
+
+===== PANCREAS-LABELLED ROWS =====
+Total: 673 
+
+Ganglion:
+
+ CG DRG 
+376 297 
+
+Mouse model:
+
+ B6 NSG 
+242 431 
+
+Tumor field:
+
+        Healthy            None          PACO10 PACO10_resected 
+            162             356              64              91 
+
+CellLine:
+
+        Healthy            None          PACO10 PACO10_resected 
+            162             356              64              91 
+
+FastBlue:
+
+FB- FB+ 
+ 20 653 
+
+Annotated cell type:
+
+         Sympathetic noradrenergic neurons 
+                                       358 
+  Peripheral sensory neurofilament neurons 
+                                       190 
+    Peripheral sensory peptidergic neurons 
+                                        72 
+Peripheral sensory non-peptidergic neurons 
+                                        37 
+                              Enteric glia 
+                                         7 
+                           Enteric neurons 
+                                         7 
+                           Ependymal cells 
+                                         1 
+                            Satellite glia 
+                                         1 
+
+Annotated subtype:
+
+SYNOR4 SYNOR3  PSNF2 SYNOR1 PSPEP1  PSNF3  PSNF1  PSNP3 PSPEP2   ENT4  ENTG5 
+   132    127    119     99     54     40     31     20     17      7      6 
+ PSNP1  PSNP4  PSNP5  PSNP6  ENTG2   EPEN  PSNP2 PSPEP3  SATG2 
+     6      6      2      2      1      1      1      1      1 
+
+===== JNG / VAGAL TERMINOLOGY SEARCH =====
+JNG : 0 
+jugular : 0 
+nodose : 0 
+vagus : 0 
+vagal : 0 
+
+
+============================================
+SMARTSEQ BATCH 2 
+============================================
+
+--- Ganglion ---
+
+ DRG   CG   NG   ST Test 
+1005  689  218  132    2 
+
+--- MouseModel ---
+
+     B6     NSG Unclear 
+    832     648     566 
+
+--- FastBlue ---
+ FB+ 
+2046 
+
+--- Tumor ---
+
+                   Pankreas                        Ctrl 
+                        854                         186 
+                    Melanom              Xenograft Ctrl 
+                        151                         144 
+             Xenograft_male Xenograft 6OHDA+Oxaliplatin 
+                        134                         117 
+                   Pancreas                    Melanoma 
+                        106                         105 
+                       None       Xenograft Oxaliplatin 
+                         96                          80 
+                     PACO10                         KPC 
+                         65                           6 
+                  Xenograft 
+                          2 
+
+--- CellLine ---
+
+    None   PACO10  Melanom      KPC Pancreas Pankreas 
+     931      542      256      192      106       19 
+
+--- InnervatingTissue ---
+
+                  Tumor Pankreas + Pankreatitis                Pankreas 
+                    979                     575                     279 
+               subcutan                Pancreas                  PACO10 
+                     96                      71                      40 
+                    KPC 
+                      6 
+
+--- Replicate ---
+
+  m1   m2   m3 None   m4 Test 
+ 751  624  437  134   98    2 
+
+--- Is_Cell ---
+
+ TRUE FALSE 
+ 2025    21 
+
+--- is_cell ---
+TRUE 
+2046 
+
+--- ClusterNew ---
+
+  1   5   4  11  10   7  15   3   8   2  12   9   6  16  18  14  13  17 
+241 233 222 166 136 135 116 111 106  99  99  83  77  76  58  56  31   1 
+
+--- AnnotatedCellType ---
+
+         Sympathetic noradrenergic neurons 
+                                       763 
+  Peripheral sensory neurofilament neurons 
+                                       547 
+    Peripheral sensory peptidergic neurons 
+                                       397 
+Peripheral sensory non-peptidergic neurons 
+                                       210 
+                            Satellite glia 
+                                        63 
+                           Enteric neurons 
+                                        23 
+                             Schwann cells 
+                                        12 
+                              Enteric glia 
+                                         9 
+              Vascular smooth muscle cells 
+                                         8 
+     Cholinergic and monoaminergic neurons 
+                                         4 
+                Vascular endothelial cells 
+                                         3 
+                         Hindbrain neurons 
+                                         2 
+         Vascular and leptomeningeal cells 
+                                         2 
+                  Choroid epithelial cells 
+                                         1 
+                                 Pericytes 
+                                         1 
+           Sympathetic cholinergic neurons 
+                                         1 
+
+--- AnnotatedSubCellType ---
+
+SYNOR4 SYNOR3 PSPEP1  PSNF3  PSNF1  PSNF2 PSPEP2  PSNP3 SYNOR1  SATG2  PSNP1 
+   347    261    212    203    176    168    164    151    151     63     23 
+PSPEP3   ENT9  PSNP5   SCHW  PSNP4  PSNP6   ENT4  ENTG5  VSMCA HBCHO3  PSNP2 
+    20     17     13     12     11      9      5      5      5      4      3 
+SYNOR2   VECA   VECV    ABC  ENTG7 HBGLU9   CHOR   ENT8  ENTG2  ENTG6   PER2 
+     3      3      3      2      2      2      1      1      1      1      1 
+PSPEP8 SYCHO1 SYNOR5 
+     1      1      1 
+
+--- AnnotatedCellTypeSharma ---
+
+                 CGRPBeta                 CGRPGamma              AbetaRA.LTMR 
+                      721                       230                       186 
+Nonpeptidergicnociceptors                AbetaField            Proprioceptors 
+                      154                       146                       123 
+                 CGRPZeta                AdeltaLTMR                   CGRPEta 
+                      118                       104                        96 
+                      Sst              CGRPEpsilion                     CLTMR 
+                       62                        25                        23 
+                CGRPTheta                 CGRPAlpha                   Unknown 
+                       22                        18                        16 
+                    TrpM8 
+                        2 
+
+===== GANGLION x INNERVATING TISSUE =====
+        Tissue
+Ganglion KPC PACO10 Pancreas Pankreas Pankreas + Pankreatitis subcutan Tumor
+    CG     6      0        0       82                     288        0   313
+    DRG    0      0        0      150                     259       90   506
+    NG     0     40       71       47                       0        0    60
+    ST     0      0        0        0                      28        6    98
+    Test   0      0        0        0                       0        0     2
+
+===== GANGLION x MOUSE MODEL =====
+        Model
+Ganglion  B6 NSG Unclear
+    CG   294 313      82
+    DRG  434 162     409
+    NG     0 171      47
+    ST   104   0      28
+    Test   0   2       0
+
+===== PANCREAS-LABELLED ROWS =====
+Total: 71 
+
+Ganglion:
+
+NG 
+71 
+
+Mouse model:
+
+NSG 
+ 71 
+
+Tumor field:
+
+Pancreas 
+      71 
+
+CellLine:
+
+Pancreas 
+      71 
+
+FastBlue:
+
+FB+ 
+ 71 
+
+Annotated cell type:
+
+  Peripheral sensory peptidergic neurons 
+                                      43 
+                          Satellite glia 
+                                      13 
+                         Enteric neurons 
+                                       8 
+   Cholinergic and monoaminergic neurons 
+                                       3 
+Peripheral sensory neurofilament neurons 
+                                       3 
+                       Hindbrain neurons 
+                                       1 
+
+Annotated subtype:
+
+PSPEP2  SATG2   ENT9 HBCHO3 PSPEP3  PSNF2   ENT8 HBGLU9  PSNF1 PSPEP1 
+    39     13      7      3      3      2      1      1      1      1 
+
+===== JNG / VAGAL TERMINOLOGY SEARCH =====
+JNG : 0 
+jugular : 0 
+nodose : 0 
+vagus : 0 
+vagal : 0 
+
+
+============================================
+COMBINED BASIC COUNTS
+============================================
+Total rows across both batches: 3972 
+
+Combined Ganglion counts:
+vals
+  CG  DRG   NG   ST Test 
+1857 1763  218  132    2 
+
+Combined InnervatingTissue counts:
+vals
+                  Tumor                Pancreas                  Cancer 
+                    979                     744                     612 
+Pankreas + Pankreatitis              Peritoneum                Pankreas 
+                    575                     367                     279 
+                 Spleen                     Gut                subcutan 
+                    110                     104                      96 
+                 PACO10            skin_distant                   Colon 
+                     40                      33                      27 
+                    KPC 
+                      6 
+
+============================================
+SCRIPT 07b2 COMPLETED SUCCESSFULLY
+============================================

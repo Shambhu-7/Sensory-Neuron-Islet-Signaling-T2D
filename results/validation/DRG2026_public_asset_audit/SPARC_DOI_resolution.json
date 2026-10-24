@@ -1,0 +1,14 @@
+[
+  {
+    "doi": "10.26275/vz0c-uet7",
+    "http_status": 200,
+    "final_url": "https://sparc.science/datasets/490/version/1",
+    "content_type": "text/html;charset=utf-8"
+  },
+  {
+    "doi": "10.26275/0jnf-7wq9",
+    "http_status": 404,
+    "final_url": "https://doi.org/10.26275/0jnf-7wq9",
+    "content_type": "text/html;charset=utf-8"
+  }
+]

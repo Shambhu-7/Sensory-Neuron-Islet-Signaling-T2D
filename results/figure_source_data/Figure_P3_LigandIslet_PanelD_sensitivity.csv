@@ -1,0 +1,6 @@
+"metric","value","label"
+"Primary LR pairs reproduced",1,"90/90"
+"Primary ligands retained",1,"45/45"
+"Pair-level classification agreement",0.974063400576369,"97.4%"
+"13-candidate β-cell support reproduced",1,"13/13"
+"13-candidate strong support reproduced",0.692307692307692,"9/13"

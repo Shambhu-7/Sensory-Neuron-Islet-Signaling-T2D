@@ -1,0 +1,39 @@
+========================================================================
+SCRIPT 19 — PAPER 3 REPRODUCIBILITY RELEASE BUILDER
+Inventory/package only; NO statistical recalculation
+========================================================================
+WARNING: Yadav_Paper3_Source_Data.xlsx not found in project root or Downloads.
+         Release will still be built; copy the workbook into the project and rerun before final publication.
+
+========================================================================
+RELEASE AUDIT
+========================================================================
+Scripts copied: 55
+Reproducibility records copied: 91
+Frozen result tables copied: 229
+Processed inputs added to Zenodo package: 23
+Source Data workbook included: False
+GitHub package files: 384
+GitHub package size: 60.28 MB
+Zenodo package files: 408
+Zenodo package size: 280.75 MB
+GitHub files >=100 MB: 0
+Potential secret-pattern hits: 5
+  REVIEW: ('scripts/19_build_reproducibility_release.py', 'ghp_')
+  REVIEW: ('scripts/19_build_reproducibility_release.py', 'github_pat_')
+  REVIEW: ('scripts/19_build_reproducibility_release.py', 'BEGIN PRIVATE KEY')
+  REVIEW: ('scripts/19_build_reproducibility_release.py', 'AWS_SECRET_ACCESS_KEY')
+  REVIEW: ('scripts/19_build_reproducibility_release.py', 'ZENODO_TOKEN')
+
+GitHub ZIP: /Users/shambhuyadav/Desktop/RNA3.0/Paper3_Sensory_Islet/release_v1.0.0/Yadav_Paper3_GitHub_Release_v1.0.0.zip
+SHA256: b93968f75cfa29d5d81945fa2ab4ceda4576ca2c3abf67cc40fb2f400664a4d3
+
+Zenodo ZIP: /Users/shambhuyadav/Desktop/RNA3.0/Paper3_Sensory_Islet/release_v1.0.0/Yadav_Paper3_Zenodo_Reproducibility_v1.0.0.zip
+SHA256: 673bee3c5fe569500039cfa8badadc1e190dc94b89e9cc4c5b011a51550aca7f
+
+Audit JSON: /Users/shambhuyadav/Desktop/RNA3.0/Paper3_Sensory_Islet/release_v1.0.0/release_audit.json
+========================================================================
+RELEASE STATUS: REVIEW REQUIRED
+- Source Data workbook missing from release.
+- Potential secret/token strings require review before upload.
+========================================================================

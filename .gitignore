@@ -1,0 +1,11 @@
+# Raw public datasets and large local objects
+data/raw/
+*.h5ad
+*.h5
+*.rds
+*.RData
+*.Rhistory
+.DS_Store
+.venv/
+__pycache__/
+release_v1.0.0/

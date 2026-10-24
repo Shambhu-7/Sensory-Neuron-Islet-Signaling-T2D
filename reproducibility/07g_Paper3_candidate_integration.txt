@@ -1,0 +1,171 @@
+====================================================
+SCRIPT 07g: PAPER 3 FINAL CANDIDATE EVIDENCE INTEGRATION
+====================================================
+
+All required input files: PASS
+
+Sensory-source HC shortlist: 13 rows
+Ligand column identified as: ligand 
+Unique candidate ligands in LR table: 13 
+
+NicheNet primary evaluable sensory ligands: 10 
+NicheNet core evaluable sensory ligands: 10 
+
+Trace-n-Seq candidates: 13 
+
+
+====================================================
+FINAL 13-CANDIDATE EVIDENCE INTEGRATION
+====================================================
+ HumanGene                         Evidence_Class NicheNet_Primary_Rank
+    SEMA7A              Lead integrated candidate                     4
+     EDIL3              Lead integrated candidate                     8
+     FLRT3         NicheNet-prioritized candidate                     2
+       PGF         NicheNet-prioritized candidate                     1
+      SPP1             Reference/established axis                     5
+     RSPO2                    Secondary candidate                     9
+       SST Secondary subtype-restricted candidate                     3
+    LGALS8                    Secondary candidate                    NA
+     CNTN2                    Secondary candidate                    10
+      PPIA      Secondary/non-classical candidate                    NA
+     RPH3A           Mechanistic-caveat candidate                    NA
+     FGF13           Mechanistic-caveat candidate                     7
+     FGF12           Mechanistic-caveat candidate                     6
+ NicheNet_Primary_AUPR_corrected NicheNet_Core_Rank
+                      0.00052223                  3
+                      0.00025971                  5
+                      0.00069618                  2
+                      0.00076250                  1
+                      0.00045703                  7
+                      0.00013236                  4
+                      0.00055653                  6
+                              NA                 NA
+                     -0.00001365                 10
+                              NA                 NA
+                              NA                 NA
+                      0.00029760                  8
+                      0.00036983                  9
+ NicheNet_Core_AUPR_corrected DRG_Batch1_PctDetected DRG_Batch2_PctDetected
+                   2.1692e-04                77.8947                55.5556
+                   1.6497e-04                97.8947                97.2222
+                   2.2015e-04                58.9474                85.4167
+                   4.5080e-04                54.7368                25.6944
+                   1.7347e-05                58.9474                25.6944
+                   1.9153e-04                76.8421                85.4167
+                   3.8964e-05                 1.0526                 4.1667
+                           NA                94.7368                99.3056
+                  -9.7975e-05               100.0000               100.0000
+                           NA               100.0000               100.0000
+                           NA                98.9474                97.2222
+                  -4.6299e-05                95.7895                98.6111
+                  -8.4962e-05                94.7368                99.3056
+ DRG_Combined_PctDetected NG_PctDetected
+                  64.4351         43.103
+                  97.4895        100.000
+                  74.8954         86.207
+                  37.2385         37.931
+                  38.9121         12.069
+                  82.0084         65.517
+                   2.9289         13.793
+                  97.4895         96.552
+                 100.0000        100.000
+                 100.0000         98.276
+                  97.9079         63.793
+                  97.4895         98.276
+                  97.4895         98.276
+                DRG_Dominant_SensorySubtype DRG_DominantSubtype_PctDetected
+   Peripheral sensory neurofilament neurons                         92.9204
+   Peripheral sensory neurofilament neurons                        100.0000
+ Peripheral sensory non-peptidergic neurons                         91.0256
+   Peripheral sensory neurofilament neurons                         63.7168
+   Peripheral sensory neurofilament neurons                         69.0265
+ Peripheral sensory non-peptidergic neurons                         91.0256
+ Peripheral sensory non-peptidergic neurons                          5.1282
+     Peripheral sensory peptidergic neurons                        100.0000
+     Peripheral sensory peptidergic neurons                        100.0000
+     Peripheral sensory peptidergic neurons                        100.0000
+     Peripheral sensory peptidergic neurons                        100.0000
+     Peripheral sensory peptidergic neurons                        100.0000
+   Peripheral sensory neurofilament neurons                         99.1150
+ NicheNet_Evaluable NicheNet_Positive_Both TraceNSeq_DRG_Replicated
+               TRUE                   TRUE                     TRUE
+               TRUE                   TRUE                     TRUE
+               TRUE                   TRUE                     TRUE
+               TRUE                   TRUE                     TRUE
+               TRUE                   TRUE                     TRUE
+               TRUE                   TRUE                     TRUE
+               TRUE                   TRUE                     TRUE
+              FALSE                  FALSE                     TRUE
+               TRUE                  FALSE                     TRUE
+              FALSE                  FALSE                     TRUE
+              FALSE                  FALSE                     TRUE
+               TRUE                  FALSE                     TRUE
+               TRUE                  FALSE                     TRUE
+ Original_GSE295206_Highlight
+                        FALSE
+                        FALSE
+                        FALSE
+                        FALSE
+                         TRUE
+                        FALSE
+                        FALSE
+                        FALSE
+                        FALSE
+                        FALSE
+                        FALSE
+                        FALSE
+                        FALSE
+
+====================================================
+MAIN MANUSCRIPT CANDIDATES
+====================================================
+ HumanGene                                       Main_Interpretation
+    SEMA7A                    Lead integrated cross-tissue candidate
+     EDIL3                    Lead integrated cross-tissue candidate
+     FLRT3               NicheNet-prioritized cross-tissue candidate
+       PGF               NicheNet-prioritized cross-tissue candidate
+      SPP1 Reference axis highlighted in original diabetic DRG study
+ NicheNet_Primary_Rank NicheNet_Core_Rank DRG_Combined_PctDetected
+                     4                  3                   64.435
+                     8                  5                   97.490
+                     2                  2                   74.895
+                     1                  1                   37.238
+                     5                  7                   38.912
+ NG_PctDetected                DRG_Dominant_SensorySubtype
+         43.103   Peripheral sensory neurofilament neurons
+        100.000   Peripheral sensory neurofilament neurons
+         86.207 Peripheral sensory non-peptidergic neurons
+         37.931   Peripheral sensory neurofilament neurons
+         12.069   Peripheral sensory neurofilament neurons
+ DRG_DominantSubtype_PctDetected
+                          92.920
+                         100.000
+                          91.026
+                          63.717
+                          69.027
+                                                         Signaling_Curation
+                                    GPI-anchored membrane signaling protein
+                                       Extracellular matrix/integrin ligand
+ Transmembrane adhesion/signaling protein; contact-dependent interpretation
+                                                Extracellular growth factor
+                                   Secreted extracellular signaling protein
+
+====================================================
+AUDIT
+====================================================
+Candidates expected: 13 
+Candidates integrated: 13 
+NicheNet evaluable: 10 / 13 
+Positive corrected AUPR in BOTH receiver analyses: 7 / 13 
+Detected in BOTH pancreas-traced DRG batches: 13 / 13 
+Main manuscript candidates: SEMA7A, EDIL3, FLRT3, PGF, SPP1 
+
+Output files:
+  results/integration/Table_P3_Final_13Candidate_EvidenceIntegration.csv
+  results/integration/Table_P3_Final_MainCandidate_Hierarchy.csv
+  results/integration/Table_P3_Final_SensorySubtypeEvidence.csv
+  data/processed/Paper3_final_candidate_evidence_integration.rds
+
+====================================================
+SCRIPT 07g COMPLETED SUCCESSFULLY
+====================================================

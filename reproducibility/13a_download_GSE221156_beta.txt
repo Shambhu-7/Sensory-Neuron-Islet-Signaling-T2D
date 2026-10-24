@@ -1,0 +1,40 @@
+======================================================================
+GSE221156 / CELLxGENE BETA-CELL DATASET DOWNLOAD
+======================================================================
+
+Querying CELLxGENE collection...
+Collection:
+A pancreatic islet scRNA-seq atlas from 48 non-diabetic, prediabetic and type 2 diabetic individuals of matched demographic and ethnic backgrounds
+
+Datasets in collection: 4
+1. Integrated transcriptomes of the 14 pancreatic islet cell types
+   dataset_id: e51bae9a-c747-4b64-904a-4da7cda218ab
+   cell_count: 245878
+2. Reintegrated transcriptomes of Alpha pancreatic islet cells
+   dataset_id: a19438aa-ef9a-4e9b-abb6-5a1357123bb8
+   cell_count: 74812
+3. Reintegrated transcriptomes of Delta pancreatic islet cells
+   dataset_id: 7e9bde96-b4d1-43d3-a5fe-dde6c4a6dc47
+   cell_count: 10770
+4. Reintegrated transcriptomes of Beta pancreatic islet cells
+   dataset_id: 6d452161-70af-43dd-988c-e3c4050d31e8
+   cell_count: 99029
+
+Selected beta-cell dataset:
+Title: Reintegrated transcriptomes of Beta pancreatic islet cells
+Dataset ID: 6d452161-70af-43dd-988c-e3c4050d31e8
+Cell count: 99029
+
+H5AD asset found.
+Output: data/raw/GSE221156/GSE221156_Beta_processed_CELLxGENE.h5ad
+
+File already exists; download skipped.
+
+Downloaded bytes: 1747451904
+Downloaded MB: 1666.5
+
+Provenance record: data/raw/GSE221156/GSE221156_CELLxGENE_download_record.json
+
+======================================================================
+SCRIPT 13a COMPLETE
+======================================================================

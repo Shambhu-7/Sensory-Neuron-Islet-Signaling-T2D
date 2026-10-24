@@ -1,0 +1,203 @@
+Warning message:
+replacing previous import ‘e1071::element’ by ‘ggplot2::element’ when loading ‘nichenetr’ 
+==============================================================================
+SCRIPT 16a — GSE221156 INDEPENDENT NICHE-NET REPLICATION
+==============================================================================
+nichenetr version: 2.2.0 
+
+INPUT FILES: PASS
+  results/validation/GSE221156/Table_P3_GSE221156_Beta_T2D_vs_Normal_edgeR.csv
+  data/raw/NicheNet/ligand_target_matrix_nsga2r_final.rds
+
+==============================================================================
+FROZEN NICHE-NET PRIOR
+==============================================================================
+File: data/raw/NicheNet/ligand_target_matrix_nsga2r_final.rds 
+Observed MD5: b09606b04b2d4490418d9028c0e58b9f 
+Expected MD5: b09606b04b2d4490418d9028c0e58b9f 
+Matrix: 33354 targets x 1226 ligands
+Frozen prior verification: PASS
+
+==============================================================================
+INDEPENDENT GSE221156 RECEIVER DEFINITION
+==============================================================================
+Genes tested by edgeR: 15639 
+Independent receiver raw: 796 
+  T2D-up: 457 
+  T2D-down: 339 
+
+==============================================================================
+RECEIVER / BACKGROUND OVERLAP
+==============================================================================
+GSE221156 edgeR tested genes: 15639 
+NicheNet-compatible background: 13712 
+Independent receiver raw: 796 
+Independent receiver in NicheNet: 697 
+Independent receiver absent from NicheNet: 99 
+
+==============================================================================
+FIXED LIGAND OVERLAP
+==============================================================================
+Sensory-source candidates raw: 13 
+Sensory-source candidates in NicheNet: 10 
+Sensory-source candidates absent from NicheNet: 3 
+Absent sensory ligands: RPH3A;PPIA;LGALS8 
+
+==============================================================================
+RUNNING INDEPENDENT NICHE-NET REPLICATION
+==============================================================================
+
+INDEPENDENT NICHE-NET RANKING
+ test_ligand     auroc       aupr aupr_corrected     pearson
+       EDIL3 0.5529413 0.06886632    0.018034928 0.046350614
+       FLRT3 0.5444692 0.06492224    0.014090847 0.038536744
+      SEMA7A 0.5440083 0.06307689    0.012245500 0.033154803
+         PGF 0.5323715 0.06144216    0.010610772 0.024828623
+       RSPO2 0.5438952 0.06076104    0.009929649 0.029156540
+         SST 0.5274039 0.05994196    0.009110568 0.024381595
+       FGF12 0.5265374 0.05927436    0.008442968 0.020608134
+       FGF13 0.5184112 0.05877552    0.007944134 0.017460091
+        SPP1 0.5237788 0.05829430    0.007462913 0.011661890
+       CNTN2 0.4964673 0.05482325    0.003991859 0.008392997
+ rank_aupr_corrected positive_aupr_corrected
+                   1                    TRUE
+                   2                    TRUE
+                   3                    TRUE
+                   4                    TRUE
+                   5                    TRUE
+                   6                    TRUE
+                   7                    TRUE
+                   8                    TRUE
+                   9                    TRUE
+                  10                    TRUE
+                              analysis
+ GSE221156_Independent_T2D_Receiver796
+ GSE221156_Independent_T2D_Receiver796
+ GSE221156_Independent_T2D_Receiver796
+ GSE221156_Independent_T2D_Receiver796
+ GSE221156_Independent_T2D_Receiver796
+ GSE221156_Independent_T2D_Receiver796
+ GSE221156_Independent_T2D_Receiver796
+ GSE221156_Independent_T2D_Receiver796
+ GSE221156_Independent_T2D_Receiver796
+ GSE221156_Independent_T2D_Receiver796
+
+==============================================================================
+DISCOVERY -> INDEPENDENT VALIDATION COMPARISON
+==============================================================================
+ test_ligand discovery_rank discovery_aupr_corrected validation_rank
+         PGF              1             7.624951e-04               4
+       FLRT3              2             6.961810e-04               2
+         SST              3             5.565271e-04               6
+      SEMA7A              4             5.222301e-04               3
+        SPP1              5             4.570261e-04               9
+       FGF12              6             3.698300e-04               7
+       FGF13              7             2.975972e-04               8
+       EDIL3              8             2.597106e-04               1
+       RSPO2              9             1.323636e-04               5
+       CNTN2             10            -1.365005e-05              10
+ validation_aupr_corrected validation_positive_aupr_corrected
+               0.010610772                               TRUE
+               0.014090847                               TRUE
+               0.009110568                               TRUE
+               0.012245500                               TRUE
+               0.007462913                               TRUE
+               0.008442968                               TRUE
+               0.007944134                               TRUE
+               0.018034928                               TRUE
+               0.009929649                               TRUE
+               0.003991859                               TRUE
+ rank_change_validation_minus_discovery discovery_positive_aupr_corrected
+                                      3                              TRUE
+                                      0                              TRUE
+                                      3                              TRUE
+                                     -1                              TRUE
+                                      4                              TRUE
+                                      1                              TRUE
+                                      1                              TRUE
+                                     -7                              TRUE
+                                     -4                              TRUE
+                                      0                             FALSE
+ positive_in_both
+             TRUE
+             TRUE
+             TRUE
+             TRUE
+             TRUE
+             TRUE
+             TRUE
+             TRUE
+             TRUE
+            FALSE
+
+RANK REPLICATION
+Spearman rho: 0.38182 
+Spearman P: 2.7626e-01 
+Discovery top 5: PGF, FLRT3, SST, SEMA7A, SPP1 
+Validation top 5: EDIL3, FLRT3, SEMA7A, PGF, RSPO2 
+Top-5 overlap: 3 / 5
+Shared top-5 ligands: PGF, FLRT3, SEMA7A 
+
+MAIN MANUSCRIPT CANDIDATES
+ test_ligand discovery_rank discovery_aupr_corrected validation_rank
+      SEMA7A              4             0.0005222301               3
+       EDIL3              8             0.0002597106               1
+       FLRT3              2             0.0006961810               2
+         PGF              1             0.0007624951               4
+        SPP1              5             0.0004570261               9
+ validation_aupr_corrected validation_positive_aupr_corrected
+               0.012245500                               TRUE
+               0.018034928                               TRUE
+               0.014090847                               TRUE
+               0.010610772                               TRUE
+               0.007462913                               TRUE
+ rank_change_validation_minus_discovery discovery_positive_aupr_corrected
+                                     -1                              TRUE
+                                     -7                              TRUE
+                                      0                              TRUE
+                                      3                              TRUE
+                                      4                              TRUE
+ positive_in_both
+             TRUE
+             TRUE
+             TRUE
+             TRUE
+             TRUE
+
+SUMMARY
+                                           metric        value
+                     GSE221156_edgeR_tested_genes 1.563900e+04
+                         Independent_receiver_raw 7.960000e+02
+                      Independent_receiver_T2D_up 4.570000e+02
+                    Independent_receiver_T2D_down 3.390000e+02
+                              NicheNet_background 1.371200e+04
+                 Independent_receiver_in_NicheNet 6.970000e+02
+                          Fixed_candidate_ligands 1.300000e+01
+                 Candidates_evaluable_in_NicheNet 1.000000e+01
+    Candidates_positive_corrected_AUPR_validation 1.000000e+01
+ Candidates_positive_corrected_AUPR_both_datasets 9.000000e+00
+        Spearman_rho_discovery_vs_validation_rank 3.818182e-01
+          Spearman_P_discovery_vs_validation_rank 2.762553e-01
+                                   Top5_overlap_n 3.000000e+00
+
+==============================================================================
+OUTPUT FILES
+==============================================================================
+  results/validation/GSE221156/NicheNet_replication/Table_P3_GSE221156_Independent_NicheNet_13Candidates.csv
+  results/validation/GSE221156/NicheNet_replication/Table_P3_GSE221156_vs_GSE81608_NicheNet_RankReplication.csv
+  results/validation/GSE221156/NicheNet_replication/Table_P3_GSE221156_NicheNet_MainCandidates.csv
+  results/validation/GSE221156/NicheNet_replication/Table_P3_GSE221156_NicheNet_ReplicationSummary.csv
+  results/validation/GSE221156/NicheNet_replication/Table_P3_GSE221156_Independent_Receiver796.csv
+  data/processed/GSE221156_Independent_NicheNet_16a.rds
+  reproducibility/16a_GSE221156_independent_NicheNet_sessionInfo.txt
+
+INTERPRETATION GUARDRAIL
+  GSE221156 was used to define an independent beta-cell T2D receiver program.
+  The 13 sensory-source ligands were fixed before this validation analysis.
+  NicheNet activity indicates regulatory compatibility, not direct signaling.
+  Corrected AUPR > 0 is not a statistical significance test.
+  Empirical significance will be evaluated separately in Script 16c.
+
+==============================================================================
+SCRIPT 16a COMPLETED SUCCESSFULLY
+==============================================================================

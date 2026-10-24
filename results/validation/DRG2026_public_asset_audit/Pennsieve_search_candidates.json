@@ -1,0 +1,29 @@
+[
+  {
+    "id": 490,
+    "name": "Spatial transcriptomics of human dorsal root ganglia from subjects with a history of diabetes",
+    "doi": "10.26275/vz0c-uet7",
+    "version": 1,
+    "description": "Visium spatial RNA sequencing was performed on 16 human dorsal root ganglia (DRG) tissue sections collected from 7 different DRGs, from 6 human subjects with a history of diabetes.",
+    "size": 9895404734,
+    "status": "PUBLISH_SUCCEEDED"
+  },
+  {
+    "id": null,
+    "name": null,
+    "doi": "10.17504/protocols.io.j8nlk8jb6l5r/v1",
+    "version": null,
+    "description": null,
+    "size": null,
+    "status": null
+  },
+  {
+    "id": null,
+    "name": null,
+    "doi": "10.1101/2024.08.22.609215",
+    "version": null,
+    "description": null,
+    "size": null,
+    "status": null
+  }
+]

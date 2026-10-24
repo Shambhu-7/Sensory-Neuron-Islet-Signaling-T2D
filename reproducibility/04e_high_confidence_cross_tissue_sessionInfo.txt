@@ -1,0 +1,79 @@
+Analysis time:
+[1] "2026-10-23 09:17:32 IST"
+
+Input file:
+[1] "/Users/shambhuyadav/Desktop/RNA3.0/Paper3_Sensory_Islet/results/islet/Table_P3_DRG_Islet_LR_Compatibility_1492cells.csv"
+
+High-confidence LR pairs:
+[1] 347
+
+Tier-A sensory-source shortlist:
+   ligand candidate_tier      logFC          FDR      enriched_region
+73  RPH3A  Tier_A_strict -1.0438497 9.195869e-07 Nearby_neuron_region
+25  EDIL3  Tier_A_strict -0.5355885 1.422231e-06 Nearby_neuron_region
+85   SPP1  Tier_A_strict -0.4074019 1.542603e-04 Nearby_neuron_region
+82 SEMA7A  Tier_A_strict -0.6214805 5.755666e-03 Nearby_neuron_region
+70   PPIA  Tier_A_strict -0.2630847 1.048345e-02 Nearby_neuron_region
+50 LGALS8  Tier_A_strict -0.6009516 2.182475e-04 Nearby_neuron_region
+   n_HC_LR_edges n_HC_beta_any_receptors n_HC_beta_both_receptors
+73             1                       1                        1
+25             2                       1                        1
+85             9                       5                        4
+82             3                       3                        3
+70             1                       1                        1
+50             1                       1                        1
+   n_HC_beta_strong_both_receptors        HC_beta_any_receptors
+73                               1                        NRXN1
+25                               1                        ITGAV
+85                               3 CD44;ITGA4;ITGAV;ITGB1;ITGB5
+82                               1           ITGA1;ITGB1;PLXNC1
+70                               1                          BSG
+50                               0                        ITGA3
+   HC_beta_both_receptors HC_beta_strong_both_receptors
+73                  NRXN1                         NRXN1
+25                  ITGAV                         ITGAV
+85 CD44;ITGAV;ITGB1;ITGB5              CD44;ITGAV;ITGB1
+82     ITGA1;ITGB1;PLXNC1                         ITGB1
+70                    BSG                           BSG
+50                  ITGA3                          <NA>
+   n_HC_alpha_both_receptors HC_alpha_both_receptors beta_HC_supported
+73                         1                   NRXN1              TRUE
+25                         1                   ITGAV              TRUE
+85                         4  CD44;ITGAV;ITGB1;ITGB5              TRUE
+82                         3      ITGA1;ITGB1;PLXNC1              TRUE
+70                         1                     BSG              TRUE
+50                         1                   ITGA3              TRUE
+   beta_HC_strong alpha_HC_supported sensory_source_priority
+73           TRUE               TRUE                    TRUE
+25           TRUE               TRUE                    TRUE
+85           TRUE               TRUE                    TRUE
+82           TRUE               TRUE                    TRUE
+70           TRUE               TRUE                    TRUE
+50          FALSE               TRUE                    TRUE
+   sensory_source_strict
+73                  TRUE
+25                  TRUE
+85                  TRUE
+82                  TRUE
+70                  TRUE
+50                 FALSE
+
+R version 4.5.2 (2025-10-31)
+Platform: aarch64-apple-darwin20
+Running under: macOS 27.0.1
+
+Matrix products: default
+BLAS:   /System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libBLAS.dylib 
+LAPACK: /Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/lib/libRlapack.dylib;  LAPACK version 3.12.1
+
+locale:
+[1] en_US.UTF-8/en_US.UTF-8/en_US.UTF-8/C/en_US.UTF-8/en_US.UTF-8
+
+time zone: Asia/Kolkata
+tzcode source: internal
+
+attached base packages:
+[1] stats     graphics  grDevices utils     datasets  methods   base     
+
+loaded via a namespace (and not attached):
+[1] compiler_4.5.2

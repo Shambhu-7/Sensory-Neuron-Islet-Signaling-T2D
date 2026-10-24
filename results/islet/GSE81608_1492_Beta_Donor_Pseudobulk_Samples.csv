@@ -1,0 +1,19 @@
+"donor_id","condition","n_beta_cells"
+"Non T2D 1","Healthy",13
+"Non T2D 2","Healthy",13
+"Non T2D 3","Healthy",10
+"Non T2D 5","Healthy",22
+"Non T2D 6","Healthy",7
+"Non T2D 7","Healthy",15
+"Non T2D 8","Healthy",16
+"Non T2D 9","Healthy",7
+"Non T2D 10","Healthy",23
+"Non T2D 11","Healthy",10
+"Non T2D 12","Healthy",48
+"Non T2D 4","Healthy",10
+"T2D 2","T2D",18
+"T2D 3","T2D",26
+"T2D 1","T2D",12
+"T2D 4","T2D",135
+"T2D 5","T2D",11
+"T2D 6","T2D",76

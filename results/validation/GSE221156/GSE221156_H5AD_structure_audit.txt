@@ -1,0 +1,314 @@
+==============================================================================
+GSE221156 / CELLxGENE H5AD STRUCTURE + ASSAY AUDIT
+==============================================================================
+File: data/raw/GSE221156/GSE221156_Beta_processed_CELLxGENE.h5ad
+Bytes: 2477777480
+
+TOP-LEVEL KEYS
+['X', 'layers', 'obs', 'obsm', 'obsp', 'raw', 'uns', 'var', 'varm', 'varp']
+
+ROOT ATTRIBUTES
+{
+  "encoding-type": "anndata",
+  "encoding-version": "0.1.0"
+}
+
+MATRIX AUDIT: X
+{
+  "path": "X",
+  "type": "group",
+  "shape": [
+    99029,
+    26936
+  ],
+  "attrs": {
+    "encoding-type": "csr_matrix",
+    "encoding-version": "0.1.0",
+    "shape": [
+      99029,
+      26936
+    ]
+  },
+  "keys": [
+    "data",
+    "indices",
+    "indptr"
+  ],
+  "data_dtype": "float32",
+  "numeric_sample": {
+    "sample_n": 200000,
+    "sample_min": 0.0,
+    "sample_max": 8.4898681640625,
+    "sample_nonzero_n": 199557,
+    "sample_nonzero_integer_like_fraction": 0.0,
+    "sample_nonzero_quantiles": [
+      0.00015117356088012457,
+      0.34309127926826477,
+      0.521908164024353,
+      0.8719064593315125,
+      1.3997766017913815,
+      3.3297327423095724,
+      8.4898681640625
+    ]
+  },
+  "stored_values": 337547507
+}
+
+MATRIX AUDIT: raw/X
+{
+  "path": "raw/X",
+  "type": "group",
+  "shape": [
+    99029,
+    26936
+  ],
+  "attrs": {
+    "encoding-type": "csr_matrix",
+    "encoding-version": "0.1.0",
+    "shape": [
+      99029,
+      26936
+    ]
+  },
+  "keys": [
+    "data",
+    "indices",
+    "indptr"
+  ],
+  "data_dtype": "float32",
+  "numeric_sample": {
+    "sample_n": 200000,
+    "sample_min": 0.0,
+    "sample_max": 9360.0,
+    "sample_nonzero_n": 198944,
+    "sample_nonzero_integer_like_fraction": 1.0,
+    "sample_nonzero_quantiles": [
+      1.0,
+      1.0,
+      1.0,
+      3.0,
+      6.0,
+      55.0,
+      9360.0
+    ]
+  },
+  "stored_values": 337547507
+}
+
+LAYERS
+Layer names: []
+
+OBS AUDIT
+obs shape/rows inferred from _index: 99029
+obs columns (n=37):
+['BMI', 'BMI_Category', 'Cause_of_death', 'Center', 'Clusters', 'Clusters_DiseaseState', 'HbA1c', 'Islet', 'LibraryID', 'Medication', 'Multiplex', 'Purity', 'Purity_2', 'Viability', 'Viability_2', 'assay', 'assay_ontology_term_id', 'cell_type', 'cell_type_ontology_term_id', 'development_stage', 'development_stage_ontology_term_id', 'disease', 'disease_ontology_term_id', 'donor_id', 'is_primary_data', 'nCount_RNA', 'nFeature_RNA', 'observation_joinid', 'percent.mt', 'self_reported_ethnicity', 'self_reported_ethnicity_ontology_term_id', 'sex', 'sex_ontology_term_id', 'suspension_type', 'tissue', 'tissue_ontology_term_id', 'tissue_type']
+
+Selected OBS value counts:
+
+[Clusters_DiseaseState] n=99029 unique=24
+  C0|ND: 9904
+  C1|ND: 8046
+  C0|PD: 7576
+  C1|PD: 6437
+  C2|PD: 5215
+  C2|ND: 4976
+  C1|T2D: 4775
+  C3|PD: 4630
+  C5|ND: 4580
+  C6|T2D: 4122
+  C4|ND: 4077
+  C2|T2D: 3911
+  C4|PD: 3719
+  C3|ND: 3596
+  C5|PD: 3469
+  C0|T2D: 3409
+  C4|T2D: 2770
+  C6|PD: 2690
+  C6|ND: 2540
+  C3|T2D: 2433
+  C5|T2D: 1982
+  C7|PD: 1943
+  C7|ND: 1765
+  C7|T2D: 464
+
+[assay] n=99029 unique=2
+  10x 3' v3: 83315
+  10x 3' v2: 15714
+
+[assay_ontology_term_id] n=99029 unique=2
+  EFO:0009922: 83315
+  EFO:0009899: 15714
+
+[cell_type] n=99029 unique=1
+  type B pancreatic cell: 99029
+
+[cell_type_ontology_term_id] n=99029 unique=1
+  CL:0000169: 99029
+
+[development_stage] n=99029 unique=28
+  53-year-old stage: 11290
+  52-year-old stage: 8167
+  60-year-old stage: 8068
+  48-year-old stage: 7301
+  50-year-old stage: 6747
+  51-year-old stage: 6480
+  35-year-old stage: 5150
+  58-year-old stage: 4794
+  37-year-old stage: 4629
+  62-year-old stage: 3956
+  30-year-old stage: 3818
+  54-year-old stage: 3233
+  26-year-old stage: 2988
+  49-year-old stage: 2775
+  40-year-old stage: 2732
+  45-year-old stage: 2128
+  32-year-old stage: 2125
+  34-year-old stage: 1946
+  38-year-old stage: 1553
+  66-year-old stage: 1457
+  42-year-old stage: 1395
+  57-year-old stage: 1341
+  25-year-old stage: 953
+  61-year-old stage: 920
+  55-year-old stage: 844
+  59-year-old stage: 833
+  63-year-old stage: 720
+  21-year-old stage: 686
+
+[development_stage_ontology_term_id] n=99029 unique=28
+  HsapDv:0000147: 11290
+  HsapDv:0000146: 8167
+  HsapDv:0000154: 8068
+  HsapDv:0000142: 7301
+  HsapDv:0000144: 6747
+  HsapDv:0000145: 6480
+  HsapDv:0000129: 5150
+  HsapDv:0000152: 4794
+  HsapDv:0000131: 4629
+  HsapDv:0000156: 3956
+  HsapDv:0000124: 3818
+  HsapDv:0000148: 3233
+  HsapDv:0000120: 2988
+  HsapDv:0000143: 2775
+  HsapDv:0000134: 2732
+  HsapDv:0000139: 2128
+  HsapDv:0000126: 2125
+  HsapDv:0000128: 1946
+  HsapDv:0000132: 1553
+  HsapDv:0000160: 1457
+  HsapDv:0000136: 1395
+  HsapDv:0000151: 1341
+  HsapDv:0000119: 953
+  HsapDv:0000155: 920
+  HsapDv:0000149: 844
+  HsapDv:0000153: 833
+  HsapDv:0000157: 720
+  HsapDv:0000115: 686
+
+[disease] n=99029 unique=3
+  normal: 39484
+  prediabetes syndrome: 35679
+  type 2 diabetes mellitus: 23866
+
+[disease_ontology_term_id] n=99029 unique=3
+  PATO:0000461: 39484
+  MONDO:0006920: 35679
+  MONDO:0005148: 23866
+
+[donor_id] n=99029 unique=48
+  SAMN11522709: 5294
+  SAMN11523048: 4558
+  SAMN17528599: 4092
+  SAMN13866285: 3818
+  HP19047-01: 3483
+  SAMN13319813: 3341
+  SAMN15337453: 2988
+  SAMN11476721: 2935
+  SAMN16547514: 2912
+  SAMN11864195: 2831
+  SAMN12022246: 2775
+  SAMN11380903: 2736
+  HP18054-01: 2732
+  SAMN10873960: 2696
+  SAMN14255441: 2597
+  HP-20152-01: 2566
+  SAMN16365027: 2422
+  SAMN13901790: 2322
+  SAMN12500521: 2248
+  SAMN11483342: 2217
+  HP1720901T2D: 2217
+  SAMN10832912: 2144
+  SAMN11633049: 2138
+  SAMN11867362: 2128
+  SAMN09370567: 2125
+  SAMN11157311: 1946
+  SAMN10439569: 1636
+  SAMN17209843: 1553
+  SAMN11373103: 1534
+  SAMN13320559: 1485
+  SAMN10737781: 1457
+  SAMN11642375: 1453
+  SAMN13108021: 1395
+  SAMN12633894: 1341
+  HP19044-01T2D: 1311
+  HP17117-01 T2D: 1186
+  SAMN10372788: 1116
+  SAMN08768799: 1089
+  SAMN17831932: 1064
+  SAMN11008921: 1018
+  SAMN16373925: 953
+  HP18320-01T2D: 920
+  SAMN12673306: 844
+  HP17225-01T2D: 833
+  SAMN12634037: 720
+  HP18304: 686
+  HP17300-01T2D: 592
+  SAMN08769026: 582
+
+[is_primary_data] n=99029 unique=1
+  False: 99029
+
+[self_reported_ethnicity] n=99029 unique=3
+  unknown: 44418
+  Hispanic or Latin: 38708
+  African American: 15903
+
+[self_reported_ethnicity_ontology_term_id] n=99029 unique=3
+  unknown: 44418
+  HANCESTRO:0612: 38708
+  HANCESTRO:0568: 15903
+
+[sex] n=99029 unique=2
+  male: 62390
+  female: 36639
+
+[sex_ontology_term_id] n=99029 unique=2
+  PATO:0000384: 62390
+  PATO:0000383: 36639
+
+[suspension_type] n=99029 unique=1
+  cell: 99029
+
+[tissue] n=99029 unique=1
+  islet of Langerhans: 99029
+
+[tissue_ontology_term_id] n=99029 unique=1
+  UBERON:0000006: 99029
+
+[tissue_type] n=99029 unique=1
+  tissue: 99029
+
+VAR AUDIT
+var rows: 26936
+var columns: ['feature_biotype', 'feature_is_filtered', 'feature_length', 'feature_name', 'feature_reference', 'feature_type', 'vst.mean', 'vst.variable', 'vst.variance', 'vst.variance.expected', 'vst.variance.standardized']
+first 20 var index values: ['ENSG00000241860', 'ENSG00000286448', 'ENSG00000237491', 'ENSG00000177757', 'ENSG00000228794', 'ENSG00000225880', 'ENSG00000230368', 'ENSG00000223764', 'ENSG00000187634', 'ENSG00000188976', 'ENSG00000187961', 'ENSG00000187583', 'ENSG00000187642', 'ENSG00000272512', 'ENSG00000188290', 'ENSG00000187608', 'ENSG00000188157', 'ENSG00000237330', 'ENSG00000131591', 'ENSG00000272141']
+first 20 feature_name: ['ENSG00000241860', 'ENSG00000286448', 'LINC01409', 'FAM87B', 'LINC01128', 'LINC00115', 'FAM41C', 'LINC02593', 'SAMD11', 'NOC2L', 'KLHL17', 'PLEKHN1', 'PERM1', 'ENSG00000272512', 'HES4', 'ISG15', 'AGRN', 'RNF223', 'C1orf159', 'ENSG00000272141']
+
+RAW VAR AUDIT
+raw/var rows: 26936
+raw/var columns: ['feature_biotype', 'feature_length', 'feature_name', 'feature_reference', 'feature_type', 'vst.mean', 'vst.variable', 'vst.variance', 'vst.variance.expected', 'vst.variance.standardized']
+first 20 raw/var index values: ['ENSG00000241860', 'ENSG00000286448', 'ENSG00000237491', 'ENSG00000177757', 'ENSG00000228794', 'ENSG00000225880', 'ENSG00000230368', 'ENSG00000223764', 'ENSG00000187634', 'ENSG00000188976', 'ENSG00000187961', 'ENSG00000187583', 'ENSG00000187642', 'ENSG00000272512', 'ENSG00000188290', 'ENSG00000187608', 'ENSG00000188157', 'ENSG00000237330', 'ENSG00000131591', 'ENSG00000272141']
+
+==============================================================================
+AUDIT COMPLETE — NO EXPRESSION ANALYSIS PERFORMED
+==============================================================================

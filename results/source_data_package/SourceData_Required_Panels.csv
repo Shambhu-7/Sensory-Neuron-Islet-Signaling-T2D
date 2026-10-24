@@ -1,0 +1,15 @@
+"Figure","Panel","Numerical_Source_Data"
+"Figure 1","Workflow schematic",FALSE
+"Figure 2","DRG differential expression",TRUE
+"Figure 2","DRG pathway remodeling",TRUE
+"Figure 2","DRG robustness",TRUE
+"Figure 3","Ligand-receptor candidate filtering",TRUE
+"Figure 3","Beta-cell T2D receiver",TRUE
+"Figure 4","NicheNet candidate activity",TRUE
+"Figure 5","Integrated candidate evidence",TRUE
+"Figure 5","Trace-n-Seq / subtype evidence",TRUE
+"Supplementary Figure S1","Independent receiver validation",TRUE
+"Supplementary Figure S1","Independent receptor / receiver-score validation",TRUE
+"Supplementary Figure S2","Independent NicheNet replication",TRUE
+"Supplementary Figure S2","Broad 42-ligand ranking",TRUE
+"Supplementary Figure S2","Expression-matched empirical null",TRUE

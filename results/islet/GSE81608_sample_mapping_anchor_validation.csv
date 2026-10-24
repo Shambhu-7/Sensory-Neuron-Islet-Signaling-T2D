@@ -1,0 +1,4 @@
+"sample_number","expected_GSM","matrix_column","GSM","donor_id","condition","cell_subtype","PASS"
+1,"GSM2157899","Sample_1","GSM2157899","Non T2D 1","non-diabetic","beta",TRUE
+103,"GSM2158001","Sample_103","GSM2158001","Non T2D 9","non-diabetic","beta",TRUE
+1600,"GSM2159558","Sample_1600","GSM2159558","T2D 6","T2D","PP",TRUE

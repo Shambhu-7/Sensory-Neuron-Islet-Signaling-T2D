@@ -1,0 +1,333 @@
+====================================================
+SCRIPT 07d2: CORRECT QC + PANCREAS COHORT AUDIT
+====================================================
+
+====================================================
+CORRECTED AUTHOR QC
+====================================================
+
+Batch1
+Total: 1926 
+Pass: 1590 
+Fail: 336 
+
+QC-pass by ganglion:
+
+ CG DRG 
+971 619 
+
+Cells failing mitochondrial threshold only:
+
+ CG DRG 
+193 138 
+
+Batch2
+Total: 2046 
+Pass: 1871 
+Fail: 175 
+
+QC-pass by ganglion:
+
+  CG  DRG   NG   ST Test 
+ 655  980  141   94    1 
+
+Cells failing mitochondrial threshold only:
+
+  CG  DRG   NG   ST Test 
+  33   23   76   35    1 
+
+====================================================
+BATCH 1 PANCREAS DEFINITIONS
+====================================================
+
+----------------------------------------------------
+B1: InnervatingTissue == Pancreas 
+----------------------------------------------------
+Raw rows: 673 
+
+Raw by ganglion:
+
+ CG DRG 
+376 297 
+
+Correct-QC by ganglion:
+
+ CG DRG 
+327 263 
+
+Correct-QC + peripheral-neuron annotation:
+
+ CG DRG 
+318 261 
+
+Correct-QC + sensory-neuron annotation:
+
+ CG DRG 
+  5 258 
+
+----------------------------------------------------
+B1: Tumor == Healthy 
+----------------------------------------------------
+Raw rows: 162 
+
+Raw by ganglion:
+
+ CG DRG 
+ 67  95 
+
+Correct-QC by ganglion:
+
+ CG DRG 
+ 64  95 
+
+Correct-QC + peripheral-neuron annotation:
+
+ CG DRG 
+ 62  95 
+
+Correct-QC + sensory-neuron annotation:
+
+DRG 
+ 95 
+
+----------------------------------------------------
+B1: CellLine == Healthy 
+----------------------------------------------------
+Raw rows: 162 
+
+Raw by ganglion:
+
+ CG DRG 
+ 67  95 
+
+Correct-QC by ganglion:
+
+ CG DRG 
+ 64  95 
+
+Correct-QC + peripheral-neuron annotation:
+
+ CG DRG 
+ 62  95 
+
+Correct-QC + sensory-neuron annotation:
+
+DRG 
+ 95 
+
+----------------------------------------------------
+B1: Pancreas AND Tumor Healthy/None 
+----------------------------------------------------
+Raw rows: 518 
+
+Raw by ganglion:
+
+ CG DRG 
+292 226 
+
+Correct-QC by ganglion:
+
+ CG DRG 
+245 192 
+
+Correct-QC + peripheral-neuron annotation:
+
+ CG DRG 
+242 192 
+
+Correct-QC + sensory-neuron annotation:
+
+ CG DRG 
+  5 189 
+
+====================================================
+BATCH 2 PANCREAS DEFINITIONS
+====================================================
+
+----------------------------------------------------
+B2: InnervatingTissue == Pancreas 
+----------------------------------------------------
+Raw rows: 71 
+
+Raw by ganglion:
+
+NG 
+71 
+
+Correct-QC by ganglion:
+
+NG 
+39 
+
+Correct-QC + peripheral-neuron annotation:
+
+NG 
+27 
+
+Correct-QC + sensory-neuron annotation:
+
+NG 
+27 
+
+----------------------------------------------------
+B2: InnervatingTissue == Pankreas 
+----------------------------------------------------
+Raw rows: 279 
+
+Raw by ganglion:
+
+ CG DRG  NG 
+ 82 150  47 
+
+Correct-QC by ganglion:
+
+ CG DRG  NG 
+ 80 150  45 
+
+Correct-QC + peripheral-neuron annotation:
+
+ CG DRG  NG 
+ 80 144  38 
+
+Correct-QC + sensory-neuron annotation:
+
+ CG DRG  NG 
+  2 144  14 
+
+----------------------------------------------------
+B2: Tumor == Pancreas 
+----------------------------------------------------
+Raw rows: 106 
+
+Raw by ganglion:
+
+ NG 
+106 
+
+Correct-QC by ganglion:
+
+NG 
+65 
+
+Correct-QC + peripheral-neuron annotation:
+
+NG 
+44 
+
+Correct-QC + sensory-neuron annotation:
+
+NG 
+44 
+
+----------------------------------------------------
+B2: Tumor == Pankreas 
+----------------------------------------------------
+Raw rows: 854 
+
+Raw by ganglion:
+
+ CG DRG  NG  ST 
+370 409  47  28 
+
+Correct-QC by ganglion:
+
+ CG DRG  NG  ST 
+346 395  45  25 
+
+Correct-QC + peripheral-neuron annotation:
+
+ CG DRG  NG  ST 
+346 382  38  25 
+
+Correct-QC + sensory-neuron annotation:
+
+ CG DRG  NG  ST 
+  2 382  14  25 
+
+----------------------------------------------------
+B2: explicit healthy/control pancreas CellString 
+----------------------------------------------------
+Raw rows: 385 
+
+Raw by ganglion:
+
+ CG DRG  NG 
+ 82 150 153 
+
+Correct-QC by ganglion:
+
+ CG DRG  NG 
+ 80 150 110 
+
+Correct-QC + peripheral-neuron annotation:
+
+ CG DRG  NG 
+ 80 144  82 
+
+Correct-QC + sensory-neuron annotation:
+
+ CG DRG  NG 
+  2 144  58 
+
+====================================================
+BATCH 1: PANCREAS x TUMOR x GANGLION
+====================================================
+        Tumor
+Ganglion Healthy None PACO10 PACO10_resected
+     CG       67  225     35              49
+     DRG      95  131     29              42
+
+====================================================
+BATCH 2: PANCREAS/PANKREAS x TUMOR x GANGLION
+====================================================
+, , Tumor = Pancreas
+
+        InnervatingTissue
+Ganglion Pancreas Pankreas
+     CG         0        0
+     DRG        0        0
+     NG        71        0
+
+, , Tumor = Pankreas
+
+        InnervatingTissue
+Ganglion Pancreas Pankreas
+     CG         0       82
+     DRG        0      150
+     NG         0       47
+
+
+====================================================
+BATCH 2 HEALTHY PANCREAS CELLSTRING PATTERNS
+====================================================
+cs_base
+DRG_B6_FB_Pankreas_m2_Ctrl  CG_B6_FB_Pankreas_m1_Ctrl 
+                        57                         51 
+DRG_B6_FB_Pankreas_m1_Ctrl DRG_B6_FB_Pankreas_m3_Ctrl 
+                        51                         42 
+NG_NSG_FB_Pancreas_m2_Ctrl  CG_B6_FB_Pankreas_m2_Ctrl 
+                        36                         27 
+ NG_B6_FB_Pankreas_m3_Ctrl NG_NSG_FB_Pancreas_m1_Ctrl 
+                        25                         15 
+NG_NSG_FB_Pancreas_m3_Ctrl  NG_B6_FB_Pankreas_m1_Ctrl 
+                        14                         11 
+ NG_B6_FB_Pankreas_m2_Ctrl  CG_B6_FB_Pankreas_m3_Ctrl 
+                         9                          2 
+
+====================================================
+PUBLISHED FINAL HEALTHY PANCREAS COHORT
+====================================================
+DRG = 589
+CG  = 689
+JNG = 106
+TOTAL = 1384
+
+IMPORTANT:
+These are final published high-quality neuronal counts.
+We do NOT force deposited metadata to equal these values.
+The deposited raw/annotated tables include additional experiments
+and non-neuronal annotations.
+
+====================================================
+SCRIPT 07d2 COMPLETED SUCCESSFULLY
+====================================================

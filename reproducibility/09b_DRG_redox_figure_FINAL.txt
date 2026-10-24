@@ -1,0 +1,87 @@
+====================================================
+SCRIPT 09b: HUMAN DIABETIC DRG REDOX PROGRAM FIGURE
+Figure-only integration of frozen Script 02/02b outputs.
+No edgeR, CAMERA or LODO model is rerun.
+====================================================
+
+
+====================================================
+FIGURE 09 AUDIT
+====================================================
+Genes tested: 9194 
+DE FDR < 0.05: 2570 
+Nageotte-associated DE: 1348 
+Nearby-neuron-associated DE: 1222 
+FDR < 0.05 and |logFC| >= 0.25: 2553 
+Panel B pathways: 8 
+Panel C pathways: 8 
+Panel D anchors: 13 
+
+Fixed-correlation FDR < 0.05 among displayed pathways:
+                     pathway Direction          FDR
+   Oxidative phosphorylation      Down 2.045326e-06
+ TNF-alpha / NF-kB signaling        Up 3.777136e-04
+       Inflammatory response        Up 5.533876e-03
+                   Mitophagy      Down 1.117895e-02
+       NFE2L2 nuclear events      Down 1.470591e-02
+  Neuroinflammatory response        Up 3.141628e-02
+
+Estimated-correlation directions/FDR among displayed pathways:
+                     pathway Direction        FDR
+   Oxidative phosphorylation      Down 0.05214269
+       Inflammatory response        Up 0.05214269
+ TNF-alpha / NF-kB signaling        Up 0.09925420
+                   Apoptosis        Up 0.09925420
+  Neuroinflammatory response        Up 0.10343830
+       NFE2L2 nuclear events      Down 0.14009447
+                   Mitophagy      Down 0.15479034
+                 ROS pathway      Down 0.15479034
+
+Panel D anchors:
+   gene      logFC          FDR n_LODO_FDR05 n_donors_same_direction
+   SPP1 -0.4074019 1.542603e-04            6                       6
+    CLU -0.2275275 2.299858e-02            2                       5
+  ACSL4 -0.5191891 1.258005e-03            6                       6
+   SOD1 -0.4379888 1.418104e-05            6                       6
+  SRXN1 -0.6149544 4.182890e-03            5                       5
+  PRDX2 -0.4907683 7.614510e-06            6                       5
+    TXN -0.4024877 3.376518e-04            6                       6
+    GSS -0.4133132 4.122376e-02            2                       5
+  TREM2  0.5225867 3.737321e-03            6                       5
+ TYROBP  0.3685231 3.401172e-03            6                       5
+    FTL  0.3832962 7.044000e-05            6                       5
+   FTH1  0.2368862 1.690893e-02            4                       5
+ NFE2L2  0.5759558 2.505351e-04            6                       5
+ all_6_donors_same_direction
+                        TRUE
+                       FALSE
+                        TRUE
+                        TRUE
+                       FALSE
+                       FALSE
+                        TRUE
+                       FALSE
+                       FALSE
+                       FALSE
+                       FALSE
+                       FALSE
+                       FALSE
+
+Scientific safeguards:
+- Contrast is Nageotte-associated versus nearby-neuron-associated spatial regions.
+- Positive logFC denotes Nageotte-associated enrichment.
+- Negative logFC denotes nearby-neuron-associated enrichment.
+- Spatial-region differences are composition-confounded and are not called neuron-intrinsic.
+- No normal human DRG control exists in GSE295206; results are not called diabetes-induced.
+- Fixed-correlation CAMERA is shown together with estimated-correlation sensitivity.
+- LODO values are robustness summaries from frozen Script 02b outputs.
+- No new statistical analysis was performed by Script 09.
+
+Output figures:
+figures/redox/Figure_P3_DRG_RedoxPrograms_09b.pdf 
+figures/redox/Figure_P3_DRG_RedoxPrograms_09b.png 
+figures/redox/Figure_P3_DRG_RedoxPrograms_09b.tiff 
+
+====================================================
+SCRIPT 09b COMPLETED SUCCESSFULLY
+====================================================

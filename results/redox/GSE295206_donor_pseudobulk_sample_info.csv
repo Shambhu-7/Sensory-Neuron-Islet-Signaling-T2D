@@ -1,0 +1,13 @@
+"group_key","donor_id","annotation_class","n_spots","library_size"
+"180714DHB__Nageotte","180714DHB","Nageotte",63,250963
+"180714DHB__Nearby_neuron","180714DHB","Nearby_neuron",76,548101
+"181030DHB__Nageotte","181030DHB","Nageotte",46,188285
+"181030DHB__Nearby_neuron","181030DHB","Nearby_neuron",54,573335
+"DN0003__Nageotte","DN0003","Nageotte",22,122711
+"DN0003__Nearby_neuron","DN0003","Nearby_neuron",33,290127
+"DN0095__Nageotte","DN0095","Nageotte",599,1687493
+"DN0095__Nearby_neuron","DN0095","Nearby_neuron",424,1954628
+"DN0106__Nageotte","DN0106","Nageotte",74,98669
+"DN0106__Nearby_neuron","DN0106","Nearby_neuron",101,254705
+"DN0134__Nageotte","DN0134","Nageotte",290,1066305
+"DN0134__Nearby_neuron","DN0134","Nearby_neuron",399,2328051

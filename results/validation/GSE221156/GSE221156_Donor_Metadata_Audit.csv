@@ -1,0 +1,49 @@
+donor_id,n_beta_cells,n_unique_donor_id,disease,n_unique_disease,sex,n_unique_sex,development_stage,n_unique_development_stage,BMI,n_unique_BMI,BMI_Category,n_unique_BMI_Category,HbA1c,n_unique_HbA1c,Center,n_unique_Center,assay,n_unique_assay,self_reported_ethnicity,n_unique_self_reported_ethnicity
+HP-20152-01,2566,1,normal,1,male,1,48-year-old stage,1,20.2,1,Healthy,1,5.2,1,Scharp-Lacy,1,10x 3' v3,1,African American,1
+HP17117-01 T2D,1186,1,type 2 diabetes mellitus,1,male,1,51-year-old stage,1,35.6,1,Obese,1,7.1,1,NA,1,10x 3' v2,1,Hispanic or Latin,1
+HP1720901T2D,2217,1,type 2 diabetes mellitus,1,female,1,52-year-old stage,1,42.8,1,Obese,1,6.6,1,NA,1,10x 3' v2,1,Hispanic or Latin,1
+HP17225-01T2D,833,1,type 2 diabetes mellitus,1,male,1,59-year-old stage,1,27.7,1,Overweight,1,6.5,1,Scharp-Lacy,1,10x 3' v2,1,Hispanic or Latin,1
+HP17300-01T2D,592,1,type 2 diabetes mellitus,1,male,1,35-year-old stage,1,27.7,1,Overweight,1,6.3,1,NA,1,10x 3' v2,1,unknown,1
+HP18054-01,2732,1,normal,1,male,1,40-year-old stage,1,25.3,1,Overweight,1,5.3,1,Scharp-Lacy,1,10x 3' v2,1,Hispanic or Latin,1
+HP18304,686,1,normal,1,male,1,21-year-old stage,1,27.3,1,Overweight,1,5.4,1,NA,1,10x 3' v2,1,Hispanic or Latin,1
+HP18320-01T2D,920,1,type 2 diabetes mellitus,1,male,1,61-year-old stage,1,27.4,1,Overweight,1,7.9,1,NA,1,10x 3' v2,1,African American,1
+HP19044-01T2D,1311,1,type 2 diabetes mellitus,1,female,1,37-year-old stage,1,33.0,1,Obese,1,13.1,1,NA,1,10x 3' v3,1,Hispanic or Latin,1
+HP19047-01,3483,1,normal,1,female,1,53-year-old stage,1,22.7,1,Healthy,1,4.8,1,NA,1,10x 3' v3,1,unknown,1
+SAMN08768799,1089,1,normal,1,male,1,54-year-old stage,1,35.6,1,Obese,1,5.1,1,Wisconsin,1,10x 3' v2,1,unknown,1
+SAMN08769026,582,1,type 2 diabetes mellitus,1,female,1,37-year-old stage,1,38.1,1,Obese,1,8.2,1,UPenn,1,10x 3' v2,1,unknown,1
+SAMN09370567,2125,1,normal,1,male,1,32-year-old stage,1,28.5,1,Overweight,1,5.2,1,NA,1,10x 3' v2,1,unknown,1
+SAMN10372788,1116,1,type 2 diabetes mellitus,1,female,1,50-year-old stage,1,35.4,1,Obese,1,9.9,1,Southern California IsletCell Resource Center,1,10x 3' v2,1,unknown,1
+SAMN10439569,1636,1,prediabetes syndrome,1,female,1,53-year-old stage,1,30.0,1,Obese,1,6.0,1,Southern California IsletCell Resource Center,1,10x 3' v2,1,Hispanic or Latin,1
+SAMN10737781,1457,1,normal,1,male,1,66-year-old stage,1,27.2,1,Overweight,1,4.7,1,Scharp-Lacy,1,10x 3' v3,1,unknown,1
+SAMN10832912,2144,1,type 2 diabetes mellitus,1,male,1,54-year-old stage,1,33.7,1,Obese,1,8.0,1,UPenn,1,10x 3' v3,1,African American,1
+SAMN10873960,2696,1,normal,1,female,1,50-year-old stage,1,24.6,1,Healthy,1,5.1,1,Miami,1,10x 3' v3,1,unknown,1
+SAMN11008921,1018,1,prediabetes syndrome,1,male,1,53-year-old stage,1,33.3,1,Obese,1,5.7,1,Wisconsin,1,10x 3' v3,1,unknown,1
+SAMN11157311,1946,1,type 2 diabetes mellitus,1,female,1,34-year-old stage,1,31.7,1,Obese,1,7.3,1,Wisconsin,1,10x 3' v3,1,unknown,1
+SAMN11373103,1534,1,prediabetes syndrome,1,male,1,62-year-old stage,1,32.0,1,Obese,1,5.8,1,Scharp-Lacy,1,10x 3' v3,1,Hispanic or Latin,1
+SAMN11380903,2736,1,normal,1,male,1,37-year-old stage,1,24.2,1,Healthy,1,5.5,1,Southern California IsletCell Resource Center,1,10x 3' v3,1,Hispanic or Latin,1
+SAMN11476721,2935,1,prediabetes syndrome,1,male,1,50-year-old stage,1,32.8,1,Obese,1,6.0,1,Scharp-Lacy,1,10x 3' v3,1,Hispanic or Latin,1
+SAMN11483342,2217,1,prediabetes syndrome,1,female,1,52-year-old stage,1,39.8,1,Obese,1,6.4,1,Wisconsin,1,10x 3' v3,1,unknown,1
+SAMN11522709,5294,1,prediabetes syndrome,1,male,1,51-year-old stage,1,26.7,1,Overweight,1,5.7,1,Southern California IsletCell Resource Center,1,10x 3' v3,1,Hispanic or Latin,1
+SAMN11523048,4558,1,normal,1,female,1,35-year-old stage,1,33.4,1,Obese,1,5.4,1,Scharp-Lacy,1,10x 3' v3,1,unknown,1
+SAMN11633049,2138,1,normal,1,male,1,48-year-old stage,1,38.8,1,Obese,1,5.4,1,Wisconsin,1,10x 3' v3,1,unknown,1
+SAMN11642375,1453,1,type 2 diabetes mellitus,1,male,1,58-year-old stage,1,32.5,1,Obese,1,6.7,1,Scharp-Lacy,1,10x 3' v3,1,unknown,1
+SAMN11864195,2831,1,normal,1,female,1,53-year-old stage,1,40.0,1,Obese,1,5.5,1,Wisconsin,1,10x 3' v3,1,unknown,1
+SAMN11867362,2128,1,prediabetes syndrome,1,male,1,45-year-old stage,1,32.6,1,Obese,1,5.8,1,Scharp-Lacy,1,10x 3' v3,1,African American,1
+SAMN12022246,2775,1,prediabetes syndrome,1,male,1,49-year-old stage,1,28.4,1,Overweight,1,5.9,1,Scharp-Lacy,1,10x 3' v3,1,African American,1
+SAMN12500521,2248,1,normal,1,male,1,52-year-old stage,1,29.0,1,Overweight,1,5.1,1,Wisconsin,1,10x 3' v3,1,unknown,1
+SAMN12633894,1341,1,prediabetes syndrome,1,female,1,57-year-old stage,1,32.9,1,Obese,1,5.7,1,Southern California IsletCell Resource Center,1,10x 3' v3,1,unknown,1
+SAMN12634037,720,1,type 2 diabetes mellitus,1,male,1,63-year-old stage,1,31.7,1,Obese,1,5.9,1,Scharp-Lacy,1,10x 3' v3,1,unknown,1
+SAMN12673306,844,1,normal,1,male,1,55-year-old stage,1,28.4,1,Overweight,1,5.6,1,Scharp-Lacy,1,10x 3' v3,1,unknown,1
+SAMN13108021,1395,1,normal,1,male,1,42-year-old stage,1,25.0,1,Overweight,1,5.5,1,Miami,1,10x 3' v3,1,African American,1
+SAMN13319813,3341,1,prediabetes syndrome,1,male,1,58-year-old stage,1,26.6,1,Overweight,1,6.1,1,Miami,1,10x 3' v3,1,Hispanic or Latin,1
+SAMN13320559,1485,1,type 2 diabetes mellitus,1,male,1,52-year-old stage,1,24.7,1,Healthy,1,6.1,1,Scharp-Lacy,1,10x 3' v3,1,Hispanic or Latin,1
+SAMN13866285,3818,1,prediabetes syndrome,1,female,1,30-year-old stage,1,27.1,1,Overweight,1,5.8,1,Miami,1,10x 3' v3,1,Hispanic or Latin,1
+SAMN13901790,2322,1,type 2 diabetes mellitus,1,male,1,53-year-old stage,1,25.8,1,Overweight,1,6.7,1,Scharp-Lacy,1,10x 3' v3,1,unknown,1
+SAMN14255441,2597,1,prediabetes syndrome,1,male,1,48-year-old stage,1,25.7,1,Overweight,1,5.9,1,Scharp-Lacy,1,10x 3' v3,1,unknown,1
+SAMN15337453,2988,1,normal,1,male,1,26-year-old stage,1,24.2,1,Healthy,1,5.2,1,Scharp-Lacy,1,10x 3' v3,1,Hispanic or Latin,1
+SAMN16365027,2422,1,type 2 diabetes mellitus,1,female,1,62-year-old stage,1,28.5,1,Overweight,1,7.6,1,Southern California IsletCell Resource Center,1,10x 3' v3,1,African American,1
+SAMN16373925,953,1,prediabetes syndrome,1,male,1,25-year-old stage,1,31.6,1,Obese,1,5.9,1,Scharp-Lacy,1,10x 3' v3,1,unknown,1
+SAMN16547514,2912,1,normal,1,female,1,60-year-old stage,1,28.3,1,Overweight,1,4.6,1,Scharp-Lacy,1,10x 3' v3,1,Hispanic or Latin,1
+SAMN17209843,1553,1,type 2 diabetes mellitus,1,female,1,38-year-old stage,1,43.9,1,Obese,1,7.0,1,UPenn,1,10x 3' v3,1,African American,1
+SAMN17528599,4092,1,prediabetes syndrome,1,male,1,60-year-old stage,1,29.9,1,Overweight,1,5.8,1,UPenn,1,10x 3' v3,1,unknown,1
+SAMN17831932,1064,1,type 2 diabetes mellitus,1,male,1,60-year-old stage,1,41.3,1,Obese,1,7.5,1,Southern California IsletCell Resource Center,1,10x 3' v3,1,Hispanic or Latin,1

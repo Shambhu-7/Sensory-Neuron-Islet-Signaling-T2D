@@ -1,0 +1,34 @@
+==============================================================================
+SCRIPT 15c — PRIDE PXD071905 PROCESSED-FILE AUDIT
+==============================================================================
+Accession: PXD071905
+Purpose: orthogonal human DRG proteomic disease-context validation.
+Safety: metadata/file-list audit only; NO raw MS download.
+
+project_v3: HTTP 404 | bytes 102 | https://www.ebi.ac.uk/pride/ws/archive/v3/projects/PXD071905
+files_v3: HTTP 200 | bytes 0 | https://www.ebi.ac.uk/pride/ws/archive/v3/files/byProject?accession=PXD071905
+project_v2: HTTP 404 | bytes 102 | https://www.ebi.ac.uk/pride/ws/archive/v2/projects/PXD071905
+files_v2: HTTP 200 | bytes 0 | https://www.ebi.ac.uk/pride/ws/archive/v2/files/byProject?accession=PXD071905
+
+PROJECT METADATA: no parseable public project JSON returned.
+
+FILES PARSED: 0
+FILE CATEGORIES
+
+PROCESSED CANDIDATES
+  None identified from public PRIDE file listing.
+
+DECISION
+  No obvious processed protein table is currently exposed through the public PRIDE API.
+  Do not download raw MS files merely to add this validation.
+
+Guardrail:
+  This cohort can support orthogonal disease-context/proteomic validation,
+  not independent replication of the GSE295206 spatial cohort.
+
+Saved:
+  results/validation/DRG2026_PRIDE_audit/PXD071905_file_inventory.json
+  results/validation/DRG2026_PRIDE_audit/PXD071905_processed_candidates.json
+==============================================================================
+SCRIPT 15c COMPLETE
+==============================================================================

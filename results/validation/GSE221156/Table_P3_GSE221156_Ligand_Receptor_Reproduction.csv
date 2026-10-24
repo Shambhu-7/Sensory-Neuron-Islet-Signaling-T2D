@@ -1,0 +1,14 @@
+"ligand","n_prespecified_receptors","n_receptors_supported_both","receptors_supported_both","beta_receptor_support_reproduced"
+"RPH3A",1,1,"NRXN1",TRUE
+"EDIL3",1,1,"ITGAV",TRUE
+"SPP1",4,4,"CD44;ITGAV;ITGB1;ITGB5",TRUE
+"SEMA7A",3,3,"ITGA1;ITGB1;PLXNC1",TRUE
+"PPIA",1,1,"BSG",TRUE
+"FGF13",1,1,"FGFR1",TRUE
+"FGF12",1,1,"FGFR1",TRUE
+"SST",3,3,"SSTR1;SSTR2;SSTR3",TRUE
+"CNTN2",3,3,"CNTN1;NRCAM;NRP1",TRUE
+"LGALS8",1,1,"ITGA3",TRUE
+"RSPO2",2,2,"LGR4;RNF43",TRUE
+"FLRT3",2,2,"UNC5B;UNC5D",TRUE
+"PGF",1,1,"NRP1",TRUE

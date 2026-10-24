@@ -1,0 +1,96 @@
+====================================================
+SCRIPT 07e2: TRACE-N-SEQ COUNT/METADATA MAPPING
+====================================================
+
+
+====================================================
+COUNT MATRIX 1 vs METADATA BATCH 1 
+====================================================
+File: smartseq_raw_counts.txt 
+Detected separator: TAB 
+Header fields: 1927 
+
+First 10 header fields:
+ [1] "Gene"               "AS.576618.LR.55807" "AS.576630.LR.55807"
+ [4] "AS.576634.LR.55807" "AS.576640.LR.55807" "AS.576654.LR.55807"
+ [7] "AS.576704.LR.55807" "AS.576714.LR.55807" "AS.576748.LR.55807"
+[10] "AS.576816.LR.55807"
+
+Putative expression columns: 1926 
+
+===== CELL-ID OVERLAP =====
+    MetadataField N_metadata N_count_columns N_overlap Fraction_metadata
+1        CellName       1926            1926      1926                 1
+2      CellString       1531            1926         0                 0
+3 MetadataRowname       1926            1926         0                 0
+  Fraction_counts
+1               1
+2               0
+3               0
+
+Best metadata identifier:
+  MetadataField N_metadata N_count_columns N_overlap Fraction_metadata
+1      CellName       1926            1926      1926                 1
+  Fraction_counts
+1               1
+
+Metadata IDs absent from count matrix: 0 
+
+Count columns absent from metadata: 0 
+
+Duplicate count column IDs: 0 
+Duplicate metadata IDs using best field: 0 
+
+====================================================
+COUNT MATRIX 2 vs METADATA BATCH 2 
+====================================================
+File: smartseq_raw_counts2.txt 
+Detected separator: COMMA 
+Header fields: 2047 
+
+First 10 header fields:
+ [1] ""                    "AS.1064705.LR.69451" "AS.1064707.LR.69451"
+ [4] "AS.1064711.LR.69451" "AS.1064717.LR.69451" "AS.1064721.LR.69451"
+ [7] "AS.1064727.LR.69451" "AS.1064743.LR.69451" "AS.1064747.LR.69451"
+[10] "AS.1064749.LR.69451"
+
+Putative expression columns: 2046 
+
+===== CELL-ID OVERLAP =====
+    MetadataField N_metadata N_count_columns N_overlap Fraction_metadata
+1        CellName       2046            2046      2046                 1
+2      CellString       2009            2046         0                 0
+3 MetadataRowname       2046            2046      2046                 1
+  Fraction_counts
+1               1
+2               0
+3               1
+
+Best metadata identifier:
+  MetadataField N_metadata N_count_columns N_overlap Fraction_metadata
+1      CellName       2046            2046      2046                 1
+  Fraction_counts
+1               1
+
+Metadata IDs absent from count matrix: 0 
+
+Count columns absent from metadata: 0 
+
+Duplicate count column IDs: 0 
+Duplicate metadata IDs using best field: 0 
+
+====================================================
+CROSS-MAPPING CONTROL
+====================================================
+Matrix1 CellName overlap with Batch2: 0 
+Matrix2 CellName overlap with Batch1: 0 
+
+====================================================
+TARGET MOUSE LIGANDS
+====================================================
+ [1] "Rph3a"  "Edil3"  "Spp1"   "Sema7a" "Ppia"   "Fgf13"  "Fgf12"  "Sst"   
+ [9] "Cntn2"  "Lgals8" "Rspo2"  "Flrt3"  "Pgf"   
+
+====================================================
+SCRIPT 07e2 COMPLETED SUCCESSFULLY
+====================================================

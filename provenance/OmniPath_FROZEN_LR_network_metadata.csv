@@ -1,0 +1,2 @@
+"analysis_time","frozen_api_retrieval_time","predefined_resources","n_predefined_resources","raw_combined_interaction_records","simple_protein_ligands","simple_protein_receptors","primary_LR_pairs","high_confidence_sensitivity_LR_pairs","ligand_consensus_q50","receptor_consensus_q50"
+"2026-10-22 22:07:12.664476","2026-10-22 22:00:40.410244","CellPhoneDB;Guide2Pharma;HPMR;ICELLNET;Kirouac2010;CellTalkDB;CellChatDB;connectomeDB2020;Ramilowski2015;talklr",10,19307,1189,4299,3345,1862,3,1

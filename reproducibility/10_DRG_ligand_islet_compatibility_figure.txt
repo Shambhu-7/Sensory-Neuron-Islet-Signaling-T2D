@@ -1,0 +1,43 @@
+====================================================
+SCRIPT 10: DRG LIGAND DISCOVERY + ISLET COMPATIBILITY FIGURE
+Frozen-result visualization only; no analysis is rerun.
+====================================================
+
+
+====================================================
+SCRIPT 10 FIGURE AUDIT
+====================================================
+DE-tested curated LR ligands: 283 
+Prioritized robust DRG ligands: 149 
+Tier A: 43 
+Tier B: 80 
+Tier C: 26 
+Sensory-source beta-compatible shortlist: 13 
+Shortlist Tier A: 6 
+Shortlist Tier B: 6 
+Shortlist Tier C: 1 
+Shortlist beta-supported: 13 / 13 
+Shortlist strong beta-supported: 9 / 13 
+
+Sensitivity representation:
+Primary beta-both LR pairs reproduced: 90 / 90 
+Primary beta-supported ligands retained: 45 / 45 
+Pair-level primary classification agreement: 0.9741 
+13-candidate beta support reproduced: 13 / 13 
+13-candidate strong support reproduced: 9 / 13 
+
+Scientific safeguards:
+- Nearby-neuron enrichment is a spatial-region association, not neuron-intrinsic DE.
+- Receptor compatibility is descriptive and does not demonstrate signaling.
+- ND/T2D receptor support is not a receptor differential-expression test.
+- The 1,600-cell dataset is a sensitivity representation, not an independent biological cohort.
+- No ligand discovery, receptor analysis, or statistical model was rerun.
+
+Output figures:
+figures/ligands/Figure_P3_DRG_Ligand_IsletCompatibility_10.pdf
+figures/ligands/Figure_P3_DRG_Ligand_IsletCompatibility_10.png
+figures/ligands/Figure_P3_DRG_Ligand_IsletCompatibility_10.tiff
+
+====================================================
+SCRIPT 10 COMPLETED SUCCESSFULLY
+====================================================

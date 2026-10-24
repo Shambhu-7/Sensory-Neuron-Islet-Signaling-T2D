@@ -1,0 +1,33 @@
+"gene_set","pathway","metric","n_of_6"
+"GOBP_NEUROINFLAMMATORY_RESPONSE","Neuroinflammatory response","Fixed: direction",6
+"GOBP_NEUROINFLAMMATORY_RESPONSE","Neuroinflammatory response","Fixed: FDR < 0.05",5
+"GOBP_NEUROINFLAMMATORY_RESPONSE","Neuroinflammatory response","Estimated: direction",6
+"GOBP_NEUROINFLAMMATORY_RESPONSE","Neuroinflammatory response","Estimated: FDR < 0.05",0
+"HALLMARK_APOPTOSIS","Apoptosis","Fixed: direction",6
+"HALLMARK_APOPTOSIS","Apoptosis","Fixed: FDR < 0.05",2
+"HALLMARK_APOPTOSIS","Apoptosis","Estimated: direction",6
+"HALLMARK_APOPTOSIS","Apoptosis","Estimated: FDR < 0.05",0
+"HALLMARK_INFLAMMATORY_RESPONSE","Inflammatory response","Fixed: direction",6
+"HALLMARK_INFLAMMATORY_RESPONSE","Inflammatory response","Fixed: FDR < 0.05",6
+"HALLMARK_INFLAMMATORY_RESPONSE","Inflammatory response","Estimated: direction",6
+"HALLMARK_INFLAMMATORY_RESPONSE","Inflammatory response","Estimated: FDR < 0.05",0
+"HALLMARK_OXIDATIVE_PHOSPHORYLATION","Oxidative phosphorylation","Fixed: direction",6
+"HALLMARK_OXIDATIVE_PHOSPHORYLATION","Oxidative phosphorylation","Fixed: FDR < 0.05",6
+"HALLMARK_OXIDATIVE_PHOSPHORYLATION","Oxidative phosphorylation","Estimated: direction",6
+"HALLMARK_OXIDATIVE_PHOSPHORYLATION","Oxidative phosphorylation","Estimated: FDR < 0.05",1
+"HALLMARK_REACTIVE_OXYGEN_SPECIES_PATHWAY","ROS pathway","Fixed: direction",6
+"HALLMARK_REACTIVE_OXYGEN_SPECIES_PATHWAY","ROS pathway","Fixed: FDR < 0.05",0
+"HALLMARK_REACTIVE_OXYGEN_SPECIES_PATHWAY","ROS pathway","Estimated: direction",6
+"HALLMARK_REACTIVE_OXYGEN_SPECIES_PATHWAY","ROS pathway","Estimated: FDR < 0.05",0
+"HALLMARK_TNFA_SIGNALING_VIA_NFKB","TNF-alpha / NF-kB signaling","Fixed: direction",6
+"HALLMARK_TNFA_SIGNALING_VIA_NFKB","TNF-alpha / NF-kB signaling","Fixed: FDR < 0.05",6
+"HALLMARK_TNFA_SIGNALING_VIA_NFKB","TNF-alpha / NF-kB signaling","Estimated: direction",6
+"HALLMARK_TNFA_SIGNALING_VIA_NFKB","TNF-alpha / NF-kB signaling","Estimated: FDR < 0.05",0
+"REACTOME_MITOPHAGY","Mitophagy","Fixed: direction",6
+"REACTOME_MITOPHAGY","Mitophagy","Fixed: FDR < 0.05",5
+"REACTOME_MITOPHAGY","Mitophagy","Estimated: direction",6
+"REACTOME_MITOPHAGY","Mitophagy","Estimated: FDR < 0.05",0
+"REACTOME_NUCLEAR_EVENTS_MEDIATED_BY_NFE2L2","NFE2L2 nuclear events","Fixed: direction",6
+"REACTOME_NUCLEAR_EVENTS_MEDIATED_BY_NFE2L2","NFE2L2 nuclear events","Fixed: FDR < 0.05",5
+"REACTOME_NUCLEAR_EVENTS_MEDIATED_BY_NFE2L2","NFE2L2 nuclear events","Estimated: direction",6
+"REACTOME_NUCLEAR_EVENTS_MEDIATED_BY_NFE2L2","NFE2L2 nuclear events","Estimated: FDR < 0.05",0

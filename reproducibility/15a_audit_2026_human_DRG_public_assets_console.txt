@@ -1,0 +1,98 @@
+==============================================================================
+SCRIPT 15a — 2026 HUMAN DRG PUBLIC-ASSET AUDIT
+==============================================================================
+Article DOI: 10.64898/2026.01.16.700028
+PMC: PMC12871725
+
+Prespecified purpose:
+  Orthogonal disease-context validation of the Paper 3 DRG findings.
+  NOT an independent replication claim for GSE295206.
+  NO raw sequencing or large matrix downloads in this script.
+
+1) DATACITE DOI AUDIT
+  10.26275/vz0c-uet7
+    HTTP: 200
+    title: Spatial transcriptomics of human dorsal root ganglia from subjects with a history of diabetes
+    publisher: SPARC Portal
+    state: findable
+    landing: https://sparc.science/datasets/490/version/1
+  10.26275/0jnf-7wq9
+    HTTP: 404
+    title: None
+    publisher: None
+    state: None
+    landing: None
+
+2) DOI RESOLUTION AUDIT
+  10.26275/vz0c-uet7
+    HTTP: 200
+    final URL: https://sparc.science/datasets/490/version/1
+  10.26275/0jnf-7wq9
+    HTTP: 404
+    final URL: https://doi.org/10.26275/0jnf-7wq9
+
+3) PENNSIEVE DISCOVER SEARCH
+  Query 1: Progressive neurodegeneration human dorsal root ganglion
+    HTTP: 200; candidate records parsed: 0
+  Query 2: dorsal root ganglion diabetes DPN
+    HTTP: 200; candidate records parsed: 3
+      id=490 | version=1 | doi=10.26275/vz0c-uet7 | Spatial transcriptomics of human dorsal root ganglia from subjects with a history of diabetes
+      id=None | version=None | doi=10.17504/protocols.io.j8nlk8jb6l5r/v1 | None
+      id=None | version=None | doi=10.1101/2024.08.22.609215 | None
+  Query 3: single nucleus dorsal root ganglion diabetes
+    HTTP: 200; candidate records parsed: 0
+  Query 4: Sankaranarayanan dorsal root ganglion
+    HTTP: None; candidate records parsed: 0
+  Query 5: Price dorsal root ganglion diabetes
+    HTTP: 200; candidate records parsed: 3
+      id=490 | version=1 | doi=10.26275/vz0c-uet7 | Spatial transcriptomics of human dorsal root ganglia from subjects with a history of diabetes
+      id=None | version=None | doi=10.17504/protocols.io.j8nlk8jb6l5r/v1 | None
+      id=None | version=None | doi=10.1101/2024.08.22.609215 | None
+
+  Unique parsed candidate records: 3
+
+4) KNOWN GSE295206-LINEAGE SPARC DATASET CONTROL
+  Dataset 490 HTTP: 200
+  Dataset 490 response saved for provenance.
+  Expected identity: spatial transcriptomics / prior GSE295206 lineage.
+
+5) SECOND SPARC DOI IDENTIFICATION
+  No Pennsieve dataset ID could yet be identified for 10.26275/0jnf-7wq9.
+
+6) PMC OPEN-ACCESS PACKAGE AUDIT
+  OA API HTTP: 404
+  Package links found:
+    /entrez/query.fcgi?db=ncbisearch
+    http://www.ncbi.nlm.nih.gov
+  Large OA package is NOT downloaded by this script.
+
+7) SENSORYOMICS SUMMARY-DATA SITE AUDIT
+  https://sensoryomics.com -> HTTP 200 -> https://sensoryomics.com
+
+==============================================================================
+AUDIT DECISION
+==============================================================================
+Known Visium DOI 10.26275/vz0c-uet7:
+  Treat as GSE295206-lineage data; NOT independent validation.
+
+Second DOI 10.26275/0jnf-7wq9:
+  DOI metadata was not clearly public/registered through DataCite at audit time.
+  No live Pennsieve dataset ID was identified from public search/API metadata.
+  In that case, do NOT infer that the full snRNA-seq matrix is publicly downloadable yet.
+
+Next analysis, ONLY if suitable processed snRNA-seq or summary tables are public:
+  1. Prespecified 13 sensory-source ligand expression in human neurons.
+  2. Main candidates: SEMA7A, EDIL3, FLRT3, PGF; SPP1 reference.
+  3. Prespecified redox anchors/pathway-direction concordance.
+  4. Control -> Diabetes -> DPN disease-context behavior.
+  5. Donor-aware statistics only when donor-resolved data permit them.
+
+Guardrail:
+  Call this 'orthogonal disease-context validation in an expanded human DRG
+  single-nucleus cohort', not 'independent replication of GSE295206'.
+
+Saved audit directory: results/validation/DRG2026_public_asset_audit
+Saved raw API responses: data/raw/DRG2026_public_asset_audit
+==============================================================================
+SCRIPT 15a COMPLETE
+==============================================================================

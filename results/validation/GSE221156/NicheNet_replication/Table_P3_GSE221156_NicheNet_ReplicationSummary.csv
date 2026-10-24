@@ -1,0 +1,14 @@
+"metric","value"
+"GSE221156_edgeR_tested_genes",15639
+"Independent_receiver_raw",796
+"Independent_receiver_T2D_up",457
+"Independent_receiver_T2D_down",339
+"NicheNet_background",13712
+"Independent_receiver_in_NicheNet",697
+"Fixed_candidate_ligands",13
+"Candidates_evaluable_in_NicheNet",10
+"Candidates_positive_corrected_AUPR_validation",10
+"Candidates_positive_corrected_AUPR_both_datasets",9
+"Spearman_rho_discovery_vs_validation_rank",0.381818181818182
+"Spearman_P_discovery_vs_validation_rank",0.276255333385436
+"Top5_overlap_n",3

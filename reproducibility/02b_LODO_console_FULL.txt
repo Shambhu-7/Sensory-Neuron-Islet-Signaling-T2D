@@ -1,0 +1,157 @@
+
+Donors:
+[1] "180714DHB" "181030DHB" "DN0003"    "DN0095"    "DN0106"    "DN0134"   
+
+Running 6 leave-one-donor-out models.
+
+============================================
+EXCLUDING DONOR: 180714DHB 
+============================================
+
+============================================
+EXCLUDING DONOR: 181030DHB 
+============================================
+
+============================================
+EXCLUDING DONOR: DN0003 
+============================================
+
+============================================
+EXCLUDING DONOR: DN0095 
+============================================
+
+============================================
+EXCLUDING DONOR: DN0106 
+============================================
+
+============================================
+EXCLUDING DONOR: DN0134 
+============================================
+
+============================================
+LODO PATHWAY ROBUSTNESS
+============================================
+                                                       gene_set full_direction
+                     GOBP_CELLULAR_RESPONSE_TO_OXIDATIVE_STRESS             Up
+                                               GOBP_FERROPTOSIS             Up
+                             GOBP_GLUTATHIONE_METABOLIC_PROCESS           Down
+                        GOBP_NEGATIVE_REGULATION_OF_FERROPTOSIS             Up
+                                GOBP_NEUROINFLAMMATORY_RESPONSE             Up
+                  GOBP_RESPONSE_TO_ENDOPLASMIC_RETICULUM_STRESS             Up
+                              GOBP_RESPONSE_TO_OXIDATIVE_STRESS             Up
+                                             HALLMARK_APOPTOSIS             Up
+                                 HALLMARK_INFLAMMATORY_RESPONSE             Up
+                             HALLMARK_OXIDATIVE_PHOSPHORYLATION           Down
+                       HALLMARK_REACTIVE_OXYGEN_SPECIES_PATHWAY           Down
+                               HALLMARK_TNFA_SIGNALING_VIA_NFKB             Up
+                             HALLMARK_UNFOLDED_PROTEIN_RESPONSE           Down
+             REACTOME_CELLULAR_RESPONSE_TO_MITOCHONDRIAL_STRESS             Up
+                   REACTOME_GLUTATHIONE_SYNTHESIS_AND_RECYCLING             Up
+         REACTOME_MITOCHONDRIAL_UNFOLDED_PROTEIN_RESPONSE_UPRMT           Down
+                                             REACTOME_MITOPHAGY           Down
+ REACTOME_NFE2L2_REGULATING_ANTI_OXIDANT_DETOXIFICATION_ENZYMES             Up
+                     REACTOME_NUCLEAR_EVENTS_MEDIATED_BY_NFE2L2           Down
+                         REACTOME_UNFOLDED_PROTEIN_RESPONSE_UPR             Up
+                                           SINGH_NFE2L2_TARGETS           Down
+ full_FDR_fixed001 fixed_same_direction fixed_FDR05 fixed_P05
+      9.043367e-01                    6           0         0
+      8.286629e-01                    6           0         0
+      9.330603e-01                    5           0         0
+      8.286629e-01                    6           0         0
+      3.141628e-02                    6           5         6
+      8.286629e-01                    6           0         0
+      8.286629e-01                    6           0         0
+      5.904715e-02                    6           2         4
+      5.533876e-03                    6           6         6
+      2.045326e-06                    6           6         6
+      1.090723e-01                    6           0         4
+      3.777136e-04                    6           6         6
+      8.079517e-01                    6           0         0
+      9.330603e-01                    4           0         0
+      8.989489e-01                    6           0         0
+      8.286629e-01                    6           0         0
+      1.117895e-02                    6           5         6
+      9.330603e-01                    5           0         0
+      1.470591e-02                    6           5         6
+      8.286629e-01                    6           0         0
+      2.177690e-01                    6           0         0
+ estimated_same_direction estimated_FDR05 estimated_P05
+                        6               0             0
+                        6               0             0
+                        5               0             0
+                        6               0             0
+                        6               0             5
+                        6               0             0
+                        6               0             0
+                        6               0             3
+                        6               0             6
+                        6               1             6
+                        6               0             0
+                        6               0             5
+                        6               0             0
+                        4               0             0
+                        6               0             0
+                        6               0             0
+                        6               0             0
+                        5               0             0
+                        6               0             4
+                        6               0             0
+                        6               0             0
+
+============================================
+REDOX ANCHOR ROBUSTNESS
+============================================
+   gene      logFC          FDR              direction n_LODO_tested
+  ACSL4 -0.5191891 1.258005e-03 Nearby_neuron_enriched             6
+    CLU -0.2275275 2.299858e-02 Nearby_neuron_enriched             6
+   FTH1  0.2368862 1.690893e-02      Nageotte_enriched             6
+    FTL  0.3832962 7.044000e-05      Nageotte_enriched             6
+    GSS -0.4133132 4.122376e-02 Nearby_neuron_enriched             6
+ NFE2L2  0.5759558 2.505351e-04      Nageotte_enriched             6
+  PRDX2 -0.4907683 7.614510e-06 Nearby_neuron_enriched             6
+   SOD1 -0.4379888 1.418104e-05 Nearby_neuron_enriched             6
+   SPP1 -0.4074019 1.542603e-04 Nearby_neuron_enriched             6
+  SRXN1 -0.6149544 4.182890e-03 Nearby_neuron_enriched             6
+  TREM2  0.5225867 3.737321e-03      Nageotte_enriched             6
+    TXN -0.4024877 3.376518e-04 Nearby_neuron_enriched             6
+ TYROBP  0.3685231 3.401172e-03      Nageotte_enriched             6
+ n_LODO_same_direction n_LODO_FDR05 all_LODO_direction_concordant
+                     6            6                          TRUE
+                     6            2                          TRUE
+                     6            4                          TRUE
+                     6            6                          TRUE
+                     6            2                          TRUE
+                     6            6                          TRUE
+                     6            6                          TRUE
+                     6            6                          TRUE
+                     6            6                          TRUE
+                     6            5                          TRUE
+                     6            6                          TRUE
+                     6            6                          TRUE
+                     6            6                          TRUE
+ n_donors_same_direction all_6_donors_same_direction
+                       6                        TRUE
+                       5                       FALSE
+                       5                       FALSE
+                       5                       FALSE
+                       5                       FALSE
+                       5                       FALSE
+                       5                       FALSE
+                       6                        TRUE
+                       6                        TRUE
+                       5                       FALSE
+                       5                       FALSE
+                       6                        TRUE
+                       5                       FALSE
+
+============================================
+GLOBAL GENE ROBUSTNESS
+============================================
+Full-model FDR < 0.05 genes: 2570 
+FDR < 0.05 genes with same direction in all 6 LODO models: 2569 
+FDR < 0.05 genes with same direction in all 6 individual donors: 1425 
+FDR < 0.05 in full model AND every LODO model: 1210 
+
+============================================
+SCRIPT 02b COMPLETED SUCCESSFULLY
+============================================

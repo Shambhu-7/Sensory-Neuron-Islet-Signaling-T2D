@@ -1,0 +1,10 @@
+"ligand","candidate_tier","logFC","FDR","enriched_region","highlighted_original_GSE295206_study","n_curated_LR_pairs","n_beta_primary_receptors","n_beta_both_conditions_receptors","n_beta_strong_receptors","beta_primary_receptors","beta_both_conditions_receptors","beta_strong_receptors","n_alpha_primary_receptors","n_alpha_both_conditions_receptors","alpha_primary_receptors","alpha_both_conditions_receptors","beta_compatible","beta_stable_across_conditions","alpha_compatible","alpha_stable_across_conditions"
+"CALCB","Tier_A_strict",-0.912664821805837,3.38955082869356e-14,"Nearby_neuron_region",FALSE,13,0,0,0,NA,NA,NA,1,1,"RAMP2","RAMP2",FALSE,FALSE,TRUE,TRUE
+"CALCA","Tier_A_strict",-0.759911024466139,1.64108189726786e-13,"Nearby_neuron_region",TRUE,13,0,0,0,NA,NA,NA,1,1,"RAMP2","RAMP2",FALSE,FALSE,TRUE,TRUE
+"TAC1","Tier_A_strict",-0.774585735071224,1.00594960035387e-11,"Nearby_neuron_region",FALSE,4,0,0,0,NA,NA,NA,0,0,NA,NA,FALSE,FALSE,FALSE,FALSE
+"NRG1","Tier_A_strict",-0.741011367838594,8.84674365469252e-07,"Nearby_neuron_region",FALSE,8,3,1,1,"ERBB2;GPC1;LGR4","LGR4","LGR4",2,2,"ERBB3;LGR4","ERBB3;LGR4",TRUE,TRUE,TRUE,TRUE
+"NMB","Tier_A_strict",-0.584074240930173,4.84244236360063e-07,"Nearby_neuron_region",FALSE,3,0,0,0,NA,NA,NA,1,1,"BRS3","BRS3",FALSE,FALSE,TRUE,TRUE
+"UCN","Tier_A_strict",-0.747325308443755,2.87721686149318e-05,"Nearby_neuron_region",FALSE,2,1,0,0,"CRHR1",NA,NA,0,0,NA,NA,TRUE,FALSE,FALSE,FALSE
+"ADCYAP1","Tier_A_strict",-0.610164350591742,6.84636355400324e-08,"Nearby_neuron_region",TRUE,13,1,0,0,"SCTR",NA,NA,2,2,"DPP4;RAMP2","DPP4;RAMP2",TRUE,FALSE,TRUE,TRUE
+"GAL","Tier_B_LODO_robust",-0.551097855305136,0.000112677211588387,"Nearby_neuron_region",TRUE,7,1,1,1,"ADRA2A","ADRA2A","ADRA2A",0,0,NA,NA,TRUE,TRUE,FALSE,FALSE
+"PENK","Tier_A_strict",-0.550698962897916,0.00110695479829574,"Nearby_neuron_region",TRUE,10,1,1,1,"ADRA2A","ADRA2A","ADRA2A",0,0,NA,NA,TRUE,TRUE,FALSE,FALSE

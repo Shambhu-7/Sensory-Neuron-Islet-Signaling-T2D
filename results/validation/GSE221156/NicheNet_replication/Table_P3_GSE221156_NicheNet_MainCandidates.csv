@@ -1,0 +1,6 @@
+"test_ligand","discovery_rank","discovery_aupr_corrected","validation_rank","validation_aupr_corrected","validation_positive_aupr_corrected","rank_change_validation_minus_discovery","discovery_positive_aupr_corrected","positive_in_both"
+"SEMA7A",4,0.0005222301,3,0.0122455004867229,TRUE,-1,TRUE,TRUE
+"EDIL3",8,0.0002597106,1,0.0180349277337314,TRUE,-7,TRUE,TRUE
+"FLRT3",2,0.000696181,2,0.0140908471715913,TRUE,0,TRUE,TRUE
+"PGF",1,0.0007624951,4,0.0106107722235899,TRUE,3,TRUE,TRUE
+"SPP1",5,0.0004570261,9,0.00746291289279249,TRUE,4,TRUE,TRUE

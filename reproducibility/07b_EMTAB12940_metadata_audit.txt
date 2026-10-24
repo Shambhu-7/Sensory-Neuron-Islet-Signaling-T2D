@@ -1,0 +1,436 @@
+============================================
+SCRIPT 07b: TRACE-N-SEQ METADATA AUDIT
+============================================
+
+Downloading: smartseq_metadata_table.txt 
+trying URL 'https://ftp.ebi.ac.uk/biostudies/fire/E-MTAB-/940/E-MTAB-12940/Files/smartseq_metadata_table.txt'
+Content type 'text/plain; charset=UTF-8' length 811295 bytes (792 KB)
+==================================================
+downloaded 792 KB
+
+Downloading: smartseq_metadata_table2.txt 
+trying URL 'https://ftp.ebi.ac.uk/biostudies/fire/E-MTAB-/940/E-MTAB-12940/Files/smartseq_metadata_table2.txt'
+Content type 'text/plain; charset=UTF-8' length 744405 bytes (726 KB)
+==================================================
+downloaded 726 KB
+
+
+============================================
+FILE SIZES / MD5
+============================================
+smartseq_metadata_table.txt  | bytes = 811295  | MD5 = 91195f31435eb6aeac34a01b3fa356d4 
+smartseq_metadata_table2.txt  | bytes = 744405  | MD5 = 01c6c89993b0178e3720f7228421247c 
+
+
+============================================
+smartseq_metadata_table.txt 
+============================================
+Rows: 1926 
+Columns: 35 
+
+COLUMN NAMES
+ [1] "sum"                          "detected"                    
+ [3] "total"                        "CellName"                    
+ [5] "CellString"                   "CellID"                      
+ [7] "WellID"                       "Lane"                        
+ [9] "Ganglion"                     "MouseModel"                  
+[11] "FastBlue"                     "Tumor"                       
+[13] "CellLine"                     "InnervatingTissue"           
+[15] "Replicate"                    "Is_Cell"                     
+[17] "mito_percent"                 "percent_nofeature"           
+[19] "percent_ambiguous"            "percent_too_low_qual"        
+[21] "percent_not_aligned"          "percent_not_unique"          
+[23] "percent_good"                 "is_cell"                     
+[25] "sizeFactor"                   "ClusterNew"                  
+[27] "AnnotatedCellType"            "AnnotatedCellTypeScore"      
+[29] "AnnotatedSubCellType"         "AnnotatedSubCellTypeScore"   
+[31] "AnnotatedCellType_SingleR"    "AnnotatedSubCellType_SingleR"
+[33] "AnnotatedCellTypeSharma"      "AnnotationError"             
+[35] "CellTypeCGsub"               
+
+CANDIDATE METADATA COLUMNS
+ [1] "CellName"                     "CellString"                  
+ [3] "CellID"                       "Ganglion"                    
+ [5] "MouseModel"                   "CellLine"                    
+ [7] "InnervatingTissue"            "Is_Cell"                     
+ [9] "is_cell"                      "AnnotatedCellType"           
+[11] "AnnotatedCellTypeScore"       "AnnotatedSubCellType"        
+[13] "AnnotatedSubCellTypeScore"    "AnnotatedCellType_SingleR"   
+[15] "AnnotatedSubCellType_SingleR" "AnnotatedCellTypeSharma"     
+[17] "AnnotationError"              "CellTypeCGsub"               
+
+--- CellName ---
+Unique values: 1926 
+vals
+AS.503677.LR.51644 AS.503681.LR.51644 AS.503685.LR.51644 AS.503689.LR.51644 
+                 1                  1                  1                  1 
+AS.503691.LR.51644 AS.503693.LR.51644 AS.503699.LR.51644 AS.503717.LR.51644 
+                 1                  1                  1                  1 
+AS.503723.LR.51644 AS.503725.LR.51644 AS.503733.LR.51644 AS.503735.LR.51644 
+                 1                  1                  1                  1 
+AS.503737.LR.51644 AS.503739.LR.51644 AS.503745.LR.51644 AS.503747.LR.51644 
+                 1                  1                  1                  1 
+AS.503751.LR.51644 AS.503753.LR.51644 AS.503761.LR.51644 AS.503765.LR.51644 
+                 1                  1                  1                  1 
+AS.503777.LR.51644 AS.503787.LR.51644 AS.503793.LR.51644 AS.503803.LR.51644 
+                 1                  1                  1                  1 
+AS.503817.LR.51644 AS.503819.LR.51644 AS.503823.LR.51644 AS.503835.LR.51644 
+                 1                  1                  1                  1 
+AS.503843.LR.51644 AS.503853.LR.51644 
+                 1                  1 
+
+--- CellString ---
+Unique values: 1531 
+vals
+                        DRG                          CG 
+                        166                         151 
+                       CG__                       DRG__ 
+                         39                          39 
+CG_NSG_FB_PACO10_Cancer_146 CG_NSG_FB_PACO10_Cancer_152 
+                          2                           2 
+CG_NSG_FB_PACO10_Cancer_187 CG_NSG_FB_PACO10_Cancer_197 
+                          2                           2 
+              CG_B6_FB+_001               CG_B6_FB+_002 
+                          1                           1 
+              CG_B6_FB+_003               CG_B6_FB+_004 
+                          1                           1 
+              CG_B6_FB+_005               CG_B6_FB+_006 
+                          1                           1 
+              CG_B6_FB+_008               CG_B6_FB+_009 
+                          1                           1 
+              CG_B6_FB+_010               CG_B6_FB+_011 
+                          1                           1 
+              CG_B6_FB+_012               CG_B6_FB+_014 
+                          1                           1 
+              CG_B6_FB+_015               CG_B6_FB+_016 
+                          1                           1 
+              CG_B6_FB+_017               CG_B6_FB+_019 
+                          1                           1 
+              CG_B6_FB+_021               CG_B6_FB+_022 
+                          1                           1 
+              CG_B6_FB+_024               CG_B6_FB+_025 
+                          1                           1 
+              CG_B6_FB+_026               CG_B6_FB+_027 
+                          1                           1 
+
+--- CellID ---
+Unique values: 716 
+vals
+048 010 153 011 033 046 072 081 105 004 005 009 022 034 036 040 041 043 057 065 
+ 10   9   9   8   8   8   8   8   8   7   7   7   7   7   7   7   7   7   7   7 
+075 084 103 107 110 123 135 142 150 167 
+  7   7   7   7   7   7   7   7   7   7 
+
+--- Ganglion ---
+Unique values: 2 
+vals
+  CG  DRG 
+1168  758 
+
+--- MouseModel ---
+Unique values: 3 
+vals
+ NSG   B6  B6J 
+1490  242  194 
+
+--- CellLine ---
+Unique values: 6 
+vals
+           None          PACO10          PACO43         Healthy PACO10_resected 
+            930             480             211             162              91 
+      Xenograft 
+             52 
+
+--- InnervatingTissue ---
+Unique values: 7 
+vals
+    Pancreas       Cancer   Peritoneum       Spleen          Gut skin_distant 
+         673          612          367          110          104           33 
+       Colon 
+          27 
+
+--- Is_Cell ---
+Unique values: 2 
+vals
+FALSE  TRUE 
+ 1227   699 
+
+--- is_cell ---
+Unique values: 1 
+TRUE 
+1926 
+
+--- AnnotatedCellType ---
+Unique values: 9 
+vals
+         Sympathetic noradrenergic neurons 
+                                      1130 
+  Peripheral sensory neurofilament neurons 
+                                       467 
+    Peripheral sensory peptidergic neurons 
+                                       172 
+Peripheral sensory non-peptidergic neurons 
+                                       123 
+                           Enteric neurons 
+                                        23 
+                              Enteric glia 
+                                         7 
+           Sympathetic cholinergic neurons 
+                                         2 
+                           Ependymal cells 
+                                         1 
+                            Satellite glia 
+                                         1 
+
+--- AnnotatedCellTypeScore ---
+Unique values: 1926 
+vals
+0.0807263993098667  0.191372838171678  0.224174426931483  0.253415410315149 
+                 1                  1                  1                  1 
+ 0.276119547318599  0.294105680139534  0.302146305499329  0.303611632348614 
+                 1                  1                  1                  1 
+  0.32192948816713  0.332794661041783  0.361994230781557  0.367043926724761 
+                 1                  1                  1                  1 
+ 0.367339439142406  0.381247804473704  0.381475898187929  0.391951265271369 
+                 1                  1                  1                  1 
+ 0.392142628711766  0.392649462188763  0.392814393037754  0.395581665389235 
+                 1                  1                  1                  1 
+ 0.397953170874591  0.398431093229826   0.39976053474571  0.402672317885038 
+                 1                  1                  1                  1 
+ 0.402854709234025  0.409059436739016  0.410154676132465  0.411248711280838 
+                 1                  1                  1                  1 
+ 0.413636952699056  0.416978289401683 
+                 1                  1 
+
+--- AnnotatedSubCellType ---
+Unique values: 27 
+vals
+SYNOR4 SYNOR3 SYNOR1  PSNF2  PSNF3 PSPEP1  PSNF1  PSNP3 PSPEP2  PSNP4  PSNP1 
+   391    385    353    250    144    130     73     59     31     21     20 
+  ENT4  PSNP2  ENTG5 PSPEP3  PSNP5  PSNP6 PSPEP4   ENT3   ENT7 PSPEP5 SYCHO1 
+    19     16      6      5      4      3      3      2      2      2      2 
+ ENTG2   EPEN PSPEP6  SATG2 SYNOR5 
+     1      1      1      1      1 
+
+--- AnnotatedSubCellTypeScore ---
+Unique values: 1926 
+vals
+0.0807263993098667  0.191372838171678  0.224174426931483  0.253415410315149 
+                 1                  1                  1                  1 
+ 0.276119547318599  0.294105680139534  0.302146305499329  0.303611632348614 
+                 1                  1                  1                  1 
+  0.32192948816713  0.332794661041783  0.361994230781557  0.367043926724761 
+                 1                  1                  1                  1 
+ 0.367339439142406  0.381247804473704  0.381475898187929  0.391951265271369 
+                 1                  1                  1                  1 
+ 0.392142628711766  0.392649462188763  0.392814393037754  0.395581665389235 
+                 1                  1                  1                  1 
+ 0.397953170874591  0.398431093229826   0.39976053474571  0.402672317885038 
+                 1                  1                  1                  1 
+ 0.402854709234025  0.409059436739016  0.410154676132465  0.411248711280838 
+                 1                  1                  1                  1 
+ 0.413636952699056  0.416978289401683 
+                 1                  1 
+
+--- AnnotatedCellType_SingleR ---
+Unique values: 8 
+vals
+         Sympathetic noradrenergic neurons 
+                                      1149 
+  Peripheral sensory neurofilament neurons 
+                                       501 
+    Peripheral sensory peptidergic neurons 
+                                       140 
+Peripheral sensory non-peptidergic neurons 
+                                       120 
+                              Enteric glia 
+                                        12 
+                            Satellite glia 
+                                         2 
+             Dentate gyrus granule neurons 
+                                         1 
+           Sympathetic cholinergic neurons 
+                                         1 
+
+--- AnnotatedSubCellType_SingleR ---
+Unique values: 28 
+vals
+SYNOR3 SYNOR1  PSNF2  PSNF3 SYNOR4 PSPEP1  PSNP3  PSNF1 PSPEP2  PSNP4  PSNP1 
+   717    298    270    146    128    118     69     63     31     20     19 
+ PSNP2 PSPEP3 SYNOR2  PSNP5  PSNP6 PSPEP4   ENT7  ENTG4  ENTG5 SYNOR5   ENT2 
+     8      7      7      4      3      3      2      2      2      2      1 
+  ENT4   ENT5  ENTG6 PSPEP6 PSPEP7 SYCHO1 
+     1      1      1      1      1      1 
+
+--- AnnotatedCellTypeSharma ---
+Unique values: 16 
+vals
+                 CGRPBeta            Proprioceptors              AbetaRA.LTMR 
+                     1030                       177                       156 
+                CGRPGamma                AbetaField Nonpeptidergicnociceptors 
+                      155                        89                        76 
+                 CGRPZeta                   CGRPEta                AdeltaLTMR 
+                       66                        62                        48 
+                CGRPTheta                     CLTMR                   Unknown 
+                       22                        19                        13 
+             CGRPEpsilion                 CGRPAlpha                       Sst 
+                        6                         4                         2 
+                    TrpM8 
+                        1 
+
+--- AnnotationError ---
+Unique values: 2 
+vals
+FALSE  TRUE 
+ 1888    38 
+
+--- CellTypeCGsub ---
+Unique values: 10 
+vals
+     Sympathetic noradrenergic neurons (2) 
+                                       709 
+  Peripheral sensory neurofilament neurons 
+                                       467 
+     Sympathetic noradrenergic neurons (1) 
+                                       421 
+    Peripheral sensory peptidergic neurons 
+                                       172 
+Peripheral sensory non-peptidergic neurons 
+                                       123 
+                           Enteric neurons 
+                                        23 
+                              Enteric glia 
+                                         7 
+           Sympathetic cholinergic neurons 
+                                         2 
+                           Ependymal cells 
+                                         1 
+                            Satellite glia 
+                                         1 
+
+KEYWORD ROW COUNTS
+pancreas : 673 
+healthy : 162 
+DRG : 760 
+JNG : 0 
+CG : 1400 
+sensory : 762 
+peptidergic : 295 
+neurofilament : 502 
+
+
+============================================
+smartseq_metadata_table2.txt 
+============================================
+Rows: 2046 
+Columns: 1 
+
+COLUMN NAMES
+[1] "\"\",\"sum\",\"detected\",\"total\",\"CellName\",\"CellString\",\"CellID\",\"WellID\",\"Lane\",\"Ganglion\",\"MouseModel\",\"FastBlue\",\"Tumor\",\"CellLine\",\"InnervatingTissue\",\"Replicate\",\"Is_Cell\",\"mito_percent\",\"percent_nofeature\",\"percent_ambiguous\",\"percent_too_low_qual\",\"percent_not_aligned\",\"percent_not_unique\",\"percent_good\",\"is_cell\",\"sizeFactor\",\"ClusterNew\",\"AnnotatedCellType\",\"AnnotatedSubCellType\",\"AnnotatedCellTypeSharma\""
+
+CANDIDATE METADATA COLUMNS
+[1] "\"\",\"sum\",\"detected\",\"total\",\"CellName\",\"CellString\",\"CellID\",\"WellID\",\"Lane\",\"Ganglion\",\"MouseModel\",\"FastBlue\",\"Tumor\",\"CellLine\",\"InnervatingTissue\",\"Replicate\",\"Is_Cell\",\"mito_percent\",\"percent_nofeature\",\"percent_ambiguous\",\"percent_too_low_qual\",\"percent_not_aligned\",\"percent_not_unique\",\"percent_good\",\"is_cell\",\"sizeFactor\",\"ClusterNew\",\"AnnotatedCellType\",\"AnnotatedSubCellType\",\"AnnotatedCellTypeSharma\""
+
+--- "","sum","detected","total","CellName","CellString","CellID","WellID","Lane","Ganglion","MouseModel","FastBlue","Tumor","CellLine","InnervatingTissue","Replicate","Is_Cell","mito_percent","percent_nofeature","percent_ambiguous","percent_too_low_qual","percent_not_aligned","percent_not_unique","percent_good","is_cell","sizeFactor","ClusterNew","AnnotatedCellType","AnnotatedSubCellType","AnnotatedCellTypeSharma" ---
+Unique values: 2046 
+vals
+     "AS.1049559.LR.69317",64240,6072,64240,"AS.1049559.LR.69317","CG_NSG_FB_PACO10_m1_Ctrl_01","A1","A1","37405","CG","NSG","FB+","Xenograft Ctrl","PACO10","Tumor","m1",TRUE,0.00291095890410959,0.255800475029373,0.277699518653747,0,0,0.262906964991851,0.203593041325029,TRUE,0.183324812913592,"5","Sympathetic noradrenergic neurons","SYNOR4","CGRPBeta" 
+                                                                                                                                                                                                                                                                                                                                                                1 
+  "AS.1049561.LR.69317",333305,10661,333305,"AS.1049561.LR.69317","CG_NSG_FB_PACO10_m1_Ctrl_02","A2","A2","37405","CG","NSG","FB+","Xenograft Ctrl","PACO10","Tumor","m1",TRUE,0.000402034172904697,0.248690050669704,0.303186722543335,0,0,0.185912190641363,0.262211036145598,TRUE,1.17253369228188,"9","Sympathetic noradrenergic neurons","SYNOR4","CGRPBeta" 
+                                                                                                                                                                                                                                                                                                                                                                1 
+  "AS.1049563.LR.69317",425318,11739,425318,"AS.1049563.LR.69317","CG_NSG_FB_PACO10_m1_Ctrl_03","A3","A3","37405","CG","NSG","FB+","Xenograft Ctrl","PACO10","Tumor","m1",TRUE,0.000479641115588806,0.221934583621592,0.301064040959528,0,0,0.174415681889457,0.302585693529424,TRUE,1.46903015340479,"8","Sympathetic noradrenergic neurons","SYNOR4","CGRPBeta" 
+                                                                                                                                                                                                                                                                                                                                                                1 
+      "AS.1049565.LR.69317",53819,5104,53819,"AS.1049565.LR.69317","CG_NSG_FB_PACO10_m1_Ctrl_04","A4","A4","37405","CG","NSG","FB+","Xenograft Ctrl","PACO10","Tumor","m1",TRUE,0.00360467492892845,0.337097859794444,0.209516888064868,0,0,0.279285194193132,0.174100057947555,TRUE,0.15135062305218,"5","Sympathetic noradrenergic neurons","SYNOR1","CGRPBeta" 
+                                                                                                                                                                                                                                                                                                                                                                1 
+     "AS.1049567.LR.69317",29908,4066,29908,"AS.1049567.LR.69317","CG_NSG_FB_PACO10_m1_Ctrl_05","A5","A5","37405","CG","NSG","FB+","Xenograft Ctrl","PACO10","Tumor","m1",TRUE,0.0062525076902501,0.228349941103435,0.246751138136322,0,0,0.323982044506701,0.200916876253542,TRUE,0.0857296979357284,"2","Sympathetic noradrenergic neurons","SYNOR3","CGRPBeta" 
+                                                                                                                                                                                                                                                                                                                                                                1 
+  "AS.1049569.LR.69317",321528,10521,321528,"AS.1049569.LR.69317","CG_NSG_FB_PACO10_m1_Ctrl_06","A6","A6","37405","CG","NSG","FB+","Xenograft Ctrl","PACO10","Tumor","m1",TRUE,0.000957925903809311,0.174562969151508,0.356344384106128,0,0,0.204243724604109,0.264848922138255,TRUE,1.21107886892665,"8","Sympathetic noradrenergic neurons","SYNOR4","CGRPBeta" 
+                                                                                                                                                                                                                                                                                                                                                                1 
+  "AS.1049571.LR.69317",392465,11366,392465,"AS.1049571.LR.69317","CG_NSG_FB_PACO10_m1_Ctrl_07","A7","A7","37405","CG","NSG","FB+","Xenograft Ctrl","PACO10","Tumor","m1",TRUE,0.000328691730472781,0.226493121977948,0.297328578157594,0,0,0.175894719640093,0.300283580224365,TRUE,1.39960521492857,"9","Sympathetic noradrenergic neurons","SYNOR1","CGRPBeta" 
+                                                                                                                                                                                                                                                                                                                                                                1 
+  "AS.1049575.LR.69317",383895,11014,383895,"AS.1049575.LR.69317","CG_NSG_FB_PACO10_m1_Ctrl_09","A9","A9","37405","CG","NSG","FB+","Xenograft Ctrl","PACO10","Tumor","m1",TRUE,0.000513161150835515,0.208722209555724,0.329503867995058,0,0,0.202968732601976,0.258805189847242,TRUE,1.18058084800709,"4","Sympathetic noradrenergic neurons","SYNOR3","CGRPBeta" 
+                                                                                                                                                                                                                                                                                                                                                                1 
+                "AS.1049577.LR.69317",40270,8198,40270,"AS.1049577.LR.69317","CG_NSG_FB_PACO10_m1_Ctrl_10","A10","A10","37405","CG","NSG","FB+","Xenograft Ctrl","PACO10","Tumor","m1",TRUE,0.00481748199652347,0.679434372988659,0.0901400172805632,0,0,0.126497875065681,0.103927734665097,TRUE,0.195217622645995,"2","Enteric neurons","ENT4","Proprioceptors" 
+                                                                                                                                                                                                                                                                                                                                                                1 
+  "AS.1049581.LR.69317",252537,10251,252537,"AS.1049581.LR.69317","CG_NSG_FB_PACO10_m1_Ctrl_12","A12","A12","37405","CG","NSG","FB+","Xenograft Ctrl","PACO10","Tumor","m1",TRUE,0.0006098116315629,0.21422402726233,0.361153788593373,0,0,0.206721257230572,0.217900926913725,TRUE,0.812327206281644,"4","Sympathetic noradrenergic neurons","SYNOR3","CGRPBeta" 
+                                                                                                                                                                                                                                                                                                                                                                1 
+"AS.1049585.LR.69317",447586,11437,447586,"AS.1049585.LR.69317","CG_NSG_FB_PACO10_m1_Ctrl_14","A14","A14","37405","CG","NSG","FB+","Xenograft Ctrl","PACO10","Tumor","m1",TRUE,0.000542912423534248,0.231559819419607,0.319967928029498,0,0,0.189899445618578,0.258572806932317,TRUE,1.58556311145484,"9","Sympathetic noradrenergic neurons","SYNOR4","CGRPBeta" 
+                                                                                                                                                                                                                                                                                                                                                                1 
+ "AS.1049589.LR.69317",344967,11041,344967,"AS.1049589.LR.69317","CG_NSG_FB_PACO10_m1_Ctrl_16","A16","A16","37405","CG","NSG","FB+","Xenograft Ctrl","PACO10","Tumor","m1",TRUE,0.000916029649212823,0.234381072190034,0.296726849637071,0,0,0.21723689883473,0.251655179338165,TRUE,1.18180821845849,"8","Sympathetic noradrenergic neurons","SYNOR4","CGRPBeta" 
+                                                                                                                                                                                                                                                                                                                                                                1 
+"AS.1049591.LR.69317",484273,12049,484273,"AS.1049591.LR.69317","CG_NSG_FB_PACO10_m1_Ctrl_17","A17","A17","37405","CG","NSG","FB+","Xenograft Ctrl","PACO10","Tumor","m1",TRUE,0.000433639703225247,0.244551751255509,0.301206984783549,0,0,0.176081578447747,0.278159685513195,TRUE,1.83219552040754,"8","Sympathetic noradrenergic neurons","SYNOR4","CGRPBeta" 
+                                                                                                                                                                                                                                                                                                                                                                1 
+ "AS.1049593.LR.69317",319534,11374,319534,"AS.1049593.LR.69317","CG_NSG_FB_PACO10_m1_Ctrl_18","A18","A18","37405","CG","NSG","FB+","Xenograft Ctrl","PACO10","Tumor","m1",TRUE,0.000284789725037085,0.254151785682757,0.29509300070553,0,0,0.180992784385402,0.269762429226311,TRUE,1.13815987866227,"9","Sympathetic noradrenergic neurons","SYNOR4","CGRPBeta" 
+                                                                                                                                                                                                                                                                                                                                                                1 
+"AS.1049597.LR.69317",239799,10295,239799,"AS.1049597.LR.69317","CG_NSG_FB_PACO10_m1_Ctrl_20","A20","A20","37405","CG","NSG","FB+","Xenograft Ctrl","PACO10","Tumor","m1",TRUE,0.00369893118820345,0.202596371184293,0.334130612747309,0,0,0.207027637239834,0.256245378828564,TRUE,0.805870082131901,"8","Sympathetic noradrenergic neurons","SYNOR4","CGRPBeta" 
+                                                                                                                                                                                                                                                                                                                                                                1 
+"AS.1049599.LR.69317",468229,12229,468229,"AS.1049599.LR.69317","CG_NSG_FB_PACO10_m1_Ctrl_21","A21","A21","37405","CG","NSG","FB+","Xenograft Ctrl","PACO10","Tumor","m1",TRUE,0.000198620760354442,0.270049308111823,0.281206766273212,0,0,0.174180731709008,0.274563193905957,TRUE,1.77236004714556,"8","Sympathetic noradrenergic neurons","SYNOR4","CGRPBeta" 
+                                                                                                                                                                                                                                                                                                                                                                1 
+ "AS.1049603.LR.69317",504402,11188,504402,"AS.1049603.LR.69317","CG_NSG_FB_PACO10_m1_Ctrl_23","A23","A23","37405","CG","NSG","FB+","Xenograft Ctrl","PACO10","Tumor","m1",TRUE,0.000531322239007776,0.233889337469721,0.263794568866602,0,0,0.188916216905359,0.313399876758319,TRUE,1.7967455003835,"4","Sympathetic noradrenergic neurons","SYNOR1","CGRPBeta" 
+                                                                                                                                                                                                                                                                                                                                                                1 
+              "AS.1049607.LR.69317",84449,5083,84449,"AS.1049607.LR.69317","CG_NSG_FB_PACO10_m1_Ctrl_48","B1","B1","37405","CG","NSG","FB+","Xenograft Ctrl","PACO10","Tumor","m1",TRUE,0.0202489076247202,0.299068958653351,0.238250438479537,0,0,0.26739552544308,0.195285077424031,TRUE,0.236319628466746,"2","Vascular smooth muscle cells","VECA","CGRPBeta" 
+                                                                                                                                                                                                                                                                                                                                                                1 
+   "AS.1049609.LR.69317",433053,10487,433053,"AS.1049609.LR.69317","CG_NSG_FB_PACO10_m1_Ctrl_47","B2","B2","37405","CG","NSG","FB+","Xenograft Ctrl","PACO10","Tumor","m1",TRUE,0.00108993587389996,0.191032717988773,0.301846139660977,0,0,0.213856831045287,0.293264311304963,TRUE,1.51017890865595,"4","Sympathetic noradrenergic neurons","SYNOR1","CGRPBeta" 
+                                                                                                                                                                                                                                                                                                                                                                1 
+     "AS.1049613.LR.69317",299919,9611,299919,"AS.1049613.LR.69317","CG_NSG_FB_PACO10_m1_Ctrl_45","B4","B4","37405","CG","NSG","FB+","Xenograft Ctrl","PACO10","Tumor","m1",TRUE,0.00124700335757321,0.210922725701956,0.33043598932271,0,0,0.21817043936339,0.240470845611944,TRUE,0.989214031902143,"4","Sympathetic noradrenergic neurons","SYNOR4","CGRPBeta" 
+                                                                                                                                                                                                                                                                                                                                                                1 
+                        "AS.1049615.LR.69317",309329,10058,309329,"AS.1049615.LR.69317","CG_NSG_FB_PACO10_m1_Ctrl_44","B5","B5","37405","CG","NSG","FB+","Xenograft Ctrl","PACO10","Tumor","m1",TRUE,0.00323280390781336,0.243999129563514,0.308594603772051,0,0,0.222020130039385,0.22538613662505,TRUE,1.29526695495052,"8","Enteric neurons","ENT4","CGRPBeta" 
+                                                                                                                                                                                                                                                                                                                                                                1 
+     "AS.1049617.LR.69317",407388,10992,407388,"AS.1049617.LR.69317","CG_NSG_FB_PACO10_m1_Ctrl_43","B6","B6","37405","CG","NSG","FB+","Xenograft Ctrl","PACO10","Tumor","m1",TRUE,0.000321560772531346,0.2249095884757,0.309991007388809,0,0,0.185820299779595,0.279279104355897,TRUE,1.4525341685532,"9","Sympathetic noradrenergic neurons","SYNOR4","CGRPBeta" 
+                                                                                                                                                                                                                                                                                                                                                                1 
+   "AS.1049621.LR.69317",145254,8501,145254,"AS.1049621.LR.69317","CG_NSG_FB_PACO10_m1_Ctrl_41","B8","B8","37405","CG","NSG","FB+","Xenograft Ctrl","PACO10","Tumor","m1",TRUE,0.00251972406956091,0.262258219474544,0.372390171407412,0,0,0.206106717439222,0.159244891678822,TRUE,0.459177856377264,"4","Sympathetic noradrenergic neurons","SYNOR3","CGRPBeta" 
+                                                                                                                                                                                                                                                                                                                                                                1 
+    "AS.1049623.LR.69317",380008,11434,380008,"AS.1049623.LR.69317","CG_NSG_FB_PACO10_m1_Ctrl_40","B9","B9","37405","CG","NSG","FB+","Xenograft Ctrl","PACO10","Tumor","m1",TRUE,0.0253442032799309,0.348713745353646,0.156606656719543,0,0,0.138876073242239,0.355803524684571,TRUE,1.59286479679925,"9","Sympathetic noradrenergic neurons","SYNOR1","CGRPBeta" 
+                                                                                                                                                                                                                                                                                                                                                                1 
+ "AS.1049625.LR.69317",342416,10655,342416,"AS.1049625.LR.69317","CG_NSG_FB_PACO10_m1_Ctrl_39","B10","B10","37405","CG","NSG","FB+","Xenograft Ctrl","PACO10","Tumor","m1",TRUE,0.000303724125040886,0.23947421812007,0.313376906267422,0,0,0.191761797159718,0.255387078452791,TRUE,1.20579056285687,"4","Sympathetic noradrenergic neurons","SYNOR1","CGRPBeta" 
+                                                                                                                                                                                                                                                                                                                                                                1 
+"AS.1049627.LR.69317",350953,10901,350953,"AS.1049627.LR.69317","CG_NSG_FB_PACO10_m1_Ctrl_38","B11","B11","37405","CG","NSG","FB+","Xenograft Ctrl","PACO10","Tumor","m1",TRUE,0.000390365661498833,0.228437804473625,0.316388425439149,0,0,0.179173811219283,0.275999958867943,TRUE,1.27733787269982,"9","Sympathetic noradrenergic neurons","SYNOR1","CGRPBeta" 
+                                                                                                                                                                                                                                                                                                                                                                1 
+"AS.1049631.LR.69317",331428,10577,331428,"AS.1049631.LR.69317","CG_NSG_FB_PACO10_m1_Ctrl_36","B13","B13","37405","CG","NSG","FB+","Xenograft Ctrl","PACO10","Tumor","m1",TRUE,0.000416380028241428,0.192011122626824,0.327243316360968,0,0,0.199268759849015,0.281476801163194,TRUE,1.15675061023034,"8","Sympathetic noradrenergic neurons","SYNOR4","CGRPBeta" 
+                                                                                                                                                                                                                                                                                                                                                                1 
+"AS.1049635.LR.69317",332841,11450,332841,"AS.1049635.LR.69317","CG_NSG_FB_PACO10_m1_Ctrl_34","B15","B15","37405","CG","NSG","FB+","Xenograft Ctrl","PACO10","Tumor","m1",TRUE,0.000321474818306639,0.253059109854936,0.313131030788712,0,0,0.171897792188544,0.261912067167808,TRUE,1.24493134104093,"8","Sympathetic noradrenergic neurons","SYNOR4","CGRPBeta" 
+                                                                                                                                                                                                                                                                                                                                                                1 
+"AS.1049637.LR.69317",398053,11198,398053,"AS.1049637.LR.69317","CG_NSG_FB_PACO10_m1_Ctrl_33","B16","B16","37405","CG","NSG","FB+","Xenograft Ctrl","PACO10","Tumor","m1",TRUE,0.000344175273142019,0.227520176596316,0.306272556325115,0,0,0.184446209369416,0.281761057709153,TRUE,1.38824982292029,"4","Sympathetic noradrenergic neurons","SYNOR4","CGRPBeta" 
+                                                                                                                                                                                                                                                                                                                                                                1 
+ "AS.1049639.LR.69317",412206,10783,412206,"AS.1049639.LR.69317","CG_NSG_FB_PACO10_m1_Ctrl_32","B17","B17","37405","CG","NSG","FB+","Xenograft Ctrl","PACO10","Tumor","m1",TRUE,0.00125665322678467,0.215514043417121,0.315408218138108,0,0,0.211929978940386,0.257147759504385,TRUE,1.43699350697801,"8","Sympathetic noradrenergic neurons","SYNOR4","CGRPBeta" 
+                                                                                                                                                                                                                                                                                                                                                                1 
+
+KEYWORD ROW COUNTS
+pancreas : 106 
+healthy : 134 
+DRG : 1005 
+JNG : 0 
+CG : 1312 
+sensory : 1154 
+peptidergic : 607 
+neurofilament : 547 
+
+
+============================================
+VERSION COMPARISON
+============================================
+Rows old/new: 1926 / 2046 
+Columns old/new: 35 / 1 
+Common columns: 0 
+Only metadata_table: sum; detected; total; CellName; CellString; CellID; WellID; Lane; Ganglion; MouseModel; FastBlue; Tumor; CellLine; InnervatingTissue; Replicate; Is_Cell; mito_percent; percent_nofeature; percent_ambiguous; percent_too_low_qual; percent_not_aligned; percent_not_unique; percent_good; is_cell; sizeFactor; ClusterNew; AnnotatedCellType; AnnotatedCellTypeScore; AnnotatedSubCellType; AnnotatedSubCellTypeScore; AnnotatedCellType_SingleR; AnnotatedSubCellType_SingleR; AnnotatedCellTypeSharma; AnnotationError; CellTypeCGsub 
+Only metadata_table2: "","sum","detected","total","CellName","CellString","CellID","WellID","Lane","Ganglion","MouseModel","FastBlue","Tumor","CellLine","InnervatingTissue","Replicate","Is_Cell","mito_percent","percent_nofeature","percent_ambiguous","percent_too_low_qual","percent_not_aligned","percent_not_unique","percent_good","is_cell","sizeFactor","ClusterNew","AnnotatedCellType","AnnotatedSubCellType","AnnotatedCellTypeSharma" 
+
+============================================
+PANCREAS / GANGLION KEYWORD INTERSECTIONS
+============================================
+
+metadata_table.txt
+Pancreas rows: 673 
+Pancreas + DRG: 297 
+Pancreas + JNG: 0 
+Pancreas + sensory annotation: 299 
+
+metadata_table2.txt
+Pancreas rows: 106 
+Pancreas + DRG: 0 
+Pancreas + JNG: 0 
+Pancreas + sensory annotation: 66 
+
+============================================
+SCRIPT 07b COMPLETED SUCCESSFULLY
+============================================

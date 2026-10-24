@@ -1,0 +1,222 @@
+
+============================================
+RESOURCE: CellPhoneDB 
+============================================
+
+Attempt 1 of 3 
+trying URL 'https://omnipathdb.org/interactions?genesymbols=yes&datasets=omnipath,ligrecextra&organisms=9606&databases=CellPhoneDB&fields=sources,references,curation_effort&license=academic'
+downloaded 809 KB
+
+Rows: 2979 | Columns: 13 
+
+============================================
+RESOURCE: Guide2Pharma 
+============================================
+
+Attempt 1 of 3 
+trying URL 'https://omnipathdb.org/interactions?genesymbols=yes&datasets=omnipath,ligrecextra&organisms=9606&databases=Guide2Pharma&fields=sources,references,curation_effort&license=academic'
+downloaded 430 KB
+
+Rows: 686 | Columns: 13 
+
+============================================
+RESOURCE: HPMR 
+============================================
+
+Attempt 1 of 3 
+trying URL 'https://omnipathdb.org/interactions?genesymbols=yes&datasets=omnipath,ligrecextra&organisms=9606&databases=HPMR&fields=sources,references,curation_effort&license=academic'
+downloaded 327 KB
+
+Rows: 511 | Columns: 13 
+
+============================================
+RESOURCE: ICELLNET 
+============================================
+
+Attempt 1 of 3 
+trying URL 'https://omnipathdb.org/interactions?genesymbols=yes&datasets=omnipath,ligrecextra&organisms=9606&databases=ICELLNET&fields=sources,references,curation_effort&license=academic'
+downloaded 567 KB
+
+Rows: 1626 | Columns: 13 
+
+============================================
+RESOURCE: Kirouac2010 
+============================================
+
+Attempt 1 of 3 
+trying URL 'https://omnipathdb.org/interactions?genesymbols=yes&datasets=omnipath,ligrecextra&organisms=9606&databases=Kirouac2010&fields=sources,references,curation_effort&license=academic'
+downloaded 111 KB
+
+Rows: 152 | Columns: 13 
+
+============================================
+RESOURCE: CellTalkDB 
+============================================
+
+Attempt 1 of 3 
+trying URL 'https://omnipathdb.org/interactions?genesymbols=yes&datasets=omnipath,ligrecextra&organisms=9606&databases=CellTalkDB&fields=sources,references,curation_effort&license=academic'
+downloaded 1.2 MB
+
+Rows: 3473 | Columns: 13 
+
+============================================
+RESOURCE: CellChatDB 
+============================================
+
+Attempt 1 of 3 
+trying URL 'https://omnipathdb.org/interactions?genesymbols=yes&datasets=omnipath,ligrecextra&organisms=9606&databases=CellChatDB&fields=sources,references,curation_effort&license=academic'
+downloaded 803 KB
+
+Rows: 3138 | Columns: 13 
+
+============================================
+RESOURCE: connectomeDB2020 
+============================================
+
+Attempt 1 of 3 
+trying URL 'https://omnipathdb.org/interactions?genesymbols=yes&datasets=omnipath,ligrecextra&organisms=9606&databases=connectomeDB2020&fields=sources,references,curation_effort&license=academic'
+downloaded 1.0 MB
+
+Rows: 2313 | Columns: 13 
+
+============================================
+RESOURCE: Ramilowski2015 
+============================================
+
+Attempt 1 of 3 
+trying URL 'https://omnipathdb.org/interactions?genesymbols=yes&datasets=omnipath,ligrecextra&organisms=9606&databases=Ramilowski2015&fields=sources,references,curation_effort&license=academic'
+downloaded 972 KB
+
+Rows: 1946 | Columns: 13 
+
+============================================
+RESOURCE: talklr 
+============================================
+
+Attempt 1 of 3 
+trying URL 'https://omnipathdb.org/interactions?genesymbols=yes&datasets=omnipath,ligrecextra&organisms=9606&databases=talklr&fields=sources,references,curation_effort&license=academic'
+downloaded 1.0 MB
+
+Rows: 2483 | Columns: 13 
+
+============================================
+RESOURCE RETRIEVAL STATUS
+============================================
+         resource  status rows
+      CellPhoneDB SUCCESS 2979
+     Guide2Pharma SUCCESS  686
+             HPMR SUCCESS  511
+         ICELLNET SUCCESS 1626
+      Kirouac2010 SUCCESS  152
+       CellTalkDB SUCCESS 3473
+       CellChatDB SUCCESS 3138
+ connectomeDB2020 SUCCESS 2313
+   Ramilowski2015 SUCCESS 1946
+           talklr SUCCESS 2483
+
+Combined interaction records: 19307 
+
+============================================
+INTERACTION ESSENTIAL COLUMNS
+============================================
+            column present
+            source    TRUE
+            target    TRUE
+ source_genesymbol    TRUE
+ target_genesymbol    TRUE
+
+============================================
+DOWNLOADING LIGAND ANNOTATIONS
+============================================
+
+Attempt 1 of 3 
+trying URL 'https://omnipathdb.org/intercell?categories=ligand&scope=generic&aspect=functional&source=composite&causality=trans&license=academic'
+downloaded 290 KB
+
+Rows: 2640 | Columns: 15 
+
+============================================
+DOWNLOADING RECEPTOR ANNOTATIONS
+============================================
+
+Attempt 1 of 3 
+trying URL 'https://omnipathdb.org/intercell?categories=receptor&scope=generic&aspect=functional&source=composite&causality=rec&license=academic'
+downloaded 907 KB
+
+Rows: 7723 | Columns: 15 
+
+============================================
+LIGAND ANNOTATION COLUMNS
+============================================
+ [1] "category"                      "parent"                       
+ [3] "database"                      "scope"                        
+ [5] "aspect"                        "source"                       
+ [7] "uniprot"                       "genesymbol"                   
+ [9] "entity_type"                   "consensus_score"              
+[11] "transmitter"                   "receiver"                     
+[13] "secreted"                      "plasma_membrane_transmembrane"
+[15] "plasma_membrane_peripheral"   
+
+Ligand rows: 2640 
+
+============================================
+RECEPTOR ANNOTATION COLUMNS
+============================================
+ [1] "category"                      "parent"                       
+ [3] "database"                      "scope"                        
+ [5] "aspect"                        "source"                       
+ [7] "uniprot"                       "genesymbol"                   
+ [9] "entity_type"                   "consensus_score"              
+[11] "transmitter"                   "receiver"                     
+[13] "secreted"                      "plasma_membrane_transmembrane"
+[15] "plasma_membrane_peripheral"   
+
+Receptor rows: 7723 
+
+============================================
+LIGAND PREVIEW
+============================================
+  category parent database   scope     aspect    source               uniprot
+1   ligand ligand OmniPath generic functional composite                C9JUI2
+2   ligand ligand OmniPath generic functional composite COMPLEX:P01906_P79483
+3   ligand ligand OmniPath generic functional composite COMPLEX:P01563_P01569
+4   ligand ligand OmniPath generic functional composite                A6NKQ9
+5   ligand ligand OmniPath generic functional composite                Q9UBU3
+                 genesymbol entity_type consensus_score transmitter receiver
+1                               protein               1        True    False
+2 COMPLEX:HLA-DQA2_HLA-DRB3     complex               1        True    False
+3       COMPLEX:IFNA2_IFNA5     complex              14        True    False
+4                      CGB1     protein               4        True    False
+5                      GHRL     protein              16        True    False
+  secreted plasma_membrane_transmembrane plasma_membrane_peripheral
+1     True                         False                      False
+2    False                          True                      False
+3     True                         False                      False
+4     True                         False                      False
+5     True                         False                      False
+
+============================================
+RECEPTOR PREVIEW
+============================================
+  category   parent database   scope     aspect    source uniprot genesymbol
+1 receptor receptor OmniPath generic functional composite  Q9H5Y7    SLITRK6
+2 receptor receptor OmniPath generic functional composite  Q8IWY4     SCUBE1
+3 receptor receptor OmniPath generic functional composite  Q8IZD6   SLC22A15
+4 receptor receptor OmniPath generic functional composite  P21860      ERBB3
+5 receptor receptor OmniPath generic functional composite  Q8NGN8     OR4A4P
+  entity_type consensus_score transmitter receiver secreted
+1     protein               1       False     True    False
+2     protein               1       False     True     True
+3     protein               1       False     True    False
+4     protein              22       False     True     True
+5     protein               4       False     True    False
+  plasma_membrane_transmembrane plasma_membrane_peripheral
+1                          True                      False
+2                         False                      False
+3                         False                      False
+4                          True                      False
+5                         False                      False
+
+============================================
+DIRECT OMNIPATH API TEST COMPLETED
+============================================

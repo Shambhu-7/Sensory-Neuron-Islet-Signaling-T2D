@@ -1,0 +1,2 @@
+"dataset","role","assay","cells","genes","min_cells_per_donor_celltype","primary_within_donor_detection_fraction","strict_within_donor_detection_fraction","min_evaluable_donors","primary_required_donor_fraction","strong_required_donor_fraction","interpretation"
+"GSE81608_current_GEO_1600","dataset_representation_sensitivity_analysis","RPKM",1600,28060,5,0.1,0.2,3,0.5,0.75,"Sensitivity analysis of receptor detection using the current 1600-cell GEO representation of GSE81608; this is not an independent cohort or external validation."

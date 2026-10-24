@@ -1,0 +1,61 @@
+====================================================
+SCRIPT 11: T2D BETA-CELL RECEIVER + NICHENET FIGURE
+Frozen-results visualization only; no analysis rerun.
+====================================================
+
+
+====================================================
+FIGURE 4 AUDIT
+====================================================
+edgeR genes tested: 12200 
+FDR < 0.05: 27 
+T2D-up: 25 
+T2D-down: 2 
+Receiver genes: 27 
+High-confidence core genes: 10 
+NicheNet-evaluable sensory ligands: 10 
+Receiver genes direction-concordant in all 18 LODO fits: 27 / 27 
+
+Primary NicheNet order:
+ ligand PrimaryRank       Primary
+    PGF           1  7.624951e-04
+  FLRT3           2  6.961810e-04
+    SST           3  5.565271e-04
+ SEMA7A           4  5.222301e-04
+   SPP1           5  4.570261e-04
+  FGF12           6  3.698300e-04
+  FGF13           7  2.975972e-04
+  EDIL3           8  2.597106e-04
+  RSPO2           9  1.323636e-04
+  CNTN2          10 -1.365005e-05
+
+Core NicheNet order:
+ ligand CoreRank          Core
+    PGF        1  4.508041e-04
+  FLRT3        2  2.201503e-04
+ SEMA7A        3  2.169153e-04
+  RSPO2        4  1.915343e-04
+  EDIL3        5  1.649697e-04
+    SST        6  3.896392e-05
+   SPP1        7  1.734670e-05
+  FGF13        8 -4.629924e-05
+  FGF12        9 -8.496236e-05
+  CNTN2       10 -9.797502e-05
+
+Scientific safeguards:
+- beta-cell DE is donor-level pseudobulk association with T2D.
+- LODO is robustness analysis, not independent replication.
+- NicheNet is regulatory compatibility/prediction, not causal evidence.
+- 22/27 primary and 8/10 core receiver genes are represented in NicheNet.
+- RPH3A, PPIA and LGALS8 are not NicheNet-evaluable; absence is not negative evidence.
+- predicted-target-link panel intentionally omitted because the frozen link table lacks populated target weights.
+- no edgeR, LODO or NicheNet analysis was rerun by this script.
+
+Output figures:
+figures/islet/Figure_P3_BetaReceiver_NicheNet_11.pdf 
+figures/islet/Figure_P3_BetaReceiver_NicheNet_11.png 
+figures/islet/Figure_P3_BetaReceiver_NicheNet_11.tiff 
+
+====================================================
+SCRIPT 11 COMPLETED SUCCESSFULLY
+====================================================

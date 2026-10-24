@@ -1,0 +1,709 @@
+Warning message:
+replacing previous import ‘e1071::element’ by ‘ggplot2::element’ when loading ‘nichenetr’ 
+==============================================================================
+SCRIPT 16c — EXPRESSION-MATCHED NICHE-NET PERMUTATION NULL
+==============================================================================
+nichenetr version: 2.2.0 
+Permutations per cohort: 10000 
+Expression strata: 10 
+Parallel cores: 8 
+Chunk size: 250 
+Run tag: final 
+
+INPUT FILES: PASS
+
+FROZEN NICHE-NET PRIOR
+MD5: b09606b04b2d4490418d9028c0e58b9f 
+Matrix: 33354 targets x 1226 ligands
+
+BROAD LIGAND UNIVERSE
+Raw: 45 
+NicheNet-evaluable: 42 
+
+==============================================================================
+GSE81608 SETUP
+==============================================================================
+edgeR-tested genes: 12200 
+NicheNet background: 10742 
+Receiver raw: 27 
+Receiver in NicheNet: 22 
+GSE81608 max |saved - recomputed|: 3.903128e-18 
+[1] TRUE
+
+==============================================================================
+GSE221156 SETUP
+==============================================================================
+edgeR-tested genes: 15639 
+NicheNet background: 13712 
+Receiver raw: 796 
+Receiver in NicheNet: 697 
+GSE221156 max |saved - recomputed|: 4.857226e-17 
+[1] TRUE
+
+EXPRESSION-MATCHING AUDIT
+    cohort bin background_n receiver_n
+  GSE81608   1         1074          0
+  GSE81608   2         1074         13
+  GSE81608   3         1074          3
+  GSE81608   4         1074          3
+  GSE81608   5         1075          1
+  GSE81608   6         1074          0
+  GSE81608   7         1074          0
+  GSE81608   8         1074          0
+  GSE81608   9         1074          0
+  GSE81608  10         1075          2
+ GSE221156   1         1371        117
+ GSE221156   2         1371        116
+ GSE221156   3         1371         89
+ GSE221156   4         1371         67
+ GSE221156   5         1372         60
+ GSE221156   6         1371         61
+ GSE221156   7         1371         58
+ GSE221156   8         1371         52
+ GSE221156   9         1371         42
+ GSE221156  10         1372         35
+
+------------------------------------------------------------------------------
+PERMUTATION NULL: GSE81608 
+------------------------------------------------------------------------------
+Receiver size: 22 
+Background size: 10742 
+Permutations: 10000 
+Observed receiver genes per expression bin:
+
+ 1  2  3  4  5  6  7  8  9 10 
+ 0 13  3  3  1  0  0  0  0  2 
+  GSE81608: 250/10000 completed | chunk 1653.6 sec
+Warning message:
+replacing previous import ‘e1071::element’ by ‘ggplot2::element’ when loading ‘nichenetr’ 
+==============================================================================
+SCRIPT 16c — EXPRESSION-MATCHED NICHE-NET PERMUTATION NULL
+==============================================================================
+nichenetr version: 2.2.0 
+Permutations per cohort: 10000 
+Expression strata: 10 
+Parallel cores: 4 
+Chunk size: 50 
+Run tag: final 
+
+INPUT FILES: PASS
+
+FROZEN NICHE-NET PRIOR
+MD5: b09606b04b2d4490418d9028c0e58b9f 
+Matrix: 33354 targets x 1226 ligands
+
+BROAD LIGAND UNIVERSE
+Raw: 45 
+NicheNet-evaluable: 42 
+
+==============================================================================
+GSE81608 SETUP
+==============================================================================
+edgeR-tested genes: 12200 
+NicheNet background: 10742 
+Receiver raw: 27 
+Receiver in NicheNet: 22 
+GSE81608 max |saved - recomputed|: 3.903128e-18 
+[1] TRUE
+
+==============================================================================
+GSE221156 SETUP
+==============================================================================
+edgeR-tested genes: 15639 
+NicheNet background: 13712 
+Receiver raw: 796 
+Receiver in NicheNet: 697 
+GSE221156 max |saved - recomputed|: 4.857226e-17 
+[1] TRUE
+
+EXPRESSION-MATCHING AUDIT
+    cohort bin background_n receiver_n
+  GSE81608   1         1074          0
+  GSE81608   2         1074         13
+  GSE81608   3         1074          3
+  GSE81608   4         1074          3
+  GSE81608   5         1075          1
+  GSE81608   6         1074          0
+  GSE81608   7         1074          0
+  GSE81608   8         1074          0
+  GSE81608   9         1074          0
+  GSE81608  10         1075          2
+ GSE221156   1         1371        117
+ GSE221156   2         1371        116
+ GSE221156   3         1371         89
+ GSE221156   4         1371         67
+ GSE221156   5         1372         60
+ GSE221156   6         1371         61
+ GSE221156   7         1371         58
+ GSE221156   8         1371         52
+ GSE221156   9         1371         42
+ GSE221156  10         1372         35
+
+------------------------------------------------------------------------------
+PERMUTATION NULL: GSE81608 
+------------------------------------------------------------------------------
+Receiver size: 22 
+Background size: 10742 
+Permutations: 10000 
+Observed receiver genes per expression bin:
+
+ 1  2  3  4  5  6  7  8  9 10 
+ 0 13  3  3  1  0  0  0  0  2 
+Resuming from checkpoint: 250 permutations completed.
+  GSE81608: 300/10000 completed | chunk 80.9 sec
+  GSE81608: 350/10000 completed | chunk 65.7 sec
+  GSE81608: 400/10000 completed | chunk 93.8 sec
+  GSE81608: 450/10000 completed | chunk 70.6 sec
+  GSE81608: 500/10000 completed | chunk 67.5 sec
+  GSE81608: 550/10000 completed | chunk 77.8 sec
+  GSE81608: 600/10000 completed | chunk 78.7 sec
+  GSE81608: 650/10000 completed | chunk 68.7 sec
+  GSE81608: 700/10000 completed | chunk 61.3 sec
+  GSE81608: 750/10000 completed | chunk 56.1 sec
+  GSE81608: 800/10000 completed | chunk 70.3 sec
+  GSE81608: 850/10000 completed | chunk 60.1 sec
+  GSE81608: 900/10000 completed | chunk 40.8 sec
+  GSE81608: 950/10000 completed | chunk 28.3 sec
+  GSE81608: 1000/10000 completed | chunk 30.2 sec
+  GSE81608: 1050/10000 completed | chunk 27.7 sec
+  GSE81608: 1100/10000 completed | chunk 26.6 sec
+  GSE81608: 1150/10000 completed | chunk 25.4 sec
+  GSE81608: 1200/10000 completed | chunk 25.0 sec
+  GSE81608: 1250/10000 completed | chunk 25.8 sec
+  GSE81608: 1300/10000 completed | chunk 26.1 sec
+  GSE81608: 1350/10000 completed | chunk 30.7 sec
+  GSE81608: 1400/10000 completed | chunk 25.5 sec
+  GSE81608: 1450/10000 completed | chunk 27.9 sec
+  GSE81608: 1500/10000 completed | chunk 26.3 sec
+  GSE81608: 1550/10000 completed | chunk 27.0 sec
+  GSE81608: 1600/10000 completed | chunk 27.3 sec
+  GSE81608: 1650/10000 completed | chunk 26.6 sec
+  GSE81608: 1700/10000 completed | chunk 27.0 sec
+  GSE81608: 1750/10000 completed | chunk 25.5 sec
+  GSE81608: 1800/10000 completed | chunk 27.3 sec
+  GSE81608: 1850/10000 completed | chunk 24.9 sec
+  GSE81608: 1900/10000 completed | chunk 26.6 sec
+  GSE81608: 1950/10000 completed | chunk 25.4 sec
+  GSE81608: 2000/10000 completed | chunk 29.4 sec
+  GSE81608: 2050/10000 completed | chunk 25.3 sec
+  GSE81608: 2100/10000 completed | chunk 25.8 sec
+  GSE81608: 2150/10000 completed | chunk 25.8 sec
+  GSE81608: 2200/10000 completed | chunk 27.5 sec
+  GSE81608: 2250/10000 completed | chunk 27.2 sec
+  GSE81608: 2300/10000 completed | chunk 27.0 sec
+  GSE81608: 2350/10000 completed | chunk 27.2 sec
+  GSE81608: 2400/10000 completed | chunk 25.2 sec
+  GSE81608: 2450/10000 completed | chunk 26.1 sec
+  GSE81608: 2500/10000 completed | chunk 25.5 sec
+  GSE81608: 2550/10000 completed | chunk 25.5 sec
+  GSE81608: 2600/10000 completed | chunk 27.4 sec
+  GSE81608: 2650/10000 completed | chunk 30.0 sec
+  GSE81608: 2700/10000 completed | chunk 27.5 sec
+  GSE81608: 2750/10000 completed | chunk 31.5 sec
+  GSE81608: 2800/10000 completed | chunk 29.5 sec
+  GSE81608: 2850/10000 completed | chunk 28.5 sec
+  GSE81608: 2900/10000 completed | chunk 25.2 sec
+  GSE81608: 2950/10000 completed | chunk 26.6 sec
+  GSE81608: 3000/10000 completed | chunk 26.5 sec
+  GSE81608: 3050/10000 completed | chunk 26.2 sec
+  GSE81608: 3100/10000 completed | chunk 26.4 sec
+  GSE81608: 3150/10000 completed | chunk 27.9 sec
+  GSE81608: 3200/10000 completed | chunk 26.4 sec
+  GSE81608: 3250/10000 completed | chunk 26.5 sec
+  GSE81608: 3300/10000 completed | chunk 25.1 sec
+  GSE81608: 3350/10000 completed | chunk 28.6 sec
+  GSE81608: 3400/10000 completed | chunk 26.6 sec
+  GSE81608: 3450/10000 completed | chunk 26.3 sec
+  GSE81608: 3500/10000 completed | chunk 27.4 sec
+  GSE81608: 3550/10000 completed | chunk 25.7 sec
+  GSE81608: 3600/10000 completed | chunk 26.7 sec
+  GSE81608: 3650/10000 completed | chunk 25.0 sec
+  GSE81608: 3700/10000 completed | chunk 26.3 sec
+  GSE81608: 3750/10000 completed | chunk 27.5 sec
+  GSE81608: 3800/10000 completed | chunk 26.3 sec
+  GSE81608: 3850/10000 completed | chunk 25.3 sec
+  GSE81608: 3900/10000 completed | chunk 28.5 sec
+  GSE81608: 3950/10000 completed | chunk 27.8 sec
+  GSE81608: 4000/10000 completed | chunk 28.7 sec
+  GSE81608: 4050/10000 completed | chunk 26.5 sec
+  GSE81608: 4100/10000 completed | chunk 27.8 sec
+  GSE81608: 4150/10000 completed | chunk 26.1 sec
+  GSE81608: 4200/10000 completed | chunk 26.0 sec
+  GSE81608: 4250/10000 completed | chunk 28.4 sec
+  GSE81608: 4300/10000 completed | chunk 25.5 sec
+  GSE81608: 4350/10000 completed | chunk 26.4 sec
+  GSE81608: 4400/10000 completed | chunk 25.9 sec
+  GSE81608: 4450/10000 completed | chunk 26.6 sec
+  GSE81608: 4500/10000 completed | chunk 24.6 sec
+  GSE81608: 4550/10000 completed | chunk 25.4 sec
+  GSE81608: 4600/10000 completed | chunk 25.1 sec
+  GSE81608: 4650/10000 completed | chunk 28.0 sec
+  GSE81608: 4700/10000 completed | chunk 28.3 sec
+  GSE81608: 4750/10000 completed | chunk 26.5 sec
+  GSE81608: 4800/10000 completed | chunk 28.7 sec
+  GSE81608: 4850/10000 completed | chunk 45.5 sec
+  GSE81608: 4900/10000 completed | chunk 35.2 sec
+  GSE81608: 4950/10000 completed | chunk 29.3 sec
+  GSE81608: 5000/10000 completed | chunk 32.3 sec
+  GSE81608: 5050/10000 completed | chunk 31.5 sec
+  GSE81608: 5100/10000 completed | chunk 32.1 sec
+  GSE81608: 5150/10000 completed | chunk 30.0 sec
+  GSE81608: 5200/10000 completed | chunk 28.9 sec
+  GSE81608: 5250/10000 completed | chunk 27.1 sec
+  GSE81608: 5300/10000 completed | chunk 29.1 sec
+  GSE81608: 5350/10000 completed | chunk 26.9 sec
+  GSE81608: 5400/10000 completed | chunk 27.8 sec
+  GSE81608: 5450/10000 completed | chunk 30.5 sec
+  GSE81608: 5500/10000 completed | chunk 27.0 sec
+  GSE81608: 5550/10000 completed | chunk 28.8 sec
+  GSE81608: 5600/10000 completed | chunk 35.4 sec
+  GSE81608: 5650/10000 completed | chunk 31.0 sec
+  GSE81608: 5700/10000 completed | chunk 27.8 sec
+  GSE81608: 5750/10000 completed | chunk 28.1 sec
+  GSE81608: 5800/10000 completed | chunk 30.8 sec
+  GSE81608: 5850/10000 completed | chunk 33.1 sec
+  GSE81608: 5900/10000 completed | chunk 27.4 sec
+  GSE81608: 5950/10000 completed | chunk 29.4 sec
+  GSE81608: 6000/10000 completed | chunk 29.2 sec
+  GSE81608: 6050/10000 completed | chunk 28.0 sec
+  GSE81608: 6100/10000 completed | chunk 35.8 sec
+  GSE81608: 6150/10000 completed | chunk 28.7 sec
+  GSE81608: 6200/10000 completed | chunk 28.6 sec
+  GSE81608: 6250/10000 completed | chunk 29.0 sec
+  GSE81608: 6300/10000 completed | chunk 28.4 sec
+  GSE81608: 6350/10000 completed | chunk 28.9 sec
+  GSE81608: 6400/10000 completed | chunk 29.3 sec
+  GSE81608: 6450/10000 completed | chunk 25.6 sec
+  GSE81608: 6500/10000 completed | chunk 26.1 sec
+  GSE81608: 6550/10000 completed | chunk 26.7 sec
+  GSE81608: 6600/10000 completed | chunk 28.2 sec
+  GSE81608: 6650/10000 completed | chunk 25.5 sec
+  GSE81608: 6700/10000 completed | chunk 26.7 sec
+  GSE81608: 6750/10000 completed | chunk 26.1 sec
+  GSE81608: 6800/10000 completed | chunk 27.1 sec
+  GSE81608: 6850/10000 completed | chunk 28.5 sec
+  GSE81608: 6900/10000 completed | chunk 28.2 sec
+  GSE81608: 6950/10000 completed | chunk 26.4 sec
+  GSE81608: 7000/10000 completed | chunk 27.7 sec
+  GSE81608: 7050/10000 completed | chunk 25.6 sec
+  GSE81608: 7100/10000 completed | chunk 27.8 sec
+  GSE81608: 7150/10000 completed | chunk 25.0 sec
+  GSE81608: 7200/10000 completed | chunk 24.4 sec
+  GSE81608: 7250/10000 completed | chunk 26.3 sec
+  GSE81608: 7300/10000 completed | chunk 26.0 sec
+  GSE81608: 7350/10000 completed | chunk 25.9 sec
+  GSE81608: 7400/10000 completed | chunk 26.6 sec
+  GSE81608: 7450/10000 completed | chunk 26.9 sec
+  GSE81608: 7500/10000 completed | chunk 25.6 sec
+  GSE81608: 7550/10000 completed | chunk 26.5 sec
+  GSE81608: 7600/10000 completed | chunk 28.1 sec
+  GSE81608: 7650/10000 completed | chunk 25.1 sec
+  GSE81608: 7700/10000 completed | chunk 26.2 sec
+  GSE81608: 7750/10000 completed | chunk 27.4 sec
+  GSE81608: 7800/10000 completed | chunk 26.5 sec
+  GSE81608: 7850/10000 completed | chunk 26.1 sec
+  GSE81608: 7900/10000 completed | chunk 27.8 sec
+  GSE81608: 7950/10000 completed | chunk 26.1 sec
+  GSE81608: 8000/10000 completed | chunk 25.5 sec
+  GSE81608: 8050/10000 completed | chunk 26.2 sec
+  GSE81608: 8100/10000 completed | chunk 33.1 sec
+  GSE81608: 8150/10000 completed | chunk 27.6 sec
+  GSE81608: 8200/10000 completed | chunk 27.2 sec
+  GSE81608: 8250/10000 completed | chunk 27.6 sec
+  GSE81608: 8300/10000 completed | chunk 26.9 sec
+  GSE81608: 8350/10000 completed | chunk 27.6 sec
+  GSE81608: 8400/10000 completed | chunk 26.7 sec
+  GSE81608: 8450/10000 completed | chunk 26.6 sec
+  GSE81608: 8500/10000 completed | chunk 26.5 sec
+  GSE81608: 8550/10000 completed | chunk 27.6 sec
+  GSE81608: 8600/10000 completed | chunk 26.2 sec
+  GSE81608: 8650/10000 completed | chunk 27.0 sec
+  GSE81608: 8700/10000 completed | chunk 25.4 sec
+  GSE81608: 8750/10000 completed | chunk 27.5 sec
+  GSE81608: 8800/10000 completed | chunk 25.6 sec
+  GSE81608: 8850/10000 completed | chunk 38.5 sec
+  GSE81608: 8900/10000 completed | chunk 30.4 sec
+  GSE81608: 8950/10000 completed | chunk 28.9 sec
+  GSE81608: 9000/10000 completed | chunk 27.0 sec
+  GSE81608: 9050/10000 completed | chunk 28.3 sec
+  GSE81608: 9100/10000 completed | chunk 27.0 sec
+  GSE81608: 9150/10000 completed | chunk 29.8 sec
+  GSE81608: 9200/10000 completed | chunk 27.5 sec
+  GSE81608: 9250/10000 completed | chunk 27.0 sec
+  GSE81608: 9300/10000 completed | chunk 26.7 sec
+  GSE81608: 9350/10000 completed | chunk 30.7 sec
+  GSE81608: 9400/10000 completed | chunk 28.4 sec
+  GSE81608: 9450/10000 completed | chunk 36.1 sec
+  GSE81608: 9500/10000 completed | chunk 31.9 sec
+  GSE81608: 9550/10000 completed | chunk 28.2 sec
+  GSE81608: 9600/10000 completed | chunk 26.8 sec
+  GSE81608: 9650/10000 completed | chunk 26.4 sec
+  GSE81608: 9700/10000 completed | chunk 27.2 sec
+  GSE81608: 9750/10000 completed | chunk 26.6 sec
+  GSE81608: 9800/10000 completed | chunk 26.3 sec
+  GSE81608: 9850/10000 completed | chunk 26.7 sec
+  GSE81608: 9900/10000 completed | chunk 26.2 sec
+  GSE81608: 9950/10000 completed | chunk 30.0 sec
+  GSE81608: 10000/10000 completed | chunk 30.5 sec
+
+------------------------------------------------------------------------------
+PERMUTATION NULL: GSE221156 
+------------------------------------------------------------------------------
+Receiver size: 697 
+Background size: 13712 
+Permutations: 10000 
+Observed receiver genes per expression bin:
+
+  1   2   3   4   5   6   7   8   9  10 
+117 116  89  67  60  61  58  52  42  35 
+  GSE221156: 50/10000 completed | chunk 42.1 sec
+  GSE221156: 100/10000 completed | chunk 37.8 sec
+  GSE221156: 150/10000 completed | chunk 33.7 sec
+  GSE221156: 200/10000 completed | chunk 34.3 sec
+  GSE221156: 250/10000 completed | chunk 38.3 sec
+  GSE221156: 300/10000 completed | chunk 34.2 sec
+  GSE221156: 350/10000 completed | chunk 32.3 sec
+  GSE221156: 400/10000 completed | chunk 30.3 sec
+  GSE221156: 450/10000 completed | chunk 28.8 sec
+  GSE221156: 500/10000 completed | chunk 29.7 sec
+  GSE221156: 550/10000 completed | chunk 32.0 sec
+  GSE221156: 600/10000 completed | chunk 32.0 sec
+  GSE221156: 650/10000 completed | chunk 31.0 sec
+  GSE221156: 700/10000 completed | chunk 30.8 sec
+  GSE221156: 750/10000 completed | chunk 31.0 sec
+  GSE221156: 800/10000 completed | chunk 31.4 sec
+  GSE221156: 850/10000 completed | chunk 30.9 sec
+  GSE221156: 900/10000 completed | chunk 30.3 sec
+  GSE221156: 950/10000 completed | chunk 33.3 sec
+  GSE221156: 1000/10000 completed | chunk 31.0 sec
+  GSE221156: 1050/10000 completed | chunk 32.6 sec
+  GSE221156: 1100/10000 completed | chunk 33.2 sec
+  GSE221156: 1150/10000 completed | chunk 30.9 sec
+  GSE221156: 1200/10000 completed | chunk 31.7 sec
+  GSE221156: 1250/10000 completed | chunk 59.1 sec
+  GSE221156: 1300/10000 completed | chunk 79.8 sec
+  GSE221156: 1350/10000 completed | chunk 74.8 sec
+  GSE221156: 1400/10000 completed | chunk 78.7 sec
+  GSE221156: 1450/10000 completed | chunk 72.5 sec
+  GSE221156: 1500/10000 completed | chunk 76.4 sec
+  GSE221156: 1550/10000 completed | chunk 75.6 sec
+  GSE221156: 1600/10000 completed | chunk 76.5 sec
+  GSE221156: 1650/10000 completed | chunk 73.0 sec
+  GSE221156: 1700/10000 completed | chunk 74.6 sec
+  GSE221156: 1750/10000 completed | chunk 80.4 sec
+  GSE221156: 1800/10000 completed | chunk 53.7 sec
+  GSE221156: 1850/10000 completed | chunk 30.2 sec
+  GSE221156: 1900/10000 completed | chunk 30.8 sec
+  GSE221156: 1950/10000 completed | chunk 30.5 sec
+  GSE221156: 2000/10000 completed | chunk 29.6 sec
+  GSE221156: 2050/10000 completed | chunk 31.9 sec
+  GSE221156: 2100/10000 completed | chunk 33.8 sec
+  GSE221156: 2150/10000 completed | chunk 32.1 sec
+  GSE221156: 2200/10000 completed | chunk 33.7 sec
+  GSE221156: 2250/10000 completed | chunk 38.4 sec
+  GSE221156: 2300/10000 completed | chunk 35.6 sec
+  GSE221156: 2350/10000 completed | chunk 31.6 sec
+  GSE221156: 2400/10000 completed | chunk 30.4 sec
+  GSE221156: 2450/10000 completed | chunk 33.2 sec
+  GSE221156: 2500/10000 completed | chunk 75.4 sec
+  GSE221156: 2550/10000 completed | chunk 39.3 sec
+  GSE221156: 2600/10000 completed | chunk 65.5 sec
+  GSE221156: 2650/10000 completed | chunk 79.1 sec
+  GSE221156: 2700/10000 completed | chunk 98.0 sec
+  GSE221156: 2750/10000 completed | chunk 84.0 sec
+  GSE221156: 2800/10000 completed | chunk 80.0 sec
+  GSE221156: 2850/10000 completed | chunk 75.8 sec
+  GSE221156: 2900/10000 completed | chunk 74.9 sec
+  GSE221156: 2950/10000 completed | chunk 77.7 sec
+  GSE221156: 3000/10000 completed | chunk 75.3 sec
+  GSE221156: 3050/10000 completed | chunk 73.6 sec
+  GSE221156: 3100/10000 completed | chunk 82.0 sec
+  GSE221156: 3150/10000 completed | chunk 70.2 sec
+  GSE221156: 3200/10000 completed | chunk 72.2 sec
+  GSE221156: 3250/10000 completed | chunk 67.5 sec
+  GSE221156: 3300/10000 completed | chunk 74.5 sec
+  GSE221156: 3350/10000 completed | chunk 68.4 sec
+  GSE221156: 3400/10000 completed | chunk 71.5 sec
+  GSE221156: 3450/10000 completed | chunk 73.2 sec
+  GSE221156: 3500/10000 completed | chunk 71.9 sec
+  GSE221156: 3550/10000 completed | chunk 68.9 sec
+  GSE221156: 3600/10000 completed | chunk 72.7 sec
+  GSE221156: 3650/10000 completed | chunk 75.9 sec
+  GSE221156: 3700/10000 completed | chunk 68.9 sec
+  GSE221156: 3750/10000 completed | chunk 70.0 sec
+  GSE221156: 3800/10000 completed | chunk 66.4 sec
+  GSE221156: 3850/10000 completed | chunk 74.5 sec
+  GSE221156: 3900/10000 completed | chunk 68.9 sec
+  GSE221156: 3950/10000 completed | chunk 69.3 sec
+  GSE221156: 4000/10000 completed | chunk 72.5 sec
+  GSE221156: 4050/10000 completed | chunk 80.4 sec
+  GSE221156: 4100/10000 completed | chunk 72.5 sec
+  GSE221156: 4150/10000 completed | chunk 71.9 sec
+  GSE221156: 4200/10000 completed | chunk 67.4 sec
+  GSE221156: 4250/10000 completed | chunk 74.9 sec
+  GSE221156: 4300/10000 completed | chunk 73.7 sec
+  GSE221156: 4350/10000 completed | chunk 71.6 sec
+  GSE221156: 4400/10000 completed | chunk 70.8 sec
+  GSE221156: 4450/10000 completed | chunk 69.0 sec
+  GSE221156: 4500/10000 completed | chunk 69.3 sec
+  GSE221156: 4550/10000 completed | chunk 74.0 sec
+  GSE221156: 4600/10000 completed | chunk 72.8 sec
+  GSE221156: 4650/10000 completed | chunk 70.7 sec
+  GSE221156: 4700/10000 completed | chunk 66.6 sec
+  GSE221156: 4750/10000 completed | chunk 74.5 sec
+  GSE221156: 4800/10000 completed | chunk 71.5 sec
+  GSE221156: 4850/10000 completed | chunk 71.0 sec
+  GSE221156: 4900/10000 completed | chunk 69.0 sec
+  GSE221156: 4950/10000 completed | chunk 80.5 sec
+  GSE221156: 5000/10000 completed | chunk 72.4 sec
+  GSE221156: 5050/10000 completed | chunk 74.2 sec
+  GSE221156: 5100/10000 completed | chunk 69.4 sec
+  GSE221156: 5150/10000 completed | chunk 74.8 sec
+  GSE221156: 5200/10000 completed | chunk 73.0 sec
+  GSE221156: 5250/10000 completed | chunk 69.5 sec
+  GSE221156: 5300/10000 completed | chunk 71.2 sec
+  GSE221156: 5350/10000 completed | chunk 69.7 sec
+  GSE221156: 5400/10000 completed | chunk 76.1 sec
+  GSE221156: 5450/10000 completed | chunk 73.1 sec
+  GSE221156: 5500/10000 completed | chunk 71.3 sec
+  GSE221156: 5550/10000 completed | chunk 76.1 sec
+  GSE221156: 5600/10000 completed | chunk 74.3 sec
+  GSE221156: 5650/10000 completed | chunk 71.4 sec
+  GSE221156: 5700/10000 completed | chunk 73.6 sec
+  GSE221156: 5750/10000 completed | chunk 77.0 sec
+  GSE221156: 5800/10000 completed | chunk 72.3 sec
+  GSE221156: 5850/10000 completed | chunk 72.7 sec
+  GSE221156: 5900/10000 completed | chunk 69.0 sec
+  GSE221156: 5950/10000 completed | chunk 75.8 sec
+  GSE221156: 6000/10000 completed | chunk 75.6 sec
+  GSE221156: 6050/10000 completed | chunk 76.4 sec
+  GSE221156: 6100/10000 completed | chunk 70.7 sec
+  GSE221156: 6150/10000 completed | chunk 68.8 sec
+  GSE221156: 6200/10000 completed | chunk 76.7 sec
+  GSE221156: 6250/10000 completed | chunk 71.1 sec
+  GSE221156: 6300/10000 completed | chunk 74.4 sec
+  GSE221156: 6350/10000 completed | chunk 70.5 sec
+  GSE221156: 6400/10000 completed | chunk 70.7 sec
+  GSE221156: 6450/10000 completed | chunk 67.8 sec
+  GSE221156: 6500/10000 completed | chunk 73.2 sec
+  GSE221156: 6550/10000 completed | chunk 69.7 sec
+  GSE221156: 6600/10000 completed | chunk 68.7 sec
+  GSE221156: 6650/10000 completed | chunk 79.8 sec
+  GSE221156: 6700/10000 completed | chunk 68.2 sec
+  GSE221156: 6750/10000 completed | chunk 69.9 sec
+  GSE221156: 6800/10000 completed | chunk 73.2 sec
+  GSE221156: 6850/10000 completed | chunk 70.8 sec
+  GSE221156: 6900/10000 completed | chunk 71.6 sec
+  GSE221156: 6950/10000 completed | chunk 73.9 sec
+  GSE221156: 7000/10000 completed | chunk 68.5 sec
+  GSE221156: 7050/10000 completed | chunk 73.4 sec
+  GSE221156: 7100/10000 completed | chunk 77.8 sec
+  GSE221156: 7150/10000 completed | chunk 72.3 sec
+  GSE221156: 7200/10000 completed | chunk 68.8 sec
+  GSE221156: 7250/10000 completed | chunk 73.3 sec
+  GSE221156: 7300/10000 completed | chunk 68.9 sec
+  GSE221156: 7350/10000 completed | chunk 77.4 sec
+  GSE221156: 7400/10000 completed | chunk 70.4 sec
+  GSE221156: 7450/10000 completed | chunk 76.1 sec
+  GSE221156: 7500/10000 completed | chunk 69.2 sec
+  GSE221156: 7550/10000 completed | chunk 74.0 sec
+  GSE221156: 7600/10000 completed | chunk 73.0 sec
+  GSE221156: 7650/10000 completed | chunk 70.5 sec
+  GSE221156: 7700/10000 completed | chunk 74.4 sec
+  GSE221156: 7750/10000 completed | chunk 70.1 sec
+  GSE221156: 7800/10000 completed | chunk 69.4 sec
+  GSE221156: 7850/10000 completed | chunk 78.5 sec
+  GSE221156: 7900/10000 completed | chunk 71.6 sec
+  GSE221156: 7950/10000 completed | chunk 72.8 sec
+  GSE221156: 8000/10000 completed | chunk 72.9 sec
+  GSE221156: 8050/10000 completed | chunk 71.3 sec
+  GSE221156: 8100/10000 completed | chunk 74.2 sec
+  GSE221156: 8150/10000 completed | chunk 74.2 sec
+  GSE221156: 8200/10000 completed | chunk 70.1 sec
+  GSE221156: 8250/10000 completed | chunk 71.5 sec
+  GSE221156: 8300/10000 completed | chunk 75.2 sec
+  GSE221156: 8350/10000 completed | chunk 71.9 sec
+  GSE221156: 8400/10000 completed | chunk 71.4 sec
+  GSE221156: 8450/10000 completed | chunk 74.0 sec
+  GSE221156: 8500/10000 completed | chunk 72.3 sec
+  GSE221156: 8550/10000 completed | chunk 74.0 sec
+  GSE221156: 8600/10000 completed | chunk 81.9 sec
+  GSE221156: 8650/10000 completed | chunk 71.1 sec
+  GSE221156: 8700/10000 completed | chunk 73.3 sec
+  GSE221156: 8750/10000 completed | chunk 71.2 sec
+  GSE221156: 8800/10000 completed | chunk 70.1 sec
+  GSE221156: 8850/10000 completed | chunk 64.7 sec
+  GSE221156: 8900/10000 completed | chunk 66.9 sec
+  GSE221156: 8950/10000 completed | chunk 68.3 sec
+  GSE221156: 9000/10000 completed | chunk 65.4 sec
+  GSE221156: 9050/10000 completed | chunk 70.2 sec
+  GSE221156: 9100/10000 completed | chunk 66.5 sec
+  GSE221156: 9150/10000 completed | chunk 72.6 sec
+  GSE221156: 9200/10000 completed | chunk 69.6 sec
+  GSE221156: 9250/10000 completed | chunk 67.8 sec
+  GSE221156: 9300/10000 completed | chunk 72.1 sec
+  GSE221156: 9350/10000 completed | chunk 68.1 sec
+  GSE221156: 9400/10000 completed | chunk 66.0 sec
+  GSE221156: 9450/10000 completed | chunk 67.0 sec
+  GSE221156: 9500/10000 completed | chunk 68.0 sec
+  GSE221156: 9550/10000 completed | chunk 68.9 sec
+  GSE221156: 9600/10000 completed | chunk 65.5 sec
+  GSE221156: 9650/10000 completed | chunk 64.9 sec
+  GSE221156: 9700/10000 completed | chunk 68.8 sec
+  GSE221156: 9750/10000 completed | chunk 66.7 sec
+  GSE221156: 9800/10000 completed | chunk 71.8 sec
+  GSE221156: 9850/10000 completed | chunk 73.0 sec
+  GSE221156: 9900/10000 completed | chunk 71.3 sec
+  GSE221156: 9950/10000 completed | chunk 66.5 sec
+  GSE221156: 10000/10000 completed | chunk 68.6 sec
+
+==============================================================================
+GSE81608 EMPIRICAL NULL — TOP RESULTS
+==============================================================================
+   cohort test_ligand observed_aupr_corrected    null_mean      null_sd
+ GSE81608       LAMA2            0.0029541915 8.248947e-05 0.0008332316
+ GSE81608      CXCL12            0.0009003147 1.387681e-04 0.0014135262
+ GSE81608      SEMA3C            0.0012189582 1.865417e-04 0.0010486243
+ GSE81608       LAMA4            0.0010409608 2.273746e-04 0.0010072484
+ GSE81608         PGF            0.0007624951 1.511790e-04 0.0020622392
+ GSE81608        RELN            0.0006961233 1.712163e-04 0.0022537068
+ GSE81608      LGALS9            0.0006892264 9.442724e-05 0.0008470323
+ GSE81608       THBS2            0.0007315152 1.662536e-04 0.0010688134
+ GSE81608       FLRT3            0.0006961810 1.407035e-04 0.0008861054
+ GSE81608     ANGPTL2            0.0008434694 3.745944e-04 0.0023339580
+ GSE81608      S100A8            0.0006209777 1.815823e-04 0.0010773359
+ GSE81608        BMP7            0.0006059135 1.593236e-04 0.0010302164
+ GSE81608       LAMB2            0.0004850136 1.065594e-04 0.0010099174
+ GSE81608         SST            0.0005565271 2.209883e-04 0.0022660070
+ GSE81608      SEMA7A            0.0005222301 1.064572e-04 0.0008028595
+    null_q95    null_q99 observed_minus_null_mean    null_z n_null_ge_observed
+ 0.001330913 0.003135815             0.0028717021 3.4464633                115
+ 0.001141739 0.011051705             0.0007615466 0.5387566                704
+ 0.001832882 0.004066220             0.0010324165 0.9845438                909
+ 0.001797679 0.004007689             0.0008135862 0.8077315               1083
+ 0.001545545 0.003723053             0.0006113161 0.2964332               1124
+ 0.001276564 0.003055538             0.0005249071 0.2329083               1191
+ 0.001485009 0.003394646             0.0005947991 0.7022154               1272
+ 0.001625085 0.004026862             0.0005652615 0.5288683               1357
+ 0.001592914 0.003541247             0.0005554775 0.6268752               1404
+ 0.002017668 0.004414586             0.0004688750 0.2008926               1598
+ 0.001793478 0.004300063             0.0004393954 0.4078537               1610
+ 0.001574350 0.003639015             0.0004465899 0.4334914               1623
+ 0.001623408 0.004110535             0.0003784542 0.3747378               1648
+ 0.001582426 0.004308488             0.0003355388 0.1480749               1687
+ 0.001522896 0.003193622             0.0004157729 0.5178651               1720
+ n_permutations empirical_P empirical_FDR
+          10000  0.01159884     0.3678338
+          10000  0.07049295     0.3678338
+          10000  0.09099090     0.3678338
+          10000  0.10838916     0.3678338
+          10000  0.11248875     0.3678338
+          10000  0.11918808     0.3678338
+          10000  0.12728727     0.3678338
+          10000  0.13578642     0.3678338
+          10000  0.14048595     0.3678338
+          10000  0.15988401     0.3678338
+          10000  0.16108389     0.3678338
+          10000  0.16238376     0.3678338
+          10000  0.16488351     0.3678338
+          10000  0.16878312     0.3678338
+          10000  0.17208279     0.3678338
+
+==============================================================================
+GSE221156 EMPIRICAL NULL — TOP RESULTS
+==============================================================================
+    cohort test_ligand observed_aupr_corrected    null_mean     null_sd
+ GSE221156       EDIL3              0.01803493 -0.001954690 0.001838547
+ GSE221156       LAMA4              0.01781654 -0.001650985 0.001870392
+ GSE221156        BMP7              0.01681280 -0.002109062 0.001862652
+ GSE221156      SEMA3C              0.01529029 -0.002345705 0.001805758
+ GSE221156         DHH              0.01453211 -0.002676754 0.001781966
+ GSE221156         TNC              0.01450338 -0.002364778 0.001879153
+ GSE221156       LAMB2              0.01424505 -0.002726814 0.001760019
+ GSE221156       FLRT3              0.01409085 -0.002298003 0.001854593
+ GSE221156       LAMA5              0.01342800 -0.002734195 0.001760367
+ GSE221156       LAMB1              0.01235459 -0.002676676 0.001834857
+ GSE221156      SEMA7A              0.01224550 -0.002728556 0.001783559
+ GSE221156       LAMA2              0.01220243 -0.002009335 0.001910710
+ GSE221156        CALR              0.01218167 -0.002198288 0.001901677
+ GSE221156        RELN              0.01197881 -0.002759549 0.001772505
+ GSE221156      IGFBP3              0.01141047 -0.002815327 0.001787485
+     null_q95    null_q99 observed_minus_null_mean    null_z n_null_ge_observed
+ 0.0012490672 0.002698334               0.01998962 10.872506                  0
+ 0.0015860447 0.003250731               0.01946752 10.408258                  0
+ 0.0011111721 0.002719682               0.01892186 10.158562                  0
+ 0.0007896359 0.002181371               0.01763600  9.766533                  0
+ 0.0003749407 0.001866620               0.01720886  9.657235                  0
+ 0.0009117460 0.002566961               0.01686816  8.976471                  0
+ 0.0003073736 0.001682629               0.01697186  9.642998                  0
+ 0.0008189790 0.002669925               0.01638885  8.836897                  0
+ 0.0002817134 0.001827462               0.01616220  9.181153                  0
+ 0.0004957248 0.002081485               0.01503127  8.192064                  0
+ 0.0003148321 0.001832628               0.01497406  8.395604                  0
+ 0.0012561502 0.002888938               0.01421177  7.437951                  0
+ 0.0011034607 0.002809832               0.01437996  7.561727                  0
+ 0.0003051841 0.001758375               0.01473836  8.314990                  0
+ 0.0002587312 0.001877574               0.01422579  7.958553                  0
+ n_permutations empirical_P empirical_FDR
+          10000   9.999e-05   0.000119988
+          10000   9.999e-05   0.000119988
+          10000   9.999e-05   0.000119988
+          10000   9.999e-05   0.000119988
+          10000   9.999e-05   0.000119988
+          10000   9.999e-05   0.000119988
+          10000   9.999e-05   0.000119988
+          10000   9.999e-05   0.000119988
+          10000   9.999e-05   0.000119988
+          10000   9.999e-05   0.000119988
+          10000   9.999e-05   0.000119988
+          10000   9.999e-05   0.000119988
+          10000   9.999e-05   0.000119988
+          10000   9.999e-05   0.000119988
+          10000   9.999e-05   0.000119988
+
+==============================================================================
+FIVE MAIN MANUSCRIPT CANDIDATES
+==============================================================================
+ test_ligand observed_aupr_corrected_GSE81608 empirical_P_GSE81608
+      SEMA7A                     0.0005222301            0.1720828
+       EDIL3                     0.0002597106            0.2849715
+       FLRT3                     0.0006961810            0.1404860
+         PGF                     0.0007624951            0.1124888
+        SPP1                     0.0004570261            0.1879812
+ empirical_FDR_GSE81608 null_z_GSE81608 observed_aupr_corrected_GSE221156
+              0.3678338      0.51786513                       0.012245500
+              0.3678338      0.13267767                       0.018034928
+              0.3678338      0.62687523                       0.014090847
+              0.3678338      0.29643317                       0.010610772
+              0.3678338      0.06177199                       0.007462913
+ empirical_P_GSE221156 empirical_FDR_GSE221156 null_z_GSE221156 conjunction_P
+             9.999e-05             0.000119988         8.395604     0.1720828
+             9.999e-05             0.000119988        10.872506     0.2849715
+             9.999e-05             0.000119988         8.836897     0.1404860
+             9.999e-05             0.000119988         7.808459     0.1124888
+             9.999e-05             0.000119988         5.628815     0.1879812
+ conjunction_FDR empirical_FDR05_both
+       0.3678338                FALSE
+       0.3678338                FALSE
+       0.3678338                FALSE
+       0.3678338                FALSE
+       0.3678338                FALSE
+
+==============================================================================
+EMPIRICAL SIGNIFICANCE SUMMARY
+==============================================================================
+GSE81608 ligands empirical FDR < 0.05: 0 / 42
+GSE221156 ligands empirical FDR < 0.05: 41 / 42
+Ligands empirical FDR < 0.05 in BOTH cohorts: 0 / 42
+
+INTERPRETATION GUARDRAIL
+  Empirical P values test whether observed corrected AUPR exceeds
+  expression-matched random receiver sets of identical size.
+  These tests assess receiver-program specificity within the frozen
+  NicheNet prior; they do not demonstrate direct inter-organ signaling.
+  Candidate ligands and the 42-ligand universe were fixed before
+  permutation testing.
+
+==============================================================================
+SCRIPT 16c COMPLETED SUCCESSFULLY
+==============================================================================

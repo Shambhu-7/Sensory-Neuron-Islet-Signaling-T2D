@@ -1,0 +1,2 @@
+"dataset","cell_type","beta_cells","biological_replicates","healthy_donors","T2D_donors","aggregation","primary_design","contrast","normalization","test","robust","fractional_counts","sensitivity","interpretation"
+"GSE81608_Xin_MuSiC_1492","beta",472,18,12,6,"sum counts within donor","~ condition","T2D - Healthy","TMM","edgeR quasi-likelihood F-test",TRUE,"preserved; not rounded","repeat after requiring >=10 beta cells per donor","T2D-associated beta-cell transcriptional differences; association does not imply causation by DRG-derived ligands."

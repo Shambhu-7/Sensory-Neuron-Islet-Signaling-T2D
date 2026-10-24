@@ -1,0 +1,23 @@
+[
+  {
+    "label": "pmc_html",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12871725/",
+    "status": 200,
+    "bytes": 256914,
+    "saved": "data/raw/DRG2026_supplementary/pmc_html.html"
+  },
+  {
+    "label": "ncbi_efetch_xml",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=12871725&retmode=xml",
+    "status": 200,
+    "bytes": 139754,
+    "saved": "data/raw/DRG2026_supplementary/ncbi_efetch_xml.xml"
+  },
+  {
+    "label": "europepmc_xml",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12871725/fullTextXML",
+    "status": 200,
+    "bytes": 144615,
+    "saved": "data/raw/DRG2026_supplementary/europepmc_xml.xml"
+  }
+]

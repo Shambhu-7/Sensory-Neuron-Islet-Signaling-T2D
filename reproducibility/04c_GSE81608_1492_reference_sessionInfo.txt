@@ -1,0 +1,57 @@
+Analysis time:
+[1] "2026-10-22 22:23:20 IST"
+
+Source:
+MuSiC curated Xin GSE81608 ExpressionSet
+
+Local MD5:
+/Users/shambhuyadav/Desktop/RNA3.0/Paper3_Sensory_Islet/data/raw/GSE81608/XinT2Deset_MuSiC_1492cells.rds 
+                                                                      "740bf180782cd9df5f16cb0713fcfe2b" 
+
+Dimensions:
+[1] 39849  1492
+
+Metadata columns:
+[1] "sampleID"    "SubjectName" "cellTypeID"  "cellType"    "Disease"    
+
+Cell types:
+celltype
+alpha  beta delta gamma 
+  886   472    49    85 
+
+Disease:
+disease
+Healthy     T2D 
+    609     883 
+
+Subjects:
+subject
+ Non T2D 1 Non T2D 10 Non T2D 11 Non T2D 12  Non T2D 2  Non T2D 3  Non T2D 4 
+        74         43         59        134         24         42         27 
+ Non T2D 5  Non T2D 6  Non T2D 7  Non T2D 8  Non T2D 9      T2D 1      T2D 2 
+        52         48         27         42         37         88         83 
+     T2D 3      T2D 4      T2D 5      T2D 6 
+        60        280        165        207 
+
+R version 4.5.2 (2025-10-31)
+Platform: aarch64-apple-darwin20
+Running under: macOS 27.0.1
+
+Matrix products: default
+BLAS:   /System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libBLAS.dylib 
+LAPACK: /Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/lib/libRlapack.dylib;  LAPACK version 3.12.1
+
+locale:
+[1] en_US.UTF-8/en_US.UTF-8/en_US.UTF-8/C/en_US.UTF-8/en_US.UTF-8
+
+time zone: Asia/Kolkata
+tzcode source: internal
+
+attached base packages:
+[1] stats     graphics  grDevices utils     datasets  methods   base     
+
+other attached packages:
+[1] Biobase_2.70.0      BiocGenerics_0.56.0 generics_0.1.4     
+
+loaded via a namespace (and not attached):
+[1] BiocManager_1.30.27 compiler_4.5.2      tools_4.5.2        

@@ -1,0 +1,41 @@
+====================================================
+SCRIPT 08b: PUBLICATION-POLISHED INTEGRATED FIGURE
+Presentation-only revision; no analytical values are changed.
+====================================================
+
+
+====================================================
+08b FIGURE AUDIT
+====================================================
+Panel A candidates: 5 
+Panel B rows: 10 
+Panel C rows: 10 
+Panel D rows: 15 
+Panel E rows: 15 
+Candidate order: SEMA7A -> EDIL3 -> FLRT3 -> PGF -> SPP1 
+Main-table rows used: 5 
+
+Presentation changes only:
+- publication-friendly Tier labels
+- beta replaced by β in display labels
+- shortened NicheNet legend labels
+- compact legends and adjusted panel spacing
+- contrast-aware heatmap text
+- shortened overall subtitle
+
+Scientific safeguards retained:
+- DRG contrast remains nearby-neuron-associated, not diabetes-induced
+- receptor compatibility remains descriptive
+- Trace-n-Seq remains anatomical-expression validation
+- NG remains labelled NG
+- no composite score or new candidate ranking
+- no statistical analysis rerun
+
+Output figures:
+figures/integration/Figure_P3_IntegratedCandidateEvidence_08b.pdf
+figures/integration/Figure_P3_IntegratedCandidateEvidence_08b.tiff
+figures/integration/Figure_P3_IntegratedCandidateEvidence_08b.png
+
+====================================================
+SCRIPT 08b COMPLETED SUCCESSFULLY
+====================================================

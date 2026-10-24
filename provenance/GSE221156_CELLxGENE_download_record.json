@@ -1,0 +1,9 @@
+{
+  "collection_id": "58e85c2f-d52e-4c19-8393-b854b84d516e",
+  "dataset_id": "6d452161-70af-43dd-988c-e3c4050d31e8",
+  "title": "Reintegrated transcriptomes of Beta pancreatic islet cells",
+  "cell_count_reported": 99029,
+  "asset_url": "https://datasets.cellxgene.cziscience.com/faacd98e-af54-459d-8a7a-74427766bc81.h5ad",
+  "local_file": "data/raw/GSE221156/GSE221156_Beta_processed_CELLxGENE.h5ad",
+  "size_bytes": 2477777480
+}

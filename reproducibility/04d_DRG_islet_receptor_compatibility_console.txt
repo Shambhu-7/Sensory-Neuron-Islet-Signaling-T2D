@@ -1,0 +1,438 @@
+
+============================================
+SCRIPT 04d: DRG -> ISLET RECEPTOR COMPATIBILITY
+============================================
+Xin expression matrix: 39849 genes x 1492 cells
+
+Subjects: 18 
+
+Disease groups:
+
+non-diabetic          T2D 
+         609          883 
+
+Cell types:
+
+alpha  beta delta gamma 
+  886   472    49    85 
+
+Donor x disease:
+            
+             non-diabetic T2D
+  Non T2D 1            74   0
+  Non T2D 10           43   0
+  Non T2D 11           59   0
+  Non T2D 12          134   0
+  Non T2D 2            24   0
+  Non T2D 3            42   0
+  Non T2D 4            27   0
+  Non T2D 5            52   0
+  Non T2D 6            48   0
+  Non T2D 7            27   0
+  Non T2D 8            42   0
+  Non T2D 9            37   0
+  T2D 1                 0  88
+  T2D 2                 0  83
+  T2D 3                 0  60
+  T2D 4                 0 280
+  T2D 5                 0 165
+  T2D 6                 0 207
+
+Prioritized DRG ligands: 149 
+Prioritized ligand-receptor pairs: 619 
+Unique candidate receptors: 319 
+
+============================================
+RECEPTOR IDENTIFIER VALIDATION
+============================================
+Candidate receptors: 319 
+Present in Xin expression matrix: 303 
+Absent from Xin expression matrix: 16 
+
+============================================
+ALPHA/BETA DATASET
+============================================
+Cells: 1358 
+              
+               alpha beta
+  non-diabetic   354  194
+  T2D            532  278
+
+Calculating donor-level receptor support...
+
+============================================
+EVALUABLE DONORS
+============================================
+    condition cell_type evaluable
+ non-diabetic     alpha        11
+          T2D     alpha         6
+ non-diabetic      beta        12
+          T2D      beta         6
+
+============================================
+RECEPTOR COMPATIBILITY SUMMARY
+============================================
+Candidate receptors present: 303 / 319 
+LR pairs with primary beta compatibility: 177 
+LR pairs with beta compatibility in BOTH conditions: 151 
+LR pairs with strong beta compatibility: 124 
+LR pairs with primary alpha compatibility: 189 
+LR pairs with alpha compatibility in BOTH conditions: 176 
+LR pairs with any alpha/beta compatibility: 212 
+
+============================================
+LIGAND-LEVEL SUMMARY
+============================================
+Prioritized DRG ligands tested: 149 
+Ligands with beta-compatible receptor(s): 80 
+Ligands with beta receptor(s) supported in BOTH conditions: 73 
+Ligands with alpha-compatible receptor(s): 82 
+Ligands with alpha receptor(s) supported in BOTH conditions: 81 
+
+============================================
+TOP BETA-COMPATIBLE DRG LIGANDS
+============================================
+  ligand              candidate_tier      logFC          FDR
+   LAMB1               Tier_A_strict  0.6490845 7.823184e-07
+   LAMA2               Tier_A_strict  0.8728571 2.063366e-07
+   LAMC1               Tier_A_strict  0.5872373 2.506435e-04
+   LAMA4          Tier_B_LODO_robust  0.5572014 1.721993e-04
+   LAMB2          Tier_B_LODO_robust  0.4124539 4.368766e-03
+   THBS1 Tier_C_directionally_robust  0.4087857 3.945206e-02
+     MDK          Tier_B_LODO_robust  0.6192619 5.743183e-05
+    BMP7          Tier_B_LODO_robust  0.5580693 1.182956e-02
+    NID1               Tier_A_strict  0.5921498 3.484656e-05
+   LAMA5          Tier_B_LODO_robust  0.5816146 4.338317e-03
+   NRXN2          Tier_B_LODO_robust -0.9190753 1.628600e-06
+    SPP1               Tier_A_strict -0.4074019 1.542603e-04
+  CXCL12               Tier_A_strict  0.7318390 2.321512e-05
+    RELN          Tier_B_LODO_robust  0.6210823 3.376518e-04
+     SST          Tier_B_LODO_robust -0.5697700 1.664332e-03
+     TNC               Tier_A_strict  0.8760461 1.428224e-05
+  SEMA7A               Tier_A_strict -0.6214805 5.755666e-03
+  LGALS9 Tier_C_directionally_robust  0.4151802 2.606473e-02
+    CALR          Tier_B_LODO_robust  0.3237404 6.687153e-03
+   THBS2          Tier_B_LODO_robust  0.4812343 1.155328e-02
+   CNTN2 Tier_C_directionally_robust -0.3155278 2.380931e-02
+   FLRT3          Tier_B_LODO_robust -0.6824919 6.634836e-03
+  IGFBP7          Tier_B_LODO_robust  0.6697076 7.035614e-12
+    LGI3          Tier_B_LODO_robust -0.4959815 4.581943e-04
+    BMP1 Tier_C_directionally_robust  0.5471322 1.883244e-02
+    NRG1               Tier_A_strict -0.7410114 8.846744e-07
+   EDIL3               Tier_A_strict -0.5355885 1.422231e-06
+   PRSS3          Tier_B_LODO_robust -0.9154732 2.099456e-05
+    SAA1          Tier_B_LODO_robust  0.8576972 1.669284e-04
+   RSPO2          Tier_B_LODO_robust -0.6770146 3.378908e-04
+     DHH          Tier_B_LODO_robust  0.6478229 1.955350e-03
+   PDGFB          Tier_B_LODO_robust  0.7840930 1.237290e-02
+   SPON2 Tier_C_directionally_robust  0.9797509 1.660279e-02
+   ALCAM Tier_C_directionally_robust -0.3089358 3.284778e-02
+  IGFBP3               Tier_A_strict  1.1342348 2.243641e-07
+   RPH3A               Tier_A_strict -1.0438497 9.195869e-07
+     GRN               Tier_A_strict  0.4771766 8.449930e-05
+  LGALS8               Tier_A_strict -0.6009516 2.182475e-04
+ ANGPTL2               Tier_A_strict  0.9909749 2.787546e-03
+   MFGE8               Tier_A_strict  0.3750084 3.085232e-03
+   AZGP1               Tier_A_strict  0.4942973 3.697856e-03
+    PPIA               Tier_A_strict -0.2630847 1.048345e-02
+   FGF13          Tier_B_LODO_robust -0.6480248 4.212392e-07
+   HSPA8          Tier_B_LODO_robust -0.4809435 1.498009e-06
+     LUM          Tier_B_LODO_robust  0.8481431 4.710218e-06
+   FGF12          Tier_B_LODO_robust -0.5994579 8.751644e-04
+    PI16          Tier_B_LODO_robust  0.6227153 1.935468e-03
+ COL16A1          Tier_B_LODO_robust  0.4940946 2.232139e-03
+    SDC2          Tier_B_LODO_robust  0.5898158 3.134225e-03
+    SCD5          Tier_B_LODO_robust -0.4142966 3.758286e-03
+            enriched_region n_beta_primary_receptors
+ Nageotte_associated_region                        7
+ Nageotte_associated_region                        6
+ Nageotte_associated_region                        6
+ Nageotte_associated_region                        5
+ Nageotte_associated_region                        5
+ Nageotte_associated_region                        8
+ Nageotte_associated_region                        6
+ Nageotte_associated_region                        5
+ Nageotte_associated_region                        4
+ Nageotte_associated_region                        4
+       Nearby_neuron_region                        7
+       Nearby_neuron_region                        5
+ Nageotte_associated_region                        4
+ Nageotte_associated_region                        4
+       Nearby_neuron_region                        4
+ Nageotte_associated_region                        3
+       Nearby_neuron_region                        3
+ Nageotte_associated_region                        3
+ Nageotte_associated_region                        4
+ Nageotte_associated_region                        4
+       Nearby_neuron_region                        3
+       Nearby_neuron_region                        3
+ Nageotte_associated_region                        2
+       Nearby_neuron_region                        2
+ Nageotte_associated_region                        2
+       Nearby_neuron_region                        3
+       Nearby_neuron_region                        2
+       Nearby_neuron_region                        2
+ Nageotte_associated_region                        2
+       Nearby_neuron_region                        2
+ Nageotte_associated_region                        2
+ Nageotte_associated_region                        2
+ Nageotte_associated_region                        2
+       Nearby_neuron_region                        2
+ Nageotte_associated_region                        1
+       Nearby_neuron_region                        1
+ Nageotte_associated_region                        1
+       Nearby_neuron_region                        1
+ Nageotte_associated_region                        1
+ Nageotte_associated_region                        1
+ Nageotte_associated_region                        1
+       Nearby_neuron_region                        1
+       Nearby_neuron_region                        1
+       Nearby_neuron_region                        1
+ Nageotte_associated_region                        1
+       Nearby_neuron_region                        1
+ Nageotte_associated_region                        1
+ Nageotte_associated_region                        1
+ Nageotte_associated_region                        1
+       Nearby_neuron_region                        1
+ n_beta_both_conditions_receptors n_beta_strong_receptors
+                                7                       7
+                                6                       6
+                                6                       6
+                                5                       5
+                                5                       5
+                                5                       4
+                                4                       4
+                                5                       4
+                                4                       4
+                                4                       4
+                                7                       3
+                                4                       3
+                                3                       3
+                                3                       3
+                                4                       3
+                                3                       3
+                                3                       3
+                                3                       3
+                                3                       2
+                                2                       2
+                                3                       2
+                                2                       2
+                                2                       2
+                                2                       2
+                                2                       2
+                                1                       1
+                                2                       1
+                                2                       1
+                                1                       1
+                                2                       1
+                                2                       1
+                                1                       1
+                                1                       1
+                                2                       1
+                                1                       1
+                                1                       1
+                                1                       1
+                                1                       1
+                                1                       1
+                                1                       1
+                                1                       1
+                                1                       1
+                                1                       1
+                                1                       1
+                                1                       1
+                                1                       1
+                                1                       1
+                                1                       1
+                                1                       1
+                                1                       1
+                       beta_primary_receptors
+      CD44;DAG1;ITGA1;ITGA3;ITGAV;ITGB1;ITGB8
+             CD44;DAG1;ITGA1;ITGA3;ITGB1;RPSA
+            CD44;DAG1;ITGA1;ITGA3;ITGAV;ITGB1
+                  CD44;DAG1;ITGA3;ITGAV;ITGB1
+                   CD44;DAG1;ITGA3;ITGB1;RPSA
+  CD36;CD47;ITGA3;ITGA4;ITGB1;LRP1;LRP5;PTPRJ
+             ITGA4;ITGB1;LRP1;NCL;SDC2;TSPAN1
+             ACVR1;ACVR2A;ACVR2B;BMPR1A;BMPR2
+                      ITGA3;ITGAV;ITGB1;PTPRF
+                        CD44;DAG1;ITGA3;ITGB1
+ CLSTN1;CLSTN3;DAG1;LRRTM3;LRRTM4;NLGN1;NLGN2
+                 CD44;ITGA4;ITGAV;ITGB1;ITGB5
+                     ADRA2A;ITGA4;ITGAV;ITGB1
+                       ITGA3;ITGB1;LRP8;VLDLR
+                     ADRA2A;SSTR1;SSTR2;SSTR3
+                            CNTN1;ITGAV;ITGB1
+                           ITGA1;ITGB1;PLXNC1
+                               CD44;CD47;P4HB
+                         ITGA3;ITGAV;LRP1;MPL
+                        CD36;CD47;ITGA4;ITGB1
+                             CNTN1;NRCAM;NRP1
+                            UNC5B;UNC5C;UNC5D
+                                    IL6R;NEO1
+                                  FLOT1;STX1A
+                                 BMPR1A;BMPR2
+                              ERBB2;GPC1;LGR4
+                                  ITGAV;ITGB5
+                                  F2RL1;PARD3
+                                  ADRA2A;CD36
+                                   LGR4;RNF43
+                                   CDON;PTCH1
+                                   ITGAV;LRP1
+                                  ITGA4;ITGB1
+                                    CHL1;NRP1
+                                      TMEM219
+                                        NRXN1
+                                     TNFRSF1A
+                                        ITGA3
+                                        ITGB1
+                                        ITGAV
+                                        ITGAV
+                                          BSG
+                                        FGFR1
+                                         LDLR
+                                        ITGB1
+                                        FGFR1
+                                     TNFRSF21
+                                        ITGB1
+                                        PTPRJ
+                                        PTPRJ
+               beta_both_conditions_receptors
+      CD44;DAG1;ITGA1;ITGA3;ITGAV;ITGB1;ITGB8
+             CD44;DAG1;ITGA1;ITGA3;ITGB1;RPSA
+            CD44;DAG1;ITGA1;ITGA3;ITGAV;ITGB1
+                  CD44;DAG1;ITGA3;ITGAV;ITGB1
+                   CD44;DAG1;ITGA3;ITGB1;RPSA
+                  CD47;ITGA3;ITGB1;LRP5;PTPRJ
+                        ITGB1;NCL;SDC2;TSPAN1
+             ACVR1;ACVR2A;ACVR2B;BMPR1A;BMPR2
+                      ITGA3;ITGAV;ITGB1;PTPRF
+                        CD44;DAG1;ITGA3;ITGB1
+ CLSTN1;CLSTN3;DAG1;LRRTM3;LRRTM4;NLGN1;NLGN2
+                       CD44;ITGAV;ITGB1;ITGB5
+                           ADRA2A;ITGAV;ITGB1
+                            ITGA3;ITGB1;VLDLR
+                     ADRA2A;SSTR1;SSTR2;SSTR3
+                            CNTN1;ITGAV;ITGB1
+                           ITGA1;ITGB1;PLXNC1
+                               CD44;CD47;P4HB
+                              ITGA3;ITGAV;MPL
+                                   CD47;ITGB1
+                             CNTN1;NRCAM;NRP1
+                                  UNC5B;UNC5D
+                                    IL6R;NEO1
+                                  FLOT1;STX1A
+                                 BMPR1A;BMPR2
+                                         LGR4
+                                  ITGAV;ITGB5
+                                  F2RL1;PARD3
+                                       ADRA2A
+                                   LGR4;RNF43
+                                   CDON;PTCH1
+                                        ITGAV
+                                        ITGB1
+                                    CHL1;NRP1
+                                      TMEM219
+                                        NRXN1
+                                     TNFRSF1A
+                                        ITGA3
+                                        ITGB1
+                                        ITGAV
+                                        ITGAV
+                                          BSG
+                                        FGFR1
+                                         LDLR
+                                        ITGB1
+                                        FGFR1
+                                     TNFRSF21
+                                        ITGB1
+                                        PTPRJ
+                                        PTPRJ
+ highlighted_original_GSE295206_study
+                                FALSE
+                                FALSE
+                                FALSE
+                                FALSE
+                                FALSE
+                                FALSE
+                                FALSE
+                                FALSE
+                                FALSE
+                                FALSE
+                                FALSE
+                                 TRUE
+                                FALSE
+                                FALSE
+                                FALSE
+                                FALSE
+                                FALSE
+                                FALSE
+                                FALSE
+                                FALSE
+                                FALSE
+                                FALSE
+                                FALSE
+                                FALSE
+                                FALSE
+                                FALSE
+                                FALSE
+                                FALSE
+                                FALSE
+                                FALSE
+                                FALSE
+                                FALSE
+                                FALSE
+                                FALSE
+                                FALSE
+                                FALSE
+                                FALSE
+                                FALSE
+                                FALSE
+                                FALSE
+                                FALSE
+                                FALSE
+                                FALSE
+                                FALSE
+                                FALSE
+                                FALSE
+                                FALSE
+                                FALSE
+                                FALSE
+                                FALSE
+
+============================================
+NEURONAL-SIDE CANDIDATE CHECK
+============================================
+  ligand     candidate_tier      logFC          FDR n_beta_primary_receptors
+   CALCB      Tier_A_strict -0.9126648 3.389551e-14                        0
+   CALCA      Tier_A_strict -0.7599110 1.641082e-13                        0
+    TAC1      Tier_A_strict -0.7745857 1.005950e-11                        0
+    NRG1      Tier_A_strict -0.7410114 8.846744e-07                        3
+     NMB      Tier_A_strict -0.5840742 4.842442e-07                        0
+     UCN      Tier_A_strict -0.7473253 2.877217e-05                        1
+ ADCYAP1      Tier_A_strict -0.6101644 6.846364e-08                        1
+     GAL Tier_B_LODO_robust -0.5510979 1.126772e-04                        1
+    PENK      Tier_A_strict -0.5506990 1.106955e-03                        1
+ beta_primary_receptors beta_both_conditions_receptors
+                   <NA>                           <NA>
+                   <NA>                           <NA>
+                   <NA>                           <NA>
+        ERBB2;GPC1;LGR4                           LGR4
+                   <NA>                           <NA>
+                  CRHR1                           <NA>
+                   SCTR                           <NA>
+                 ADRA2A                         ADRA2A
+                 ADRA2A                         ADRA2A
+ n_alpha_primary_receptors alpha_primary_receptors
+                         1                   RAMP2
+                         1                   RAMP2
+                         0                    <NA>
+                         2              ERBB3;LGR4
+                         1                    BRS3
+                         0                    <NA>
+                         2              DPP4;RAMP2
+                         0                    <NA>
+                         0                    <NA>
+
+============================================
+SCRIPT 04d COMPLETED SUCCESSFULLY
+============================================

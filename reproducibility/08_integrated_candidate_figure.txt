@@ -1,0 +1,30 @@
+====================================================
+SCRIPT 08: INTEGRATED CANDIDATE FIGURE
+====================================================
+
+
+====================================================
+FIGURE SOURCE-DATA AUDIT
+====================================================
+Panel A candidates: 5 
+Panel B rows: 10 
+Panel C rows: 10 
+Panel D rows: 15 
+Panel E rows: 15 
+Candidate order: SEMA7A -> EDIL3 -> FLRT3 -> PGF -> SPP1 
+
+IMPORTANT:
+Negative original DRG logFC denotes nearby-neuron enrichment.
+Panel A displays -logFC as positive nearby-neuron enrichment.
+Receptor, Trace-n-Seq and subtype panels are descriptive.
+NicheNet ranks are model-derived ligand-activity ranks.
+No composite statistical score is calculated.
+
+Output figures:
+  figures/integration/Figure_P3_IntegratedCandidateEvidence.pdf
+  figures/integration/Figure_P3_IntegratedCandidateEvidence.tiff
+  figures/integration/Figure_P3_IntegratedCandidateEvidence.png
+
+====================================================
+SCRIPT 08 COMPLETED SUCCESSFULLY
+====================================================

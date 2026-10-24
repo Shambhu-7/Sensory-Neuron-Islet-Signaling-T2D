@@ -1,0 +1,175 @@
+
+============================================
+SCRIPT 04c: AUDIT CURATED 1492-CELL XIN DATA
+============================================
+
+Downloading curated Xin 1492-cell object...
+Local file: /Users/shambhuyadav/Desktop/RNA3.0/Paper3_Sensory_Islet/data/raw/GSE81608/XinT2Deset_MuSiC_1492cells.rds 
+MD5: 740bf180782cd9df5f16cb0713fcfe2b 
+
+============================================
+OBJECT STRUCTURE
+============================================
+Class: ExpressionSet 
+Expression dimensions: 39849 genes x 1492 cells
+Phenotype dimensions: 1492 x 5 
+Feature metadata dimensions: 39849 x 0 
+
+Phenotype columns:
+[1] "sampleID"    "SubjectName" "cellTypeID"  "cellType"    "Disease"    
+
+Feature metadata columns:
+character(0)
+
+============================================
+CELL IDENTIFIERS
+============================================
+
+First 10 sample names:
+ [1] "Sample_1"  "Sample_2"  "Sample_3"  "Sample_4"  "Sample_5"  "Sample_6" 
+ [7] "Sample_7"  "Sample_8"  "Sample_9"  "Sample_10"
+
+Last 10 sample names:
+ [1] "Sample_1483" "Sample_1484" "Sample_1485" "Sample_1486" "Sample_1487"
+ [6] "Sample_1488" "Sample_1489" "Sample_1490" "Sample_1491" "Sample_1492"
+
+============================================
+PHENOTYPE METADATA PREVIEW
+============================================
+          sampleID SubjectName cellTypeID cellType Disease
+Sample_1         1   Non T2D 1          2     beta Healthy
+Sample_2         1   Non T2D 1          2     beta Healthy
+Sample_3         1   Non T2D 1          2     beta Healthy
+Sample_4         1   Non T2D 1          2     beta Healthy
+Sample_5         1   Non T2D 1          2     beta Healthy
+Sample_6         1   Non T2D 1          2     beta Healthy
+Sample_7         1   Non T2D 1          2     beta Healthy
+Sample_8         1   Non T2D 1          2     beta Healthy
+Sample_9         1   Non T2D 1          2     beta Healthy
+Sample_10        1   Non T2D 1          2     beta Healthy
+Sample_11        1   Non T2D 1          2     beta Healthy
+Sample_12        1   Non T2D 1          2     beta Healthy
+
+Unique values — SubjectName :
+ [1] "Non T2D 1"  "Non T2D 2"  "Non T2D 3"  "Non T2D 5"  "Non T2D 6" 
+ [6] "Non T2D 7"  "Non T2D 8"  "Non T2D 9"  "Non T2D 10" "Non T2D 11"
+[11] "Non T2D 12" "Non T2D 4"  "T2D 2"      "T2D 3"      "T2D 1"     
+[16] "T2D 4"      "T2D 5"      "T2D 6"     
+
+Unique values — cellType :
+[1] "beta"  "alpha" "delta" "gamma"
+
+Unique values — Disease :
+[1] "Healthy" "T2D"    
+
+============================================
+DETECTED METADATA FIELDS
+============================================
+Subject field: SubjectName 
+Cell-type field: cellType 
+Disease field: Disease 
+
+============================================
+CURATED DATASET SUMMARY
+============================================
+Cells: 1492 
+Genes: 39849 
+Subjects: 18 
+
+Cell types:
+celltype
+alpha  beta delta gamma 
+  886   472    49    85 
+
+Disease groups:
+disease
+Healthy     T2D 
+    609     883 
+
+Subject x disease:
+            disease
+subject      Healthy T2D
+  Non T2D 1       74   0
+  Non T2D 10      43   0
+  Non T2D 11      59   0
+  Non T2D 12     134   0
+  Non T2D 2       24   0
+  Non T2D 3       42   0
+  Non T2D 4       27   0
+  Non T2D 5       52   0
+  Non T2D 6       48   0
+  Non T2D 7       27   0
+  Non T2D 8       42   0
+  Non T2D 9       37   0
+  T2D 1            0  88
+  T2D 2            0  83
+  T2D 3            0  60
+  T2D 4            0 280
+  T2D 5            0 165
+  T2D 6            0 207
+
+Subject x cell type:
+            celltype
+subject      alpha beta delta gamma
+  Non T2D 1     53   13     5     3
+  Non T2D 10    18   23     2     0
+  Non T2D 11    47   10     1     1
+  Non T2D 12    84   48     2     0
+  Non T2D 2      4   13     2     5
+  Non T2D 3     27   10     3     2
+  Non T2D 4     14   10     0     3
+  Non T2D 5     23   22     5     2
+  Non T2D 6     36    7     4     1
+  Non T2D 7      8   15     0     4
+  Non T2D 8     14   16     3     9
+  Non T2D 9     26    7     1     3
+  T2D 1         38   12     3    35
+  T2D 2         50   18     5    10
+  T2D 3         29   26     2     3
+  T2D 4        138  135     5     2
+  T2D 5        152   11     1     1
+  T2D 6        125   76     5     1
+
+============================================
+EXPRESSION VALUE AUDIT
+============================================
+Minimum: 0 
+Median: 0 
+Maximum: 693430 
+Fraction zero: 0.882158 
+Fraction integer-like in first <=1M values: 0.999983 
+
+============================================
+GENE IDENTIFIER AUDIT
+============================================
+
+First 20 row names:
+ [1] "A1BG"     "A2M"      "A2MP1"    "NAT1"     "NAT2"     "AACP"    
+ [7] "SERPINA3" "AADAC"    "AAMP"     "AANAT"    "AARS"     "ABAT"    
+[13] "ABCA1"    "ABCA2"    "ABCA3"    "ABCB7"    "ABCF1"    "ABCA4"   
+[19] "ABL1"     "AOC1"    
+
+First 20 feature rows:
+data frame with 0 columns and 20 rows
+
+============================================
+MARKER SANITY CHECK
+============================================
+ gene found top_celltype
+  INS  TRUE         beta
+  GCG  TRUE        alpha
+  SST  TRUE        delta
+  PPY  TRUE        gamma
+
+============================================
+FINAL 1492-REFERENCE VALIDATION
+============================================
+1492 cells + 39849 genes: PASS 
+18 subjects: PASS 
+Endocrine marker identities: PASS 
+
+OVERALL: PASS 
+
+============================================
+SCRIPT 04c COMPLETED SUCCESSFULLY
+============================================

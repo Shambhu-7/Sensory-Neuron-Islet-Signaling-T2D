@@ -1,0 +1,192 @@
+Warning message:
+replacing previous import ‘e1071::element’ by ‘ggplot2::element’ when loading ‘nichenetr’ 
+==============================================================================
+SCRIPT 16b — BROAD LIGAND-UNIVERSE NICHE-NET REPLICATION
+==============================================================================
+nichenetr version: 2.2.0 
+
+INPUT FILES: PASS
+  results/islet/Table_P3_HC_Ligand_1492_vs_1600_Sensitivity.csv
+  results/nichenet/Table_P3_NicheNet_BroadHC_BetaSupported_LigandActivity.csv
+  results/validation/GSE221156/Table_P3_GSE221156_Beta_T2D_vs_Normal_edgeR.csv
+  data/raw/NicheNet/ligand_target_matrix_nsga2r_final.rds
+
+==============================================================================
+FROZEN NICHE-NET PRIOR
+==============================================================================
+Observed MD5: b09606b04b2d4490418d9028c0e58b9f 
+Expected MD5: b09606b04b2d4490418d9028c0e58b9f 
+Matrix: 33354 targets x 1226 ligands
+
+==============================================================================
+BROAD LIGAND UNIVERSE
+==============================================================================
+Broad HC beta-supported ligands raw: 45 
+Broad HC beta-supported ligands in NicheNet: 42 
+Broad ligands absent from NicheNet: 3 
+Absent: RPH3A;PPIA;LGALS8 
+
+==============================================================================
+FROZEN GSE81608 BROAD RANKING
+==============================================================================
+Ligands in frozen discovery broad ranking: 42 
+ test_ligand aupr_corrected discovery_broad_rank
+       LAMA2   0.0029541915                    1
+      SEMA3C   0.0012189582                    2
+       LAMA4   0.0010409608                    3
+      CXCL12   0.0009003147                    4
+     ANGPTL2   0.0008434694                    5
+         PGF   0.0007624951                    6
+       THBS2   0.0007315152                    7
+       FLRT3   0.0006961810                    8
+        RELN   0.0006961233                    9
+      LGALS9   0.0006892264                   10
+      S100A8   0.0006209777                   11
+        BMP7   0.0006059135                   12
+         SST   0.0005565271                   13
+       LAMA5   0.0005510029                   14
+      SEMA7A   0.0005222301                   15
+
+==============================================================================
+INDEPENDENT GSE221156 RECEIVER
+==============================================================================
+edgeR-tested genes: 15639 
+NicheNet-compatible background: 13712 
+Independent receiver raw: 796 
+Independent receiver in NicheNet: 697 
+
+==============================================================================
+GSE221156 BROAD-UNIVERSE NICHE-NET ANALYSIS
+==============================================================================
+
+TOP 20 GSE221156 BROAD LIGANDS
+ test_ligand aupr_corrected validation_broad_rank
+       EDIL3     0.01803493                     1
+       LAMA4     0.01781654                     2
+        BMP7     0.01681280                     3
+      SEMA3C     0.01529029                     4
+         DHH     0.01453211                     5
+         TNC     0.01450338                     6
+       LAMB2     0.01424505                     7
+       FLRT3     0.01409085                     8
+       LAMA5     0.01342800                     9
+       LAMB1     0.01235459                    10
+      SEMA7A     0.01224550                    11
+       LAMA2     0.01220243                    12
+        CALR     0.01218167                    13
+        RELN     0.01197881                    14
+      IGFBP3     0.01141047                    15
+      SEMA3B     0.01089007                    16
+       THBS2     0.01072984                    17
+         PGF     0.01061077                    18
+      S100A8     0.01045208                    19
+       LAMC1     0.01033728                    20
+
+==============================================================================
+CROSS-COHORT BROAD-RANK CONCORDANCE
+==============================================================================
+Broad-universe Spearman rho: 0.54817 
+Spearman P: 1.7124e-04 
+Discovery top-10: LAMA2, SEMA3C, LAMA4, CXCL12, ANGPTL2, PGF, THBS2, FLRT3, RELN, LGALS9 
+Validation top-10: EDIL3, LAMA4, BMP7, SEMA3C, DHH, TNC, LAMB2, FLRT3, LAMA5, LAMB1 
+Top-10 overlap: 3 / 10
+Shared top-10 ligands: SEMA3C, LAMA4, FLRT3 
+
+==============================================================================
+FIXED SENSORY-SOURCE CANDIDATES IN BROAD UNIVERSE
+==============================================================================
+ test_ligand discovery_broad_rank validation_broad_rank aupr_corrected_GSE81608
+       EDIL3                   30                     1            2.597106e-04
+       FLRT3                    8                     8            6.961810e-04
+      SEMA7A                   15                    11            5.222301e-04
+         PGF                    6                    18            7.624951e-04
+       RSPO2                   35                    22            1.323636e-04
+         SST                   13                    26            5.565271e-04
+       FGF12                   19                    29            3.698300e-04
+       FGF13                   23                    31            2.975972e-04
+        SPP1                   17                    32            4.570261e-04
+       CNTN2                   39                    40           -1.365005e-05
+ aupr_corrected_GSE221156 positive_in_both
+              0.018034928             TRUE
+              0.014090847             TRUE
+              0.012245500             TRUE
+              0.010610772             TRUE
+              0.009929649             TRUE
+              0.009110568             TRUE
+              0.008442968             TRUE
+              0.007944134             TRUE
+              0.007462913             TRUE
+              0.003991859            FALSE
+
+==============================================================================
+FIVE MAIN MANUSCRIPT CANDIDATES
+==============================================================================
+ test_ligand aupr_corrected_GSE81608 discovery_broad_rank
+      SEMA7A            0.0005222301                   15
+       EDIL3            0.0002597106                   30
+       FLRT3            0.0006961810                    8
+         PGF            0.0007624951                    6
+        SPP1            0.0004570261                   17
+ aupr_corrected_GSE221156 validation_broad_rank discovery_positive
+              0.012245500                    11               TRUE
+              0.018034928                     1               TRUE
+              0.014090847                     8               TRUE
+              0.010610772                    18               TRUE
+              0.007462913                    32               TRUE
+ validation_positive positive_in_both rank_change discovery_percentile
+                TRUE             TRUE          -4            0.6666667
+                TRUE             TRUE         -29            0.3095238
+                TRUE             TRUE           0            0.8333333
+                TRUE             TRUE          12            0.8809524
+                TRUE             TRUE          15            0.6190476
+ validation_percentile discovery_top10 validation_top10 top10_both
+             0.7619048           FALSE            FALSE      FALSE
+             1.0000000           FALSE             TRUE      FALSE
+             0.8333333            TRUE             TRUE       TRUE
+             0.5952381            TRUE            FALSE      FALSE
+             0.2619048           FALSE            FALSE      FALSE
+ discovery_top_quartile validation_top_quartile top_quartile_both
+                  FALSE                    TRUE             FALSE
+                  FALSE                    TRUE             FALSE
+                   TRUE                    TRUE              TRUE
+                   TRUE                   FALSE             FALSE
+                  FALSE                   FALSE             FALSE
+
+==============================================================================
+SUMMARY
+==============================================================================
+                            metric        value
+       Broad_HC_beta_supported_raw 4.500000e+01
+          Broad_NicheNet_evaluable 4.200000e+01
+            GSE221156_receiver_raw 7.960000e+02
+    GSE221156_receiver_in_NicheNet 6.970000e+02
+           Broad_rank_Spearman_rho 5.481728e-01
+             Broad_rank_Spearman_P 1.712415e-04
+                   Top10_overlap_n 3.000000e+00
+   Main_candidates_top10_discovery 2.000000e+00
+  Main_candidates_top10_validation 2.000000e+00
+        Main_candidates_top10_both 1.000000e+00
+ Main_candidates_top_quartile_both 1.000000e+00
+
+==============================================================================
+OUTPUT FILES
+==============================================================================
+  results/validation/GSE221156/NicheNet_broad_replication/Table_P3_GSE221156_BroadHC_NicheNet_LigandActivity.csv
+  results/validation/GSE221156/NicheNet_broad_replication/Table_P3_BroadHC_NicheNet_GSE81608_vs_GSE221156.csv
+  results/validation/GSE221156/NicheNet_broad_replication/Table_P3_SensoryCandidates_BroadUniverse_Ranks.csv
+  results/validation/GSE221156/NicheNet_broad_replication/Table_P3_MainCandidates_BroadUniverse_Ranks.csv
+  results/validation/GSE221156/NicheNet_broad_replication/Table_P3_BroadUniverse_ReplicationSummary.csv
+  data/processed/BroadLigandUniverse_NicheNet_16b.rds
+  reproducibility/16b_broad_ligand_universe_sessionInfo.txt
+
+INTERPRETATION GUARDRAIL
+  The broad universe was defined independently of NicheNet activity.
+  It contains high-confidence beta-compatible ligands reproduced across
+  the two GSE81608 representations and represented in the frozen prior.
+  Broad-universe rank is descriptive and is not a significance test.
+  Empirical significance will be evaluated separately in Script 16c.
+  NicheNet activity does not establish direct neuron-to-beta-cell signaling.
+
+==============================================================================
+SCRIPT 16b COMPLETED SUCCESSFULLY
+==============================================================================

@@ -1,0 +1,39 @@
+Analysis time:
+[1] "2026-10-22 22:17:33 IST"
+
+QC rule:
+Cells: >=500 genes with RPKM > 0
+Genes: detected in >=3 retained cells
+
+Final dimensions:
+[1] 29510  1600
+
+Final cell-type counts:
+
+alpha  beta delta    PP 
+  946   503    58    93 
+
+Final condition counts:
+
+non-diabetic          T2D 
+         651          949 
+
+R version 4.5.2 (2025-10-31)
+Platform: aarch64-apple-darwin20
+Running under: macOS 27.0.1
+
+Matrix products: default
+BLAS:   /System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libBLAS.dylib 
+LAPACK: /Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/lib/libRlapack.dylib;  LAPACK version 3.12.1
+
+locale:
+[1] en_US.UTF-8/en_US.UTF-8/en_US.UTF-8/C/en_US.UTF-8/en_US.UTF-8
+
+time zone: Asia/Kolkata
+tzcode source: internal
+
+attached base packages:
+[1] stats     graphics  grDevices utils     datasets  methods   base     
+
+loaded via a namespace (and not attached):
+[1] compiler_4.5.2

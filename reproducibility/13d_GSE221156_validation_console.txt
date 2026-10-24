@@ -1,0 +1,144 @@
+==============================================================================
+GSE221156 — INDEPENDENT DONOR-LEVEL BETA-CELL VALIDATION
+==============================================================================
+
+INPUT FILES: PASS
+  data/processed/GSE221156_Beta_DonorPseudobulk_RawCounts.tsv
+  results/validation/GSE221156/GSE221156_Donor_Metadata_Audit.csv
+  results/islet/Table_P3_Beta_T2D_NicheNet_PrimaryReceiverGenes.csv
+  results/islet/Table_P3_Beta_T2D_NicheNet_HighConfidenceCore.csv
+
+Pseudobulk input: 26936 feature rows x 48 donors
+Unique gene symbols after duplicate collapse: 26896
+Duplicate feature rows collapsed: 40
+
+DONORS BY DISEASE (all 48)
+
+                  normal     prediabetes syndrome type 2 diabetes mellitus 
+                      17                       14                       17 
+
+PRIMARY COMPARISON: T2D vs normal
+  Normal donors: 17
+  T2D donors: 17
+  Total donors: 34
+  Beta cells represented: 63,350
+
+SEX x DISEASE
+        
+         Normal T2D
+  female      5   7
+  male       12  10
+
+CENTER x DISEASE
+                                               
+                                                Normal T2D
+  Miami                                              2   0
+  Scharp-Lacy                                        7   5
+  Southern California IsletCell Resource Center      1   3
+  UPenn                                              0   3
+  Wisconsin                                          4   1
+  <NA>                                               3   5
+
+SELF_REPORTED_ETHNICITY x DISEASE
+                   
+                    Normal T2D
+  African American       2   4
+  Hispanic or Latin      5   6
+  unknown               10   7
+
+PRIMARY edgeR RESULTS
+  Genes before filter: 26896
+  Genes retained: 15639
+  FDR < 0.05: 823
+  T2D-up at FDR < 0.05: 462
+  T2D-down at FDR < 0.05: 361
+
+INDEPENDENT RECEIVER-PROGRAM VALIDATION
+                         gene_set n_prespecified n_represented n_tested_edgeR
+ Primary_27_gene_receiver_program             27            19             19
+     High_confidence_10_gene_core             10             7              7
+ n_same_direction fraction_same_direction exact_binomial_one_sided_P
+               14               0.7368421                 0.03178406
+                6               0.8571429                 0.06250000
+ n_validation_P_lt_0.05 n_validation_FDR_lt_0.05
+                      9                        5
+                      4                        2
+ spearman_rho_original_vs_validation_logFC   spearman_P
+                                0.73333333 0.0003534246
+                                0.07142857 0.8790481931
+
+Competitive CAMERA-PR enrichment:
+                       gene_set n_prespecified n_tested Direction      PValue
+ Original_receiver_T2D_up_genes             25       17        Up 0.015239249
+   High_confidence_10_gene_core             10        7        Up 0.003737159
+         FDR
+ 0.015239249
+ 0.007474317
+
+Originally T2D-down receiver genes:
+ gene primary_logFC      logFC       PValue          FDR same_direction
+  CLU     -1.042077 -0.8000425 4.319554e-05 0.0034642826           TRUE
+  TTR     -1.232967 -1.1130418 6.586684e-06 0.0009539007           TRUE
+
+SEX + AGE ADJUSTED SENSITIVITY
+  Donors retained: 34
+  Receiver genes tested: 19
+  Same direction: 13/19
+
+BETA-CELL RECEPTOR SUPPORT IN INDEPENDENT 48-DONOR COHORT
+  Candidate ligands with >=1 receptor at CPM>=1 in >=50% of BOTH normal and T2D donors: 13/13
+ ligand n_prespecified_receptors n_receptors_supported_both
+  RPH3A                        1                          1
+  EDIL3                        1                          1
+   SPP1                        4                          4
+ SEMA7A                        3                          3
+   PPIA                        1                          1
+  FGF13                        1                          1
+  FGF12                        1                          1
+    SST                        3                          3
+  CNTN2                        3                          3
+ LGALS8                        1                          1
+  RSPO2                        2                          2
+  FLRT3                        2                          2
+    PGF                        1                          1
+ receptors_supported_both beta_receptor_support_reproduced
+                    NRXN1                             TRUE
+                    ITGAV                             TRUE
+   CD44;ITGAV;ITGB1;ITGB5                             TRUE
+       ITGA1;ITGB1;PLXNC1                             TRUE
+                      BSG                             TRUE
+                    FGFR1                             TRUE
+                    FGFR1                             TRUE
+        SSTR1;SSTR2;SSTR3                             TRUE
+         CNTN1;NRCAM;NRP1                             TRUE
+                    ITGA3                             TRUE
+               LGR4;RNF43                             TRUE
+              UNC5B;UNC5D                             TRUE
+                     NRP1                             TRUE
+
+SECONDARY DIRECTION-ALIGNED RECEIVER SCORE (descriptive)
+                  disease receiver_direction_aligned_score
+                   normal                      -0.24894914
+     prediabetes syndrome                      -0.08135282
+ type 2 diabetes mellitus                       0.30983721
+
+OUTPUT FILES
+  results/validation/GSE221156/Table_P3_GSE221156_Beta_T2D_vs_Normal_edgeR.csv
+  results/validation/GSE221156/Table_P3_GSE221156_27Gene_Receiver_Validation.csv
+  results/validation/GSE221156/Table_P3_GSE221156_ReceiverProgram_ValidationSummary.csv
+  results/validation/GSE221156/Table_P3_GSE221156_ReceiverProgram_CAMERA_PR.csv
+  results/validation/GSE221156/Table_P3_GSE221156_ReceiverProgram_DownGeneAudit.csv
+  results/validation/GSE221156/Table_P3_GSE221156_Beta_Receptor_DonorSupport.csv
+  results/validation/GSE221156/Table_P3_GSE221156_Ligand_Receptor_Reproduction.csv
+  results/validation/GSE221156/Table_P3_GSE221156_ReceiverScore_All48Donors.csv
+  data/processed/GSE221156_Beta_IndependentValidation_13d.rds
+  reproducibility/13d_GSE221156_validation_sessionInfo.txt
+
+INTERPRETATION GUARDRAIL
+  This is independent beta-cell transcriptional/receptor validation.
+  It does NOT demonstrate direct sensory-neuron-to-beta-cell signaling or causality.
+  Prediabetes trajectory scores are secondary/descriptive.
+
+==============================================================================
+SCRIPT 13d COMPLETE
+==============================================================================

@@ -1,0 +1,141 @@
+
+============================================
+SCRIPT 04a: GSE81608 DOWNLOAD + VALIDATION
+============================================
+
+Downloading GSE81608 processed RPKM matrix...
+                                                                                                                size
+/Users/shambhuyadav/Desktop/RNA3.0/Paper3_Sensory_Islet/data/raw/GSE81608/GSE81608_human_islets_rpkm.txt.gz 37222002
+                                                                                                            isdir
+/Users/shambhuyadav/Desktop/RNA3.0/Paper3_Sensory_Islet/data/raw/GSE81608/GSE81608_human_islets_rpkm.txt.gz FALSE
+                                                                                                            mode
+/Users/shambhuyadav/Desktop/RNA3.0/Paper3_Sensory_Islet/data/raw/GSE81608/GSE81608_human_islets_rpkm.txt.gz  644
+                                                                                                                          mtime
+/Users/shambhuyadav/Desktop/RNA3.0/Paper3_Sensory_Islet/data/raw/GSE81608/GSE81608_human_islets_rpkm.txt.gz 2026-10-22 22:10:33
+                                                                                                                          ctime
+/Users/shambhuyadav/Desktop/RNA3.0/Paper3_Sensory_Islet/data/raw/GSE81608/GSE81608_human_islets_rpkm.txt.gz 2026-10-22 22:10:33
+                                                                                                                          atime
+/Users/shambhuyadav/Desktop/RNA3.0/Paper3_Sensory_Islet/data/raw/GSE81608/GSE81608_human_islets_rpkm.txt.gz 2026-10-22 22:10:00
+                                                                                                            uid
+/Users/shambhuyadav/Desktop/RNA3.0/Paper3_Sensory_Islet/data/raw/GSE81608/GSE81608_human_islets_rpkm.txt.gz 501
+                                                                                                            gid
+/Users/shambhuyadav/Desktop/RNA3.0/Paper3_Sensory_Islet/data/raw/GSE81608/GSE81608_human_islets_rpkm.txt.gz  20
+                                                                                                                   uname
+/Users/shambhuyadav/Desktop/RNA3.0/Paper3_Sensory_Islet/data/raw/GSE81608/GSE81608_human_islets_rpkm.txt.gz shambhuyadav
+                                                                                                            grname
+/Users/shambhuyadav/Desktop/RNA3.0/Paper3_Sensory_Islet/data/raw/GSE81608/GSE81608_human_islets_rpkm.txt.gz  staff
+                                                                                                                                        fname
+/Users/shambhuyadav/Desktop/RNA3.0/Paper3_Sensory_Islet/data/raw/GSE81608/GSE81608_human_islets_rpkm.txt.gz GSE81608_human_islets_rpkm.txt.gz
+                                                                                                                                                                              destdir
+/Users/shambhuyadav/Desktop/RNA3.0/Paper3_Sensory_Islet/data/raw/GSE81608/GSE81608_human_islets_rpkm.txt.gz /Users/shambhuyadav/Desktop/RNA3.0/Paper3_Sensory_Islet/data/raw/GSE81608
+                                                                                                                                                                                                               filepath
+/Users/shambhuyadav/Desktop/RNA3.0/Paper3_Sensory_Islet/data/raw/GSE81608/GSE81608_human_islets_rpkm.txt.gz /Users/shambhuyadav/Desktop/RNA3.0/Paper3_Sensory_Islet/data/raw/GSE81608/GSE81608_human_islets_rpkm.txt.gz
+                                                                                                                 GEO
+/Users/shambhuyadav/Desktop/RNA3.0/Paper3_Sensory_Islet/data/raw/GSE81608/GSE81608_human_islets_rpkm.txt.gz GSE81608
+RPKM file:
+ /Users/shambhuyadav/Desktop/RNA3.0/Paper3_Sensory_Islet/data/raw/GSE81608/GSE81608_human_islets_rpkm.txt.gz 
+File size: 35.5 MB
+
+Downloading GEO Series Matrix metadata...
+Found 1 file(s)
+GSE81608_series_matrix.txt.gz
+GEO metadata samples: 1600 
+
+Reading RPKM matrix...
+Raw RPKM dimensions: 39851 rows x 1601 columns
+
+First 10 column names:
+ [1] "gene.id"  "Sample_1" "Sample_2" "Sample_3" "Sample_4" "Sample_5"
+ [7] "Sample_6" "Sample_7" "Sample_8" "Sample_9"
+
+First 10 rows / first 5 columns:
+   gene.id Sample_1 Sample_2 Sample_3 Sample_4
+1        1  47.3396  24.0458   2.2743        0
+2        2   0.0000   0.0000   0.0000        0
+3        3   0.0000   0.0000   0.0000        0
+4        9   0.0000   0.0000   0.0000        0
+5       10   0.0000   0.0000   0.0000        0
+6       11   0.0000   0.0000   0.0000        0
+7       12   0.0000  14.0425   0.8412        0
+8       13   0.0000   0.0000   0.0000        0
+9       14  31.2047   0.0000   7.8214        0
+10      15   0.0000   0.0000   0.0000        0
+
+RPKM columns directly matching GSM IDs: 0 
+RPKM columns directly matching GEO titles: 0 
+
+============================================
+METADATA VALIDATION
+============================================
+Total GEO samples: 1600 
+Unique donors: 18 
+
+Condition counts:
+
+non-diabetic          T2D 
+         651          949 
+
+Cell subtype counts:
+
+alpha  beta delta    PP 
+  946   503    58    93 
+
+Donor x condition:
+            
+             non-diabetic T2D
+  Non T2D 1            77   0
+  Non T2D 10           49   0
+  Non T2D 11           63   0
+  Non T2D 12          144   0
+  Non T2D 2            24   0
+  Non T2D 3            44   0
+  Non T2D 4            31   0
+  Non T2D 5            57   0
+  Non T2D 6            50   0
+  Non T2D 7            29   0
+  Non T2D 8            45   0
+  Non T2D 9            38   0
+  T2D 1                 0  91
+  T2D 2                 0  83
+  T2D 3                 0  69
+  T2D 4                 0 306
+  T2D 5                 0 176
+  T2D 6                 0 224
+
+Donor x cell subtype:
+            
+             alpha beta delta  PP
+  Non T2D 1     56   13     5   3
+  Non T2D 10    20   26     2   1
+  Non T2D 11    49   12     1   1
+  Non T2D 12    92   50     2   0
+  Non T2D 2      4   13     2   5
+  Non T2D 3     29   10     3   2
+  Non T2D 4     15   11     0   5
+  Non T2D 5     26   24     5   2
+  Non T2D 6     38    7     4   1
+  Non T2D 7      8   17     0   4
+  Non T2D 8     14   17     3  11
+  Non T2D 9     26    7     1   4
+  T2D 1         39   12     4  36
+  T2D 2         50   18     5  10
+  T2D 3         33   29     4   3
+  T2D 4        152  144     8   2
+  T2D 5        161   12     1   2
+  T2D 6        134   81     8   1
+
+Endocrine cells: 1600 
+Alpha cells: 946 
+Beta cells: 503 
+Delta cells: 58 
+PP cells: 93 
+
+Missing metadata:
+        field missing
+     donor_id       0
+    condition       0
+ cell_subtype       0
+
+============================================
+SCRIPT 04a COMPLETED SUCCESSFULLY
+============================================

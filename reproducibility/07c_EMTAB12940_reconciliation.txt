@@ -1,0 +1,224 @@
+============================================
+SCRIPT 07c: RECONCILE TRACE-N-SEQ METADATA
+============================================
+
+Batch 1: 1926 cells
+Batch 2: 2046 cells
+
+============================================
+CELLNAME OVERLAP
+============================================
+Batch 1 unique CellNames: 1926 
+Batch 2 unique CellNames: 2046 
+Shared CellNames: 0 
+Batch 1 fraction shared: 0 
+Batch 2 fraction shared: 0 
+
+============================================
+BATCH 2: GANGLION x TISSUE x QC
+============================================
+, , Is_Cell = FALSE
+
+        InnervatingTissue
+Ganglion KPC PACO10 Pancreas Pankreas Pankreas + Pankreatitis subcutan Tumor
+    CG     0      0        0        0                       6        0     0
+    DRG    0      0        0        0                       4        0     2
+    NG     0      2        0        1                       0        0     0
+    ST     0      0        0        0                       6        0     0
+    Test   0      0        0        0                       0        0     0
+
+, , Is_Cell = TRUE
+
+        InnervatingTissue
+Ganglion KPC PACO10 Pancreas Pankreas Pankreas + Pankreatitis subcutan Tumor
+    CG     6      0        0       82                     282        0   313
+    DRG    0      0        0      150                     255       90   504
+    NG     0     38       71       46                       0        0    60
+    ST     0      0        0        0                      22        6    98
+    Test   0      0        0        0                       0        0     2
+
+
+============================================
+BATCH 2: GANGLION x TUMOR
+============================================
+        Tumor
+Ganglion Ctrl KPC Melanom Melanoma None PACO10 Pancreas Pankreas Xenograft
+    CG      0   6       0        0    0      0        0      370         0
+    DRG   186   0     151        7   90      0        0      409         0
+    NG      0   0       0        0    0     65      106       47         0
+    ST      0   0       0       98    6      0        0       28         0
+    Test    0   0       0        0    0      0        0        0         2
+        Tumor
+Ganglion Xenograft 6OHDA+Oxaliplatin Xenograft Ctrl Xenograft Oxaliplatin
+    CG                            19            144                    80
+    DRG                           98              0                     0
+    NG                             0              0                     0
+    ST                             0              0                     0
+    Test                           0              0                     0
+        Tumor
+Ganglion Xenograft_male
+    CG               70
+    DRG              64
+    NG                0
+    ST                0
+    Test              0
+
+============================================
+BATCH 2: TISSUE x TUMOR
+============================================
+                         Tumor
+InnervatingTissue         Ctrl KPC Melanom Melanoma None PACO10 Pancreas
+  KPC                        0   6       0        0    0      0        0
+  PACO10                     0   0       0        0    0     40        0
+  Pancreas                   0   0       0        0    0      0       71
+  Pankreas                   0   0       0        0    0      0        0
+  Pankreas + Pankreatitis    0   0       0        0    0      0        0
+  subcutan                   0   0       0        0   96      0        0
+  Tumor                    186   0     151      105    0     25       35
+                         Tumor
+InnervatingTissue         Pankreas Xenograft Xenograft 6OHDA+Oxaliplatin
+  KPC                            0         0                           0
+  PACO10                         0         0                           0
+  Pancreas                       0         0                           0
+  Pankreas                     279         0                           0
+  Pankreas + Pankreatitis      575         0                           0
+  subcutan                       0         0                           0
+  Tumor                          0         2                         117
+                         Tumor
+InnervatingTissue         Xenograft Ctrl Xenograft Oxaliplatin Xenograft_male
+  KPC                                  0                     0              0
+  PACO10                               0                     0              0
+  Pancreas                             0                     0              0
+  Pankreas                             0                     0              0
+  Pankreas + Pankreatitis              0                     0              0
+  subcutan                             0                     0              0
+  Tumor                              144                    80            134
+
+============================================
+BATCH 2: PANCREAS-LIKE TISSUES x GANGLION x TUMOR
+============================================
+, , Tumor = Pancreas
+
+                         Ganglion
+InnervatingTissue          CG DRG  NG  ST
+  Pancreas                  0   0  71   0
+  Pankreas                  0   0   0   0
+  Pankreas + Pankreatitis   0   0   0   0
+
+, , Tumor = Pankreas
+
+                         Ganglion
+InnervatingTissue          CG DRG  NG  ST
+  Pancreas                  0   0   0   0
+  Pankreas                 82 150  47   0
+  Pankreas + Pankreatitis 288 259   0  28
+
+
+============================================
+QC-PASS PANCREAS-LIKE CELLS
+============================================
+
+Batch 1:
+Ganglion
+ CG DRG 
+221 161 
+Total: 382 
+
+Batch 2:
+Ganglion
+ CG DRG  NG  ST 
+364 405 117  22 
+Total: 908 
+
+============================================
+BATCH 2 NG AUDIT
+============================================
+All NG: 218 
+QC-pass NG: 215 
+
+NG tissue distribution:
+
+  PACO10 Pancreas Pankreas    Tumor 
+      40       71       47       60 
+
+QC-pass NG tissue distribution:
+
+  PACO10 Pancreas Pankreas    Tumor 
+      38       71       46       60 
+
+NG Tumor field:
+
+  PACO10 Pancreas Pankreas 
+      65      106       47 
+
+QC-pass NG Tumor field:
+
+  PACO10 Pancreas Pankreas 
+      63      106       46 
+
+NG tissue x Tumor:
+                 Tumor
+InnervatingTissue PACO10 Pancreas Pankreas
+         PACO10       40        0        0
+         Pancreas      0       71        0
+         Pankreas      0        0       47
+         Tumor        25       35        0
+
+============================================
+TARGET PUBLISHED HEALTHY COHORT
+============================================
+Published target counts:
+DRG = 589
+CG  = 689
+JNG = 106
+Total = 1384
+
+Batch1QC-pass by Ganglion:
+
+ CG DRG 
+409 290 
+
+Batch2QC-pass by Ganglion:
+
+  CG  DRG   NG   ST Test 
+ 683  999  215  126    2 
+
+============================================
+PANCREAS-RELATED CELLSTRING PATTERNS
+============================================
+
+Batch1 top CellString patterns:
+cs2
+       DRG  CG_B6_FB+         CG DRG_B6_FB+     CG_FB+    DRG_FB+     CG_FB- 
+       166        165        151         77         47         39         12 
+   DRG_FB-      DRG__       CG__ 
+         8          7          1 
+
+Batch2 top CellString patterns:
+cs2
+ CG_B6_FB_Pankreas_m1_Pankreatitis DRG_B6_FB_Pankreas_m1_Pankreatitis 
+                               134                                116 
+ CG_B6_FB_Pankreas_m2_Pankreatitis DRG_B6_FB_Pankreas_m2_Pankreatitis 
+                                92                                 83 
+ CG_B6_FB_Pankreas_m3_Pankreatitis DRG_B6_FB_Pankreas_m3_Pankreatitis 
+                                62                                 60 
+        DRG_B6_FB_Pankreas_m2_Ctrl         NG_NSG_FB_Pancreas_m2_Ctrl 
+                                57                                 55 
+         CG_B6_FB_Pankreas_m1_Ctrl         DRG_B6_FB_Pankreas_m1_Ctrl 
+                                51                                 51 
+        DRG_B6_FB_Pankreas_m3_Ctrl          CG_B6_FB_Pankreas_m2_Ctrl 
+                                42                                 29 
+        NG_NSG_FB_Pancreas_m3_Ctrl          NG_B6_FB_Pankreas_m3_Ctrl 
+                                29                                 26 
+        NG_NSG_FB_Pancreas_m1_Ctrl  ST_B6_FB_Pankreas_m1_Pankreatitis 
+                                22                                 15 
+         NG_B6_FB_Pankreas_m1_Ctrl  ST_B6_FB_Pankreas_m3_Pankreatitis 
+                                12                                 10 
+         NG_B6_FB_Pankreas_m2_Ctrl  ST_B6_FB_Pankreas_m2_Pankreatitis 
+                                 9                                  3 
+         CG_B6_FB_Pankreas_m3_Ctrl 
+                                 2 
+
+============================================
+SCRIPT 07c COMPLETED SUCCESSFULLY
+============================================

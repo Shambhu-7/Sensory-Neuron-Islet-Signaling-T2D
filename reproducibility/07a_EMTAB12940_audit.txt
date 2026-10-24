@@ -1,0 +1,133 @@
+============================================
+SCRIPT 07a: E-MTAB-12940 DATA AUDIT
+============================================
+
+Accession: E-MTAB-12940
+Date: Fri Oct 23 10:28:59 IST 2026
+
+============================================
+1. BIOSTUDIES STUDY INFO
+============================================
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  1195  100  1195    0     0   1572      0 --:--:-- --:--:-- --:--:--  1572
+Accession: NA
+Relative path: E-MTAB-/940/E-MTAB-12940
+FTP link: ftp://ftp.ebi.ac.uk/biostudies/fire/E-MTAB-/940/E-MTAB-12940
+Release status: 1746057600000
+File count: 6
+
+============================================
+2. DOWNLOAD STUDY METADATA JSON
+============================================
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0 21  670k   21  144k    0     0   118k      0  0:00:05  0:00:01  0:00:04  118k100  670k  100  670k    0     0   413k      0  0:00:01  0:00:01 --:--:--  413k
+
+============================================
+3. EXTRACT FILE-LIKE RECORDS FROM STUDY JSON
+============================================
+E-MTAB-12940.idf.txt
+E-MTAB-12940.sdrf.txt
+IDF File
+Investigation Design Format (IDF)
+Processed
+Processed Data
+Raw
+SDRF File
+Sample and Data Relationship Format (SDRF)
+processed-data
+smartseq_metadata_table.txt
+smartseq_metadata_table2.txt
+smartseq_raw_counts.txt
+smartseq_raw_counts2.txt
+
+============================================
+4. FTP FILE INVENTORY
+============================================
+FTP base:
+ftp://ftp.ebi.ac.uk/biostudies/fire/E-MTAB-/940/E-MTAB-12940
+
+Listing:
+ftp://ftp.ebi.ac.uk/biostudies/fire/E-MTAB-/940/E-MTAB-12940/Files/
+
+curl: (28) Failed to connect to ftp.ebi.ac.uk port 21 after 75100 ms: Couldn't connect to server
+Number of FTP entries:
+       0 data/raw/E-MTAB-12940/E-MTAB-12940_ftp_file_list.txt
+
+First 50 entries:
+
+============================================
+5. PROCESSED-DATA CANDIDATES
+============================================
+
+============================================
+6. RAW-SEQUENCING INDICATORS
+============================================
+
+============================================
+7. DOWNLOAD AUTHORS' ANALYSIS WORKFLOW ONLY
+============================================
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:05 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:06 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:07 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:08 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:09 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:10 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:11 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:12 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:13 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:14 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:15 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:16 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:17 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:18 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:19 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:20 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:21 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:22 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:23 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:24 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:25 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:26 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:27 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:28 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:29 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:30 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:31 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:32 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:33 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:34 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:35 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:36 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:37 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:38 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:39 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:40 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:41 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:42 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:43 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:44 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:45 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:46 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:47 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:48 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:49 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:50 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:51 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:52 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:53 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:54 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:55 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:56 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:57 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:58 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:59 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:00 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:04 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:05 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:06 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:07 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:08 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:09 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:10 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:11 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:12 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:13 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:01:14 --:--:--     0100 25926  100 25926    0     0    343      0  0:01:15  0:01:15 --:--:--  5050100 25926  100 25926    0     0    343      0  0:01:15  0:01:15 --:--:--  6280
+Workflow file:
+-rw-r--r--  1 shambhuyadav  staff    25K Oct 23 10:31 data/raw/E-MTAB-12940/Trace-n-Seq_SMARTseq2_analysis.rmd
+
+Relevant object/file references in workflow:
+35:- Load pre-processed SMART-seq2 data from healthy pancreas, pancreatitis and PDAC samples.
+140:raw_SMART_seq_object <- readRDS("raw_SMART_seq_object.rds")
+144:do_ViolinPlot(raw_SMART_seq_object, features = "nFeature_RNA") +
+149:do_ViolinPlot(raw_SMART_seq_object, features = "nCount_RNA") +
+154:do_ViolinPlot(raw_SMART_seq_object, features = "percent.mt") +
+164:raw_SMART_seq_object,
+246:full_counts     <- table(raw_SMART_seq_object$orig.ident)
+298:We then annotate each cell’s ganglion of origin (CG, DRG or JNG) based on regular expression matching in the cell.ids field.
+338:grepl("DRG", filtered_SMART_seq_object_2$cell.ids), "DRG",
+339:"JNG"
+374:logcounts_matrix <- as.matrix(assay(sce_tmp, "logcounts"))
+375:counts_matrix    <- as.matrix(GetAssayData(obj, assay = "RNA", slot = "counts"))
+379:common_genes <- intersect(rownames(logcounts_matrix), rownames(counts_matrix))
+380:common_cells <- intersect(colnames(logcounts_matrix), colnames(counts_matrix))
+382:logcounts_matrix <- logcounts_matrix[common_genes, common_cells, drop = FALSE]
+383:counts_matrix    <- counts_matrix[common_genes, common_cells, drop = FALSE]
+385:# Extract cell- and gene-level metadata
+387:cell_metadata <- colData(sce_tmp)[common_cells, , drop = FALSE]
+388:gene_metadata <- data.frame(gene = common_genes, row.names = common_genes)
+393:assays  = list(counts = counts_matrix, logcounts = logcounts_matrix),
+394:colData = cell_metadata,
+395:rowData = gene_metadata
+419:linn_data     <- readRDS("linnarson_reference.rds")
+420:linn_data_sub <- readRDS("linnarson_reference_sub.rds")
+467:This allows us to use Seurat’s visualization functions while preserving the annotation metadata.
+474:# Extract raw counts and metadata
+476:cell_metadata <- as.data.frame(colData(data_smartseq))
+481:  meta.data = cell_metadata
+582:## DRG neuron signatures + scoring
+639:  name = "DRG_"
+641:# This will add metadata columns: DRG_1, DRG_2, DRG_3
+644:FeaturePlot(filtered_anno_atlas_cell_types, "DRG_1")  # proprioceptive/touch
+645:FeaturePlot(filtered_anno_atlas_cell_types, "DRG_2")  # non-peptidergic nociceptors
+646:FeaturePlot(filtered_anno_atlas_cell_types, "DRG_3")  # peptidergic nociceptors
+649:do_NebulosaPlot(filtered_anno_atlas_cell_types, "DRG_1")  # proprioceptive/touch
+650:do_NebulosaPlot(filtered_anno_atlas_cell_types, "DRG_2")  # non-peptidergic nociceptors
+651:do_NebulosaPlot(filtered_anno_atlas_cell_types, "DRG_3")  # peptidergic nociceptors
+682:make_drg_violin <- function(seu, score_name, palette, title_text) {
+708:p_drg1 <- make_drg_violin(
+710:    "DRG_1",
+712:    "Proprioceptive / Touch-sensation (DRG_1)"
+715:p_drg2 <- make_drg_violin(
+717:    "DRG_2",
+719:    "Non-peptidergic nociceptors (DRG_2)"
+722:p_drg3 <- make_drg_violin(
+724:    "DRG_3",
+726:    "Peptidergic nociceptors (DRG_3)"
+730:p_drg1 | p_drg2 | p_drg3
+
+============================================
+SCRIPT 07a COMPLETED
+============================================
+
+NO LARGE EXPRESSION OR FASTQ DATA WERE
+INTENTIONALLY DOWNLOADED BY THIS AUDIT.
+============================================

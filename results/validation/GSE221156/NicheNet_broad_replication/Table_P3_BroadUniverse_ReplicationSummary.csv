@@ -1,0 +1,12 @@
+"metric","value"
+"Broad_HC_beta_supported_raw",45
+"Broad_NicheNet_evaluable",42
+"GSE221156_receiver_raw",796
+"GSE221156_receiver_in_NicheNet",697
+"Broad_rank_Spearman_rho",0.548172757475083
+"Broad_rank_Spearman_P",0.00017124149593383
+"Top10_overlap_n",3
+"Main_candidates_top10_discovery",2
+"Main_candidates_top10_validation",2
+"Main_candidates_top10_both",1
+"Main_candidates_top_quartile_both",1

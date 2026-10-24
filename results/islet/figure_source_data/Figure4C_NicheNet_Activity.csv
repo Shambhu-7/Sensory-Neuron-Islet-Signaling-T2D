@@ -1,0 +1,21 @@
+"ligand","ReceiverSet","CorrectedAUPR"
+"CNTN2","Primary (22/27 represented)",-1.36500524351435e-05
+"CNTN2","Core (8/10 represented)",-9.7975018559347e-05
+"RSPO2","Primary (22/27 represented)",0.000132363621670805
+"RSPO2","Core (8/10 represented)",0.0001915342963893
+"EDIL3","Primary (22/27 represented)",0.000259710629371384
+"EDIL3","Core (8/10 represented)",0.000164969663489227
+"FGF13","Primary (22/27 represented)",0.000297597196495531
+"FGF13","Core (8/10 represented)",-4.62992384719142e-05
+"FGF12","Primary (22/27 represented)",0.000369829973027634
+"FGF12","Core (8/10 represented)",-8.49623590540093e-05
+"SPP1","Primary (22/27 represented)",0.000457026070229927
+"SPP1","Core (8/10 represented)",1.73466993985251e-05
+"SEMA7A","Primary (22/27 represented)",0.000522230080613598
+"SEMA7A","Core (8/10 represented)",0.000216915334373482
+"SST","Primary (22/27 represented)",0.000556527103285694
+"SST","Core (8/10 represented)",3.89639196240196e-05
+"FLRT3","Primary (22/27 represented)",0.000696181022000915
+"FLRT3","Core (8/10 represented)",0.000220150291515396
+"PGF","Primary (22/27 represented)",0.000762495078512089
+"PGF","Core (8/10 represented)",0.000450804142899741

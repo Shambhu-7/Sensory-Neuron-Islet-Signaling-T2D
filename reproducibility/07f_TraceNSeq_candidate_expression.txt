@@ -1,0 +1,417 @@
+====================================================
+SCRIPT 07f: TRACE-N-SEQ CANDIDATE EXPRESSION
+====================================================
+
+Candidate genes: 13 
+Control genes: 11 
+Total requested genes: 24 
+
+====================================================
+READING BATCH 1
+====================================================
+Dimensions: 42594 genes x 1926 cells
+Unique genes: 42594 
+Duplicated gene IDs: 0 
+Cell alignment: PASS
+Calculating matrix library sizes...
+
+Library-size validation:
+Correlation: 1 
+Median absolute difference: 0 
+Maximum absolute difference: 0 
+Maximum relative difference: 0 
+
+Target genes present: 24 / 24 
+Candidate genes present: 13 / 13 
+
+Present candidate genes:
+ [1] "Rph3a"  "Edil3"  "Spp1"   "Sema7a" "Ppia"   "Fgf13"  "Fgf12"  "Sst"   
+ [9] "Cntn2"  "Lgals8" "Rspo2"  "Flrt3"  "Pgf"   
+
+Absent candidate genes:
+character(0)
+
+====================================================
+READING BATCH 2
+====================================================
+Dimensions: 42594 genes x 2046 cells
+Unique genes: 42594 
+Duplicated gene IDs: 0 
+Cell alignment: PASS
+Calculating matrix library sizes...
+
+Library-size validation:
+Correlation: 1 
+Median absolute difference: 0 
+Maximum absolute difference: 0 
+Maximum relative difference: 0 
+
+Target genes present: 24 / 24 
+Candidate genes present: 13 / 13 
+
+Present candidate genes:
+ [1] "Rph3a"  "Edil3"  "Spp1"   "Sema7a" "Ppia"   "Fgf13"  "Fgf12"  "Sst"   
+ [9] "Cntn2"  "Lgals8" "Rspo2"  "Flrt3"  "Pgf"   
+
+Absent candidate genes:
+character(0)
+
+====================================================
+CANDIDATE GENE PRESENCE
+====================================================
+   Gene Candidate Present_Batch1 Present_Batch2
+  Cntn2      TRUE           TRUE           TRUE
+  Edil3      TRUE           TRUE           TRUE
+  Fgf12      TRUE           TRUE           TRUE
+  Fgf13      TRUE           TRUE           TRUE
+  Flrt3      TRUE           TRUE           TRUE
+ Lgals8      TRUE           TRUE           TRUE
+    Pgf      TRUE           TRUE           TRUE
+   Ppia      TRUE           TRUE           TRUE
+  Rph3a      TRUE           TRUE           TRUE
+  Rspo2      TRUE           TRUE           TRUE
+ Sema7a      TRUE           TRUE           TRUE
+   Spp1      TRUE           TRUE           TRUE
+    Sst      TRUE           TRUE           TRUE
+
+====================================================
+STRICT HEALTHY PANCREAS SENSORY COHORT
+====================================================
+
+Batch 1:
+     
+      Peripheral sensory neurofilament neurons
+  DRG                                       70
+     
+      Peripheral sensory non-peptidergic neurons
+  DRG                                          8
+     
+      Peripheral sensory peptidergic neurons
+  DRG                                     17
+
+Batch 2:
+     
+      Peripheral sensory neurofilament neurons
+  DRG                                       43
+  NG                                        11
+     
+      Peripheral sensory non-peptidergic neurons
+  DRG                                         70
+  NG                                           4
+     
+      Peripheral sensory peptidergic neurons
+  DRG                                     31
+  NG                                      43
+
+Batch 1 DRG: 95 
+Batch 2 DRG: 144 
+Batch 2 NG: 58 
+
+====================================================
+13-LIGAND ANATOMICAL VALIDATION
+====================================================
+   Gene DRG_Batch1_PctDetected DRG_Batch2_PctDetected DRG_Combined_PctDetected
+  Cntn2                100.000                100.000                  100.000
+   Ppia                100.000                100.000                  100.000
+  Rph3a                 98.947                 97.222                   97.908
+  Edil3                 97.895                 97.222                   97.490
+  Fgf13                 95.789                 98.611                   97.490
+  Fgf12                 94.737                 99.306                   97.490
+ Lgals8                 94.737                 99.306                   97.490
+  Rspo2                 76.842                 85.417                   82.008
+  Flrt3                 58.947                 85.417                   74.895
+ Sema7a                 77.895                 55.556                   64.435
+   Spp1                 58.947                 25.694                   38.912
+    Pgf                 54.737                 25.694                   37.238
+    Sst                  1.053                  4.167                    2.929
+ NG_PctDetected DRG_Batch1_MeanLogCPM DRG_Batch2_MeanLogCPM NG_MeanLogCPM
+         100.00                6.5654                6.4097        6.5205
+          98.28                5.4358                5.9503        5.4906
+          63.79                5.7150                5.8242        2.8414
+         100.00                5.6612                4.7640        4.8151
+          98.28                3.6070                4.8463        4.7125
+          98.28                3.7952                4.6961        4.6516
+          96.55                3.5988                3.8753        4.0816
+          65.52                2.7084                3.5114        2.3223
+          86.21                1.7670                2.5953        2.5680
+          43.10                3.8780                2.0680        0.9319
+          12.07                2.6620                0.7783        0.3425
+          37.93                1.9173                0.6845        1.0587
+          13.79                0.0212                0.1496        0.4465
+ Detected_Both_DRG_Batches Detected_DRG_and_NG
+                      TRUE                TRUE
+                      TRUE                TRUE
+                      TRUE                TRUE
+                      TRUE                TRUE
+                      TRUE                TRUE
+                      TRUE                TRUE
+                      TRUE                TRUE
+                      TRUE                TRUE
+                      TRUE                TRUE
+                      TRUE                TRUE
+                      TRUE                TRUE
+                      TRUE                TRUE
+                      TRUE                TRUE
+
+Candidates detected in BOTH DRG batches: 13 / 13 
+Candidates detected in DRG AND NG: 13 / 13 
+
+====================================================
+CANDIDATE EXPRESSION BY SENSORY SUBTYPE
+====================================================
+  Batch Ganglion                                   CellType   Gene N_cells
+ Batch1      DRG   Peripheral sensory neurofilament neurons  Edil3      70
+ Batch1      DRG   Peripheral sensory neurofilament neurons   Ppia      70
+ Batch1      DRG   Peripheral sensory neurofilament neurons  Cntn2      70
+ Batch1      DRG   Peripheral sensory neurofilament neurons  Rph3a      70
+ Batch1      DRG   Peripheral sensory neurofilament neurons  Fgf12      70
+ Batch1      DRG   Peripheral sensory neurofilament neurons  Fgf13      70
+ Batch1      DRG   Peripheral sensory neurofilament neurons Lgals8      70
+ Batch1      DRG   Peripheral sensory neurofilament neurons Sema7a      70
+ Batch1      DRG   Peripheral sensory neurofilament neurons   Spp1      70
+ Batch1      DRG   Peripheral sensory neurofilament neurons  Rspo2      70
+ Batch1      DRG   Peripheral sensory neurofilament neurons    Pgf      70
+ Batch1      DRG   Peripheral sensory neurofilament neurons  Flrt3      70
+ Batch1      DRG   Peripheral sensory neurofilament neurons    Sst      70
+ Batch1      DRG Peripheral sensory non-peptidergic neurons  Rph3a       8
+ Batch1      DRG Peripheral sensory non-peptidergic neurons   Ppia       8
+ Batch1      DRG Peripheral sensory non-peptidergic neurons  Cntn2       8
+ Batch1      DRG Peripheral sensory non-peptidergic neurons  Edil3       8
+ Batch1      DRG Peripheral sensory non-peptidergic neurons  Fgf13       8
+ Batch1      DRG Peripheral sensory non-peptidergic neurons Lgals8       8
+ Batch1      DRG Peripheral sensory non-peptidergic neurons  Flrt3       8
+ Batch1      DRG Peripheral sensory non-peptidergic neurons  Fgf12       8
+ Batch1      DRG Peripheral sensory non-peptidergic neurons  Rspo2       8
+ Batch1      DRG Peripheral sensory non-peptidergic neurons Sema7a       8
+ Batch1      DRG Peripheral sensory non-peptidergic neurons   Spp1       8
+ Batch1      DRG Peripheral sensory non-peptidergic neurons    Sst       8
+ Batch1      DRG Peripheral sensory non-peptidergic neurons    Pgf       8
+ Batch1      DRG     Peripheral sensory peptidergic neurons  Rph3a      17
+ Batch1      DRG     Peripheral sensory peptidergic neurons   Ppia      17
+ Batch1      DRG     Peripheral sensory peptidergic neurons  Fgf13      17
+ Batch1      DRG     Peripheral sensory peptidergic neurons  Cntn2      17
+ Batch1      DRG     Peripheral sensory peptidergic neurons Lgals8      17
+ Batch1      DRG     Peripheral sensory peptidergic neurons  Edil3      17
+ Batch1      DRG     Peripheral sensory peptidergic neurons  Fgf12      17
+ Batch1      DRG     Peripheral sensory peptidergic neurons  Rspo2      17
+ Batch1      DRG     Peripheral sensory peptidergic neurons Sema7a      17
+ Batch1      DRG     Peripheral sensory peptidergic neurons  Flrt3      17
+ Batch1      DRG     Peripheral sensory peptidergic neurons    Pgf      17
+ Batch1      DRG     Peripheral sensory peptidergic neurons   Spp1      17
+ Batch1      DRG     Peripheral sensory peptidergic neurons    Sst      17
+ Batch2      DRG   Peripheral sensory neurofilament neurons  Edil3      43
+ Batch2      DRG   Peripheral sensory neurofilament neurons   Ppia      43
+ Batch2      DRG   Peripheral sensory neurofilament neurons  Fgf12      43
+ Batch2      DRG   Peripheral sensory neurofilament neurons  Cntn2      43
+ Batch2      DRG   Peripheral sensory neurofilament neurons Lgals8      43
+ Batch2      DRG   Peripheral sensory neurofilament neurons  Rph3a      43
+ Batch2      DRG   Peripheral sensory neurofilament neurons Sema7a      43
+ Batch2      DRG   Peripheral sensory neurofilament neurons  Fgf13      43
+ Batch2      DRG   Peripheral sensory neurofilament neurons  Flrt3      43
+ Batch2      DRG   Peripheral sensory neurofilament neurons  Rspo2      43
+ Batch2      DRG   Peripheral sensory neurofilament neurons   Spp1      43
+ Batch2      DRG   Peripheral sensory neurofilament neurons    Pgf      43
+ Batch2      DRG   Peripheral sensory neurofilament neurons    Sst      43
+ Batch2      DRG Peripheral sensory non-peptidergic neurons  Edil3      70
+ Batch2      DRG Peripheral sensory non-peptidergic neurons   Ppia      70
+ Batch2      DRG Peripheral sensory non-peptidergic neurons  Fgf13      70
+ Batch2      DRG Peripheral sensory non-peptidergic neurons  Cntn2      70
+ Batch2      DRG Peripheral sensory non-peptidergic neurons  Fgf12      70
+ Batch2      DRG Peripheral sensory non-peptidergic neurons Lgals8      70
+ Batch2      DRG Peripheral sensory non-peptidergic neurons  Rph3a      70
+ Batch2      DRG Peripheral sensory non-peptidergic neurons  Rspo2      70
+ Batch2      DRG Peripheral sensory non-peptidergic neurons  Flrt3      70
+ Batch2      DRG Peripheral sensory non-peptidergic neurons Sema7a      70
+ Batch2      DRG Peripheral sensory non-peptidergic neurons   Spp1      70
+ Batch2      DRG Peripheral sensory non-peptidergic neurons    Pgf      70
+ Batch2      DRG Peripheral sensory non-peptidergic neurons    Sst      70
+ Batch2      DRG     Peripheral sensory peptidergic neurons  Rph3a      31
+ Batch2      DRG     Peripheral sensory peptidergic neurons   Ppia      31
+ Batch2      DRG     Peripheral sensory peptidergic neurons  Fgf13      31
+ Batch2      DRG     Peripheral sensory peptidergic neurons  Fgf12      31
+ Batch2      DRG     Peripheral sensory peptidergic neurons  Cntn2      31
+ Batch2      DRG     Peripheral sensory peptidergic neurons Lgals8      31
+ Batch2      DRG     Peripheral sensory peptidergic neurons  Edil3      31
+ Batch2      DRG     Peripheral sensory peptidergic neurons  Rspo2      31
+ Batch2      DRG     Peripheral sensory peptidergic neurons  Flrt3      31
+ Batch2      DRG     Peripheral sensory peptidergic neurons Sema7a      31
+ Batch2      DRG     Peripheral sensory peptidergic neurons    Pgf      31
+ Batch2      DRG     Peripheral sensory peptidergic neurons   Spp1      31
+ Batch2      DRG     Peripheral sensory peptidergic neurons    Sst      31
+ Batch2       NG   Peripheral sensory neurofilament neurons  Rph3a      11
+ Batch2       NG   Peripheral sensory neurofilament neurons  Edil3      11
+ Batch2       NG   Peripheral sensory neurofilament neurons   Ppia      11
+ Batch2       NG   Peripheral sensory neurofilament neurons  Fgf12      11
+ Batch2       NG   Peripheral sensory neurofilament neurons  Cntn2      11
+ Batch2       NG   Peripheral sensory neurofilament neurons Lgals8      11
+ Batch2       NG   Peripheral sensory neurofilament neurons  Flrt3      11
+ Batch2       NG   Peripheral sensory neurofilament neurons  Fgf13      11
+ Batch2       NG   Peripheral sensory neurofilament neurons  Rspo2      11
+ Batch2       NG   Peripheral sensory neurofilament neurons Sema7a      11
+ Batch2       NG   Peripheral sensory neurofilament neurons    Pgf      11
+ Batch2       NG   Peripheral sensory neurofilament neurons   Spp1      11
+ Batch2       NG   Peripheral sensory neurofilament neurons    Sst      11
+ Batch2       NG Peripheral sensory non-peptidergic neurons  Rph3a       4
+ Batch2       NG Peripheral sensory non-peptidergic neurons  Edil3       4
+ Batch2       NG Peripheral sensory non-peptidergic neurons Sema7a       4
+ Batch2       NG Peripheral sensory non-peptidergic neurons   Ppia       4
+ Batch2       NG Peripheral sensory non-peptidergic neurons  Fgf13       4
+ Batch2       NG Peripheral sensory non-peptidergic neurons  Fgf12       4
+ Batch2       NG Peripheral sensory non-peptidergic neurons  Cntn2       4
+ Batch2       NG Peripheral sensory non-peptidergic neurons Lgals8       4
+ Batch2       NG Peripheral sensory non-peptidergic neurons  Rspo2       4
+ Batch2       NG Peripheral sensory non-peptidergic neurons  Flrt3       4
+ Batch2       NG Peripheral sensory non-peptidergic neurons   Spp1       4
+ Batch2       NG Peripheral sensory non-peptidergic neurons    Pgf       4
+ Batch2       NG Peripheral sensory non-peptidergic neurons    Sst       4
+ Batch2       NG     Peripheral sensory peptidergic neurons  Edil3      43
+ Batch2       NG     Peripheral sensory peptidergic neurons  Fgf13      43
+ Batch2       NG     Peripheral sensory peptidergic neurons  Cntn2      43
+ Batch2       NG     Peripheral sensory peptidergic neurons   Ppia      43
+ Batch2       NG     Peripheral sensory peptidergic neurons  Fgf12      43
+ Batch2       NG     Peripheral sensory peptidergic neurons Lgals8      43
+ Batch2       NG     Peripheral sensory peptidergic neurons  Flrt3      43
+ Batch2       NG     Peripheral sensory peptidergic neurons  Rspo2      43
+ Batch2       NG     Peripheral sensory peptidergic neurons  Rph3a      43
+ Batch2       NG     Peripheral sensory peptidergic neurons Sema7a      43
+ Batch2       NG     Peripheral sensory peptidergic neurons    Pgf      43
+ Batch2       NG     Peripheral sensory peptidergic neurons    Sst      43
+ Batch2       NG     Peripheral sensory peptidergic neurons   Spp1      43
+ Pct_detected Mean_log1p_CPM
+      100.000        6.05101
+      100.000        5.36931
+      100.000        6.41507
+       98.571        5.87252
+       98.571        3.84709
+       95.714        3.38809
+       94.286        3.47915
+       90.000        4.86984
+       75.714        3.47693
+       75.714        2.67958
+       70.000        2.51334
+       62.857        1.80928
+        0.000        0.00000
+      100.000        4.49642
+      100.000        5.31865
+      100.000        6.69311
+       87.500        3.22199
+       87.500        3.66812
+       87.500        3.61727
+       87.500        4.00344
+       75.000        3.07098
+       62.500        2.11095
+       50.000        1.36952
+       25.000        0.83951
+        0.000        0.00000
+        0.000        0.00000
+      100.000        5.63995
+      100.000        5.76475
+      100.000        4.47963
+      100.000        7.12457
+      100.000        4.08268
+       94.118        5.20416
+       88.235        3.92235
+       88.235        3.10812
+       41.176        0.97424
+       29.412        0.54022
+       17.647        0.36507
+        5.882        0.16378
+        5.882        0.11850
+      100.000        5.77235
+      100.000        5.91445
+      100.000        4.63165
+      100.000        6.65602
+      100.000        4.10084
+       97.674        5.74466
+       97.674        4.57774
+       95.349        4.04338
+       88.372        2.40783
+       76.744        2.70680
+       58.140        2.06765
+       53.488        1.62635
+        2.326        0.11278
+      100.000        4.50111
+      100.000        5.91089
+      100.000        5.40263
+      100.000        6.13367
+       98.571        4.75859
+       98.571        3.51323
+       95.714        6.00669
+       94.286        4.45662
+       91.429        3.05952
+       27.143        0.83968
+       14.286        0.27296
+       10.000        0.20881
+        5.714        0.21833
+      100.000        5.52244
+      100.000        6.08893
+      100.000        4.70400
+      100.000        4.64432
+      100.000        6.69150
+      100.000        4.37990
+       87.097        3.95905
+       77.419        2.49294
+       67.742        1.80716
+       61.290        1.36057
+       22.581        0.45225
+        6.452        0.13080
+        3.226        0.04532
+      100.000        6.48147
+      100.000        4.92501
+      100.000        5.69595
+      100.000        4.84508
+      100.000        6.49819
+      100.000        4.10882
+      100.000        2.76812
+       90.909        3.65436
+       90.909        3.59636
+       72.727        2.06382
+       72.727        2.18346
+       27.273        0.63957
+        0.000        0.00000
+      100.000        6.76739
+      100.000        4.82073
+      100.000        2.60679
+      100.000        6.23120
+      100.000        5.68311
+      100.000        4.66474
+      100.000        6.60690
+      100.000        3.96042
+      100.000        4.59800
+      100.000        3.29067
+       50.000        1.22259
+       25.000        0.50484
+        0.000        0.00000
+      100.000        4.78645
+      100.000        4.89285
+      100.000        6.51819
+       97.674        5.36921
+       97.674        4.60084
+       95.349        4.08590
+       81.395        2.44961
+       55.814        1.78473
+       51.163        1.54502
+       30.233        0.48653
+       30.233        0.82251
+       18.605        0.60231
+        4.651        0.18462
+
+====================================================
+DRG POSITIVE-CONTROL / MARKER CHECK
+====================================================
+   Gene N_cells Pct_detected Mean_log1p_CPM
+   Prph     239       100.00          6.857
+  Tubb3     239       100.00          7.556
+ Snap25     239       100.00          6.086
+   Nefh     239       100.00          7.769
+   Nefm     239       100.00          8.504
+ Piezo2     239        98.33          6.842
+  Socs2     239        76.15          2.554
+  Calcb     239        74.48          3.051
+  Calca     239        71.55          3.637
+   Tac1     239        53.97          1.968
+ Mrgprd     239        34.31          1.755
+
+====================================================
+SCRIPT 07f COMPLETED SUCCESSFULLY
+====================================================

@@ -1,0 +1,205 @@
+Warning message:
+replacing previous import ‘e1071::element’ by ‘ggplot2::element’ when loading ‘nichenetr’ 
+
+============================================
+SCRIPT 06: NICHE-NET DRG -> BETA-CELL ACTIVITY
+============================================
+nichenetr version: 2.2.0 
+
+Primary receiver genes: 27 
+High-confidence core genes: 10 
+Sensory-source ligand candidates: 13 
+
+============================================
+NICHE-NET PRIOR MODEL
+============================================
+Matrix: 33354 targets x 1226 ligands
+MD5: b09606b04b2d4490418d9028c0e58b9f 
+Loading required namespace: edgeR
+
+============================================
+RECEIVER / BACKGROUND OVERLAP
+============================================
+edgeR tested genes: 12200 
+NicheNet-compatible background: 10742 
+Primary receiver raw: 27 
+Primary receiver in NicheNet: 22 
+Primary receiver absent from NicheNet: 5 
+Absent primary genes: LOC100873065;LINC00925;TMEM133;LOC101929615;LOC101929225 
+Core receiver raw: 10 
+Core receiver in NicheNet: 8 
+
+============================================
+LIGAND OVERLAP
+============================================
+Sensory-source candidates raw: 13 
+Sensory-source candidates in NicheNet: 10 
+Sensory-source candidates absent from NicheNet: 3 
+Absent sensory ligands: RPH3A;PPIA;LGALS8 
+Broad HC beta-supported ligands raw: 45 
+Broad HC beta-supported ligands in NicheNet: 42 
+
+============================================
+PRIMARY NICHE-NET ANALYSIS
+============================================
+ test_ligand     auroc        aupr aupr_corrected       pearson
+         PGF 0.5610456 0.002810531   7.624951e-04  3.092188e-03
+       FLRT3 0.5833913 0.002744217   6.961810e-04  6.960394e-03
+         SST 0.5289773 0.002604563   5.565271e-04  1.458103e-03
+      SEMA7A 0.5304486 0.002570266   5.222301e-04  3.013457e-03
+        SPP1 0.5357573 0.002505062   4.570261e-04  1.242663e-03
+       FGF12 0.5389798 0.002417866   3.698300e-04  2.375966e-03
+       FGF13 0.5124322 0.002345633   2.975972e-04 -4.695958e-05
+       EDIL3 0.5260049 0.002307746   2.597106e-04  8.244417e-04
+       RSPO2 0.4913755 0.002180399   1.323636e-04 -2.576908e-03
+       CNTN2 0.4751272 0.002034386  -1.365005e-05 -5.173651e-03
+ rank_aupr_corrected                    analysis
+                   1 Sensory13_PrimaryReceiver27
+                   2 Sensory13_PrimaryReceiver27
+                   3 Sensory13_PrimaryReceiver27
+                   4 Sensory13_PrimaryReceiver27
+                   5 Sensory13_PrimaryReceiver27
+                   6 Sensory13_PrimaryReceiver27
+                   7 Sensory13_PrimaryReceiver27
+                   8 Sensory13_PrimaryReceiver27
+                   9 Sensory13_PrimaryReceiver27
+                  10 Sensory13_PrimaryReceiver27
+
+============================================
+HIGH-CONFIDENCE RECEIVER SENSITIVITY
+============================================
+ test_ligand     auroc         aupr aupr_corrected       pearson
+         PGF 0.5637228 0.0011955444   4.508041e-04  2.565005e-04
+       FLRT3 0.5557341 0.0009648906   2.201503e-04  3.902483e-04
+      SEMA7A 0.5440656 0.0009616556   2.169153e-04  7.110364e-05
+       RSPO2 0.5529276 0.0009362746   1.915343e-04  1.462856e-04
+       EDIL3 0.5149641 0.0009097099   1.649697e-04 -9.036286e-04
+         SST 0.5145915 0.0007837042   3.896392e-05 -2.632513e-03
+        SPP1 0.4890302 0.0007620870   1.734670e-05 -4.508558e-03
+       FGF13 0.4408888 0.0006984410  -4.629924e-05 -9.452896e-03
+       FGF12 0.4388974 0.0006597779  -8.496236e-05 -9.181574e-03
+       CNTN2 0.4458729 0.0006467653  -9.797502e-05 -8.609867e-03
+ rank_aupr_corrected                       analysis
+                   1 Sensory13_HighConfidenceCore10
+                   2 Sensory13_HighConfidenceCore10
+                   3 Sensory13_HighConfidenceCore10
+                   4 Sensory13_HighConfidenceCore10
+                   5 Sensory13_HighConfidenceCore10
+                   6 Sensory13_HighConfidenceCore10
+                   7 Sensory13_HighConfidenceCore10
+                   8 Sensory13_HighConfidenceCore10
+                   9 Sensory13_HighConfidenceCore10
+                  10 Sensory13_HighConfidenceCore10
+
+============================================
+BROADER HC BETA-COMPATIBLE CONTEXT
+============================================
+ test_ligand     auroc        aupr aupr_corrected       pearson
+       LAMA2 0.5317334 0.005002227   0.0029541915  0.0120404398
+      SEMA3C 0.5230919 0.003266994   0.0012189582  0.0082657641
+       LAMA4 0.5986813 0.003088997   0.0010409608  0.0108553287
+      CXCL12 0.6097185 0.002948350   0.0009003147  0.0006932330
+     ANGPTL2 0.5487280 0.002891505   0.0008434694 -0.0006846724
+         PGF 0.5610456 0.002810531   0.0007624951  0.0030921882
+       THBS2 0.5657225 0.002779551   0.0007315152  0.0092653516
+       FLRT3 0.5833913 0.002744217   0.0006961810  0.0069603938
+        RELN 0.5467520 0.002744159   0.0006961233  0.0031728175
+      LGALS9 0.5366944 0.002737262   0.0006892264  0.0040054292
+      S100A8 0.5594513 0.002669013   0.0006209777  0.0052534430
+        BMP7 0.5553977 0.002653949   0.0006059135 -0.0011715252
+         SST 0.5289773 0.002604563   0.0005565271  0.0014581026
+       LAMA5 0.5357276 0.002599039   0.0005510029  0.0030162442
+      SEMA7A 0.5304486 0.002570266   0.0005222301  0.0030134575
+       LAMB2 0.5471549 0.002533049   0.0004850136  0.0038782126
+        SPP1 0.5357573 0.002505062   0.0004570261  0.0012426629
+       LAMB1 0.5352994 0.002469778   0.0004217424  0.0026303833
+       FGF12 0.5389798 0.002417866   0.0003698300  0.0023759661
+         TNC 0.5417868 0.002411389   0.0003633534  0.0022490757
+ rank_aupr_corrected                                analysis
+                   1 BroadHC_BetaSupported_PrimaryReceiver27
+                   2 BroadHC_BetaSupported_PrimaryReceiver27
+                   3 BroadHC_BetaSupported_PrimaryReceiver27
+                   4 BroadHC_BetaSupported_PrimaryReceiver27
+                   5 BroadHC_BetaSupported_PrimaryReceiver27
+                   6 BroadHC_BetaSupported_PrimaryReceiver27
+                   7 BroadHC_BetaSupported_PrimaryReceiver27
+                   8 BroadHC_BetaSupported_PrimaryReceiver27
+                   9 BroadHC_BetaSupported_PrimaryReceiver27
+                  10 BroadHC_BetaSupported_PrimaryReceiver27
+                  11 BroadHC_BetaSupported_PrimaryReceiver27
+                  12 BroadHC_BetaSupported_PrimaryReceiver27
+                  13 BroadHC_BetaSupported_PrimaryReceiver27
+                  14 BroadHC_BetaSupported_PrimaryReceiver27
+                  15 BroadHC_BetaSupported_PrimaryReceiver27
+                  16 BroadHC_BetaSupported_PrimaryReceiver27
+                  17 BroadHC_BetaSupported_PrimaryReceiver27
+                  18 BroadHC_BetaSupported_PrimaryReceiver27
+                  19 BroadHC_BetaSupported_PrimaryReceiver27
+                  20 BroadHC_BetaSupported_PrimaryReceiver27
+null device 
+          1 
+
+============================================
+PRIMARY NICHE-NET RANKING
+============================================
+ test_ligand     auroc        aupr aupr_corrected       pearson
+         PGF 0.5610456 0.002810531   7.624951e-04  3.092188e-03
+       FLRT3 0.5833913 0.002744217   6.961810e-04  6.960394e-03
+         SST 0.5289773 0.002604563   5.565271e-04  1.458103e-03
+      SEMA7A 0.5304486 0.002570266   5.222301e-04  3.013457e-03
+        SPP1 0.5357573 0.002505062   4.570261e-04  1.242663e-03
+       FGF12 0.5389798 0.002417866   3.698300e-04  2.375966e-03
+       FGF13 0.5124322 0.002345633   2.975972e-04 -4.695958e-05
+       EDIL3 0.5260049 0.002307746   2.597106e-04  8.244417e-04
+       RSPO2 0.4913755 0.002180399   1.323636e-04 -2.576908e-03
+       CNTN2 0.4751272 0.002034386  -1.365005e-05 -5.173651e-03
+ rank_aupr_corrected
+                   1
+                   2
+                   3
+                   4
+                   5
+                   6
+                   7
+                   8
+                   9
+                  10
+
+============================================
+CORE-SENSITIVITY RANKING
+============================================
+ test_ligand aupr_corrected rank_aupr_corrected
+         PGF   4.508041e-04                   1
+       FLRT3   2.201503e-04                   2
+      SEMA7A   2.169153e-04                   3
+       RSPO2   1.915343e-04                   4
+       EDIL3   1.649697e-04                   5
+         SST   3.896392e-05                   6
+        SPP1   1.734670e-05                   7
+       FGF13  -4.629924e-05                   8
+       FGF12  -8.496236e-05                   9
+       CNTN2  -9.797502e-05                  10
+
+============================================
+TOP BROAD HC BETA-COMPATIBLE LIGANDS
+============================================
+ test_ligand aupr_corrected rank_aupr_corrected
+       LAMA2   0.0029541915                   1
+      SEMA3C   0.0012189582                   2
+       LAMA4   0.0010409608                   3
+      CXCL12   0.0009003147                   4
+     ANGPTL2   0.0008434694                   5
+         PGF   0.0007624951                   6
+       THBS2   0.0007315152                   7
+       FLRT3   0.0006961810                   8
+        RELN   0.0006961233                   9
+      LGALS9   0.0006892264                  10
+      S100A8   0.0006209777                  11
+        BMP7   0.0006059135                  12
+         SST   0.0005565271                  13
+       LAMA5   0.0005510029                  14
+      SEMA7A   0.0005222301                  15
+
+============================================
+SCRIPT 06 COMPLETED SUCCESSFULLY
+============================================

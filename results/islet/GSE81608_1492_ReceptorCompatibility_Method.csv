@@ -1,0 +1,2 @@
+"dataset","assay","cells","genes","min_cells_per_donor_celltype","primary_within_donor_detection_fraction","strict_within_donor_detection_fraction","min_evaluable_donors","primary_required_donor_fraction","strong_required_donor_fraction","interpretation"
+"GSE81608_Xin_MuSiC_1492","read_counts",1492,39849,5,0.1,0.2,3,0.5,0.75,"Receptor compatibility is descriptive and does not demonstrate signaling or disease-dependent regulation."

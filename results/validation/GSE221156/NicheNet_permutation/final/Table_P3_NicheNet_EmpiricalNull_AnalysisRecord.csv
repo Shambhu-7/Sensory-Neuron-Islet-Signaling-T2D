@@ -1,0 +1,2 @@
+"nichenetr_version","prior_md5","broad_ligands_raw","broad_ligands_evaluable","expression_bins","permutations_per_cohort","parallel_cores","GSE81608_background","GSE81608_receiver","GSE221156_background","GSE221156_receiver","empirical_P_formula","multiple_testing","null_model"
+"2.2.0","b09606b04b2d4490418d9028c0e58b9f",45,42,10,10000,4,10742,22,13712,697,"(1 + number(null >= observed)) / (1 + N)","Benjamini-Hochberg across 42 ligands within each cohort","same receiver size and same expression-decile composition as observed receiver"

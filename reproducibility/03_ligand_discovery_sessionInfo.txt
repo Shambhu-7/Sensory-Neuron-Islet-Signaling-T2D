@@ -1,0 +1,61 @@
+Analysis time:
+[1] "2026-10-22 22:07:12 IST"
+
+Frozen OmniPath retrieval metadata:
+              retrieval_time timeout_seconds interaction_records
+1 2026-10-22 22:00:40.410244             600               19307
+  ligand_annotation_records receptor_annotation_records successful_resources
+1                      2640                        7723                   10
+  failed_resources zero_row_resources
+1                0                  0
+
+Frozen resource status:
+           resource  status rows
+1       CellPhoneDB SUCCESS 2979
+2      Guide2Pharma SUCCESS  686
+3              HPMR SUCCESS  511
+4          ICELLNET SUCCESS 1626
+5       Kirouac2010 SUCCESS  152
+6        CellTalkDB SUCCESS 3473
+7        CellChatDB SUCCESS 3138
+8  connectomeDB2020 SUCCESS 2313
+9    Ramilowski2015 SUCCESS 1946
+10           talklr SUCCESS 2483
+
+Frozen LR network metadata:
+               analysis_time  frozen_api_retrieval_time
+1 2026-10-22 22:07:12.664476 2026-10-22 22:00:40.410244
+                                                                                             predefined_resources
+1 CellPhoneDB;Guide2Pharma;HPMR;ICELLNET;Kirouac2010;CellTalkDB;CellChatDB;connectomeDB2020;Ramilowski2015;talklr
+  n_predefined_resources raw_combined_interaction_records
+1                     10                            19307
+  simple_protein_ligands simple_protein_receptors primary_LR_pairs
+1                   1189                     4299             3345
+  high_confidence_sensitivity_LR_pairs ligand_consensus_q50
+1                                 1862                    3
+  receptor_consensus_q50
+1                      1
+
+R version 4.5.2 (2025-10-31)
+Platform: aarch64-apple-darwin20
+Running under: macOS 27.0.1
+
+Matrix products: default
+BLAS:   /System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libBLAS.dylib 
+LAPACK: /Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/lib/libRlapack.dylib;  LAPACK version 3.12.1
+
+locale:
+[1] en_US.UTF-8/en_US.UTF-8/en_US.UTF-8/C/en_US.UTF-8/en_US.UTF-8
+
+time zone: Asia/Kolkata
+tzcode source: internal
+
+attached base packages:
+[1] stats     graphics  grDevices utils     datasets  methods   base     
+
+other attached packages:
+[1] edgeR_4.8.2  limma_3.66.0
+
+loaded via a namespace (and not attached):
+[1] compiler_4.5.2  grid_4.5.2      locfit_1.5-9.12 lattice_0.22-7 
+[5] statmod_1.5.1  

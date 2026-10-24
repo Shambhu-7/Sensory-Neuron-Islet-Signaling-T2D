@@ -1,0 +1,118 @@
+
+============================================
+SCRIPT 04f: GSE81608 1600-CELL RECEPTOR SENSITIVITY
+============================================
+
+Expression matrix: 28060 genes x 1600 cells
+Metadata rows: 1600 
+Expression/metadata alignment: PASS
+Endocrine marker symbols present: INS;GCG;SST;PPY 
+Duplicated gene symbols: 0 
+
+High-confidence LR pairs: 347 
+
+============================================
+RECEPTOR IDENTIFIER VALIDATION
+============================================
+HC candidate receptors: 206 
+Present in 1600-cell matrix: 178 
+Absent from 1600-cell matrix: 28 
+
+============================================
+1600-CELL ALPHA/BETA REPRESENTATION
+============================================
+Alpha/beta cells: 1449 
+              
+               alpha beta
+  non-diabetic   377  207
+  T2D            569  296
+
+Calculating donor-level receptor detection...
+
+============================================
+EVALUABLE DONORS: 1600-CELL SENSITIVITY
+============================================
+    condition cell_type evaluable
+ non-diabetic     alpha        11
+          T2D     alpha         6
+ non-diabetic      beta        12
+          T2D      beta         6
+
+============================================
+1492 vs 1600 BETA-COMPATIBILITY SENSITIVITY
+============================================
+HC LR pairs tested: 347 
+Primary 1492 beta-both pairs: 90 
+Sensitivity 1600 beta-both pairs: 99 
+Primary beta-both pairs reproduced in 1600: 90 
+Fraction of primary beta-both pairs reproduced: 1 
+Primary 1492 beta-both ligands: 45 
+Sensitivity 1600 beta-both ligands: 47 
+Primary beta-both ligands retained in 1600: 45 
+Fraction of primary beta-both ligands retained: 1 
+Pair-level beta primary classification agreement: 0.9741 
+Pair-level beta strong classification agreement: 0.9856 
+
+============================================
+13 NEARBY-NEURON CANDIDATES: SENSITIVITY
+============================================
+ ligand              candidate_tier HC_beta_both_receptors
+  RPH3A               Tier_A_strict                  NRXN1
+  EDIL3               Tier_A_strict                  ITGAV
+   SPP1               Tier_A_strict CD44;ITGAV;ITGB1;ITGB5
+ SEMA7A               Tier_A_strict     ITGA1;ITGB1;PLXNC1
+   PPIA               Tier_A_strict                    BSG
+  FGF13          Tier_B_LODO_robust                  FGFR1
+  FGF12          Tier_B_LODO_robust                  FGFR1
+    SST          Tier_B_LODO_robust      SSTR1;SSTR2;SSTR3
+  CNTN2 Tier_C_directionally_robust       CNTN1;NRCAM;NRP1
+ LGALS8               Tier_A_strict                  ITGA3
+  RSPO2          Tier_B_LODO_robust             LGR4;RNF43
+  FLRT3          Tier_B_LODO_robust            UNC5B;UNC5D
+    PGF          Tier_B_LODO_robust                   NRP1
+ sens1600_beta_both_receptors reproduced_beta_both_receptors
+                        NRXN1                          NRXN1
+                        ITGAV                          ITGAV
+ CD44;ITGA4;ITGAV;ITGB1;ITGB5         CD44;ITGAV;ITGB1;ITGB5
+           ITGA1;ITGB1;PLXNC1             ITGA1;ITGB1;PLXNC1
+                          BSG                            BSG
+                        FGFR1                          FGFR1
+                        FGFR1                          FGFR1
+            SSTR1;SSTR2;SSTR3              SSTR1;SSTR2;SSTR3
+             CNTN1;NRCAM;NRP1               CNTN1;NRCAM;NRP1
+                        ITGA3                          ITGA3
+                   LGR4;RNF43                     LGR4;RNF43
+           ADGRL1;UNC5B;UNC5D                    UNC5B;UNC5D
+                         NRP1                           NRP1
+ reproduced_strong_beta_receptors beta_supported_in_both_representations
+                            NRXN1                                   TRUE
+                            ITGAV                                   TRUE
+                 CD44;ITGAV;ITGB1                                   TRUE
+                            ITGB1                                   TRUE
+                              BSG                                   TRUE
+                            FGFR1                                   TRUE
+                            FGFR1                                   TRUE
+                            SSTR2                                   TRUE
+                      CNTN1;NRCAM                                   TRUE
+                             <NA>                                   TRUE
+                             <NA>                                   TRUE
+                             <NA>                                   TRUE
+                             <NA>                                   TRUE
+ strong_beta_supported_in_both_representations
+                                          TRUE
+                                          TRUE
+                                          TRUE
+                                          TRUE
+                                          TRUE
+                                          TRUE
+                                          TRUE
+                                          TRUE
+                                          TRUE
+                                         FALSE
+                                         FALSE
+                                         FALSE
+                                         FALSE
+
+============================================
+SCRIPT 04f COMPLETED SUCCESSFULLY
+============================================

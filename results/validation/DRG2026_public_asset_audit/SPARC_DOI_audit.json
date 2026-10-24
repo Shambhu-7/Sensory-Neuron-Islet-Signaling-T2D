@@ -1,0 +1,18 @@
+[
+  {
+    "doi": "10.26275/vz0c-uet7",
+    "http_status": 200,
+    "title": "Spatial transcriptomics of human dorsal root ganglia from subjects with a history of diabetes",
+    "publisher": "SPARC Portal",
+    "state": "findable",
+    "landing_url": "https://sparc.science/datasets/490/version/1"
+  },
+  {
+    "doi": "10.26275/0jnf-7wq9",
+    "http_status": 404,
+    "title": null,
+    "publisher": null,
+    "state": null,
+    "landing_url": null
+  }
+]

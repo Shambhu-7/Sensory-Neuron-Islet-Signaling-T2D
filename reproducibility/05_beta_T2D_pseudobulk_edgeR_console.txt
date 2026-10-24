@@ -1,0 +1,110 @@
+
+============================================
+SCRIPT 05: DONOR-LEVEL BETA-CELL T2D RESPONSE
+============================================
+Input: 39849 genes x 1492 cells
+Fraction non-zero values integer-like: 0.9999262 
+Fractional non-zero observations: 517 
+Beta cells: 472 
+Duplicated gene identifiers before collapse: 0 
+Canonical endocrine symbols present: INS;GCG;SST;PPY 
+
+============================================
+PSEUDOBULK SAMPLES
+============================================
+   donor_id condition n_beta_cells
+  Non T2D 1   Healthy           13
+  Non T2D 2   Healthy           13
+  Non T2D 3   Healthy           10
+  Non T2D 5   Healthy           22
+  Non T2D 6   Healthy            7
+  Non T2D 7   Healthy           15
+  Non T2D 8   Healthy           16
+  Non T2D 9   Healthy            7
+ Non T2D 10   Healthy           23
+ Non T2D 11   Healthy           10
+ Non T2D 12   Healthy           48
+  Non T2D 4   Healthy           10
+      T2D 2       T2D           18
+      T2D 3       T2D           26
+      T2D 1       T2D           12
+      T2D 4       T2D          135
+      T2D 5       T2D           11
+      T2D 6       T2D           76
+
+Donors: 18 
+Healthy: 12 
+T2D: 6 
+
+ PRIMARY_18_DONORS genes before filter: 39849 
+PRIMARY_18_DONORS genes retained: 12200 
+
+============================================
+>=10 BETA-CELL DONOR SENSITIVITY
+============================================
+Donors retained: 16 
+Healthy: 10 
+T2D: 6 
+Excluded donors: Non T2D 6;Non T2D 9 
+
+ SENSITIVITY_GE10_CELLS genes before filter: 39849 
+SENSITIVITY_GE10_CELLS genes retained: 12121 
+
+============================================
+PRIMARY T2D BETA-CELL RESPONSE
+============================================
+Tested genes: 12200 
+FDR < 0.05: 27 
+T2D-up FDR < 0.05: 25 
+T2D-down FDR < 0.05: 2 
+FDR < 0.05 & |logFC| >= 0.25: 27 
+
+============================================
+SENSITIVITY CONCORDANCE
+============================================
+Primary FDR<0.05 genes with same direction: 27 / 27 
+Primary FDR<0.05 genes also FDR<0.05 in sensitivity: 10 
+Robust primary DE (FDR<0.05 + same sensitivity direction): 27 
+Robust high-effect genes: 27 
+
+============================================
+TOP T2D-ASSOCIATED BETA-CELL GENES
+Positive logFC = higher in T2D
+============================================
+         gene     logFC    logCPM        F       PValue          FDR
+ LOC100873065  5.583163  6.613814 94.15645 2.642960e-11 3.224411e-07
+         DLC1  4.850693  3.487608 34.46672 4.454158e-07 2.717037e-03
+       CHRNA5  5.003398  3.709286 31.13257 1.209985e-06 3.803209e-03
+    LINC00925  4.804320  3.348440 31.06204 1.246954e-06 3.803209e-03
+        CHSY1  4.326559  2.924151 30.05787 1.699627e-06 4.147090e-03
+        RN7SK  3.548163  2.124465 28.35824 2.936664e-06 5.971217e-03
+       FAM66D  3.957926  1.949016 27.48173 4.569410e-06 7.963830e-03
+         NPNT  3.991599  1.705056 26.53255 6.845977e-06 1.044011e-02
+          EYS  3.611381  1.879211 24.67835 1.010984e-05 1.370445e-02
+       FAM53B  3.466072  2.262684 23.21762 1.591867e-05 1.942078e-02
+        CMTM7  4.680973  2.436782 22.62015 2.589400e-05 2.871880e-02
+ LOC101928386  4.897698  1.760770 22.73210 3.354394e-05 3.302882e-02
+        APOL4  4.033321  1.890682 21.32740 3.519465e-05 3.302882e-02
+        XYLT1  5.020461  2.398812 21.25241 4.759288e-05 4.147379e-02
+       ZBTB39  3.544228  1.837039 19.84374 5.498486e-05 4.392223e-02
+          CLU -1.042077 10.217540 21.62641 5.760293e-05 4.392223e-02
+ LOC101929615  3.971933  2.543797 19.30808 6.485887e-05 4.446411e-02
+      TMEM133  2.975874  1.077235 19.36423 6.560278e-05 4.446411e-02
+       SPINK1  3.962464  3.737969 19.34693 7.107603e-05 4.563829e-02
+          TTR -1.232967 12.023215 20.64256 7.817789e-05 4.768852e-02
+         CTSK  4.263888  1.734708 18.87373 9.525434e-05 4.842096e-02
+         LMO3  4.198188  3.169045 18.60871 8.378347e-05 4.842096e-02
+ LOC101929225  3.946096  1.167010 19.17030 9.336355e-05 4.842096e-02
+           KL  3.299157  2.971764 18.55132 9.257962e-05 4.842096e-02
+        GNRHR  3.529129  1.831343 18.08360 1.051912e-04 4.935893e-02
+         DOK1  3.259547  2.293578 18.04890 1.031022e-04 4.935893e-02
+         RGL2  3.149914  4.165630 18.99532 1.105821e-04 4.996673e-02
+        RFWD2  2.654232  4.766262 19.02817 1.251899e-04 5.454701e-02
+        ACSL6  3.196821  1.724104 17.32098 1.360193e-04 5.722190e-02
+         FMO4  4.453865  2.831043 17.25175 1.425999e-04 5.799063e-02
+null device 
+          1 
+
+============================================
+SCRIPT 05 COMPLETED SUCCESSFULLY
+============================================

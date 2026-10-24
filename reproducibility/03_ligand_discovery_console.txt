@@ -1,0 +1,244 @@
+
+============================================
+SCRIPT 03: ROBUST DRG LIGAND DISCOVERY
+============================================
+Frozen OmniPath interaction records: 19307 
+Frozen ligand annotation records: 2640 
+Frozen receptor annotation records: 7723 
+Successful predefined resources: 10 
+Simple-protein ligand genes: 1189 
+Simple-protein receptor genes: 4299 
+Primary frozen LR pairs: 3345 
+Primary frozen LR ligands: 814 
+Primary frozen LR receptors: 758 
+High-confidence sensitivity LR pairs: 1862 
+Ligand annotation q50 consensus score: 3 
+Receptor annotation q50 consensus score: 1 
+
+============================================
+LIGAND DISCOVERY SUMMARY
+============================================
+DE-tested genes recognized as LR ligands: 283 
+Tier A strict: 43 
+Tier B LODO robust: 80 
+Tier C directionally robust: 26 
+Prioritized total: 149 
+Prioritized, not highlighted by original GSE295206 study: 144 
+
+============================================
+TOP PRIORITIZED LIGANDS
+============================================
+    gene      logFC          FDR            enriched_region candidate_tier
+     DCN  0.8009482 4.982008e-15 Nageotte_associated_region  Tier_A_strict
+   CALCB -0.9126648 3.389551e-14       Nearby_neuron_region  Tier_A_strict
+    APOD  0.7194196 1.775344e-14 Nageotte_associated_region  Tier_A_strict
+   CALCA -0.7599110 1.641082e-13       Nearby_neuron_region  Tier_A_strict
+  SEMA3B  0.7086083 1.037431e-11 Nageotte_associated_region  Tier_A_strict
+    TAC1 -0.7745857 1.005950e-11       Nearby_neuron_region  Tier_A_strict
+   HLA-E  0.5973882 1.472146e-08 Nageotte_associated_region  Tier_A_strict
+    LGI4  0.5770035 1.038019e-08 Nageotte_associated_region  Tier_A_strict
+ ADCYAP1 -0.6101644 6.846364e-08       Nearby_neuron_region  Tier_A_strict
+   LAMA2  0.8728571 2.063366e-07 Nageotte_associated_region  Tier_A_strict
+  IGFBP3  1.1342348 2.243641e-07 Nageotte_associated_region  Tier_A_strict
+  PCSK1N -0.5616784 9.164307e-08       Nearby_neuron_region  Tier_A_strict
+   LAMB1  0.6490845 7.823184e-07 Nageotte_associated_region  Tier_A_strict
+    NRG1 -0.7410114 8.846744e-07       Nearby_neuron_region  Tier_A_strict
+   FBLN2  0.7703818 2.738049e-07 Nageotte_associated_region  Tier_A_strict
+     NMB -0.5840742 4.842442e-07       Nearby_neuron_region  Tier_A_strict
+   RPH3A -1.0438497 9.195869e-07       Nearby_neuron_region  Tier_A_strict
+   EDIL3 -0.5355885 1.422231e-06       Nearby_neuron_region  Tier_A_strict
+     TNC  0.8760461 1.428224e-05 Nageotte_associated_region  Tier_A_strict
+    BST2  0.6314053 1.352571e-06 Nageotte_associated_region  Tier_A_strict
+  CXCL12  0.7318390 2.321512e-05 Nageotte_associated_region  Tier_A_strict
+    NID1  0.5921498 3.484656e-05 Nageotte_associated_region  Tier_A_strict
+   ICAM2  1.1925757 6.806932e-05 Nageotte_associated_region  Tier_A_strict
+ RARRES2  0.4896204 1.367958e-05 Nageotte_associated_region  Tier_A_strict
+     UCN -0.7473253 2.877217e-05       Nearby_neuron_region  Tier_A_strict
+    IL34  0.6915782 4.978310e-05 Nageotte_associated_region  Tier_A_strict
+   ANXA1  0.5006521 8.745103e-05 Nageotte_associated_region  Tier_A_strict
+   ANXA2 -0.3997030 3.588223e-05       Nearby_neuron_region  Tier_A_strict
+    SPP1 -0.4074019 1.542603e-04       Nearby_neuron_region  Tier_A_strict
+   LAMC1  0.5872373 2.506435e-04 Nageotte_associated_region  Tier_A_strict
+   NTNG2 -1.0145850 1.609178e-04       Nearby_neuron_region  Tier_A_strict
+     GRN  0.4771766 8.449930e-05 Nageotte_associated_region  Tier_A_strict
+  PODXL2 -0.5679991 1.532888e-04       Nearby_neuron_region  Tier_A_strict
+   LTBP3  0.4976563 9.076298e-05 Nageotte_associated_region  Tier_A_strict
+  LGALS8 -0.6009516 2.182475e-04       Nearby_neuron_region  Tier_A_strict
+    PENK -0.5506990 1.106955e-03       Nearby_neuron_region  Tier_A_strict
+  EFEMP2  0.7185288 4.154084e-04 Nageotte_associated_region  Tier_A_strict
+ ANGPTL2  0.9909749 2.787546e-03 Nageotte_associated_region  Tier_A_strict
+   MFGE8  0.3750084 3.085232e-03 Nageotte_associated_region  Tier_A_strict
+  SEMA7A -0.6214805 5.755666e-03       Nearby_neuron_region  Tier_A_strict
+ n_LODO_FDR05 n_donors_same_direction n_donors_CPM1_enriched_region
+            6                       6                             6
+            6                       6                             6
+            6                       6                             6
+            6                       6                             6
+            6                       6                             6
+            6                       6                             6
+            6                       6                             6
+            6                       6                             6
+            6                       6                             6
+            6                       6                             6
+            6                       6                             6
+            6                       6                             6
+            6                       6                             6
+            6                       6                             6
+            6                       6                             6
+            6                       6                             6
+            6                       6                             6
+            6                       6                             6
+            6                       6                             6
+            6                       6                             6
+            6                       6                             6
+            6                       6                             6
+            6                       6                             6
+            6                       6                             6
+            6                       6                             6
+            6                       6                             6
+            6                       6                             6
+            6                       6                             6
+            6                       6                             6
+            6                       6                             6
+            6                       6                             6
+            6                       6                             6
+            6                       6                             6
+            6                       6                             6
+            6                       6                             6
+            6                       6                             6
+            6                       6                             6
+            4                       6                             6
+            6                       6                             6
+            6                       6                             6
+ mean_CPM_enriched_region ligand_secreted n_curated_receptors
+               1113.46413            TRUE                   6
+                459.64165            TRUE                  13
+               9950.55642            TRUE                   1
+               1699.06854            TRUE                  13
+                743.97553            TRUE                   2
+                722.04843            TRUE                   4
+                581.27359            TRUE                   9
+               1136.46101            TRUE                   1
+                447.12964            TRUE                  13
+                106.94536            TRUE                  13
+                 53.63166            TRUE                   1
+                782.64480            TRUE                   1
+                196.89672            TRUE                  13
+                140.44514            TRUE                   8
+                123.89403            TRUE                   1
+                417.30723            TRUE                   3
+                 64.69304            TRUE                   1
+                545.52046            TRUE                   3
+                 56.96461            TRUE                  14
+                209.14778           FALSE                   1
+                 83.35721            TRUE                  15
+                170.25169            TRUE                   5
+                 34.60397           FALSE                   4
+                399.90708            TRUE                   3
+                 96.46980            TRUE                   2
+                 93.62261            TRUE                   2
+                227.44024            TRUE                   7
+               1858.80280            TRUE                   2
+               1221.59424            TRUE                  10
+                100.52190            TRUE                  12
+                 50.47403            TRUE                   2
+                278.77743            TRUE                   4
+                141.27320           FALSE                   2
+                254.64112            TRUE                   1
+                110.34076            TRUE                   1
+                105.72198            TRUE                  10
+                 60.69724            TRUE                   1
+                 23.68948            TRUE                   7
+                255.06697            TRUE                   3
+                 52.66022            TRUE                   3
+ n_high_confidence_receptors highlighted_original_GSE295206_study
+                           6                                FALSE
+                           4                                FALSE
+                           1                                FALSE
+                           4                                 TRUE
+                           2                                FALSE
+                           1                                FALSE
+                           5                                FALSE
+                           1                                FALSE
+                           4                                 TRUE
+                           8                                FALSE
+                           1                                FALSE
+                           1                                FALSE
+                           6                                FALSE
+                           4                                FALSE
+                           1                                FALSE
+                           3                                FALSE
+                           1                                FALSE
+                           2                                FALSE
+                          10                                FALSE
+                           1                                FALSE
+                           9                                FALSE
+                           5                                FALSE
+                           3                                FALSE
+                           2                                FALSE
+                           2                                FALSE
+                           2                                FALSE
+                           4                                FALSE
+                           2                                FALSE
+                           9                                 TRUE
+                           5                                FALSE
+                           1                                FALSE
+                           2                                FALSE
+                           2                                FALSE
+                           1                                FALSE
+                           1                                FALSE
+                           4                                 TRUE
+                           1                                FALSE
+                           5                                FALSE
+                           3                                FALSE
+                           3                                FALSE
+
+============================================
+MARKER SANITY CHECK
+============================================
+   gene       logFC          FDR              direction mean_CPM_Nageotte
+  SOX10  0.60424315 5.660367e-07      Nageotte_enriched         267.86382
+  FABP7 -0.02573271 8.798321e-01 Nearby_neuron_enriched         300.53567
+ TYROBP  0.36852306 3.401172e-03      Nageotte_enriched         266.40501
+  TREM2  0.52258672 3.737321e-03      Nageotte_enriched          86.87976
+   SPP1 -0.40740195 1.542603e-04 Nearby_neuron_enriched         902.18611
+   APOE  0.16514592 1.203919e-01      Nageotte_enriched        2144.86414
+    CLU -0.22752753 2.299858e-02 Nearby_neuron_enriched        3626.34725
+   NEFL -0.87365940 8.148573e-20 Nearby_neuron_enriched        2915.18495
+   NEFM -0.87958638 8.148573e-20 Nearby_neuron_enriched        2021.76312
+   NEFH -0.85133204 3.731173e-19 Nearby_neuron_enriched        3249.80070
+   PRPH -0.76942956 1.013476e-15 Nearby_neuron_enriched        1770.55040
+ SNAP25 -0.85571900 7.061947e-14 Nearby_neuron_enriched         279.01934
+  CALCA -0.75991102 1.641082e-13 Nearby_neuron_enriched         925.99199
+ mean_CPM_NearbyNeuron median_CPM_Nageotte median_CPM_NearbyNeuron
+             189.40963           259.17031               189.95562
+             315.39753           334.02934               305.91210
+             217.30036           281.07048               217.80928
+              52.16911            91.49688                53.61108
+            1221.59424           692.32974              1009.95864
+            2047.13084          1924.14926              1930.43120
+            4501.88704          3355.38143              4644.15141
+            5460.29086          2815.03188              5341.92051
+            3852.58235          1951.91232              3864.44574
+            6102.46352          3061.99178              5875.47019
+            3187.01720          1733.04346              3192.49541
+             509.78697           234.61570               470.94944
+            1699.06854           840.23290              1670.29768
+ n_donors_CPM1_Nageotte n_donors_CPM1_NearbyNeuron
+                      6                          6
+                      6                          6
+                      6                          6
+                      6                          6
+                      6                          6
+                      6                          6
+                      6                          6
+                      6                          6
+                      6                          6
+                      6                          6
+                      6                          6
+                      6                          6
+                      6                          6
+
+============================================
+SCRIPT 03 COMPLETED SUCCESSFULLY
+============================================

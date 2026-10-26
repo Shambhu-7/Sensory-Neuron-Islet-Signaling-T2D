@@ -43,3 +43,14 @@ Core analyses were performed in R 4.5.2 on arm64 macOS. Key packages include edg
 
 ## License
 Code in `scripts/` is released under the MIT License. Public-source data and derived outputs remain subject to the terms of their originating repositories/publications.
+
+## Nature Communications submission update (v1.0.1)
+
+The final journal Source Data workbook is:
+`source_data/Yadav_Paper3_Source_Data_SUBMISSION.xlsx`
+
+The original `source_data/Yadav_Paper3_Source_Data.xlsx`
+is retained for comparison with the v1.0.0 release.
+
+The submission workbook was copied from the final manuscript
+submission directory and verified using SHA-256.

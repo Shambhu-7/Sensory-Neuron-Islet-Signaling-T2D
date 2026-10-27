@@ -1,0 +1,9 @@
+"test_id","subset_id","deletion_type","removed_gene","removed_gene_bin","removed_gene_weight_share","n_available_replacements","n_sampled_replacements"
+1,21,"top_weight","TNFRSF10B",3,0.0964180505442884,86,50
+2,21,"same_bin_low_weight_control","KANK1",3,0.0418145033285332,86,50
+3,40,"top_weight","CDKN1A",10,0.302476360023875,34,34
+4,40,"other_bin_low_weight_control","LINC00958",2,0.00180624694567734,112,50
+5,94,"top_weight","FAS",2,0.150464399046188,112,50
+6,94,"same_bin_low_weight_control","DHDH",2,0.0279996378915422,112,50
+7,100,"top_weight","ODC1",10,0.109072285059593,34,34
+8,100,"other_bin_low_weight_control","LINC00237",1,0.00055081133599282,113,50

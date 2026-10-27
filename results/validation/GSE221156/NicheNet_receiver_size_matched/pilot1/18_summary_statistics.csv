@@ -1,0 +1,12 @@
+"metric","value"
+"n_subsets",100
+"n_null",1000
+"receiver_full",697
+"receiver_matched",22
+"background",13712
+"ligands",42
+"median_significant_ligands_per_subset",0
+"mean_significant_ligands_per_subset",1.42
+"fraction_subsets_with_any_FDR05",0.04
+"fraction_subsets_with_zero_FDR05",0.96
+"median_discovery_rank_spearman_rho",0.267482375820436

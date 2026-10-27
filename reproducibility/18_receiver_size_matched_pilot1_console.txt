@@ -1,0 +1,82 @@
+Warning message:
+replacing previous import ‘e1071::element’ by ‘ggplot2::element’ when loading ‘nichenetr’ 
+           used  (Mb) gc trigger  (Mb) limit (Mb) max used  (Mb)
+Ncells  5525284 295.1    8652331 462.1         NA  7380981 394.2
+Vcells 10063778  76.8   49744650 379.6      16384 53096904 405.1
+
+SCRIPT 18 — RECEIVER-SIZE-MATCHED NICHE-NET SENSITIVITY
+Project: /Users/shambhuyadav/Desktop/RNA3.0/Paper3_Sensory_Islet 
+NicheNet version: 2.2.0 
+Frozen prior MD5: b09606b04b2d4490418d9028c0e58b9f 
+Independent receiver: 697 genes
+Independent background: 13712 genes
+Size-matched receiver: 22 genes
+Expression-bin quotas: 4, 4, 3, 2, 2, 2, 2, 1, 1, 1 
+Ligands: 42 
+Subsets: 100 | null sets: 1000 | cores: 4 
+Output: results/validation/GSE221156/NicheNet_receiver_size_matched/pilot1 
+
+expression_matched_null: 50/1000 | chunk 46.6 sec
+expression_matched_null: 100/1000 | chunk 39.5 sec
+expression_matched_null: 150/1000 | chunk 45.5 sec
+expression_matched_null: 200/1000 | chunk 54.8 sec
+expression_matched_null: 250/1000 | chunk 37.4 sec
+expression_matched_null: 300/1000 | chunk 37.2 sec
+expression_matched_null: 350/1000 | chunk 37.3 sec
+expression_matched_null: 400/1000 | chunk 63.7 sec
+expression_matched_null: 450/1000 | chunk 52.7 sec
+expression_matched_null: 500/1000 | chunk 67.2 sec
+expression_matched_null: 550/1000 | chunk 44.5 sec
+expression_matched_null: 600/1000 | chunk 42.5 sec
+expression_matched_null: 650/1000 | chunk 56.6 sec
+expression_matched_null: 700/1000 | chunk 44.3 sec
+expression_matched_null: 750/1000 | chunk 44.4 sec
+expression_matched_null: 800/1000 | chunk 43.8 sec
+expression_matched_null: 850/1000 | chunk 43.6 sec
+expression_matched_null: 900/1000 | chunk 53.3 sec
+expression_matched_null: 950/1000 | chunk 53.0 sec
+expression_matched_null: 1000/1000 | chunk 50.4 sec
+receiver_subsets: 50/100 | chunk 43.4 sec
+receiver_subsets: 100/100 | chunk 47.8 sec
+
+===== SIZE-MATCHED RESULTS =====
+                                metric        value
+                             n_subsets 1.000000e+02
+                                n_null 1.000000e+03
+                         receiver_full 6.970000e+02
+                      receiver_matched 2.200000e+01
+                            background 1.371200e+04
+                               ligands 4.200000e+01
+ median_significant_ligands_per_subset 0.000000e+00
+   mean_significant_ligands_per_subset 1.420000e+00
+       fraction_subsets_with_any_FDR05 4.000000e-02
+      fraction_subsets_with_zero_FDR05 9.600000e-01
+    median_discovery_rank_spearman_rho 2.674824e-01
+
+===== FIVE MAIN CANDIDATES =====
+ test_ligand median_aupr_corrected median_rank top5_fraction top10_fraction
+      SEMA7A          0.0003084583        18.0          0.03           0.14
+       EDIL3          0.0005156186         9.5          0.29           0.56
+       FLRT3          0.0004702019        13.0          0.22           0.44
+         PGF          0.0003006515        23.0          0.13           0.22
+        SPP1          0.0002100787        27.0          0.00           0.05
+ positive_aupr_fraction empirical_FDR05_fraction median_empirical_P
+                   0.78                     0.04          0.2052947
+                   0.81                     0.02          0.1603397
+                   0.80                     0.04          0.1643357
+                   0.75                     0.03          0.2187812
+                   0.71                     0.04          0.2657343
+ median_empirical_FDR
+            0.3672589
+            0.3694900
+            0.3672589
+            0.3672589
+            0.3672589
+Original frozen reference: results/validation/GSE221156/NicheNet_permutation/final/Table_P3_GSE221156_NicheNet_ExpressionMatched_EmpiricalNull.csv => 41 / 42 FDR < 0.05
+Original frozen reference: results/validation/GSE221156/NicheNet_permutation/final/Table_P3_GSE81608_NicheNet_ExpressionMatched_EmpiricalNull.csv => 0 / 42 FDR < 0.05
+
+Outputs saved in: results/validation/GSE221156/NicheNet_receiver_size_matched/pilot1 
+INTERPRETATION: This tests sensitivity to receiver size and sampling within
+the independent 697-gene program; it does NOT validate direct signaling.
+The 22-gene subsets are not independent biological replication cohorts.
+SCRIPT 18 COMPLETED SUCCESSFULLY

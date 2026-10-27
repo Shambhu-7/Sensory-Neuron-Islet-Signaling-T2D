@@ -1,0 +1,89 @@
+Warning message:
+replacing previous import ‘e1071::element’ by ‘ggplot2::element’ when loading ‘nichenetr’ 
+
+SCRIPT 20 — SAME-BIN RECEIVER-GENE REPLACEMENT SENSITIVITY
+Frozen prior MD5: b09606b04b2d4490418d9028c0e58b9f 
+Frozen Script 18 null sets: 1000 (REUSED, not recomputed)
+Original receiver size: 22 | expression quota: 4,4,3,2,2,2,2,1,1,1 
+Exceptional subsets: 21,40,94,100 
+Tests: 8 | replacement jobs: 368 | cores: 4 | chunk size: 25 
+Output: results/validation/GSE221156/NicheNet_same_bin_replacement/pilot1 
+ test_id subset_id                deletion_type removed_gene removed_gene_bin
+       1        21                   top_weight    TNFRSF10B                3
+       2        21  same_bin_low_weight_control        KANK1                3
+       3        40                   top_weight       CDKN1A               10
+       4        40 other_bin_low_weight_control    LINC00958                2
+       5        94                   top_weight          FAS                2
+       6        94  same_bin_low_weight_control         DHDH                2
+       7       100                   top_weight         ODC1               10
+       8       100 other_bin_low_weight_control    LINC00237                1
+ removed_gene_weight_share n_available_replacements n_sampled_replacements
+              0.0964180505                       86                     50
+              0.0418145033                       86                     50
+              0.3024763600                       34                     34
+              0.0018062469                      112                     50
+              0.1504643990                      112                     50
+              0.0279996379                      112                     50
+              0.1090722851                       34                     34
+              0.0005508113                      113                     50
+replacements: 25/368 | batch 19.6 sec
+replacements: 50/368 | batch 18.2 sec
+replacements: 75/368 | batch 18.7 sec
+replacements: 100/368 | batch 17.6 sec
+replacements: 125/368 | batch 17.2 sec
+replacements: 150/368 | batch 18.5 sec
+replacements: 175/368 | batch 17.3 sec
+replacements: 200/368 | batch 17.6 sec
+replacements: 225/368 | batch 18.1 sec
+replacements: 250/368 | batch 18.1 sec
+replacements: 275/368 | batch 18.1 sec
+replacements: 300/368 | batch 17.6 sec
+replacements: 325/368 | batch 17.6 sec
+replacements: 350/368 | batch 18.1 sec
+replacements: 368/368 | batch 12.4 sec
+
+===== SCRIPT 20 SUMMARY =====
+ subset_id                deletion_type removed_gene n_replacements
+        21                   top_weight    TNFRSF10B             50
+        21  same_bin_low_weight_control        KANK1             50
+        40                   top_weight       CDKN1A             34
+        40 other_bin_low_weight_control    LINC00958             50
+        94                   top_weight          FAS             50
+        94  same_bin_low_weight_control         DHDH             50
+       100                   top_weight         ODC1             34
+       100 other_bin_low_weight_control    LINC00237             50
+ significant_original median_significant_replacement range_significant_min
+                   39                             35                    35
+                   39                             39                    39
+                   38                              0                     0
+                   38                             38                    38
+                   31                              0                     0
+                   31                             31                    31
+                   34                              0                     0
+                   34                             36                    34
+ range_significant_max fraction_zero_significant median_delta_AUPR
+                    38                 0.0000000     -6.469987e-04
+                    40                 0.0000000     -4.645967e-05
+                     0                 1.0000000     -5.995603e-03
+                    40                 0.0000000      3.405390e-05
+                     0                 1.0000000     -1.104117e-03
+                    34                 0.0000000      2.998303e-05
+                    40                 0.9705882     -5.671729e-04
+                    39                 0.0000000      6.507196e-05
+ median_rank_spearman
+            0.8229479
+            0.9670205
+            0.1148205
+            0.9992707
+            0.8265943
+            0.9963536
+            0.7728709
+            0.9886557
+
+Outputs saved in: results/validation/GSE221156/NicheNet_same_bin_replacement/pilot1 
+INTERPRETATION: Descriptive, post-selection sensitivity analysis only.
+22-gene receiver size and expression quota held constant for every replacement.
+Original Script 18 null reused; no new null permutations required.
+Replacement candidates come from the same independent 697-gene receiver.
+No inference of direct signaling, causality, or cohort-level replication.
+SCRIPT 20 COMPLETED SUCCESSFULLY

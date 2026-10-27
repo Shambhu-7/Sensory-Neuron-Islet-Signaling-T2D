@@ -1,0 +1,9 @@
+"test_id","subset_id","deletion_type","removed_gene","removed_gene_expression_bin","removed_gene_prior_weight_share","n_replacements","significant_original","median_significant_replacement","range_significant_min","range_significant_max","fraction_zero_significant","fraction_any_significant","median_delta_significant","median_delta_AUPR","median_rank_spearman","median_main5_significant_replacement"
+1,21,"top_weight","TNFRSF10B",3,0.0964180505442884,50,39,35,35,38,0,1,-4,-0.000646998735174913,0.822947897253059,5
+2,21,"same_bin_low_weight_control","KANK1",3,0.0418145033285332,50,39,39,39,40,0,1,0,-4.6459665077314e-05,0.967020500769792,5
+3,40,"top_weight","CDKN1A",10,0.302476360023875,34,38,0,0,0,1,0,-38,-0.00599560270734011,0.114820516975934,0
+4,40,"other_bin_low_weight_control","LINC00958",2,0.00180624694567734,50,38,38,38,40,0,1,0,3.4053895443629e-05,0.999270723604246,5
+5,94,"top_weight","FAS",2,0.150464399046188,50,31,0,0,0,1,0,-31,-0.00110411655070347,0.826594279231829,0
+6,94,"same_bin_low_weight_control","DHDH",2,0.0279996378915422,50,31,31,31,34,0,1,0,2.99830271394163e-05,0.99635361802123,4
+7,100,"top_weight","ODC1",10,0.109072285059593,34,34,0,0,40,0.970588235294118,0.0294117647058824,-34,-0.000567172939967574,0.772870918077952,0
+8,100,"other_bin_low_weight_control","LINC00237",1,0.00055081133599282,50,34,36,34,39,0,1,2,6.50719645994215e-05,0.988655700510493,4

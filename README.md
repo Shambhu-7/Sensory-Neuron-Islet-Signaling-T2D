@@ -1,7 +1,7 @@
 # Paper 3 reproducibility archive
 
 ## Manuscript
-**Integrated human transcriptomics prioritizes candidate sensory neuron–islet signaling axes in type 2 diabetes**
+**Integrative human transcriptomics uncovers molecular links between sensory neurodegeneration and pancreatic β-cell dysfunction in type 2 diabetes**
 
 Author: Shambhu Yadav, PhD  
 Department of Biotechnology, Manipal Institute of Technology, Manipal Academy of Higher Education, Manipal, Karnataka, India  
@@ -54,3 +54,21 @@ is retained for comparison with the v1.0.0 release.
 
 The submission workbook was copied from the final manuscript
 submission directory and verified using SHA-256.
+
+## Receiver-program sensitivity analyses (v1.0.2)
+
+Three additional NicheNet sensitivity analyses examine the dependence of ligand activity on receiver-program size and gene composition:
+
+- `scripts/18_receiver_size_matched_NicheNet.R` — expression-stratified receiver-size matching in GSE221156. Of 100 matched 22-gene receiver subsets, 96 yielded no empirically significant ligands.
+- `scripts/19_NicheNet_leave_one_gene_out_influence.R` — leave-one-gene-out influence analysis of selected exceptional subsets.
+- `scripts/20_NicheNet_same_bin_replacement_sensitivity.R` — expression-bin-matched, size-preserving gene replacement analysis, including all 42 evaluated ligands.
+
+Associated outputs are located under:
+
+- `results/validation/GSE221156/NicheNet_receiver_size_matched/`
+- `results/validation/GSE221156/NicheNet_LOO_influence/`
+- `results/validation/GSE221156/NicheNet_same_bin_replacement/`
+
+These analyses show that broad ligand significance in some selected receiver subsets is sensitive to individual receiver genes, notably CDKN1A, FAS and ODC1. The selected-subset analyses are exploratory and do not establish ligand causality, physical sensory neuron–islet interactions or cross-cohort empirical significance.
+
+The `.rds` analysis objects and checkpoints are excluded from GitHub by `.gitignore`; they should be retained in the corresponding Zenodo reproducibility archive.

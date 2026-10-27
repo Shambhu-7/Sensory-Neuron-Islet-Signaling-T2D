@@ -1,0 +1,101 @@
+Warning message:
+replacing previous import ‘e1071::element’ by ‘ggplot2::element’ when loading ‘nichenetr’ 
+           used  (Mb) gc trigger  (Mb) limit (Mb) max used  (Mb)
+Ncells  5526386 295.2    8652334 462.1         NA  7380981 394.2
+Vcells 10149136  77.5   49744599 379.6      16384 53179773 405.8
+Warning messages:
+1: No same-expression-bin control for subset 40; testing top gene only 
+2: No same-expression-bin control for subset 100; testing top gene only 
+
+SCRIPT 19 — LEAVE-ONE-GENE-OUT NICHE-NET INFLUENCE
+Mode: targeted | tests: 6 | distinct 21-gene null quotas: 3 | nulls per quota: 1000 | cores: 4 
+Frozen prior MD5: b09606b04b2d4490418d9028c0e58b9f 
+Output: results/validation/GSE221156/NicheNet_LOO_influence/pilot1 
+null quota 1/3: 50/1000 | 156.5 sec
+null quota 1/3: 100/1000 | 124.4 sec
+null quota 1/3: 150/1000 | 91.4 sec
+null quota 1/3: 200/1000 | 87.1 sec
+null quota 1/3: 250/1000 | 88.0 sec
+null quota 1/3: 300/1000 | 96.7 sec
+null quota 1/3: 350/1000 | 85.8 sec
+null quota 1/3: 400/1000 | 80.5 sec
+null quota 1/3: 450/1000 | 97.2 sec
+null quota 1/3: 500/1000 | 71.3 sec
+null quota 1/3: 550/1000 | 87.5 sec
+null quota 1/3: 600/1000 | 76.6 sec
+null quota 1/3: 650/1000 | 84.8 sec
+null quota 1/3: 700/1000 | 84.1 sec
+null quota 1/3: 750/1000 | 94.2 sec
+null quota 1/3: 800/1000 | 81.6 sec
+null quota 1/3: 850/1000 | 97.0 sec
+null quota 1/3: 900/1000 | 98.6 sec
+null quota 1/3: 950/1000 | 118.1 sec
+null quota 1/3: 1000/1000 | 119.9 sec
+null quota 2/3: 50/1000 | 130.7 sec
+null quota 2/3: 100/1000 | 103.3 sec
+null quota 2/3: 150/1000 | 88.2 sec
+null quota 2/3: 200/1000 | 153.6 sec
+null quota 2/3: 250/1000 | 129.3 sec
+null quota 2/3: 300/1000 | 122.1 sec
+null quota 2/3: 350/1000 | 143.8 sec
+null quota 2/3: 400/1000 | 109.7 sec
+null quota 2/3: 450/1000 | 149.1 sec
+null quota 2/3: 500/1000 | 117.5 sec
+null quota 2/3: 550/1000 | 112.0 sec
+null quota 2/3: 600/1000 | 79.8 sec
+null quota 2/3: 650/1000 | 43.1 sec
+null quota 2/3: 700/1000 | 55.6 sec
+null quota 2/3: 750/1000 | 49.2 sec
+null quota 2/3: 800/1000 | 29.4 sec
+null quota 2/3: 850/1000 | 28.5 sec
+null quota 2/3: 900/1000 | 30.5 sec
+null quota 2/3: 950/1000 | 28.8 sec
+null quota 2/3: 1000/1000 | 29.4 sec
+null quota 3/3: 50/1000 | 34.1 sec
+null quota 3/3: 100/1000 | 29.8 sec
+null quota 3/3: 150/1000 | 31.2 sec
+null quota 3/3: 200/1000 | 30.3 sec
+null quota 3/3: 250/1000 | 30.0 sec
+null quota 3/3: 300/1000 | 32.8 sec
+null quota 3/3: 350/1000 | 32.4 sec
+null quota 3/3: 400/1000 | 31.9 sec
+null quota 3/3: 450/1000 | 67.1 sec
+null quota 3/3: 500/1000 | 37.6 sec
+null quota 3/3: 550/1000 | 36.3 sec
+null quota 3/3: 600/1000 | 33.2 sec
+null quota 3/3: 650/1000 | 40.9 sec
+null quota 3/3: 700/1000 | 46.2 sec
+null quota 3/3: 750/1000 | 54.2 sec
+null quota 3/3: 800/1000 | 42.6 sec
+null quota 3/3: 850/1000 | 37.7 sec
+null quota 3/3: 900/1000 | 34.6 sec
+null quota 3/3: 950/1000 | 35.8 sec
+null quota 3/3: 1000/1000 | 35.0 sec
+
+===== SCRIPT 19 SUMMARY =====
+ subset_id               deletion_type removed_gene removed_gene_weight_share
+        21                  top_weight    TNFRSF10B                0.09641805
+        21 same_bin_low_weight_control        KANK1                0.04181450
+        40                  top_weight       CDKN1A                0.30247636
+        94                  top_weight          FAS                0.15046440
+        94 same_bin_low_weight_control         DHDH                0.02799964
+       100                  top_weight         ODC1                0.10907229
+ significant_ligands_22 significant_ligands_21 change_significant_21_minus_22
+                     39                     36                             -3
+                     39                     39                              0
+                     38                      0                            -38
+                     31                      0                            -31
+                     31                     30                             -1
+                     34                      0                            -34
+ median_delta_AUPR spearman_rank_22_vs_21
+     -5.843069e-04              0.8256219
+      4.676501e-05              0.9743943
+     -6.037126e-03              0.1028280
+     -1.045626e-03              0.8428004
+      1.415724e-04              0.9995138
+     -6.379344e-04              0.7961267
+
+Outputs saved in: results/validation/GSE221156/NicheNet_LOO_influence/pilot1 
+CAVEAT: This is a receiver-gene influence sensitivity analysis.
+It does not establish direct ligand-receptor signaling or causality.
+SCRIPT 19 COMPLETED SUCCESSFULLY
